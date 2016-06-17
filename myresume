@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<title>my resume</title>
+	<meta charset="UTF-8">
+	<style>
+		body,
+		select {
+			font-size: 9pt;
+			font-family: Verdana;
+		} 
+		a {
+			color: red;
+			text-decoration: none;
+		} 
+		a:hover {
+			text-decoration: underline;
+		}
+	</style> 
+</head> 
+	<body bgcolor="#E0E0E0" onload="setup()">
+	 <h1>我的简历</h1>
+	</body>
+
+</html>
