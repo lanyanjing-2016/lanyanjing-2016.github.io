@@ -1,0 +1,8 @@
+ header,footer{background: #000000; color: #fff;padding: 10px;}
+ header h1{font-size:30px;}
+ header h2{font-size:20px;margin-top: 10px;}
+ footer p{font-size: 15px;}
+ .middleinner{padding: 10px; min-height: 500px; font-size: 16px;}
+ .middleinner a{text-decoration: none; color: #333333;}
+ .middleinner a:hover{color:red;}
+ .middleinner  ul li{list-style:circle;margin-left: 20px;margin-top: 10px;}
