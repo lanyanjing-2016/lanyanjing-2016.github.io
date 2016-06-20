@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>列表数字样式</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<style>
+			 ul{margin:20px;list-style: none;}
+			 ul li{line-height: 28px;}
+			 ul li span{ background: url(images/li_num_small.gif) no-repeat; width: 15px; height:9px; margin-right:5px; display: inline-block;}
+		     ul li a:hover span{background: url(images/listhover.png) no-repeat; }
+		     ul li a:hover{text-decoration: underline; color: #1B6D85;}
+		</style>
+		<script type="text/javascript" src="../javascripts/jquery.min.js" ></script>
+		<script>
+			$(function(){ 
+               $("ul li span").each(function(i){ 
+               	  var classname="sp"+i;
+               	  $(this).addClass(classname);
+               });
+               for(var i=0;i<=10;i++){ 
+	                var num="-"+i*33+"px";
+	             	$("ul li .sp"+i+"").css("background-position-y",num);
+               }
+			})
+		</script> 
+	</head>
+	<body>
+		<ul>
+			<li><a href="#"><span></span>111111</a></li>
+			<li><a href="#"><span></span>22222</a></li>
+			<li><a href="#"><span></span>333333</a></li>
+			<li><a href="#"><span></span>444444</a></li>
+			<li><a href="#"><span></span>5555555</a></li> 
+			<li><a href="#"><span></span>5555555</a></li> 
+		</ul>
+	</body>
+</html>
