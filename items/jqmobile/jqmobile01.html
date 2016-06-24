@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>jQuery Mobile基础</title>
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+        <style>
+        	.ui-block-a,.ui-block-b,.ui-block-c{
+        		border:1px solid #005599;
+        	}
+        </style>
+	</head> 
+	<body> 
+		<div data-role="page" id="pageone"> 
+			<div data-role="header" data-position="fixed"> 
+				<!--<a href="#" data-role="button" data-icon="home" data-iconpos="notext">首页</a>-->
+				<h1>欢迎来到我的主页</h1>
+				<!--//只添加一个右侧按钮 需要指定class=ui-btn-right-->
+				<a href="#" data-role="button" data-icon="back" data-iconpos="notext" class="ui-btn-right">首页</a>
+			</div> 
+			<div data-role="content"> 
+				<p>1.我现在是一个移动端开发者!!</p>
+				<a href="#pagetwo" data-transition="slide">弹出框</a>
+				<p>2.按钮button,input data-role=button</p>
+				<button>按钮</button>
+				<input type="button" value="按钮"/>
+				<a href="#" data-role="button" data-inline="true">按钮</a>
+				<p>3.组合按钮（默认是垂直组合）</p>
+				<div data-role="controlgroup" data-type="horizontal">
+					<a href="#" data-role="button">水平按钮</a>
+					<a href="#" data-role="button">水平按钮</a>
+					<a href="#" data-role="button">水平按钮</a>
+				</div>
+				<div data-role="controlgroup">
+					<a href="#" data-role="button">垂直按钮</a>
+					<a href="#" data-role="button">垂直按钮</a>
+					<a href="#" data-role="button">垂直按钮</a>
+				</div>
+				4.后退按钮
+				<a href="#" data-role="button" data-rel="back" data-mini="true" data-corners="false">后退按钮</a>
+			    5.图标按钮
+			    <a href="#" data-role="button" data-icon="delete" data-inline="true">图标按钮</a>
+			    <a href="#" data-role="button" data-icon="home" data-inline="true" data-iconpos="right">图标按钮</a>
+			    <P>6.可折叠的内容块</P>
+			    <div data-role="collapsible">
+				 <h1>点击我 - 我可以折叠!</h1>
+				 <p>我是可折叠的内容。</p>
+				 <p>我是可折叠的内容。</p>
+				 <p>我是可折叠的内容。</p>
+				 <p>我是可折叠的内容。</p>
+				</div>
+			    <div data-role="collapsible" data-collapsed="false">
+				 <h1>点击我 - 我可以折叠!</h1>
+				 <p>我是可折叠的内容。</p>
+				 <p>我是可折叠的内容。</p>
+				 <p>我是可折叠的内容。</p>
+				 <p>我是可折叠的内容。</p>
+				</div>
+				<P>6.可折叠的集合</P>
+			    <div data-role="collapsibleset">
+			    	 <div data-role="collapsible" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+					 <h1>点击我 - 我可以折叠!</h1>
+					 <p>我是可折叠的内容。</p>
+					 <p>我是可折叠的内容。</p>
+					 <p>我是可折叠的内容。</p>
+					 <p>我是可折叠的内容。</p>
+					</div>
+					<div data-role="collapsible" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+					 <h1>点击我 - 我可以折叠!</h1>
+					 <p>我是可折叠的内容。</p>
+					 <p>我是可折叠的内容。</p>
+					 <p>我是可折叠的内容。</p>
+					 <p>我是可折叠的内容。</p>
+					</div>
+					<div data-role="collapsible" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+					 <h1>点击我 - 我可以折叠!</h1>
+					 <p>我是可折叠的内容。</p>
+					 <p>我是可折叠的内容。</p>
+					 <p>我是可折叠的内容。</p>
+					 <p>我是可折叠的内容。</p>
+					</div>
+			    </div>
+			    <P>7.布局网格</P>
+			    <div class="ui-grid-a">
+			    	<div class="ui-block-a">左侧</div>
+			    	<div class="ui-block-b">右侧</div>
+			    </div>
+			    <div class="ui-grid-b">
+			    	<div class="ui-block-a">左侧</div>
+			    	<div class="ui-block-b">中间</div>
+			    	<div class="ui-block-c">右侧</div> 
+			    	<div class="ui-block-a">左侧</div>
+			    	<div class="ui-block-b">中间</div>
+			    	<div class="ui-block-c">右侧</div> 
+			    </div>
+			    <P></P>
+			    <P></P>
+			    <a href="jqmobile02.html">下一节jQuery Mobile 列表</a>
+			</div> 
+			<div data-role="footer" class="ui-btn" data-position="fixed">  
+				<a href="#" data-role="button">在 Facebook上关注我</a>
+				<a href="#" data-role="button">在 Facebook上关注我</a> 
+			</div> 
+		</div>
+		<!--第二个页面 -->  
+		<div data-role="page" id="pagetwo"> 
+			<div data-role="header"> 
+				<h1>欢迎来到我的主页</h1>
+			</div> 
+			<div data-role="content"> 
+				<p>我现在是第二个页面</p>
+				<a href="#pageone" data-transition="slide" data-direction="reverse">返回主页</a> 
+			</div> 
+			<div data-role="footer"> 
+				<h1>底部文本</h1>   
+			</div>  
+		</div>
+	</body> 
+</html>

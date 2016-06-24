@@ -1,8 +1,17 @@
- header,footer{background: #000000; color: #fff;padding: 10px;}
- header h1{font-size:30px;}
- header h2{font-size:20px;margin-top: 10px;}
- footer p{font-size: 15px;}
- .middleinner{padding: 10px; min-height: 500px; font-size: 16px;}
- .middleinner a{text-decoration: none; color: #333333;}
- .middleinner a:hover{color:red;}
- .middleinner  ul li{list-style:circle;margin-left: 20px;margin-top: 10px;}
+.navbar{width:100%; border:none; height: 60px; background: #43c8c7; }
+.container{margin: 0 auto; padding:0; }
+.navbar .list{background: #43c8c7; height: 60px; line-height: 60px; text-align: center;padding: 0 10px; position: relative;}
+.navbar .list a{color: #fff; font-size: 20px; text-decoration: none;}
+.navbar .list a:hover{text-decoration: none; color: #00625A;}
+.navbar .list i{margin-right: 5px;color: #6ee4e3;}
+.triangle{display: none;}
+.triangle_show{width:0;z-index: 10; height: 0; border: 20px solid transparent; border-top-color: #43c8c7;position: absolute;top:60px; left:47%}
+/*内容列表*/
+.demo_list{background:#f0f0f0; margin-top:0px; min-height:600px;  }
+.demo_listcount{display: none;   width: 100%;padding-top: 20px;}
+.demo_listcount ul li{float: left; margin: 10px; border: 1px solid #ccc; width: 152px;height: 152px; list-style: none; position: relative;}
+.demo_listcount ul li img{width: 140px; height: 140px; margin: 5px;}
+.demo_listcount ul li p{display: none; position: absolute;text-align: center;  top:0 ;background: #000000;opacity: 0.6; padding:20px 5px; width: 150px;  height: 150px;}
+.demo_listcount ul li p span{margin-top: 15px; display: block; font-weight: bolder;}
+.demo_listcount ul li a{color: #fff;}
+

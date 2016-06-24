@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ch">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>会员卡推广</title>
+		<link rel="stylesheet" href="css/pintuer.css">
+		<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<script src="js/jquery.js"></script>
+		<script src="js/pintuer.js"></script>
+		<script src="js/respond.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/laydate-v1.1/laydate/laydate.js"></script>
+		<script src="js/layer/layer.js"></script>
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="layout">
+			<!-- 头部开始 -->
+			<div class="head">
+				<img src="images/logo.png" class="logo">
+				<div class="headPersonal">
+					<img src="images/person.png" class="personalImg">
+					<div class="personal">
+						<ul class="nav nav-inline nav-menu" style="display:inline-block;">
+							<li class="active"><a href="#">猫屎咖啡 <span class="arrow"></span></a>
+								<ul class="drop-menu">
+									<li><a href="#"><i class="fa fa-user"></i> 我的账户</a> </li>
+									<li><a href="#"><i class="fa fa-file-text-o"></i> 企业资料</a> </li>
+									<li><a href="#"><i class="fa fa-key"></i> 修改密码</a> </li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<a href="#"><i class="fa fa-power-off signOut"></i></a>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<!-- 头部结束 -->
+			<!-- 左侧导航开始 -->
+			<div class="left">
+				<div class="nav">
+					<a href="index.html" class="navContentA active1">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-home navContentIcon"></i>
+							<p>首页</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="card_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-money navContentIcon"></i>
+							<p>会员卡</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="member_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-user navContentIcon"></i>
+							<p>会员</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="ticket_home.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-line-chart navContentIcon"></i>
+							<p>优惠券</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="event_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-university navContentIcon"></i>
+							<p>营销</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="report_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-file-text-o navContentIcon"></i>
+							<p>设置</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="microsite.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-wrench navContentIcon"></i>
+							<p>微站</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- 左侧导航结束 -->
+			<div class="main">
+				<div class="breadNav">
+					<ul class="bread">
+						<li><a href="index.html" class="icon-home"> 首页</a> </li>
+						<li><a href="card_list.html">会员卡管理</a></li>
+						<li><a href="#">会员卡推广列表</a></li>
+					</ul>
+				</div>
+				<div class="h2Title">
+					<div class="media media-x clearfix">
+						<a class="float-left" href="#"> <img src="images/list.png" class="radius" alt="..."> </a>
+						<div class="media-body cardMainTitleFont">会员卡推广列表</div>
+					</div>
+				</div>
+				<div class="container-layout cardMainContent">
+					<div class="searchBar searchBarTwo">
+						<form method="post">
+							<div class="form-group cardContenForm">
+								<div class="label cardContentName">
+									<label for=""> 会员卡名称：</label>
+								</div>
+								<div class="field cardContentInput">
+									<input type="text" class="input" id="" name="username" size="30" placeholder="请输入会员卡名称" />
+								</div>
+							</div>
+							<div class="form-group cardContenForm">
+								<div class="label cardContentName">
+									<label for=""> 门店名称：</label>
+								</div>
+								<div class="field cardContentInput">
+									<input type="text" class="input" id="" name="username" size="30" placeholder="请输入门店名称" />
+								</div>
+							</div>
+							<div class="form-group cardContenForm">
+								<div class="label cardContentName">
+									<label for="">状态：</label>
+								</div>
+								<div class="field cardContentInput">
+									<select class="input">
+										<option>全部</option>
+										<option>正常</option>
+										<option>停用</option>
+									</select>
+								</div>
+							</div>
+							<button class="button bg-green cardContentBtn"> <i class="fa fa-search"></i> 搜索</button>
+						</form>
+					</div>
+					<div class="h15"></div>
+					<div class="table-responsive-y">
+						<table class="table table-bordered table-hover table-striped">
+							<tr>
+								<th>
+									<input type="checkbox" id="allCheck" class="checkboxAll">
+								</th>
+								<th>门店名称</th>
+								<th>渠道名称</th>
+								<th>会员卡名称</th>
+								<th>扫码次数(次)</th>
+								<th>最后扫码时间</th>
+								<th>状态</th>
+								<th>二维码</th>
+								<th>操作</th>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" class="checkbox">
+								</td>
+								<td>中关村店</td>
+								<td>爱刷科技有限公司</td>
+								<td>黄金会员卡</td>
+								<td>16</td>
+								<td>2015-9-22&nbsp;&nbsp;12:56:07</td>
+								<td><span class="tag bg-green">正常</span></td>
+								<td><img class="Qrcode" src="images/img/20160310_16281224.jpg" alt="" /></td>
+								<td>
+									<a href="#" class="resultStyle dialogs" data-toggle="click" data-target="#mydialog" data-mask="1" data-width="30%"><i class="fa fa-download"></i> 下载</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" class="checkbox">
+								</td>
+								<td>中关村店</td>
+								<td>爱刷科技有限公司</td>
+								<td>黄金会员卡</td>
+								<td>16</td>
+								<td>2015-9-22&nbsp;&nbsp;12:56:07</td>
+								<td><span class="tag bg-yellow">无效</span></td>
+								<td><img class="Qrcode" src="images/img/20160310_16281224.jpg" alt="" /></td>
+								<td>
+									<a href="#" class="resultStyle dialogs" data-toggle="click" data-target="#mydialog" data-mask="1" data-width="30%"><i class="fa fa-download"></i> 下载</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" class="checkbox">
+								</td>
+								<td>中关村店</td>
+								<td>爱刷科技有限公司</td>
+								<td>黄金会员卡</td>
+								<td>16</td>
+								<td>2015-9-22&nbsp;&nbsp;12:56:07</td>
+								<td><span class="tag bg-yellow">无效</span></td>
+								<td><img class="Qrcode" src="images/img/20160310_16281224.jpg" alt="" /></td>
+								<td>
+									<a href="#" class="resultStyle dialogs" data-toggle="click" data-target="#mydialog" data-mask="1" data-width="30%"><i class="fa fa-download"></i> 下载</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" class="checkbox">
+								</td>
+								<td>中关村店</td>
+								<td>爱刷科技有限公司</td>
+								<td>黄金会员卡</td>
+								<td>16</td>
+								<td>2015-9-22&nbsp;&nbsp;12:56:07</td>
+								<td><span class="tag bg-yellow">无效</span></td>
+								<td><img class="Qrcode" src="images/img/20160310_16281224.jpg" alt="" /></td>
+								<td>
+									<a href="#" class="resultStyle dialogs" data-toggle="click" data-target="#mydialog" data-mask="1" data-width="30%"><i class="fa fa-download"></i> 下载</a>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="nextPag">
+						<ul class="pagination pagination-group">
+							<li class="disabled"><a href="#">«</a> </li>
+							<li class="active"><a href="#">1</a> </li>
+							<li><a href="#">2</a> </li>
+							<li><a href="#">3</a> </li>
+							<li><a href="#">4</a> </li>
+							<li><a href="#">5</a> </li>
+							<li><a href="#">»</a> </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="mydialog">
+			<div class="dialog">
+				<div class="dialog-head"> <span class="close rotate-hover"></span><strong>选择二维码尺寸</strong> </div>
+				<div class="dialog-body">
+					<lable><input type="radio" class="radio" name="radio" id="" value="" checked="checked" /> 350px*350px</lable>
+					<div class="h15"></div>
+					<lable><input type="radio" class="radio" name="radio" id="" value="" /> 500px*500px</lable>
+					<div class="h15"></div>
+					<lable><input type="radio" class="radio" name="radio" id="" value="" /> 1200px*1200px</lable>
+					<div class="h15"></div>
+					<lable><input type="radio" class="radio" name="radio" id="" value="" /> 2100px*2100px</lable>
+					<div class="h15"></div>
+				</div>
+				<div class="dialog-foot">
+					<button class="button dialog-close"> 取消</button>
+					<button class="button bg-green"> 确认</button>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,64 @@
+@charset "utf-8";
+/*公用样式*/
+body,nav,dl,dt,dd,p,h1,h2,h3,h4,ul,ol,li,input,button,textarea,footer,iframe{margin:0;padding:0;}
+:focus{outline:0;}
+button,input,select,textarea{font-size:100%;vertical-align:middle;outline:0}
+textarea{resize:none}
+table{border-collapse:collapse;}
+caption,th,td{font-weight:normal;}
+a img,fieldset{border:0;}
+ul,li{ list-style:none; margin:0; padding:0}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block; margin:0; padding:0}
+h1,h2,h3,h4,h5,h6{font-size:100%;}strong{font-weight:700}
+address,cite,dfn,var,i,em{font-style:normal}
+th{font-weight:700;}
+.clearfix:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfix{zoom:1}
+.clear{ clear:both;}
+body{font-size:14px;color:#666; margin:0;padding:0; background:#fff;}
+body,input,textarea{font-family:"微软雅黑",Helvetica,Arial,Tahoma;font-size:14px;}
+/*连接颜色*/
+a{color:#616466;text-decoration:none}
+a:hover{text-decoration:none;cursor:pointer; color:#fb9300}
+.vm{vertical-align:middle}
+.vt{vertical-align: top}
+.pr{position:relative}
+.fl{float:left;}
+.fr{float:right;}
+.f1{ font-size:24px; color:#333;}
+.f2{ font-size:18px; color:#333;}
+.f3{ font-size:14px; color:#666;}
+.f3_2{ font-size:14px; color:#333;}
+.bg_f3{ background:#f3f3f3;}
+.red,.red a{ color:#ff0000}
+.H30{ height:30px;}
+.org,.org a{ color:#f35e0b}
+.blue,.blue a{ color:#1f93ff;}
+.underline,.underline a,a.underline:hover{ text-decoration:underline;}
+.mlr5{ margin:0 5px;}
+.mt10{ margin:10px 0 0 0;}
+.mt20{ margin:20px 0 0 0;}
+.pb10{ padding:0 0 10px 0}
+.pt10{ padding:10px 0 0 0}
+.f12_c6{ font-size:12px; color:#666}
+.f12_c3{ font-size:12px; color:#333}
+.border_a4{ border:1px solid #a4a4a4}
+.color_5d,.color_5d a{ color:#5d5d5d;}
+.green,.green a{ color:#1cad31;}
+.mrb15{ margin-bottom:15px;}
+.mrb5{ margin-bottom:5px;}
+.font20{ font-size:20px;}
+.font14{ font-size:14px;}
+.top10{ margin-top:10px;}
+.top20{ margin-top:20px;}
+.top40{ margin-top:40px;}
+.color9{ color:#999;}
+.f16{font-size:16px}
+.bold{ font-weight:bold}
+
+.c_bbm,.c_bbm a{ color:#37a600}
+.c_shfx,.c_shfx a{ color:#008aff}
+.c_tsjy,.c_tsjy a{ color:#f54703}
+.c_tzsc,.c_tzsc a{ color:#ff8a00}
+.c_hrhs,.c_hrhs a{ color:#e91e5c}
+.menutable a,a.menutable:hover,.menutable{ color:#008000;}

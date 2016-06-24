@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>jQuery Mobile表单</title>
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+		<style>
+			p {
+				margin: 30px 0 20px;
+				height: auto;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div data-role="page" id="pagetwo">
+			<div data-role="header">
+				<h1>jQuery Mobile表单</h1>
+			</div>
+			<div data-role="content">
+				<form method="post" action="#">
+					<label for="fname">姓名：</label>
+					<input type="text" name="fname" id="fname">
+					<input type="submit" data-inline="true" value="提交">
+				</form>
+				<p>fieldcontain 属性基于页面宽度来设置 label 和表单控件的样式。当页面宽度大于 480px 时，它会自动将 label 与表单控件放置于同一行。当小于 480px 时，label 会被放置于表单元素之上。</p>
+				<form method="post" action="#">
+					<div data-role="fieldcontain">
+						<label for="lname">姓名：</label>
+						<input type="text" name="lname" id="lname">
+						<label for="fname">地址：</label>
+						<input type="text" name="fname" id="fname" data-role="none">
+						<label for="femail">邮箱：</label>
+						<input type="email" name="femail" id="fname" placeholder="您的邮箱">
+						<label for="fbirth">生日：</label>
+						<input type="date" name="fbirth" id="fname" placeholder="">
+						<label for="info">附加信息:</label>
+						<textarea name="addinfo" id="info"></textarea>
+						<fieldset data-role="controlgroup" data-type="horizontal">
+							<legend>请选择您的性别：</legend>
+							<label for="male">男性</label>
+							<input type="radio" name="gender" id="male" value="male">
+							<label for="female">女性</label>
+							<input type="radio" name="gender" id="female" value="female">
+						</fieldset>
+						<fieldset data-role="fieldcontain">
+							<label for="day">Select Day</label>
+							<select name="day" id="day">
+								<option value="mon">Monday</option>
+								<option value="tue">Tuesday</option>
+								<option value="wed">Wednesday</option>
+							</select>
+						</fieldset>
+					</div>
+					<input type="submit" data-inline="true" value="提交">
+				</form>
+				2.表单滑动条
+				<form method="post" action="#">
+					<div data-role="fieldcontain">
+						<label for="points">Points:</label> 
+					    <input type="range" name="points" id="points" value="50" min="0" max="100"  data-highlight="true">
+					</div>
+				</form>
+				3.拨动开关
+				<form method="post" action="demoform.html">
+				 <div data-role="fieldcontain">
+				 <label for="switch">Toggle Switch:</label>
+				 <select name="switch" id="switch" data-role="slider">
+					 <option value="on">On</option>
+					 <option value="off">Off</option>
+				 </select>
+				 </div>
+				</form>
+				<a href="jqmobile03.html">下一节jQuery Mobile 主题</a>
+			</div>
+			<div data-role="footer">
+				<h1>底部文本</h1>
+			</div>
+		</div>
+
+	</body>
+
+</html>

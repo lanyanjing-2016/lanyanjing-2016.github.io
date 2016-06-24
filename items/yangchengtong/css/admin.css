@@ -1,0 +1,145 @@
+body{background-color:#f2f9fd;}
+.panel{background:#fff;}
+form .form-group:last-child{padding-bottom:0;}
+.passcode{position:absolute;right:0;top:0;height:32px;margin:1px;border-left:solid 1px #ddd;text-align:center;line-height:32px;border-radius:0 4px 4px 0;}
+
+
+.lefter{position:relative;float:left;width:160px;margin-right:-160px;background:#e6f2fb;text-align:center;}
+.righter{float:right;width:100%;padding-top:15px;background:#e6f2fb;}
+.mainer{margin-left:160px;}
+
+.logo{border-bottom:solid 1px #b5cfd9;padding:13px 5px;}
+
+.admin-navbar{border-bottom:solid 5px #09c;padding:0 15px;}
+.admin-nav li{display:inline-block;}
+.admin-nav ul{display:none;}
+.admin-nav ul li{float:none;display:block;}
+.admin-nav ul ul li{list-style:circle;margin-left:15px;}
+/*tony add*/
+.admin-nav ul li ul li a{ line-height: 36px;}
+/*上面代码不能执行，下班前测试出来原因*/
+.admin-nav .active a{background:#09c;color:#fff;border-radius:4px 4px 0 0; font-size: 14px;}
+.admin-nav .active ul{display:block;position:fixed;left:0;height:500px;width:160px;margin-top:41px; overflow: auto;}/*这个才是左侧浮动的属性,此时top不写0就是让上面的元素帮忙撑一下*/
+.admin-nav .active ul a{background:transparent;color:#333;border-radius:0; line-height: 28px;}
+.admin-nav .active .active a{background:#e6f2fb;border-top:solid 1px #b5cfd9;border-bottom:solid 1px #b5cfd9;color: #0099CC;}
+
+.admin-bread{background:#f2f9fd;border-left:solid 1px #b5cfd9;border-bottom:solid 1px #b5cfd9;line-height:20px;}
+.admin-bread .bread{margin-bottom:0;}
+.admin-bread span{float:right;font-size:12px;color:#666;line-height:36px;}
+
+.admin{padding:15px;background:#fff;position:fixed;border-left:solid 1px #b5cfd9;right:0;bottom:0;top:87px;left:160px; overflow:auto;}
+.alert{margin-bottom:20px;}
+.admin-panel td{line-height:24px;}
+.admin-panel td .button{line-height:16px;}
+.admin-panel .pagination .active{background:#fff;}
+.t_in{display: inline-block;}
+
+.footer{width:100%;position:fixed;bottom:0px;background:#F2F9FD;border-top:1px solid #B5CFD9;height:30px; line-height:30px;text-align:center;}
+
+/*modify by tony*/
+.tt_c_right{ height:490px;/*overflow: hidden; background:#fcc;*/ display: inline-block;}
+.tt_c_right table td{/*height:30px;*/ line-height: 74px;}
+.panel_ZF{ padding-left: 100px;padding-right: px;}
+.panel_ZF .form-x .label{ text-align:left; width: 7%;}
+.panel_ZF h4{ width: 92%;}
+
+/*重新定义共用样式*/
+.table-Vert td{border-top:1px solid #ddd;padding:8px;vertical-align:middle;}
+.ov{overflow: hidden;}
+
+/*各个模块需要样式*/
+
+.newBg{ width: 100%;height: 800px; background: url(../images/login-bg.jpg) no-repeat top center;min-width: 1048px;}
+.newBg_ws{ width: 100%;height: 800px; background: url(../images/wsBg.jpg) no-repeat top center;min-width: 1048px;}
+.newBg .newCont{width:1048px;margin:0 auto;}
+.newBg_ws .newCont{width:1048px;margin:0 auto;}
+
+/*登录四个模块通用底部*/
+.foot_reg{text-align: center;line-height: 20px;color: #666;margin-top: 130px;background: #fff;}
+.tjTips{ width: 570px;height: 329px; float: right;margin:280px 60px 0 0;background: url(../images/shTip.jpg) no-repeat;}
+.tjTips p{ width: 250px;margin: 165px 0 0 220px; font-family: "Microsoft Yahei";font-size: 20px; font-weight: bold;  text-align:center; letter-spacing: 2px;line-height: 30px; color: #444;}
+
+/*验证所需要使用的css*/
+/*==========以下部分是Validform必须的===========*/
+.Validform_checktip{
+	margin-left:8px;
+	line-height:20px;
+	height:20px;
+	overflow:hidden;
+	color:#999;
+	font-size:12px;
+}
+.Validform_right{
+	color:#71b83d;
+	padding-left:20px;
+	background:url(../images/right.png) no-repeat left center;
+}
+.Validform_wrong{
+	color:red;
+	padding-left:20px;
+	white-space:nowrap;
+	background:url(../images/error.png) no-repeat left center;
+}
+.Validform_loading{
+	padding-left:20px;
+	background:url(../images/onLoad.gif) no-repeat left center;
+}
+.Validform_error{
+	background-color:#ffe7e7;
+}
+#Validform_msg{color:#7d8289; font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif; width:280px; -webkit-box-shadow:2px 2px 3px #aaa; -moz-box-shadow:2px 2px 3px #aaa; background:#fff; position:absolute; top:0px; right:50px; z-index:99999; display:none;filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#999999');}
+#Validform_msg .iframe{position:absolute; left:0px; top:-1px; z-index:-1;}
+#Validform_msg .Validform_title{line-height:25px; height:25px; text-align:left; font-weight:bold; padding:0 8px; color:#fff; position:relative; background-color:#000;}
+#Validform_msg a.Validform_close:link,#Validform_msg a.Validform_close:visited{line-height:22px; position:absolute; right:8px; top:0px; color:#fff; text-decoration:none;}
+#Validform_msg a.Validform_close:hover{color:#cc0;}
+#Validform_msg .Validform_info{padding:8px;border:1px solid #000; border-top:none; text-align:left;}
+
+/* 高新增样式开始*/
+.searchBar{ padding: 15px;border: 1px solid #E0DFE7;background: #F5F5F5;width: 100%;display: inline-block;}
+.searchBarTwo{border-bottom: none;padding-bottom: 0;}
+.searchBarThree{border-top: none;padding-top: 0;padding-bottom: 0;height: 50px;}
+.cardContenForm{float: left;margin-right: 40px;}
+.cardContentName{float: left;font-size: 15px;color: #000;line-height: 30px;}
+.cardContentInput{width: 200px;padding-left: 10px;float: left;}
+.cardContentBtn{width: 100px;background-color: #6BC23C;font-size: 15px;}
+.toolBar{clear: both;}
+.h20{width:100%;height:20px;font-size:0;overflow:hidden;clear:both;zoom:1;}
+.h15{width:100%;height:15px;font-size:0;overflow:hidden;clear:both;zoom:1;}
+.nextPag{padding-top: 20px;text-align: center;}
+.resultStyle{float: left;padding-right: 10px;}
+/*角色权限管理开始*/
+.treePanel{padding:0;}
+.treeMiddle{width: 100%;border-bottom: 1px solid #DDDDDD;padding: 10px 10px;}
+.treeMiddleBtn{display: block;margin: 0 auto;}
+.lastBtn{display: block;margin: 0 auto;margin-bottom: 20px;}
+.title{display:inline-block;line-height:35px;}
+.memberSex{line-height: 35px;margin-left: 10px;}
+/*.searchResult{display: none;}*/
+/*高新增样式结束*/
+
+/*login登录*/
+.loginbody{background: #0099cc;}
+.login_count{background: url(../images/login_bg.jpg) no-repeat;  width: 1236px; height:776px; position: absolute; left:50%; top:50%; margin:-388px 0 0 -618px;}
+.login_form{margin-left: 450px; margin-top: 275px; width:361px;}
+.login_form h2{color: #666; font-weight: normal; font-size:22px; font-family: "微软雅黑";}
+.username_field input{width:300px; height:38px; border: #ddd 1px solid; font-size:14px;  color: #999;font-family: "微软雅黑"; padding-left:58px; }
+.username_field .input_user{background: url(../images/username_ico.png) 18px center no-repeat; margin-top:10px;}
+.username_field .input_pwd{background: url(../images/usrepwd_ico.png) 18px center no-repeat; margin-top: 20px;}
+.username_field .input_yzm{margin-top: 20px; background: none; float: left; width:228px; padding-left:20px;}
+.username_field .yzm_pic{display:block; float: right; margin-left:15px; margin-top:21px; width: 90px; height: 40px;}
+.userbtn button{width:170px; height: 40px;margin-top:40px; border: none; font-size: 16px;font-family: "微软雅黑";}
+.userbtn .btn_ok{background: #0099cc; color: #fff; float: left;}
+.userbtn .btn_cancel{background: #e8e8e8; color: #666; float: right;}
+
+
+
+
+
+
+
+
+
+
+
+
+

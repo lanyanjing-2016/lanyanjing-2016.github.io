@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="ch">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>添加活动</title>
+		<link rel="stylesheet" href="css/pintuer.css">
+		<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<script src="js/jquery.js"></script>
+		<script src="js/pintuer.js"></script>
+		<script src="js/respond.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/laydate-v1.1/laydate/laydate.js"></script>
+		<script src="js/layer/layer.js"></script>
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="layout">
+			<!-- 头部开始 -->
+			<div class="head">
+				<img src="images/logo.png" class="logo">
+				<div class="headPersonal">
+					<img src="images/person.png" class="personalImg">
+					<div class="personal">
+						<ul class="nav nav-inline nav-menu" style="display:inline-block;">
+							<li class="active"><a href="#">猫屎咖啡 <span class="arrow"></span></a>
+								<ul class="drop-menu">
+									<li><a href="#"><i class="fa fa-user"></i> 我的账户</a> </li>
+									<li><a href="#"><i class="fa fa-file-text-o"></i> 企业资料</a> </li>
+									<li><a href="#"><i class="fa fa-key"></i> 修改密码</a> </li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<a href="#"><i class="fa fa-power-off signOut"></i></a>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<!-- 头部结束 -->
+			<!-- 左侧导航开始 -->
+			<div class="left">
+				<div class="nav">
+					<a href="index.html" class="navContentA active1">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-home navContentIcon"></i>
+							<p>首页</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="card_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-money navContentIcon"></i>
+							<p>会员卡</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="member_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-user navContentIcon"></i>
+							<p>会员</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="ticket_home.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-line-chart navContentIcon"></i>
+							<p>优惠券</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="event_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-university navContentIcon"></i>
+							<p>营销</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="report_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-file-text-o navContentIcon"></i>
+							<p>设置</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="#" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-wrench navContentIcon"></i>
+							<p>微站</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- 左侧导航结束 -->
+			<div class="main">
+				<div class="breadNav">
+					<ul class="bread">
+						<li><a href="index.html" class="icon-home"> 首页</a> </li>
+						<li><a href="event_list.html">活动列表</a> </li>
+						<!--  <li><a href="#">公司新闻</a> </li> -->
+						<li><a href="#">添加活动</a></li>
+					</ul>
+				</div>
+				<div class="h2Title">
+					<div class="media media-x clearfix">
+						<a class="float-left" href="#"> <img src="images/add.png" class="radius" alt="..."> </a>
+						<div class="media-body cardMainTitleFont">添加活动</div>
+					</div>
+				</div>
+				<div class="container-layout">
+					<div class="panel addCardMainContent">
+						<div class="panel-head bg-main">
+							<i class="fa fa-bars"></i>
+							<strong>添加活动</strong>
+						</div>
+						<div class="panel-body bgWhite">
+							<table class="table table-bordered addCardTabs">
+								<tbody>
+									<form action="" class="form-inline">
+										<tr>
+											<td widtd="15%"><span class="title">活动名称：</span></td>
+											<td widtd="35%">
+												<input type="text" class="input" placeholder="请输入活动名称" />
+											</td>
+											<td widtd="15%"><span class="title">活动时间：</span></td>
+											<td widtd="35%">
+												<input type="text" class="input laydate-icon newPartyTime" id="startTime" name="username" size="30" placeholder="请输入创建时间"/>
+												<span class="newPartyTimeSpan">至</span>
+												<input type="text" class="input laydate-icon newPartyTime" id="finishTime" name="username" size="30" placeholder="请输入创建时间"/>
+											</td>
+										</tr>
+										<tr>
+											<td widtd="15%"><span class="title">活动人群：</span></td>
+											<td widtd="35%">
+												<div class="radioX newPartyRadio">
+													<label>
+														<input type="radio" name="radio4" id="" checked> 无限制
+													</label>
+												</div>
+												<div class="radioX newPartyRadio">
+													<label>
+														<input type="radio" name="radio4" id=""> 等级会员
+													</label>
+												</div>
+												<div class="newPartyForm">
+													<form>
+														<select class="input">
+															<option>所有会员</option>
+															<option>白金会员</option>
+															<option>黄金会员</option>
+															<option>钻石会员</option>
+														</select>
+													</form>
+												</div>
+												<div class="radioX">
+													<label>
+														<input type="radio" name="radio4" id=""> 指定会员
+													</label>
+													<label><a href="#" class="dialogs" data-toggle="click" data-target="#member" data-mask="1" data-width="40%">选择会员</a></label>
+												</div>
+											</td>
+											<td widtd="15%"><span class="title">活动门店：</span></td>
+											<td widtd="35%">
+												<div class="radio radioX">
+													<label>
+														<input type="radio" name="optionsRadios2" id="optionsRadios1" value="option1" checked> 所有门店
+													</label>
+												</div>
+												<div class="radio radioX">
+													<label>
+														<input type="radio" name="optionsRadios2" id="optionsRadios1" value="option2"> 指定门店
+													</label>
+													<label><a href="#" class="dialogs" data-toggle="click" data-target="#door" data-mask="1" data-width="40%">选择门店</a></label>
+												</div>
+											</td>
+										</tr>
+										<!-- 表格中嵌套表格 -->
+										<tr>
+											<td widtd="15%"><span class="title">活动条件：</span></td>
+											<td widtd="35%">
+												<div class="radio radioX">
+													<label>
+														<input type="radio" name="optionsRadios" id="optionsRadios1" value="option2" checked> 无
+													</label>
+												</div>
+												<br/>
+												<div class="radio radioX">
+													<label>
+														<input type="radio" name="optionsRadios" id="optionsRadios1" value="option2"> 会员生日
+													</label>
+												</div>
+												<br/>
+												<div class="radio radioX">
+													<label>
+														<input type="radio" name="optionsRadios" id="optionsRadios1" value="option2"> 开卡
+													</label>
+												</div>
+												<br/>
+												<div class="radio radioX">
+													<label>
+														<input type="radio" name="optionsRadios" id="optionsRadios1" value="option2"> 节假日
+													</label>
+													<label><a href="#">指定</a></label>
+												</div>
+												<br/>
+												<div class="radio radioX">
+													<label>
+														<input type="radio" name="optionsRadios" id="optionsRadios1" value="option3"> 充值
+													</label>
+												</div>
+												<label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一次性满</label>
+												<input type="text" class="input smallInput" placeholder="" />
+												<lable>元</lable>
+												<br/>
+												<div class="radio radioX">
+													<label>
+														<input type="radio" name="optionsRadios" id="optionsRadios1" value="option3"> 充值
+													</label>
+												</div>
+												<label>每累计充值满</label>
+												<input type="text" class="input smallInput" placeholder="" />
+												<lable>元</lable>
+												<br/>
+												<div class="radio radioX">
+													<label>
+														<input type="radio" name="optionsRadios" id="optionsRadios1" value="option3"> 充值
+													</label>
+												</div>
+												<label>一次性消费满</label>
+												<input type="text" class="input smallInput" placeholder="" />
+												<lable>元</lable>
+												<br/>
+												<div class="radio radioX">
+													<label>
+														<input type="radio" name="optionsRadios" id="optionsRadios1" value="option3"> 充值
+													</label>
+												</div>
+												<label>每累计消费满</label>
+												<input type="text" class="input smallInput" placeholder="" />
+												<lable>元</lable>
+												<br/>
+												<div class="radio radioX">
+													<label>
+														<input type="radio" name="optionsRadios" id="optionsRadios1" value="option3"> 积分兑换
+													</label>
+												</div>
+												<label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用</label>
+												<input type="text" class="input smallInput" placeholder="" />
+												<lable>分</lable>
+											</td>
+											<td widtd="15%"><span class="title">奖励设置：</span></td>
+											<td widtd="35%">
+												<div>
+													<label class="newFrrmTwo">
+														<input type="checkbox">奖励优惠券 </label>
+													<div class="newPartyForm">
+														<form>
+															<select class="input">
+																<option>10元代金券</option>
+																<option>20元代金券</option>
+																<option>30元代金券</option>
+																<option>40元代金券</option>
+															</select>
+														</form>
+													</div>
+													<input type="text" class="input smallInput" placeholder="" />
+													<label>张</label>
+												</div>
+												<br/>
+												<div>
+													<label class="newFrrmTwo">
+														<input type="checkbox">返现 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+													<div class="newPartyForm">
+														<form>
+															<select class="input">
+																<option>固定金额</option>
+																<option>不定金额</option>
+															</select>
+														</form>
+													</div>
+													<input type="text" class="input smallInput" placeholder="" />
+													<label>元</label>
+												</div>
+												<br/>
+												<div>
+													<label class="newFrrmTwo">
+														<input type="checkbox">返积分&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+													<div class="newPartyForm">
+														<form>
+															<select class="input">
+																<option>固定额度</option>
+																<option>自定义额度</option>
+															</select>
+														</form>
+													</div>
+													<input type="text" class="input smallInput" placeholder="" />
+													<label>分</label>
+												</div>
+												<br/>
+												<div class="giftLast">
+													<div class="giftLastLeft">
+														<label>奖励积分限制：</label>
+													</div>
+													<div class="giftLastRight">
+														<label class="giftLastRightLable">
+															<input type="radio" name="lable" value="1" checked>无</label>
+														<br/>
+														<label class="giftLastRightLable">
+															<input type="radio" name="lable" value="2">不奖励日常积分</label>
+														<br/>
+														<label class="giftLastRightLable">
+															<input type="radio" name="lable" value="3">照常奖励日常积分</label>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td widtd="15%"><span class="title">活动描述：</span></td>
+											<td widtd="35%" colspan="3">
+												<form>
+													<textarea rows="5" class="input newSms" placeholder="请输入活动描述"></textarea>
+												</form>
+											</td>
+										</tr>
+										<!-- 文本域写法 -->
+										<tr>
+											<td widtd="15%"><span class="title">活动通知：</span></td>
+											<td widtd="35%" colspan="3">
+												<form>
+													<textarea rows="5" class="input newSms" placeholder="活动通知内容"></textarea>
+												</form>
+												<div class="newLastSms">
+													<a href="#" class="dialogs" data-toggle="click" data-target="#message" data-mask="1" data-width="40%">选择通知人群</a>
+												</div>
+											</td>
+										</tr>
+									</form>
+								</tbody>
+							</table>
+
+						</div>
+						<!-- 提交按钮 -->
+						<a href="event_list.html">
+							<button class="button bg-main lastBtn"> 添&nbsp;&nbsp;&nbsp;&nbsp;加</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--选择会员弹框-->
+		<div id="member">
+			<div class="dialog">
+				<div class="dialog-head"> <span class="close rotate-hover"></span><strong>选择会员</strong> </div>
+				<div class="dialog-body">
+					<div class="table-responsive-y">
+						<table class="table table-bordered table-hover table-striped">
+							<tr>
+								<th>
+									<input type="checkbox" id="allCheck" class="checkboxAll">
+								</th>
+								<th>会员姓名</th>
+								<th>会员等级</th>
+								<th>联系手机号</th>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" class="checkbox">
+								</td>
+								<td>张三</td>
+								<td>黄金会员</td>
+								<td>13356874562</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" class="checkbox">
+								</td>
+								<td>张三</td>
+								<td>黄金会员</td>
+								<td>13356874562</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" class="checkbox">
+								</td>
+								<td>张三</td>
+								<td>黄金会员</td>
+								<td>13356874562</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" class="checkbox">
+								</td>
+								<td>张三</td>
+								<td>黄金会员</td>
+								<td>13356874562</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" class="checkbox">
+								</td>
+								<td>张三</td>
+								<td>黄金会员</td>
+								<td>13356874562</td>
+							</tr>
+						</table>
+					</div>
+					<div class="nextPag">
+						<ul class="pagination pagination-group">
+							<li class="disabled"><a href="#">«</a> </li>
+							<li class="active"><a href="#">1</a> </li>
+							<li><a href="#">2</a> </li>
+							<li><a href="#">3</a> </li>
+							<li><a href="#">4</a> </li>
+							<li><a href="#">5</a> </li>
+							<li><a href="#">»</a> </li>
+						</ul>
+					</div>
+				</div>
+				<div class="dialog-foot">
+					<button class="button dialog-close"> 取消</button>
+					<button class="button bg-green"> 确认</button>
+				</div>
+			</div>
+		</div>
+		<!--选择门店弹框-->
+		<div id="door">
+			<div class="dialog">
+				<div class="dialog-head"> <span class="close rotate-hover"></span><strong>选择门店</strong> </div>
+				<div class="dialog-body">
+					<div class="table-responsive-y">
+						<table class="table table-bordered table-hover table-striped">
+							<tr>
+								<th>
+									<input type="checkbox" id="allCheck" class="checkboxAll">
+								</th>
+								<th>门店名称</th>
+								<th>门店联系人</th>
+								<th>联系人号码</th>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" class="checkbox">
+								</td>
+								<td>猫屎咖啡</td>
+								<td>李文</td>
+								<td>13356874562</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" class="checkbox">
+								</td>
+								<td>猫屎咖啡</td>
+								<td>李文</td>
+								<td>13356874562</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" class="checkbox">
+								</td>
+								<td>猫屎咖啡</td>
+								<td>李文</td>
+								<td>13356874562</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" class="checkbox">
+								</td>
+								<td>猫屎咖啡</td>
+								<td>李文</td>
+								<td>13356874562</td>
+							</tr>
+						</table>
+					</div>
+					<div class="nextPag">
+						<ul class="pagination pagination-group">
+							<li class="disabled"><a href="#">«</a> </li>
+							<li class="active"><a href="#">1</a> </li>
+							<li><a href="#">2</a> </li>
+							<li><a href="#">3</a> </li>
+							<li><a href="#">4</a> </li>
+							<li><a href="#">5</a> </li>
+							<li><a href="#">»</a> </li>
+						</ul>
+					</div>
+				</div>
+				<div class="dialog-foot">
+					<button class="button dialog-close"> 取消</button>
+					<button class="button bg-green"> 确认</button>
+				</div>
+			</div>
+		</div>
+		<!--通知人群弹窗-->
+		<div id="message">
+			<div class="dialog">
+				<div class="dialog-head"> <span class="close rotate-hover"></span><strong>选择通知人群</strong> </div>
+				<div class="dialog-body">
+					<div class="table-responsive-y">
+						<table class="table table-bordered table-hover table-striped">
+							<tr>
+								<th>
+									<input type="checkbox" id="allCheck" class="checkboxAll">
+								</th>
+								<th>门店名称</th>
+								<th>门店联系人</th>
+								<th>联系人号码</th>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" class="checkbox">
+								</td>
+								<td>猫屎咖啡</td>
+								<td>李文</td>
+								<td>13356874562</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" class="checkbox">
+								</td>
+								<td>猫屎咖啡</td>
+								<td>李文</td>
+								<td>13356874562</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" class="checkbox">
+								</td>
+								<td>猫屎咖啡</td>
+								<td>李文</td>
+								<td>13356874562</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" class="checkbox">
+								</td>
+								<td>猫屎咖啡</td>
+								<td>李文</td>
+								<td>13356874562</td>
+							</tr>
+						</table>
+					</div>
+					<div class="nextPag">
+						<ul class="pagination pagination-group">
+							<li class="disabled"><a href="#">«</a> </li>
+							<li class="active"><a href="#">1</a> </li>
+							<li><a href="#">2</a> </li>
+							<li><a href="#">3</a> </li>
+							<li><a href="#">4</a> </li>
+							<li><a href="#">5</a> </li>
+							<li><a href="#">»</a> </li>
+						</ul>
+					</div>
+				</div>
+				<div class="dialog-foot">
+					<button class="button dialog-close"> 取消</button>
+					<button class="button bg-green"> 确认</button>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		/*开始时间结束时间控制*/
+		!(function() {
+			var start = {
+				elem: '#startTime',
+				format: 'YYYY.MM.DD',
+				istime: true,
+				istoday: false,
+				choose: function(datas) {
+					end.min = datas; //开始日选好后，重置结束日的最小日期
+					end.start = datas //将结束日的初始值设定为开始日
+				}
+			};
+			var end = {
+				elem: '#finishTime',
+				format: 'YYYY.MM.DD',
+				istime: true,
+				istoday: false,
+				choose: function(datas) {
+					start.max = datas; //结束日选好后，重置开始日的最大日期
+				}
+			};
+			laydate(start);
+			laydate(end);
+		})();
+	</script>
+</html>

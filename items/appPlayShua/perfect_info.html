@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="screen-orientation" content="portrait">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" /> 
+		<script src="js/layout.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/myjs.js"></script> 
+		<title>完善信息</title>
+	</head>
+	<script type="text/javascript">
+		initLayOut();
+	</script>
+	<body>
+		<!--遮罩层-->
+		<div class="mask_box"></div>
+		<div class="top"><span><a href="pay_order.html"><img src="images/goback_ico.png"></a></span>完善信息</div>
+		<!--提示信息-->
+		<div class="perfect_tips">
+			<img src="images/error_tipico.png" alt="" />
+			<p>
+				<span>重要提示</span>
+				为保障您的权益，请您务必填写您的真实信息。未填写此项内容则视为您放弃享受最高5万元的赔付保障。
+			</p>
+		</div>
+		<!--完善保障人信息-->
+		<div class="security">
+			<p class="p_title">完善用户信息</p>
+			<p class="p_border"><span class="sp_leftborder"></span><span class="sp_rightborder"></span></p>
+		    <!--输入手机号，验证码-->
+		    <article class="getmform">
+				<div class="con">
+					<span class="sp_number">姓名</span>
+					<input type="text" id="cardIdname" name="mobile" placeholder="请输入您的真实姓名" maxlength="11"/>
+				</div>
+				<div class="con">
+					<span class="sp_number">身份证</span>
+					<input type="text" id="cardIdnumber" name="smscode" placeholder="请输入您的身份证号" maxlength="18"/>
+				</div>
+				<div class="get_coupbtn">
+		        	<a href="javascript:void(0);" class="cardID_btn">下一步</a>
+		        </div> 
+			</article> 
+		</div>
+		<!--提示框-->
+		<div class="error_tips">
+			<p class="p_img"><br/><img src="images/error_tipico2.png"/></p>
+			<p class="p_info">请输入正确的身份证号</p>
+			<p class="p_btn">确定</p>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>创建优惠券</title>
+		<link rel="stylesheet" href="css/pintuer.css">
+		<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<script src="js/jquery.js"></script>
+		<script src="js/pintuer.js"></script>
+		<script src="js/respond.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/laydate-v1.1/laydate/laydate.js"></script>
+		<script src="js/layer/layer.js"></script>
+		<script src="js/ticketset.js"></script>
+		<script src="js/picLoad.js"></script>
+		<link href="css/style.css" rel="stylesheet">
+	</head> 
+	<body>
+		<div class="layout">
+			<!-- 头部开始 -->
+			<div class="head">
+				<img src="images/logo.png" class="logo">
+				<div class="headPersonal">
+					<img src="images/person.png" class="personalImg">
+					<div class="personal">
+						<ul class="nav nav-inline nav-menu" style="display:inline-block;">
+							<li class="active"><a href="#">猫屎咖啡 <span class="arrow"></span></a>
+								<ul class="drop-menu">
+									<li><a href="#"><i class="fa fa-user"></i> 我的账户</a> </li>
+									<li><a href="#"><i class="fa fa-file-text-o"></i> 企业资料</a> </li>
+									<li><a href="#"><i class="fa fa-key"></i> 修改密码</a> </li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<a href="#"><i class="fa fa-power-off signOut"></i></a>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<!-- 头部结束 -->
+			<!-- 左侧导航开始 -->
+			<div class="left">
+				<div class="nav">
+					<a href="index.html" class="navContentA active1">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-home navContentIcon"></i>
+							<p>首页</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="card_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-money navContentIcon"></i>
+							<p>会员卡</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="member_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-user navContentIcon"></i>
+							<p>会员</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="ticket_home.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-line-chart navContentIcon"></i>
+							<p>优惠券</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="event_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-university navContentIcon"></i>
+							<p>营销</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="report_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-file-text-o navContentIcon"></i>
+							<p>设置</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="#" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-wrench navContentIcon"></i>
+							<p>微站</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- 左侧导航结束 -->
+        <div class="main">
+        <div class="breadNav">
+      	 <ul class="bread"> 
+          <li><a href="index.html" class="icon-home"> 首页</a> </li> 
+          <li><a href="ticket_home.html">优惠券管理</a> </li> 
+          <li><a href="#">创建优惠券</a></li> 
+        </ul> 
+      </div>
+        <!--标题创建优惠券-->
+        <div class="h2Title" style="position: relative;">
+           <div class="media media-x clearfix"> 
+           <a class="float-left" href="#"> <img src="images/add.png" class="radius" alt="..."> </a> 
+           <div class="media-body cardMainTitleFont">创建优惠券</div> 
+          </div>
+        </div>
+        <div class="container-layout">
+          <article class="boxRightCon" >
+        	<section class="iphone5" id="iphone5" style="position: fixed; top:190px;">
+				<div class="yulan_box">
+					<!--预览内容 start-->
+					<section class="phone-cont">
+					  	<section class="details_con pb_40">
+							<div class="banner" id="CoupicPicYes"><img src="images/banner.jpg" class="Img" alt=""></div>
+							<div class="mstoretit clearfix">
+								<div class="org" id="CounameYes">爱刷（北京）科技有限公司优惠券</div>
+								<div class="gray_date" id="coutype_show"></div>
+								<div class="gray_date">有效期：
+									<label id="StimeYes"></label>至<label id="EtimeYes"></label></div>
+							</div>
+							<div class="gray_date mstorehead">商家信息<span class="green ty">1店适用</span></div>
+							<article class="mform minformation">
+						    	<ul>
+						        	<li><span class="phone-icon name_icon"></span><div class="con"><p>爱刷（北京）科技有限公司</p></div></li>
+						        	<li><span class="phone-icon tel_icon"></span><div class="con"><p></p></div></li>
+						        	<li><span class="phone-icon address_icon"></span><div class="con"><p>北京市西城区宣武门外大街6号庄胜广场北办公楼西翼1501</p></div></li>
+						        </ul>
+						    </article>
+						    <div class="gray_date mstorehead">使用说明</div>
+							<article class="user_vote">
+								<ul>
+									<li id="ylexplian1">最低消费无限制</li> 
+									<li id="ylexplian2">使用时间无限制</li>
+									<li id="ylexplian3">使用数量无限制</li>
+									<li id="ylexplian4">可与其他优惠券共用</li> 
+								</ul>
+							</article>
+							<div class="gray_date mstorehead center">提示：领取后，消费时即可享优惠</div>
+					  	</section>
+					</section>
+            		<div class="vote f1">注：此效果图仅供参考</div>
+					<!--预览内容 end-->
+				</div>
+            </section>
+            <section class="VipCont clearfix">
+            	<!--基础设置-->
+            	<div class="f1">基础设置</div>
+				<form id="CouponSetForm" action="#" method="post" onsubmit="return false">
+	                <div class="VipConUl CommonInput borderb">
+	                <table class="table table-borderedColor addCardTabs">
+		                <tbody>
+		                　　　　　　　　<tr>
+		                    <td width="15%"><span class="title">券图片：</span></td>
+		                    <td width="85%"> 
+		                       <a class="button input-file sendPic" href="javascript:void(0);" onclick="$('#photoUpload').click()" >+ 上传图片<input type="file" name="file" id="photoUpload" /></a> 
+		                       <lable class="lable_tips">建议尺寸：图片(640px*278px)</lable>
+		                    </td>
+		                  </tr> 
+		                   <!-- 券类型 -->
+		                  <tr>
+		                   <td width="15%"><span class="title"><span class="redColor">*</span>券类型：</span></td>
+		                   <td width="85%">
+		                       <select class="input smallInput"  id="CouponTypeSelect" name="CouponTypeSelect" onchange="javascript:couponset.CouponTypeSelect();"> 
+		                          <option value="1">代金券</option> 
+		                          <option value="2">折扣券</option> 
+		                          <option value="3">买赠券</option>  
+		                        </select>
+		                    </td>
+		                  </tr> 
+		                   <!-- 券名称 -->
+		                  <tr>
+		                   <td width="15%"><span class="title"><span class="redColor">*</span>券名称：</span></td>
+		                   <td width="85%">
+		                        <input type="text" class="input smallInput"  name="" id="couname" onkeyup="javascript:couponset.changeCouname(this);">
+		                        <span >
+		                        	<lable id="CoutypeDesc1" class="lable_tips">如：爱刷（北京）科技有限公司15元代金券</lable>
+		                        	<lable id="CoutypeDesc2" class="lable_tips" style="display:none;">如：爱刷（北京）科技有限公司全单8.5折</lable> 
+		                        	<lable id="CoutypeDesc3" class="lable_tips" style="display:none;">如：爱刷（北京）科技有限公司消费即赠可乐1瓶</lable>
+		                        </span>
+		                   </td>
+		                  </tr> 
+		                  <!-- 券面额 -->
+		                  <tr id="CoutypeLi1">
+		                   <td width="15%"><span class="title"><span class="redColor">*</span>券面额：</span></td>
+		                   <td width="85%">
+		                        <input type="text" class="input smallInput input_littlewidth"  name="" id="Coutypeval1" onkeyup="javascript:couponset.changeNum(this);">元
+		                   <label class="lable_tips">（付款时可替代的现金数额）</label> 
+		                   </td> 
+		                  </tr>
+		                  <!-- 折扣比例 -->
+		                  <tr id="CoutypeLi2" style="display: none;">
+		                   <td width="15%"><span class="title"><span class="redColor">*</span>折扣比例：</span></td>
+		                   <td width="85%">
+		                        <input type="text" class="input smallInput input_littlewidth" name="" id="Coutypeval2"  >折
+		                   <label class="lable_tips">（如：8.5折，则付款金额按消费金额的8.5折计算）</label> 
+		                   </td> 
+		                  </tr>
+		                   <!-- 赠品名称 -->
+		                  <tr id="CoutypeLi3" style="display: none;">
+		                   <td width="15%"><span class="title"><span class="redColor">*</span>赠品名称：</span></td>
+		                   <td width="85%">
+		                        <input type="text" class="input smallInput"  name="" id="Coutypeval13">
+		                   <label class="lable_tips">消费后，商家赠送给消费者的礼品</label> 
+		                   </td> 
+		                  </tr> 
+		                  <!-- 券有效期 -->
+		                  <tr>
+		                   <td width="15%"><span class="title"><span class="redColor">*</span>券有效期：</span></td>
+		                   <td width="85%"> 
+		                    <input  class="input smallInput laydate-icon" id="startTime" name="name"/> 
+                           -<input class="input smallInput laydate-icon" id="finishTime" name="name""/> 
+		                   </td>
+		                  </tr>  
+		                  <!--发券总量 -->
+		                  <tr>
+		                   <td width="15%"><span class="title"><span class="redColor">*</span>发券总量：</span></td>
+		                   <td width="85%">
+		                       <select class="input smallInput" id="TotalnumSelect" onchange="javascript:couponset.CouponTotalnumSelect();">
+		                          <option value="0">无限制</option> 
+		                          <option value="1">限制数量</option>  
+		                        </select>
+		                        <div style="display: none; margin-top:10px" id="TotalnumVal">
+		                        	<input type="text" class="input smallInput input_littlewidth"  name="" id="totalnum" onkeyup="javascript:couponset.changeNum(this);">张
+		                            <label class="lable_tips">（当实际发放的优惠券数量达到该总量，不再发放）</label> 
+		                        </div>
+		                   </td>
+		                  </tr> 
+		                  <!--最低消费 -->
+		                  <tr>
+		                   <td width="15%"><span class="title"><span class="redColor">*</span>最低消费：</span></td>
+		                   <td width="85%">
+		                       <select class="input smallInput"  id="MincostSelect" onchange="javascript:couponset.CouponMincostSelect();"> 
+		                          <option value="0">无限制</option> 
+		                          <option value="1">最低消费金额</option>  
+		                       </select><label class="lable_tips">（达到最低消费后，本券才可生效）</label>
+		                        <div style="display: none; margin-top: 10px;" id="MincostVal">
+		                        	<input type="text" class="input smallInput input_littlewidth"  name="" id="mincost"   onkeyup="javascript:couponset.setyl(this,1);javascript:couponset.changeNum(this);">元
+		                        </div>
+		                   </td>
+		                  </tr> 
+		                  <!--可用门店终端 -->
+		                  <tr>
+		                   <td width="15%"><span class="title"><span class="redColor">*</span>可用门店终端：</span></td>
+		                   <td width="85%">
+		                       <select class="input smallInput" id="IslimitshopSelect" onchange="javascript:couponset.CouponIslimitshopSelect();"> 
+		                          <option value="0">无限制</option> 
+		                          <option value="1">指点门店终端</option>  
+		                       </select> 
+		                        <div style="display: none;" id="IslimitshopLi" class="IslimitshopLi">
+		                        	<a href="javascript:void(0);" class="dialogs" data-toggle="click" data-target="#replay" data-mask="1" data-width="30%">+选择门店终端</a>
+		                        </div>
+		                   </td>
+		                  </tr> 
+		                  <!--优惠券使用说明 -->
+		                  <tr>
+		                   <td width="15%"><span class="title">说明：</span></td>
+		                   <td width="85%">
+		                        <textarea rows="5" class="input" name="" id="" onkeyup="javascript:couponset.setyl(this,5);"   maxlength="1000"></textarea>
+		                   </td>
+		                  </tr>  
+		                </tbody>
+		             </table>
+	                </div>
+	                <!--高级设置-->
+	                <div class="f1"><span class="mlr5">高级设置</span></div>
+					<div class="VipConUl CommonInput">
+						<table class="table table-borderedColor addCardTabs">
+		                <tbody>
+		                	<!--用户领取限制-->
+		                　　　　　　　　<tr>
+		                    <td width="15%"><span class="redColor">*</span>用户领取限制</td>
+		                    <td width="85%">
+		                    	<select class="input smallInput"  id="LimitgetSelect" name="" onchange="javascript:couponset.CouponLimitgetSelect();"> 
+		                          <option value="0">无限制</option> 
+		                          <option value="1">有效期内</option> 
+		                          <option value="2">每天</option>  
+		                        </select> 
+		                        <div id="ExpireGetVal" style="display:none; margin-top: 10px;">
+									可领取&nbsp; <input type="text" class="input smallInput  input_littlewidth" name="" onkeyup="javascript:couponset.changeNum(this);" />&nbsp;张
+								</div>
+								<div  id="DayGetVal" style="display:none;margin-top: 10px;">
+									可领取&nbsp;<input type="text" name="" class="input smallInput input_littlewidth" onkeyup="javascript:couponset.changeNum(this);" />&nbsp;张
+								</div>  
+		                    </td>
+		                  </tr> 
+		                  　　　　　　　<!--使用时间限制-->
+		                　　　　　　　　<tr>
+		                    <td width="15%"><span class="redColor">*</span>使用时间限制</td>
+		                    <td width="85%" onchange="javascript:couponset.setyl(this,2)">
+		                    	<select class="input smallInput" id="LimittimeSelect" name="" onchange="javascript:couponset.CouponLimittimeSelect();"> 
+		                          <option value="0">无限制</option> 
+		                          <option value="1">每天</option> 
+		                          <option value="2">每周</option>  
+		                        </select>
+		                        <label style="display: none;" class="lable_tips">（按每周/每天设置优惠券使用时间段，其他时间无效）</label>
+		                        <div style="margin-top: 10px;display: none;" id="DayTimeVal">
+		                        	<select class="input smallInput couponUser_begintime"  id="couponUser_begintime" onchange="javascript:couponset.SelectDayTimeVal(this)"> 
+			                            <option value="">请选择时间</option>
+			                            <option value="1">01:00</option>
+		                                <option value="2">02:00</option>
+		                                <option value="3">03:00</option>
+		                                <option value="4">04:00</option>
+		                                <option value="5">05:00</option>
+		                                <option value="6">06:00</option>
+		                                <option value="7">07:00</option>
+		                                <option value="8">08:00</option>
+		                                <option value="9">09:00</option>
+		                                <option value="10">10:00</option>
+		                                <option value="11">11:00</option>
+		                                <option value="12">12:00</option>
+		                                <option value="13">13:00</option>
+		                                <option value="14">14:00</option>
+		                                <option value="15">15:00</option>
+		                                <option value="16">16:00</option>
+		                                <option value="17">17:00</option>
+		                                <option value="18">18:00</option>
+		                                <option value="19">19:00</option>
+		                                <option value="20">20:00</option>
+		                                <option value="21">21:00</option>
+		                                <option value="22">22:00</option>
+		                                <option value="23">23:00</option>
+		                                <option value="24">24:00</option>
+
+			                        </select>-
+			                        <select class="input smallInput couponUser_endtime" id="couponUser_endtime"  onchange="javascript:couponset.SelectDayEndTimeVal()"> 
+			                          <option value="">请选择时间</option> 
+			                            <option value="1">01:00</option>
+		                                <option value="2">02:00</option>
+		                                <option value="3">03:00</option>
+		                                <option value="4">04:00</option>
+		                                <option value="5">05:00</option>
+		                                <option value="6">06:00</option>
+		                                <option value="7">07:00</option>
+		                                <option value="8">08:00</option>
+		                                <option value="9">09:00</option>
+		                                <option value="10">10:00</option>
+		                                <option value="11">11:00</option>
+		                                <option value="12">12:00</option>
+		                                <option value="13">13:00</option>
+		                                <option value="14">14:00</option>
+		                                <option value="15">15:00</option>
+		                                <option value="16">16:00</option>
+		                                <option value="17">17:00</option>
+		                                <option value="18">18:00</option>
+		                                <option value="19">19:00</option>
+		                                <option value="20">20:00</option>
+		                                <option value="21">21:00</option>
+		                                <option value="22">22:00</option>
+		                                <option value="23">23:00</option>
+		                                <option value="24">24:00</option>
+			                        </select>
+		                        	<label class="lable_tips">（设置每天可供使用时间段）</label>
+		                        </div>
+		                        <div class="chooseTime" id="WeekTimeVal" style="display: none; margin-top: 10px;">
+										<a href="javascript:void(0);" value="1" onclick="javascript:couponset.CouponWeekTimeSelect(this);" class="">周一</a>
+										<a href="javascript:void(0);" value="2" onclick="javascript:couponset.CouponWeekTimeSelect(this);" class="">周二</a>
+										<a href="javascript:void(0);" value="3" onclick="javascript:couponset.CouponWeekTimeSelect(this);" class="">周三</a>
+										<a href="javascript:void(0);" value="4" onclick="javascript:couponset.CouponWeekTimeSelect(this);" class="">周四</a>
+										<a href="javascript:void(0);" value="5" onclick="javascript:couponset.CouponWeekTimeSelect(this);" class="">周五</a>
+										<a href="javascript:void(0);" value="6" onclick="javascript:couponset.CouponWeekTimeSelect(this);" class="">周六</a>
+										<a href="javascript:void(0);" value="7" onclick="javascript:couponset.CouponWeekTimeSelect(this);" class="">周日</a>
+										<div class="f12_c6">（设置每周几可供使用）</div>
+								</div>
+								<div style="display: none; margin-top:10px" id="WeekTimeSelect1">
+								   <select class="input smallInput couponUser_begintime" onchange="javascript:couponset.SelectDayTimeVal(this)"> 
+			                            <option value="">请选择时间</option>
+			                            <option value="1">01:00</option>
+		                                <option value="2">02:00</option>
+		                                <option value="3">03:00</option>
+		                                <option value="4">04:00</option>
+		                                <option value="5">05:00</option>
+		                                <option value="6">06:00</option>
+		                                <option value="7">07:00</option>
+		                                <option value="8">08:00</option>
+		                                <option value="9">09:00</option>
+		                                <option value="10">10:00</option>
+		                                <option value="11">11:00</option>
+		                                <option value="12">12:00</option>
+		                                <option value="13">13:00</option>
+		                                <option value="14">14:00</option>
+		                                <option value="15">15:00</option>
+		                                <option value="16">16:00</option>
+		                                <option value="17">17:00</option>
+		                                <option value="18">18:00</option>
+		                                <option value="19">19:00</option>
+		                                <option value="20">20:00</option>
+		                                <option value="21">21:00</option>
+		                                <option value="22">22:00</option>
+		                                <option value="23">23:00</option>
+		                                <option value="24">24:00</option>
+
+			                        </select>-
+			                        <select class="input smallInput couponUser_endtime"  onchange="javascript:couponset.SelectDayEndTimeVal(this)"> 
+			                          <option value="">请选择时间</option> 
+			                            <option value="1">01:00</option>
+		                                <option value="2">02:00</option>
+		                                <option value="3">03:00</option>
+		                                <option value="4">04:00</option>
+		                                <option value="5">05:00</option>
+		                                <option value="6">06:00</option>
+		                                <option value="7">07:00</option>
+		                                <option value="8">08:00</option>
+		                                <option value="9">09:00</option>
+		                                <option value="10">10:00</option>
+		                                <option value="11">11:00</option>
+		                                <option value="12">12:00</option>
+		                                <option value="13">13:00</option>
+		                                <option value="14">14:00</option>
+		                                <option value="15">15:00</option>
+		                                <option value="16">16:00</option>
+		                                <option value="17">17:00</option>
+		                                <option value="18">18:00</option>
+		                                <option value="19">19:00</option>
+		                                <option value="20">20:00</option>
+		                                <option value="21">21:00</option>
+		                                <option value="22">22:00</option>
+		                                <option value="23">23:00</option>
+		                                <option value="24">24:00</option>
+			                        </select>
+		                        	(周一)
+								</div>
+			                    <div style="display: none; margin-top:10px" id="WeekTimeSelect2">
+									<select class="input smallInput couponUser_begintime" onchange="javascript:couponset.SelectDayTimeVal(this)"> 
+			                            <option value="">请选择时间</option>
+			                            <option value="1">01:00</option>
+		                                <option value="2">02:00</option>
+		                                <option value="3">03:00</option>
+		                                <option value="4">04:00</option>
+		                                <option value="5">05:00</option>
+		                                <option value="6">06:00</option>
+		                                <option value="7">07:00</option>
+		                                <option value="8">08:00</option>
+		                                <option value="9">09:00</option>
+		                                <option value="10">10:00</option>
+		                                <option value="11">11:00</option>
+		                                <option value="12">12:00</option>
+		                                <option value="13">13:00</option>
+		                                <option value="14">14:00</option>
+		                                <option value="15">15:00</option>
+		                                <option value="16">16:00</option>
+		                                <option value="17">17:00</option>
+		                                <option value="18">18:00</option>
+		                                <option value="19">19:00</option>
+		                                <option value="20">20:00</option>
+		                                <option value="21">21:00</option>
+		                                <option value="22">22:00</option>
+		                                <option value="23">23:00</option>
+		                                <option value="24">24:00</option>
+			                        </select>-
+			                        <select class="input smallInput couponUser_endtime"  onchange="javascript:couponset.SelectDayEndTimeVal(this)"> 
+			                          <option value="">请选择时间</option> 
+			                            <option value="1">01:00</option>
+		                                <option value="2">02:00</option>
+		                                <option value="3">03:00</option>
+		                                <option value="4">04:00</option>
+		                                <option value="5">05:00</option>
+		                                <option value="6">06:00</option>
+		                                <option value="7">07:00</option>
+		                                <option value="8">08:00</option>
+		                                <option value="9">09:00</option>
+		                                <option value="10">10:00</option>
+		                                <option value="11">11:00</option>
+		                                <option value="12">12:00</option>
+		                                <option value="13">13:00</option>
+		                                <option value="14">14:00</option>
+		                                <option value="15">15:00</option>
+		                                <option value="16">16:00</option>
+		                                <option value="17">17:00</option>
+		                                <option value="18">18:00</option>
+		                                <option value="19">19:00</option>
+		                                <option value="20">20:00</option>
+		                                <option value="21">21:00</option>
+		                                <option value="22">22:00</option>
+		                                <option value="23">23:00</option>
+		                                <option value="24">24:00</option>
+			                        </select>
+		                        	（周二）
+								</div>
+								<div style="display: none; margin-top:10px" id="WeekTimeSelect3">
+							        <select class="input smallInput couponUser_begintime" onchange="javascript:couponset.SelectDayTimeVal(this)"> 
+			                            <option value="">请选择时间</option>
+			                            <option value="1">01:00</option>
+		                                <option value="2">02:00</option>
+		                                <option value="3">03:00</option>
+		                                <option value="4">04:00</option>
+		                                <option value="5">05:00</option>
+		                                <option value="6">06:00</option>
+		                                <option value="7">07:00</option>
+		                                <option value="8">08:00</option>
+		                                <option value="9">09:00</option>
+		                                <option value="10">10:00</option>
+		                                <option value="11">11:00</option>
+		                                <option value="12">12:00</option>
+		                                <option value="13">13:00</option>
+		                                <option value="14">14:00</option>
+		                                <option value="15">15:00</option>
+		                                <option value="16">16:00</option>
+		                                <option value="17">17:00</option>
+		                                <option value="18">18:00</option>
+		                                <option value="19">19:00</option>
+		                                <option value="20">20:00</option>
+		                                <option value="21">21:00</option>
+		                                <option value="22">22:00</option>
+		                                <option value="23">23:00</option>
+		                                <option value="24">24:00</option>
+			                        </select>-
+			                        <select class="input smallInput couponUser_endtime"  onchange="javascript:couponset.SelectDayEndTimeVal(this)"> 
+			                          <option value="">请选择时间</option> 
+			                            <option value="1">01:00</option>
+		                                <option value="2">02:00</option>
+		                                <option value="3">03:00</option>
+		                                <option value="4">04:00</option>
+		                                <option value="5">05:00</option>
+		                                <option value="6">06:00</option>
+		                                <option value="7">07:00</option>
+		                                <option value="8">08:00</option>
+		                                <option value="9">09:00</option>
+		                                <option value="10">10:00</option>
+		                                <option value="11">11:00</option>
+		                                <option value="12">12:00</option>
+		                                <option value="13">13:00</option>
+		                                <option value="14">14:00</option>
+		                                <option value="15">15:00</option>
+		                                <option value="16">16:00</option>
+		                                <option value="17">17:00</option>
+		                                <option value="18">18:00</option>
+		                                <option value="19">19:00</option>
+		                                <option value="20">20:00</option>
+		                                <option value="21">21:00</option>
+		                                <option value="22">22:00</option>
+		                                <option value="23">23:00</option>
+		                                <option value="24">24:00</option>
+			                        </select>
+		                        	（周三）
+								</div>
+		                        <div style="display: none; margin-top:10px" id="WeekTimeSelect4">
+									<select class="input smallInput couponUser_begintime" onchange="javascript:couponset.SelectDayTimeVal(this)"> 
+			                            <option value="">请选择时间</option>
+			                            <option value="1">01:00</option>
+		                                <option value="2">02:00</option>
+		                                <option value="3">03:00</option>
+		                                <option value="4">04:00</option>
+		                                <option value="5">05:00</option>
+		                                <option value="6">06:00</option>
+		                                <option value="7">07:00</option>
+		                                <option value="8">08:00</option>
+		                                <option value="9">09:00</option>
+		                                <option value="10">10:00</option>
+		                                <option value="11">11:00</option>
+		                                <option value="12">12:00</option>
+		                                <option value="13">13:00</option>
+		                                <option value="14">14:00</option>
+		                                <option value="15">15:00</option>
+		                                <option value="16">16:00</option>
+		                                <option value="17">17:00</option>
+		                                <option value="18">18:00</option>
+		                                <option value="19">19:00</option>
+		                                <option value="20">20:00</option>
+		                                <option value="21">21:00</option>
+		                                <option value="22">22:00</option>
+		                                <option value="23">23:00</option>
+		                                <option value="24">24:00</option>
+			                        </select>-
+			                        <select class="input smallInput couponUser_endtime"  onchange="javascript:couponset.SelectDayEndTimeVal(this)"> 
+			                          <option value="">请选择时间</option> 
+			                            <option value="1">01:00</option>
+		                                <option value="2">02:00</option>
+		                                <option value="3">03:00</option>
+		                                <option value="4">04:00</option>
+		                                <option value="5">05:00</option>
+		                                <option value="6">06:00</option>
+		                                <option value="7">07:00</option>
+		                                <option value="8">08:00</option>
+		                                <option value="9">09:00</option>
+		                                <option value="10">10:00</option>
+		                                <option value="11">11:00</option>
+		                                <option value="12">12:00</option>
+		                                <option value="13">13:00</option>
+		                                <option value="14">14:00</option>
+		                                <option value="15">15:00</option>
+		                                <option value="16">16:00</option>
+		                                <option value="17">17:00</option>
+		                                <option value="18">18:00</option>
+		                                <option value="19">19:00</option>
+		                                <option value="20">20:00</option>
+		                                <option value="21">21:00</option>
+		                                <option value="22">22:00</option>
+		                                <option value="23">23:00</option>
+		                                <option value="24">24:00</option>
+			                        </select>
+		                        	（周四）
+		                        </div>
+								<div style="display: none; margin-top:10px" id="WeekTimeSelect5">
+									 <select class="input smallInput couponUser_begintime" onchange="javascript:couponset.SelectDayTimeVal(this)"> 
+			                            <option value="">请选择时间</option>
+			                            <option value="1">01:00</option>
+		                                <option value="2">02:00</option>
+		                                <option value="3">03:00</option>
+		                                <option value="4">04:00</option>
+		                                <option value="5">05:00</option>
+		                                <option value="6">06:00</option>
+		                                <option value="7">07:00</option>
+		                                <option value="8">08:00</option>
+		                                <option value="9">09:00</option>
+		                                <option value="10">10:00</option>
+		                                <option value="11">11:00</option>
+		                                <option value="12">12:00</option>
+		                                <option value="13">13:00</option>
+		                                <option value="14">14:00</option>
+		                                <option value="15">15:00</option>
+		                                <option value="16">16:00</option>
+		                                <option value="17">17:00</option>
+		                                <option value="18">18:00</option>
+		                                <option value="19">19:00</option>
+		                                <option value="20">20:00</option>
+		                                <option value="21">21:00</option>
+		                                <option value="22">22:00</option>
+		                                <option value="23">23:00</option>
+		                                <option value="24">24:00</option>
+			                        </select>-
+			                        <select class="input smallInput couponUser_endtime"  onchange="javascript:couponset.SelectDayEndTimeVal(this)"> 
+			                          <option value="">请选择时间</option> 
+			                            <option value="1">01:00</option>
+		                                <option value="2">02:00</option>
+		                                <option value="3">03:00</option>
+		                                <option value="4">04:00</option>
+		                                <option value="5">05:00</option>
+		                                <option value="6">06:00</option>
+		                                <option value="7">07:00</option>
+		                                <option value="8">08:00</option>
+		                                <option value="9">09:00</option>
+		                                <option value="10">10:00</option>
+		                                <option value="11">11:00</option>
+		                                <option value="12">12:00</option>
+		                                <option value="13">13:00</option>
+		                                <option value="14">14:00</option>
+		                                <option value="15">15:00</option>
+		                                <option value="16">16:00</option>
+		                                <option value="17">17:00</option>
+		                                <option value="18">18:00</option>
+		                                <option value="19">19:00</option>
+		                                <option value="20">20:00</option>
+		                                <option value="21">21:00</option>
+		                                <option value="22">22:00</option>
+		                                <option value="23">23:00</option>
+		                                <option value="24">24:00</option>
+			                        </select>
+		                        	（周五）
+								</div>
+								<div style="display: none; margin-top:10px" id="WeekTimeSelect6">
+									 <select class="input smallInput couponUser_begintime" onchange="javascript:couponset.SelectDayTimeVal(this)"> 
+			                            <option value="">请选择时间</option>
+			                            <option value="1">01:00</option>
+		                                <option value="2">02:00</option>
+		                                <option value="3">03:00</option>
+		                                <option value="4">04:00</option>
+		                                <option value="5">05:00</option>
+		                                <option value="6">06:00</option>
+		                                <option value="7">07:00</option>
+		                                <option value="8">08:00</option>
+		                                <option value="9">09:00</option>
+		                                <option value="10">10:00</option>
+		                                <option value="11">11:00</option>
+		                                <option value="12">12:00</option>
+		                                <option value="13">13:00</option>
+		                                <option value="14">14:00</option>
+		                                <option value="15">15:00</option>
+		                                <option value="16">16:00</option>
+		                                <option value="17">17:00</option>
+		                                <option value="18">18:00</option>
+		                                <option value="19">19:00</option>
+		                                <option value="20">20:00</option>
+		                                <option value="21">21:00</option>
+		                                <option value="22">22:00</option>
+		                                <option value="23">23:00</option>
+		                                <option value="24">24:00</option>
+
+			                        </select>-
+			                        <select class="input smallInput couponUser_endtime"  onchange="javascript:couponset.SelectDayEndTimeVal(this)"> 
+			                          <option value="">请选择时间</option> 
+			                            <option value="1">01:00</option>
+		                                <option value="2">02:00</option>
+		                                <option value="3">03:00</option>
+		                                <option value="4">04:00</option>
+		                                <option value="5">05:00</option>
+		                                <option value="6">06:00</option>
+		                                <option value="7">07:00</option>
+		                                <option value="8">08:00</option>
+		                                <option value="9">09:00</option>
+		                                <option value="10">10:00</option>
+		                                <option value="11">11:00</option>
+		                                <option value="12">12:00</option>
+		                                <option value="13">13:00</option>
+		                                <option value="14">14:00</option>
+		                                <option value="15">15:00</option>
+		                                <option value="16">16:00</option>
+		                                <option value="17">17:00</option>
+		                                <option value="18">18:00</option>
+		                                <option value="19">19:00</option>
+		                                <option value="20">20:00</option>
+		                                <option value="21">21:00</option>
+		                                <option value="22">22:00</option>
+		                                <option value="23">23:00</option>
+		                                <option value="24">24:00</option>
+			                        </select>
+		                        	（周六）
+								</div>
+								<div style="display: none; margin-top:10px" id="WeekTimeSelect7">
+									 <select class="input smallInput couponUser_begintime" onchange="javascript:couponset.SelectDayTimeVal(this)"> 
+			                            <option value="">请选择时间</option>
+			                            <option value="1">01:00</option>
+		                                <option value="2">02:00</option>
+		                                <option value="3">03:00</option>
+		                                <option value="4">04:00</option>
+		                                <option value="5">05:00</option>
+		                                <option value="6">06:00</option>
+		                                <option value="7">07:00</option>
+		                                <option value="8">08:00</option>
+		                                <option value="9">09:00</option>
+		                                <option value="10">10:00</option>
+		                                <option value="11">11:00</option>
+		                                <option value="12">12:00</option>
+		                                <option value="13">13:00</option>
+		                                <option value="14">14:00</option>
+		                                <option value="15">15:00</option>
+		                                <option value="16">16:00</option>
+		                                <option value="17">17:00</option>
+		                                <option value="18">18:00</option>
+		                                <option value="19">19:00</option>
+		                                <option value="20">20:00</option>
+		                                <option value="21">21:00</option>
+		                                <option value="22">22:00</option>
+		                                <option value="23">23:00</option>
+		                                <option value="24">24:00</option>
+
+			                        </select>-
+			                        <select class="input smallInput couponUser_endtime"  onchange="javascript:couponset.SelectDayEndTimeVal(this)"> 
+			                          <option value="">请选择时间</option> 
+			                            <option value="1">01:00</option>
+		                                <option value="2">02:00</option>
+		                                <option value="3">03:00</option>
+		                                <option value="4">04:00</option>
+		                                <option value="5">05:00</option>
+		                                <option value="6">06:00</option>
+		                                <option value="7">07:00</option>
+		                                <option value="8">08:00</option>
+		                                <option value="9">09:00</option>
+		                                <option value="10">10:00</option>
+		                                <option value="11">11:00</option>
+		                                <option value="12">12:00</option>
+		                                <option value="13">13:00</option>
+		                                <option value="14">14:00</option>
+		                                <option value="15">15:00</option>
+		                                <option value="16">16:00</option>
+		                                <option value="17">17:00</option>
+		                                <option value="18">18:00</option>
+		                                <option value="19">19:00</option>
+		                                <option value="20">20:00</option>
+		                                <option value="21">21:00</option>
+		                                <option value="22">22:00</option>
+		                                <option value="23">23:00</option>
+		                                <option value="24">24:00</option>
+			                        </select>
+		                        	（周日）
+								</div>
+		                    </td>
+		                  </tr> 　
+		                  <!--使用数量限制-->
+		                　　　　　　　　<tr>
+		                    <td width="15%"><span class="redColor">*</span>使用数量限制</td>
+		                    <td width="85%">
+		                    	<select class="input smallInput" id="LimituserSelect" name="" onchange="javascript:couponset.CouponLimituserSelect();"> 
+		                          <option value="0">无限制</option> 
+		                          <option value="1">有效期内</option> 
+		                          <option value="2">每天</option>  
+		                        </select>
+		                        <label class="lable_tips">（单个用户每天或有效期内使用数量上限）</label>
+		                        <div style="display: none; margin-top:10px;" id="ExpireUserVal" >
+		                        	可使用&nbsp;<input type="text" class="input smallInput input_littlewidth"  name="name" id="couponUser_expiredColornums" onkeyup="javascript:couponset.setyl(this,3);javascript:couponset.changeNum(this);">&nbsp;张
+		                        </div>
+		                        <div style="display: none; margin-top:10px" id="DayUserVal">
+		                        	可使用&nbsp;<input type="text" class="input smallInput input_littlewidth"  name="name" id="couponUser_daynums" onkeyup="javascript:couponset.setyl(this,3);javascript:couponset.changeNum(this);">&nbsp;张
+		                        </div>
+		                    </td>
+		                  </tr> 
+		                  <!--门店终端使用限制-->
+		                　　　　　　　　<tr>
+		                    <td width="15%"><span class="redColor">*</span>门店终端使用限制</td>
+		                    <td width="85%">
+		                    	<select class="input smallInput" id="" name=""> 
+		                          <option value="0">无限制</option> 
+		                          <option value="1">按门店终端限制</option>  
+		                        </select>
+		                        <label class="lable_tips">（可用门店中单个门店及其单个用户可使用该券的数量限制）</label>
+		                        <div style="display: none;">
+		                        	可使用&nbsp;<input type="text" class="input smallInput"  name="name" id="ticket_name">&nbsp;张
+		                        </div>
+		                    </td>
+		                  </tr> 
+		                  <!--是否与其他优惠共享-->
+		                　　　　　　　　<tr>
+		                    <td width="15%">是否与其他优惠共享</td>
+		                    <td width="85%">
+		                    	<select class="input smallInput" id="LimituserSelect" name="" onchange="javascript:couponset.setyl(this,4)"> 
+		                          <option value="0">否</option> 
+		                          <option value="1">是</option>  
+		                        </select> 
+		                    </td>
+		                  </tr>
+		                </tbody>
+		             </table>
+		             <div>
+		             	<p class="lable_tips">温馨提示：发券后请商家秉承诚实守信的原则，用户消费时应兑现相应的优惠承诺，因此引发的任何纠纷，由商家自行承担。</p>
+		             	<div class="error" id="errors_div" style="display:block;">
+		             		<span id="errors_msg" class="redColor"></span>
+		             	</div> 
+	                    <a href="javascript:void(0)" onclick="javascript:couponset.onsubmit()" class="dialogs" data-toggle="click" data-target="#saveCard" data-mask="1" data-width="30%">
+							<button class="button bg-yellow addticket_btn" >保&nbsp;&nbsp;&nbsp;&nbsp;存</button>
+						</a>
+						<a href="javascript:void(0)" class="dialogs" data-toggle="click" data-target="#pushCard" data-mask="1" data-width="30%">
+							<button class="button bg-yellow addticket_btn">发&nbsp;&nbsp;&nbsp;&nbsp;布</button>
+						</a>
+		             </div> 
+					</div>
+				</form>
+            </section>
+          </article>
+       </div> 
+       </div> 
+  </div>
+  <!--保存会员卡弹框-->
+		<div id="saveCard">
+			<div class="dialog">
+				<div class="dialog-head"><strong>提示</strong> </div>
+				<div class="dialog-body">
+					<div class="cardSuccess">
+						<h3>优惠券保存成功</h3>
+					</div>
+					<a href="ticket_list.html" class="cardSuccessGo">
+						<button class="button bg-green">进入优惠券列表</button>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--发布会员卡弹框-->
+		<div id="pushCard">
+			<div class="dialog">
+				<div class="dialog-head"><strong>提示</strong> </div>
+				<div class="dialog-body"> 
+					<div class="cardSuccess">
+						<h3>优惠券发布成功</h3>
+					</div>
+					<a href="ticket_list.html" class="cardSuccessGo">
+						<button class="button bg-green">进入优惠券列表</button>
+					</a>
+				</div>
+			</div>
+		</div>
+  <!-- 弹出框 --> 
+  <div id="replay">
+  <div class="dialog">
+    <div class="dialog-head">
+      <span class="close rotate-hover"></span><strong>选择门店终端</strong>
+    </div>
+    <div class="dialog-body">
+       
+    </div>
+    <div class="dialog-foot">
+      <button class="button dialog-close">取消</button>
+      <button class="button bg-green" id="btn_ok">确认</button>
+    </div>
+  </div>
+</div>  
+<script src="js/laydatetime.js"></script>
+<script>
+	$("#photoUpload").uploadImgs({
+  	isMB:true,//图片大小限制是否为mb，默认是MB
+    imgSize:'2048',//图片限制大小,默认2M
+    file:'图片',//图片或者文件的提示信息
+    imgClass:'Img',//显示图片的img
+    tipCallback:null,//错误提示回调函数,参数obj,bool<错误false或正确true提示>,value<提示信息>
+    afterUpload:null//图片上传后的回调函数，参数src,obj
+ });
+</script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+@charset "utf-8";
+body{background: #fff; font-size: 12px; font-family: "微软雅黑";}  
+.iconSelf{ position:fixed;width:100%;height:34px;left:0;bottom: 40px;text-align: center;z-index: 11;}
+.iconSelf span{font-size:34px;color: #9C97FF;}
+.noneBoxShow{box-shadow: none;-webkit-box-shadow: none;}
+.mui-bar{background: #528fbe;}
+.mui-bar-cf{background:#fff;}
+.mui-content{background: #fff;padding-bottom: 60px;}
+h4{margin:6px;font-weight: normal;}
+h3{margin:10px 6px; font-weight: normal;}
+h2{margin:12px 6px;}
+.cf{color: #fff;}
+.c9{color: #999;}
+.c6{color: #666;}
+.c3{color: #333;}
+.cYellow{color: #FF7133;}
+.mui-icon-map{color:#ff9090;} 
+.h6{height: 6px;font-size: 0px;}
+.h10{height: 10px;font-size: 0px;}
+.h16{height: 16px;font-size: 0px;}
+.h20{height: 20px;font-size: 0px;}
+.roomNumber{margin:30px 0;text-align: center;}
+/*列表页*/
+.list-scroll{height:40px;  border-bottom: 1px solid #ccc; font-size: 16px;} 
+.list-scroll a{color: #999; display:block; float:left; height:40px; padding-top:7px; width: 33.3%; text-align: center; border-left:1px solid #ccc;}
+.list-scroll a:first-child{border-left: None;}
+.list-scroll .icon-sanjiaoxing01{color:#999;margin-left: 5px;}
+.mui-table-view .shopes_logo{max-width:80px; height:80px; }
+.mui-ellipsis{font-size:18px; margin-top:15px;}
+.mui-ellipsis .img_vip{max-width:20px; height:20px; margin-right:5px;}
+.mui-ellipsis .img_addvip{max-width:50px; height:20px;}
+.p_cm{margin-top: 10px;}
+/*card首页**/
+.nfc-index{background:#e5e5e5;}
+.nfc-index .mui-slider .mui-slider-group .mui-slider-item {width: 97%;} 
+.nfc-index .mui-slider .mui-slider-group .mui-slider-item img {width: 95%;}
+.nfc-index .mui-slider-indicator .mui-indicator{background: #fe9673; box-shadow: 0 0 1px 1px rgba(0,96,95,0);}    	
+.cnf-column{margin-top:20px;}
+.cnf-column .showmore{font-size:14px;}
+.cnf-column h3{color: #010101;}
+.cnf-column .showmore a{color: #6a6a6a;}
+.cnf-column .col{padding:0; margin:0 ;-webkit-column-count:3; -webkit-column-gap:10px;  -moz-column-count:3; -moz-column-gap:10px;   }
+.cnf-column li{text-align:center;  box-shadow: 0 0 1px 1px rgba(18,14,13,0);  background:#fff; height: auto; overflow: hidden; }
+.cnf-column li img{width:70%; margin-top: 10px;} 
+.cnf-column .p_star .mui-icon-star{font-size: 14px; margin:0;}
+.cnf-column .p_star .icon-xingxing01{font-size:11px; color: #ff7900;} 
+.cnf-column .mui-badge{border-radius: 5px; margin-left: 5px;}
+.cnf-column .p_name{font-size:16px; color: #010101;}
+.cnf-column .p_pay{font-size: 14px; color:#6a6a6a}
+.cnf-column .p_star{margin-top:-15px;}
+/*应用**/  
+.mui-segmented-control .mui-control-item {border-color: #ffad19;color: #000}
+.mui-segmented-control .mui-control-item.mui-active {background: #ffad19}
+.mui-segmented-control {border-color: #ffad19}
+.mui-scroll-wrapper {height: auto;overflow: initial}
+.application {margin-top:20px;}
+.application .mui-table-view{}
+.application .p_number{margin:20px 10px 0 0}
+.application .mui-media-body{font-size: 16px; color: #010101;}
+.application .mui-table-view .mui-media-object {max-width:70px; height: 70px;}
+.application .mui-icon-star{font-size: 14px; margin:0;}
+.application .icon-xingxing01{font-size:11px; color: #ff7900;} 
+.application .mui-ellipsis{font-size: 12px;   margin-top:10px; line-height: 18px;}
+.application .mui-media .mui-btn{border-radius: 10px; margin-top: 10px;}
+.application .mui-table-view:before{background-color:#fff;}
+.application .mui-table-view:after{margin-left: 15px;}
+/*general*/
+.general .mui-table-view-cell{font-size:16px; padding:15px;} 
+.general .mui-table-view-cell:after{left:0px;}
+.general .mui-navigate-right:after{font-size: 20px; font-weight: bolder; color:#999;}
+.mui-switch{border:none; background:#b5b5b5;}
+/*feedback*/
+.feed_check .mui-button-row button{padding:10px 50px; background:#31c37c; border:1px solid #31c37c; box-shadow:none;}
+.feed_check .mui-input-row textarea {border:none; border-bottom: 1px solid #c5c3c4; border-radius: 0;}
+
+
+
+
+
+
+ 
+
+

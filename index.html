@@ -1,31 +1,113 @@
-<!DOCTYPE html>
+
+<!--<!DOCTYPE html>
 <html> 
 	<head>
 		<meta charset='utf-8'>
 		<meta http-equiv="X-UA-Compatible" content="chrome=1">
-		<meta name="description" content="Lanyanjing-2016.GitHub.io :蓝眼睛前端作品集">
+		<meta name="description" content="Lanyanjing-2016.GitHub.io : 蜡笔小新CSDN博客">
 		<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/reset.css">
 		<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/main.css">
 		<title>蓝眼睛前端作品列表</title>
 	</head> 
 	<body> 
-		<!-- HEADER -->
+		 
 		<header> 
 			<h1>Lanyanjing-2016.GitHub.io</h1>
 			<h2>蓝眼睛前端作品集</h2>  
 		</header> 
-		<!-- MAIN CONTENT --> 
+		  
 			<section class="middleinner">
 				<ul>
-					<li><a href="map_demo.html">jQuery地图热点效果-鼠标经过弹出提示信息</a></li>
-					<li><a href="three_select.html">三级下拉联动选择</a></li>
+					<li><a href="jqdome/map_demo.html">jQuery地图热点效果-鼠标经过弹出提示信息</a></li>
+					<li><a href="jqdome/three_select.html">三级下拉联动选择</a></li>
 					<li><a href="cssdemo/list_styleimg.html">li列表图片数字样式</a></li>
-					<li><a href="operatetable.html">表格中的行全选反选</a></li> 
+					<li><a href="jqdome/operatetable.html">表格中的行全选反选</a></li> 
 				</ul> 
 			</section> 
-		<!-- FOOTER -->
+		 
 		<footer>
 			<p>所想所得记录下来，唯有笔耕不辍，才能走的更长远！</p>
 		</footer> 
+	</body> 
+</html>-->
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="stylesheets/bootstrap.min.css" />
+		<link rel="stylesheet" href="stylesheets/main.css" />
+		<script src="javascripts/jquery.min.js"></script>
+		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<title></title>
+		<script>
+			$(function() {
+				$(".nav_list").click(function() {
+					var indexs = $(this).index();
+					$(".nav_list a").css("color", "#fff")
+					$(this).find("a").css("color", "#00625A")
+					$(".demo_listcount").hide();
+					$(".demo_listcount").eq("" + indexs + "").show();
+					$(".triangle").hide();
+					$(".triangle").eq("" + indexs + "").addClass("triangle_show").show();
+				});
+				$(".demo_listcount ul li").mouseover(function(){
+					 $(".demo_listcount ul li p").hide();
+					 $(this).find("p").show();
+				}).mouseout(function(){
+					$(this).find("p").hide();
+				})
+			})
+		</script>
+	</head> 
+	<body>
+		<!--头部导航条-->
+		<div class="navbar">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3 col-xs-3 nav_list">
+						<div class="list"><a href="#" style="color:#00625A "><i class="fa fa-angle-down"></i>css</a></div>
+						<div class="triangle triangle_show" style="display: block;"></div>
+					</div>
+					<div class="col-sm-3 col-xs-3 nav_list">
+						<div class="list"><a href="#"><i class="fa fa-angle-down"></i>js小刀初试</a></div>
+						<div class="triangle"></div>
+					</div>
+					<div class="col-sm-3 col-xs-3 nav_list">
+						<div class="list"><a href="#"><i class="fa fa-angle-down"></i>其他项目</a></div>
+						<div class="triangle"></div>
+					</div>
+					<div class="col-sm-3 col-xs-3 nav_list">
+						<div class="list"><a href="#"><i class="fa fa-angle-down"></i>待定</a></div>
+						<div class="triangle"></div>
+					</div>
+				</div>
+				<!--内容列表-->
+				<div class="demo_list">
+					<div class="demo_listcount" style="display: block;">
+						<ul> 
+							<li><a href="jqdome/map_demo.html" target="_blank"><img src="images/list1.jpg"/><p>地图热点效果<br><span>点击查看</span></p></a></li>
+							<li><a href="jqdome/three_select.html" target="_blank"><img src="images/list2.jpg"/><p>三级下拉联动选择<br><span>点击查看</span></p></a></li>
+							<li><a href="jqdome/operatetable.html" target="_blank"><img src="images/list4.jpg"/><p>表格中的行全选反选<br><span>点击查看</span></p></a></li>
+							<li><a href="list_styleimg.html" target="_blank"><img src="images/list3.jpg"/><p>li列表图片数字样式<br><span>点击查看</span></p></a></li>
+						</ul>
+					</div>
+					<div class="demo_listcount">22222222</div>
+					<div class="demo_listcount">
+						<ul> 
+							<li><a href="items/appPlayShua/index.html" target="_blank"><img src="images/item1.jpg"/><p>放心刷<br>（手机模式查看）<br><span>点击查看</span></p></a></li>
+						    <li><a href="items/coupon/index.html" target="_blank"><img src="images/item2.jpg"/><p>优惠券<br>（手机模式查看）<br><span>点击查看</span></p></a></li>
+						    <li><a href="items/jqmobile/jqmobiledemo.html" target="_blank"><img src="images/item3.jpg"/><p>jQueryMobil实例<br>（手机模式查看）<br><span>点击查看</span></p></a></li>
+						    <li><a href="items/shangquanweizhan/index.html" target="_blank"><img src="images/item4.jpg"/><p>商圈微站系统<br><span>点击查看</span></p></a></li>
+						    <li><a href="items/webapptravel/index.html" target="_blank"><img src="images/item5.jpg"/><p>旅游手机页<br>（手机模式查看）<br><span>点击查看</span></p></a></li>
+						    <li><a href="items/webappwash/index.html" target="_blank"><img src="images/item6.jpg"/><p>洗衣行业手机页<br>（手机模式查看）<br><span>点击查看</span></p></a></li>
+						</ul>
+					</div>
+					<div class="demo_listcount">4444444444</div>
+				</div>
+			</div>
+		</div>
+		<script src="javascripts/jquery.min.js"></script>
 	</body> 
 </html>

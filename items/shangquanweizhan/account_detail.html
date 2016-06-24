@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>会员详情</title>
+		<link rel="stylesheet" href="css/pintuer.css">
+		<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<script src="js/jquery.js"></script>
+		<script src="js/pintuer.js"></script>
+		<script src="js/respond.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/laydate-v1.1/laydate/laydate.js"></script>
+		<script src="js/layer/layer.js"></script>
+		<link href="css/style.css" rel="stylesheet">
+	</head> 
+	<body>
+		<div class="layout">
+			<!-- 头部开始 -->
+			<div class="head">
+				<img src="images/logo.png" class="logo">
+				<div class="headPersonal">
+					<img src="images/person.png" class="personalImg">
+					<div class="personal">
+						<ul class="nav nav-inline nav-menu" style="display:inline-block;">
+							<li class="active"><a href="#">猫屎咖啡 <span class="arrow"></span></a>
+								<ul class="drop-menu">
+									<li><a href="#"><i class="fa fa-user"></i> 我的账户</a> </li>
+									<li><a href="#"><i class="fa fa-file-text-o"></i> 企业资料</a> </li>
+									<li><a href="#"><i class="fa fa-key"></i> 修改密码</a> </li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<a href="#"><i class="fa fa-power-off signOut"></i></a>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<!-- 头部结束 -->
+			<!-- 左侧导航开始 -->
+			<div class="left">
+				<div class="nav">
+					<a href="index.html" class="navContentA active1">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-home navContentIcon"></i>
+							<p>首页</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="card_list.html" class="navContentA">
+						<div class="navContent"> 
+							<i class="fa fa-money navContentIcon"></i>
+							<p>会员卡</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="member_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-user navContentIcon"></i>
+							<p>会员</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="ticket_home.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-line-chart navContentIcon"></i>
+							<p>优惠券</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="event_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-university navContentIcon"></i>
+							<p>营销</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="report_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-file-text-o navContentIcon"></i>
+							<p>设置</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="microsite.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-wrench navContentIcon"></i>
+							<p>微站</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- 左侧导航结束 -->
+    <div class="main">
+      <div class="breadNav">
+         <ul class="bread"> 
+          <li><a href="index.html" class="icon-home"> 首页</a> </li> 
+          <li><a href="member_list.html">会员列表</a> </li> 
+          <li><a href="account_detail.html">会员详情</a></li> 
+        </ul>
+      </div>
+      <div class="h2Title">
+        <div class="media media-x clearfix"> 
+          <a class="float-left" href="#"> <img src="images/list.png" class="radius" alt="..."> </a> 
+          <div class="media-body cardMainTitleFont">会员详情</div> 
+        </div>
+      </div>
+      <div class="container-layout">
+        <div class="panel addCardMainContent"> 
+            <div class="panel-head bg-main">
+              会员详情
+            </div>
+            <div class="panel-body bgWhite">
+              <div class="box-body">
+                  <div class="line">
+                    <div class="x3 accountsOne">
+                      <!-- 个人信息 -->
+                      <div id="contact-card" class="panel panel-default">
+                        <div class="panel-head">
+                        <h2 class="panel-title"><i class="fa fa-user"></i>  秦小双</h2>
+                        </div>
+                        <div class="panel-body">
+                        <div id="card" class="line">
+                          <div class="x12">
+                            <img src="images/avatar.jpg" class="img-border radius-circle xiangQingImg" />
+                          </div>
+                          <div class="x12 userProfile">
+                            <table class="table">
+                              <tbody>
+                                 <tr class="userProfileWidtd">
+                                  <td><i class="fa fa-font"></i> 姓名</td>
+                                  <td>秦小双</td>
+                                </tr>
+                                <tr class="userProfileWidtd">
+                                  <td><i class="fa fa-share"></i> 卡号</td>
+                                  <td>36555</td>
+                                </tr>
+                                <tr class="userProfileWidtd">
+                                  <td><i class="fa fa-home"></i> 地址</td>
+                                  <td>北京市三里屯</td>
+                                </tr>
+                                <tr class="userProfileWidtd">
+                                  <td><i class="fa fa-phone"></i> 电话</td>
+                                  <td>+001 8753625</td>
+                                </tr>
+                                <tr class="userProfileWidtd">
+                                  <td><i class="fa fa-envelope"></i> 邮箱</td>
+                                  <td>saml@gmail.com</td>
+                                </tr>
+                                <tr class="userProfileWidtd">
+                                  <td>注册日期</td>
+                                  <td>2015.10.1</td>
+                                </tr>
+                                <tr class="userProfileWidtd">
+                                  <td>会员生日</td>
+                                  <td>1988.9.10</td>
+                                </tr>
+                                <tr class="userProfileWidtd">
+                                  <td>会员门店</td>
+                                  <td>西直店</td>
+                                </tr>
+                                <tr class="userProfileWidtd">
+                                  <td>会员状态</td>
+                                  <td>启用中</td>
+                                </tr>
+                                <tr class="userProfileWidtd">
+                                  <td>剩余积分</td>
+                                  <td>
+                                  	<span class="bg-yellow">20000</span>&nbsp;&nbsp;&nbsp;
+                                    <a href="transaction_detail.html">
+                                    	<button type="button" class="button button-small bg-sub">查看积分记录</button>
+                                    </a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="x9 panelRight">
+                      <div class="panel ">
+                        <div class="panel-head">
+                          <h3 class="panel-title"><i class="fa fa-bars fa-fw"></i>优惠券</h3>
+                        </div>
+                        <div class="panel-body panelBody">
+                          <div class="panel panelRightTitle"> 
+                            <div class="panel-head panelRightBorder">
+                              <div class="panelRightLeft">
+                                <i class="fa fa-bars fa-fw panelRightTitleIcon"></i>
+                                <span class=" panelRightTitleFont">优惠券领取记录</span>
+                              </div>
+                            </div> 
+                            <div class="panel-body lastPanel">
+                              <table class="table table-bordered table-hover table-striped lastTab"> 
+                                <tr> 
+                                  <td>序号</td> 
+                                  <td>优惠券名称</td>
+                                  <td>领取时间</td>
+                                  <td>截止时间</td>
+                                  <td>最低消费金额</td>
+                                  <td>面值</td>
+                                  <td>状态</td>
+                                </tr> 
+                                <tr> 
+                                  <td>1</td>
+                                  <td>雀巢咖啡20元优惠券</td>
+                                  <td>2015-2-23</td>
+                                  <td>2016-3-23</td>
+                                  <td>120元</td>
+                                  <td>30元</td>
+                                  <td><span class="tag bg-main">未使用</span></td> 
+                                </tr>
+                                <tr> 
+                                  <td>2</td>
+                                  <td>金典咖啡50元优惠券</td>
+                                  <td>2015-3-24</td>
+                                  <td>2015-4-23</td>
+                                  <td>150元</td>
+                                  <td>50元</td>
+                                  <td><span class="tag bg-yellow">已过期</span></td> 
+                                </tr>
+                                <tr> 
+                                  <td>3</td>
+                                  <td>精品美食30元优惠券</td>
+                                  <td>2015-4-6</td>
+                                  <td>2016-2-12</td>
+                                  <td>100元</td>
+                                  <td>30元</td>
+                                  <td><span class="tag bg-sub">已使用</span></td> 
+                                </tr> 
+                              </table>
+                            </div> 
+                            <div class="nextPag">
+                              <ul class="pagination pagination-group"> 
+                                <li class="disabled"><a href="#">«</a> </li> 
+                                <li class="active"><a href="#">1</a> </li> 
+                                <li><a href="#">2</a> </li> 
+                                <li><a href="#">3</a> </li> 
+                                <li><a href="#">4</a> </li> 
+                                <li><a href="#">5</a> </li> 
+                                <li><a href="#">»</a> </li> 
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="panel panelRightTitle"> 
+                            <div class="panel-head panelRightBorder">
+                              <div class="panelRightLeft">
+                                <i class="fa fa-bars fa-fw panelRightTitleIcon"></i>
+                                <span class=" panelRightTitleFont">优惠券使用记录</span>
+                              </div>
+                            </div> 
+                            <div class="panel-body lastPanel">
+                              <table class="table table-bordered table-hover table-striped lastTab"> 
+                                <tr> 
+                                  <td>序号</td> 
+                                  <td>优惠券名称</td>
+                                  <td>使用时间</td>
+                                  <td>交易地点</td>
+                                  <td>状态</td>
+                                </tr> 
+                                <tr> 
+                                  <td>1</td>
+                                  <td>精品美食10元优惠券</td>
+                                  <td>2015-4-7</td>
+                                  <td>西直店</td>
+                                  <td><span class="tag bg-sub">已使用</span></td> 
+                                </tr> 
+                                <tr> 
+                                  <td>2</td>
+                                  <td>精品美食20元优惠券</td>
+                                  <td>2015-4-9</td>
+                                  <td>西直店</td>
+                                  <td><span class="tag bg-sub">已使用</span></td> 
+                                </tr> 
+                                <tr> 
+                                  <td>3</td>
+                                  <td>精品美食30元优惠券</td>
+                                  <td>2015-4-16</td>
+                                  <td>西直店</td>
+                                  <td><span class="tag bg-sub">已使用</span></td> 
+                                </tr> 
+                                <tr> 
+                                  <td>4</td>
+                                  <td>精品美食40元优惠券</td>
+                                  <td>2015-4-19</td>
+                                  <td>西直店</td>
+                                  <td><span class="tag bg-sub">已使用</span></td> 
+                                </tr> 
+                              </table>
+                            </div> 
+                            <div class="nextPag">
+                              <ul class="pagination pagination-group"> 
+                                <li class="disabled"><a href="#">«</a> </li> 
+                                <li class="active"><a href="#">1</a> </li> 
+                                <li><a href="#">2</a> </li> 
+                                <li><a href="#">3</a> </li> 
+                                <li><a href="#">4</a> </li> 
+                                <li><a href="#">5</a> </li> 
+                                <li><a href="#">»</a> </li> 
+                              </ul>
+                            </div>
+                          </div>
+                            </div> 
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ch">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>修改会员卡</title>
+		<link rel="stylesheet" href="css/pintuer.css">
+		<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<script src="js/jquery.js"></script>
+		<script src="js/pintuer.js"></script>
+		<script src="js/respond.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/laydate-v1.1/laydate/laydate.js"></script>
+		<script src="js/layer/layer.js"></script>
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="layout">
+			<!-- 头部开始 -->
+			<div class="head">
+				<img src="images/logo.png" class="logo">
+				<div class="headPersonal">
+					<img src="images/person.png" class="personalImg">
+					<div class="personal">
+						<ul class="nav nav-inline nav-menu" style="display:inline-block;">
+							<li class="active"><a href="#">猫屎咖啡 <span class="arrow"></span></a>
+								<ul class="drop-menu">
+									<li><a href="#"><i class="fa fa-user"></i> 我的账户</a> </li>
+									<li><a href="#"><i class="fa fa-file-text-o"></i> 企业资料</a> </li>
+									<li><a href="#"><i class="fa fa-key"></i> 修改密码</a> </li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<a href="#"><i class="fa fa-power-off signOut"></i></a>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<!-- 头部结束 -->
+			<!-- 左侧导航开始 -->
+			<div class="left">
+				<div class="nav">
+					<a href="index.html" class="navContentA active1">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-home navContentIcon"></i>
+							<p>首页</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="card_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-money navContentIcon"></i>
+							<p>会员卡</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="member_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-user navContentIcon"></i>
+							<p>会员</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="ticket_home.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-line-chart navContentIcon"></i>
+							<p>优惠券</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="event_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-university navContentIcon"></i>
+							<p>营销</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="report_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-file-text-o navContentIcon"></i>
+							<p>设置</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="microsite.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-wrench navContentIcon"></i>
+							<p>微站</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- 左侧导航结束 -->
+			<div class="main">
+				<div class="breadNav">
+					<ul class="bread">
+						<li><a href="index.html" class="icon-home"> 首页</a> </li>
+						<li><a href="card_list.html">会员卡管理</a></li>
+						<li><a href="my_card.html">我的会员卡</a></li>
+						<li><a href="#">修改会员卡</a></li>
+					</ul>
+				</div>
+				<div class="main">
+					<div class="h2Title">
+						<div class="media media-x clearfix">
+							<a class="float-left" href="#"> <img src="images/list.png" class="radius" alt="..."> </a>
+							<div class="media-body cardMainTitleFont">修改会员卡</div>
+						</div>
+					</div>
+					<div class="container-layout cardMainContentTwo">
+						<div class="jifen">
+							<!--手机样式-->
+							<section class="iphone5" id="iphone5">
+								<div class="yulan_box">
+									<!--预览内容 start-->
+									<section class="phone-cont">
+										<section class="details_con pb_40">
+											<div class="banner" id="CoupicPicYes">
+												<img class="bgBanner" src="images/img/banner.jpg" alt="">
+												<div class="cardNo">
+													<h3 id="cardname">会员卡名称</h3>
+													<lable class="lable" >NO.10000</lable>
+													<div>
+														<lable>有效期</lable>
+														<lable id="starttime"></lable>
+														<lable>至</lable>
+														<lable id="finishtime"></lable>
+													</div>
+
+												</div>
+											</div>
+											<div class="mstoretit clearfix cardMoney">
+												<div>
+													<lable>积分：</lable>
+													<lable>00.00</lable>
+												</div>
+											</div>
+											<div class="gray_date mstorehead">会员特权<span class="green ty"></span></div>
+											<article class="mform minformation setCardCss">
+												<ul>
+													<li>
+														<div class="con">
+															<lable>积分规则:</lable>
+															<lable>每消费1元送</lable>
+															<lable id="giveintegral"></lable>
+															<lable>积分</lable>
+														</div>
+													</li>
+													<li>
+														<div class="con">
+															<lable>积分兑换:</lable>
+															<lable>每</lable>
+															<lable id="changeintegral"></lable>
+															<lable>积分兑换1元</lable>
+														</div>
+													</li>
+												</ul>
+											</article>
+											<div class="gray_date mstorehead">查看记录</div>
+											<div class="gray_date mstorehead">个人资料</div>
+											<div class="gray_date mstorehead">使用说明</div>
+											<div class="gray_date mstorehead">商户介绍录</div>
+										</section>
+									</section>
+									<div class="vote red">注：此效果图仅供参考</div>
+									<!--预览内容 end-->
+								</div>
+							</section>
+							<!--通用基本设置-->
+							<div class="iphoneLeft" id="common">
+								<div class="iphoneLeftHead">
+									<lable>基本设置</lable>
+									<lable>特权设置</lable>
+									<lable>其他信息</lable>
+									<lable>保存设置</lable>
+								</div>
+								<div class="iphoneLeftContent">
+									<div class="form-group">
+										<div class="field">
+											<lable>类型选择：</lable>
+											<lable class="text-dot">混合型</lable>
+										</div>
+									</div>
+								</div>
+								<div class="iphoneLeftContent">
+									<lable>会员卡名称：</lable>
+									<input type="text" class="input inputWidth" size="10" id="cardName" placeholder="请输入会员卡名称" />
+								</div>
+								<div class="iphoneLeftContent">
+									<lable>会员卡数量：</lable>
+									<lable class="text-dot"></lable>
+									<lable>张</lable>
+								</div>
+								<div class="iphoneLeftContent">
+									<lable>会员卡图片：</lable>
+									<form class="sendPic"> <a class="button input-file" href="javascript:void(0);">+ 上传图片<input type="file" /></a> </form>
+									<lable>&emsp;&emsp;建议尺寸：图片（640px*278px）</lable>
+								</div>
+								<div class="iphoneLeftContent">
+									<lable>有效日期：</lable>
+									<form method="post" class="form-inline sendPic">
+										<div class="form-group">
+											2016.02.08
+										</div>
+										<lable>&emsp;至&emsp;</lable>
+										<div class="form-group">
+											2016.12.31
+										</div>
+									</form>
+								</div>
+								<a href="#" class="leftNext" id="modifyNextBtn">
+									<button class="button bg-yellow button-big" >下一步</button>
+								</a>
+							</div>
+							<!--积分型其他信息-->
+							<div class="iphoneLeft" id="other" style="display: none;">
+								<div class="iphoneLeftHead">
+									<lable>基本设置</lable>
+									<lable>特权设置</lable>
+									<lable>其他信息</lable>
+									<lable>保存设置</lable>
+								</div>
+								<div class="iphoneLeftContent">
+									<lable>选择适用门店（加盟店不支持储值功能的会员卡跨门店进行充值或消费）</lable>
+								</div>
+								<div class="iphoneLeftContent">
+									<lable>
+										<input type="checkbox" name="" id="" value="" checked="checked" />爱刷（北京）科技有限公司</lable>
+								</div>
+								<div class="iphoneLeftContent">
+									<lable>商户介绍：</lable>
+									<textarea rows="5" class="input setCardNews" placeholder="请输入商户介绍"></textarea>
+								</div>
+								<div class="iphoneLeftContent">
+									<lable>使用说明：</lable>
+									<textarea rows="5" class="input setCardNews" placeholder="请输入使用说明"></textarea>
+								</div>
+								<a href="#" class="leftNext" id="nextBtnThree">
+									<button class="button bg-yellow button-big">下一步</button>
+								</a>
+							</div>
+							<!--保存发布-->
+							<div class="iphoneLeft" id="save" style="display: none;">
+								<div class="iphoneLeftHead">
+									<lable>基本设置</lable>
+									<lable>特权设置</lable>
+									<lable>其他信息</lable>
+									<lable>保存设置</lable>
+								</div>
+								<div class="iphoneLeftContent">
+									<label class="text-dot">提示：</label>
+									<label class="text-indent">点击发布后系统会自动生成会员卡卡号，且该张会员卡特权信息将不能被修改，请谨慎设置会员卡信息，发卡后因会员权益引起的纠纷，由商家自行承担后果。</label>
+								</div>
+								<div class="leftOver">
+									<a href="javascript:void(0)" class="dialogs" data-toggle="click" data-target="#pushCard" data-mask="1" data-width="30%">
+										<button class="button bg-yellow button-big">发布</button>
+									</a>
+								</div>
+							</div>
+							<!--混合型特权-->
+							<div class="iphoneLeft" id="mix" style="display: none;">
+								<div class="iphoneLeftHead">
+									<lable>基本设置</lable>
+									<lable>特权设置</lable>
+									<lable>其他信息</lable>
+									<lable>保存设置</lable>
+								</div>
+								<div class="iphoneLeftContent">
+									<lable><input type="checkbox" name="" id="" value="" checked="checked" /> 等级折扣</lable>
+									<div class="h10"></div>
+									<lable>累计消费达到一定数额，消费时使用该卡全单可享受折扣优惠</lable>
+									<div class="h10"></div>
+									<lable class="text-dot">普通会员卡:</lable>
+									<lable>消费</lable>
+									<lable class="text-dot">20</lable>
+									<lable>-</lable>
+									<lable class="text-dot">80</lable>
+									<lable>元，</lable>
+									<lable>享受折扣:</lable>
+									<lable class="text-dot">6</lable>
+									<lable>折</lable>
+									<div class="h10"></div>
+									<lable class="text-dot">黄金会员卡:</lable>
+									<lable>消费</lable>
+									<lable class="text-dot">50</lable>
+									<lable>-</lable>
+									<lable class="text-dot">150</lable>
+									<lable>元，</lable>
+									<lable>享受折扣</lable>
+									<lable class="text-dot">5</lable>
+									<lable>折</lable>
+									<div class="h10"></div>
+									<lable class="text-dot">钻石会员卡:</lable>
+									<lable>消费</lable>
+									<lable class="text-dot">150</lable>
+									<lable>-</lable>
+									<lable class="text-dot">500</lable>
+									<lable>元，</lable>
+									<lable>享受折扣</lable>
+									<lable class="text-dot">4</lable>
+									<lable>折</lable>
+									<div class="h10"></div>
+									<lable>积分优惠：</lable>
+									<div class="h10"></div>
+									<lable>每消费</lable>
+									<lable class="text-dot">100</lable>
+									<lable>元</lable>
+									<lable>赠送</lable>
+									<lable>1积分</lable>
+									<lable >（</lable>
+									<lable class="text-dot">100</lable>
+									<lable>元=1积分）</lable>
+								</div>
+								<a href="#" class="leftNext" id=modifyNextBtnTwo>
+									<button class="button bg-yellow button-big">下一步</button>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--保存会员卡弹框-->
+		<div id="saveCard">
+			<div class="dialog">
+				<div class="dialog-head"><strong>提示</strong> </div>
+				<div class="dialog-body">
+					<div class="cardSuccess">
+						<h3>保存会员卡成功</h3>
+					</div>
+					<a href="my_card.html" class="cardSuccessGo">
+						<button class="button bg-green">进入我的会员卡</button>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--发布会员卡弹框-->
+		<div id="pushCard">
+			<div class="dialog">
+				<div class="dialog-head"><strong>提示</strong> </div>
+				<div class="dialog-body"> 
+					<div class="cardSuccess">
+						<h3>发布会员卡成功</h3>
+					</div>
+					<a href="my_card.html" class="cardSuccessGo">
+						<button class="button bg-green">进入我的会员卡</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

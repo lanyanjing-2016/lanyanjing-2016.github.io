@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<meta charset="UTF-8">
+		<meta name="screen-orientation" content="portrait">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" /> 
+		<script src="js/layout.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/myjs.js"></script> 
+		<title>放心刷</title>
+	</head>
+	<script type="text/javascript">
+			initLayOut();
+	</script> 
+	<script type="text/javascript">
+       //获取浏览器页面可见高度和宽度
+        var _PageHeight = document.documentElement.clientHeight,
+            _PageWidth = document.documentElement.clientWidth;
+        //计算loading框距离顶部和左部的距离（loading图片的宽度为100px，高度为100px）
+        var _LoadingTop = _PageHeight > 100 ? (_PageHeight - 100) / 2 : 0,
+            _LoadingLeft = _PageWidth > 100 ? (_PageWidth - 100) / 2 : 0;
+        //在页面未加载完毕之前显示的loading Html自定义内容
+        var _LoadingHtml = '<div id="loadingDiv" style="position:fixed;left:0;width:100%;height:' + _PageHeight + 'px;top:0;background:#fff;z-index:10000;"><div style="position: absolute; cursor1: wait; left:'+_LoadingLeft+'px; top:'+_LoadingTop+'px; width:100px; height:100px;  background: url(images/loading.gif) no-repeat; background-size:cover"></div></div>';
+        //呈现loading效果
+        document.write(_LoadingHtml); 
+        //监听加载状态改变
+        document.onreadystatechange = completeLoading; 
+        //加载状态为complete时移除loading效果
+        function completeLoading() {
+            if(document.readyState == "complete"){
+                var loadingMask = document.getElementById('loadingDiv');
+                loadingMask.parentNode.removeChild(loadingMask);
+            }
+        } 
+    </script>
+	<body>
+		<!--遮罩层-->
+		<div class="mask_box"></div>
+		<!--//遮罩层-->
+		<div class="top">苹果支付安全产品</div>
+		<!--信息展示-->
+		<div class="title_inform">
+			<p>放心刷&nbsp;—&nbsp;爱刷科技</p>
+			<!--<div class="top_limit"> 
+				<p class="p_left">适用年龄</p>
+				<p class="p_right">18-60周岁</p>
+			</div> -->
+		</div>
+		<!--资金损失-->
+		<div class="div_selectaccount">
+			<P class="p_title">Apple Pay支付安全产品</P>
+			<div class="select_meal">
+				<p class="p_tc">选择套餐：</p>
+				<div class="selected">
+					<div class="div_option">
+						<span class="sp_data">1个月</span><span class="sp_money">2元</span><span class="sp_give">&nbsp;</span><span class="sp_downico"></span>
+					</div>
+					<ul>
+						<li><span class="sp_data">1个月</span><span class="sp_money">2元</span><span class="sp_give"></span><span class="sp_downico"></span></li>
+						<li><span class="sp_data">3个月</span><span class="sp_money">6元</span><span class="sp_give">(买3送1)</span><span class="sp_downico"></span></li>
+						<li><span class="sp_data">6个月</span><span class="sp_money">12元</span><span class="sp_give">(买6送3)</span><span class="sp_downico"></span></li>
+						<li><span class="sp_data">12个月</span><span class="sp_money">24元</span><span class="sp_give">(买12送8)</span><span class="sp_downico"></span></li>
+					</ul>
+				</div>
+			</div> 
+		</div> 
+		<!--产品功能-->
+		<div class="security">
+			<p class="p_title">产品功能</p>
+			<p class="p_border"><span class="sp_leftborder"></span><span class="sp_rightborder"></span></p>
+			<ul>
+				<li>
+					<img src="images/ico1.png" />
+					<p>防止病毒
+						<br>木马入侵</p>
+				</li>
+				<li>
+					<img src="images/ico2.png" />
+					<p>手机损坏
+						<br>资金找回</p>
+				</li>
+				<li>
+					<img src="images/ico3.png" />
+					<p>手机丢失
+						<br>防止盗刷</p>
+				</li> 
+			</ul>
+		    <P class="p_info">
+			      购买此安全产品后，如产生安全问题导致绑定Apple Pay的银行卡资金账户损失，可获得最高10万元（人民币）的赔偿。
+			</P> 
+		</div>
+		<!--产品须知-->
+		<div class="security secur_notice">
+			<p class="p_title">产品须知<span class="sp_ico"></span></p>
+			<p class="p_border"><span class="sp_leftborder"></span><span class="sp_rightborder"></span></p>
+			<div class="secur_noticeinfo">
+				<P class="p_list">1."放心刷"是一款针对Apple Pay的安全产品，避免因病毒攻击等导致用户绑定Apple Pay的银行卡资金账户损失。为保证用户资金万无一失，用户购买此安全产品后，如产生安全问题导致绑定Apple Pay的银行卡资金账户损失，可获得最高10万元（人民币）的赔偿。</P>
+				<P class="p_list">2.本产品购买人年龄须在18-60周岁。</P>
+				<P class="p_list">3.您对所填信息应保证其真实性，若您故意或者因重大过失未履行如实告知义务，造成的后果我司不承担任何责任。</P>
+				<P class="p_list">4.本产品自购买支付成功后立即生效，另有约定除外。</P> 
+				<P class="p_list">5.对购买"放心刷"产品前发生的安全事故，我司不承担任何责任。</P>
+				<P class="p_list">6.产品保障的资金账户仅限于用户的Apple Pay 绑定的本人名下的银行卡资金账户。</P>				 
+				<P class="p_list">如果您还有任何疑问，请拨打用户服务热线<span><a href="tel:4001528028">4001-528-028</a></span>进行咨询。</P>
+			</div>
+		</div>
+		<!--客服流程-->
+		<div class="security secur_notice">
+			<p class="p_title">客服流程<span class="sp_ico"></span></p>
+			<p class="p_border"><span class="sp_leftborder"></span><span class="sp_rightborder"></span></p>
+			<div class="secur_noticeinfo">
+				 <p class="p_paytitle">微信平台客户服务处理流程</p>
+			     <div class="pay_flow">
+			     	<p class="p_img"><img src="images/pay_ico1.png"/></p>
+			        <p class="p_count">
+			        	如用户绑定Apple Pay的银行卡出现资金账户安全事故,可关注"NFC云"公众号,点击"放心刷-用户服务",进入人工客服，在微信平台对值班客服进行服务申请，在客服人员指导下录入相关信息。
+			        </p>
+			     </div>
+			     <div class="pay_flow">
+			     	<p class="p_img"><img src="images/pay_ico2.png"/></p>
+			        <p class="p_count">
+			                                     用户通过微信平台上传以下资料照片
+			             <p class="p_small">
+			             1.持卡人或附属卡持卡人的身份证明<br/>
+			             2.用户银行卡的挂失/冻结证明、挂失/冻结记录<br/>
+			             3.银行卡盖章的流水记录单<br/>
+			             4.公安机关出具的报案/立案证明(5000元以下提供公安机关的报案回执、5000元以上提供公安机关的立案证明)</p>
+			        </p>
+			     </div>
+			     <div class="pay_flow">
+			     	<p class="p_img"><img src="images/pay_ico3.png"/></p>
+			        <p class="p_count">
+			        	客服人员将用户发送的资料转接给相应的业务处理人员进行审核。
+			        </p>
+			     </div>
+			      <div class="pay_flow">
+			     	<p class="p_img"><img src="images/pay_ico4.png"/></p>
+			        <p class="p_count">
+			        	业务人员审核通过后三个工作日内将赔款支付到用户指定账户。如审核不通过，客服人员将于7个工作日内给予反馈，请用户进行资料补充。
+			        </p>
+			     </div>
+			     <p class="p_paytitletwo">电话申请客户服务流程</p>
+			     <div class="pay_flow">
+			     	<p class="p_img"><img src="images/pay_ico5.png"/></p>
+			        <p class="p_count">
+			        	如用户绑定Apple Pay的银行卡出现资金账户安全事故，可以拨打
+			        	4001-528-028电话申请客户服务，对保单信息、保障事故进行简要说明，
+			        	客服人员会请您搜集相关资料发送至"放心刷"的公共邮箱地址：
+			        	<span><a href="javascript:void(0);">fangxinshua@bjaishua.com </a></span>
+			        </p>
+			     </div>
+			     <div class="pay_flow">
+			     	<p class="p_img"><img src="images/pay_ico6.png"/></p>
+			        <p class="p_count">
+			        	用户按客服人员要求收集下列资料，并以照片形式发送至公司客服邮箱
+			        	 <p class="p_small">
+			        	 1.持卡人或附属卡持卡人的身份证明<br/>
+			             2.用户银行卡的挂失/冻结证明、挂失/冻结记录<br/>
+			             3.银行卡盖章的流水记录单<br/>
+			             4.公安机关出具的报案/立案证明(5000元以下提供公安机关的报案回执、5000元以上提供公安机关的立案证明)</p>
+			        </p>
+			     </div>
+			     <div class="pay_flow">
+			     	<p class="p_img"><img src="images/pay_ico7.png"/></p>
+			        <p class="p_count">
+			        	业务处理人员直接进入公共邮箱，提取邮箱资料进行审核，
+			        </p>
+			     </div>
+			     <div class="pay_flow">
+			     	<p class="p_img"><img src="images/pay_ico8.png"/></p>
+			        <p class="p_count">
+			        	上传理赔系统的资料审核通过后三个工作日内将赔款支付到用户指定账户。如审核不通过，客服人员将于7个工作日内给予反馈，请用户进行资料补充。
+			        </p>
+			     </div>
+			</div>
+		</div>
+		<!--常见问题-->
+		<div class="security secur_notice">
+			<p class="p_title">常见问题<span class="sp_ico"></span></p>
+			<p class="p_border"><span class="sp_leftborder"></span><span class="sp_rightborder"></span></p>
+			<div class="secur_noticeinfo">
+				<dl class="dl_faq">
+					<dt><span class="sp1"></span><span class="sp_2">我的手机丢了，被他人拾到后使用盗刷等造成的损失能赔偿吗？</span></dt>
+					<dd>只要不是您真实的意愿并且未经您本人的许可使用手机所造成的资金损失，我们均可以进行赔付。</dd>
+					<dt><span class="sp1"></span><span class="sp_2">我的手机坏了，在修理期间被盗刷的资金能赔付吗？</span></dt>
+					<dd>亲，因手机损坏本身原因造成的账户资金损失我们可以进行赔付，但在手机损坏之后因用户将手机交予他人，期间造成的资金损失我们不进行赔付。</dd>
+					<dt><span class="sp1"></span><span class="sp_2">申请赔付时需要提供哪些资料、证明？</span></dt>
+					<dd>亲，您需要提供您的身份资料、报案回执、银行提供的账户流水记录、事故证明及其他能够证明事故性质及损失情况的材料。</dd> 
+					<dt><span class="sp1"></span><span class="sp_2">在产品有效期内我已经获赔一次了，还可以赔付几次？</span></dt>
+					<dd>亲，我们在最高金额范围内对赔付次数没有限制。即只要在产品服务期内，且累计已赔付金额未达到最高金额，均可进行赔付。</dd>
+					<dt><span class="sp1"></span><span class="sp_2">我申请后需要多久才能收到赔付款项？</span></dt>
+					<dd>亲，我们将在您提供齐全资料后的一个工作日内进行审核，对于符合赔付要求的，审核完毕后即刻赔付。</dd>
+					<dt><span class="sp1"></span><span class="sp_2">在产品服务期限内，我又新绑定了一张银行卡，该账户在保障范围内吗？</span></dt>
+					<dd>亲，在的哦。购买该产品的用户名下所有绑定Apple Pay的银行卡账户，只要是在产品服务期限内绑定的，都可以获得相应的保障服务。</dd>
+					<dt><span class="sp1"></span><span class="sp_2">舍友在我不知情的情况下，将我手机拿去刷了，对此造成的损失能赔偿么？</span></dt>
+					<dd>亲，不行哦。用户的账户资金被其家庭成员、家庭雇佣人员、暂居人员、同住人员所盗用的情形，我们不予理赔。</dd>
+					<dt><span class="sp1"></span><span class="sp_2">产品到期后如何继续使用产品？</span></dt>
+					<dd>放心刷产品有效期到期后，您需要再次续订，只需重新购买该产品即可，可以选择相应的套餐。</dd>
+				</dl> 
+			</div>
+		</div>
+		<!--产品售卖地区-->
+		<div class="seal_square">
+			产品售卖地区：全国
+			<div class="checkbox"> 
+				<div class="checkboxFour">
+					<input type="checkbox" value="1" checked="checked" id="checkboxFourInput" name="" style="visibility: hidden;" />
+					<label for="checkboxFourInput"></label>
+			    </div>
+				<span class="sp_info">本人已阅读产品须知</span>
+			</div>
+		</div>
+		<!--底部-->
+		<div class="foot">
+			<p class="p_left">产品功能费:￥<span>2</span>.00</p>
+			<p class="p_right"><a href="javascript:void(0);" id="go_buy">立即购买</a></p>
+		</div>
+		<!--提示框-->
+		<div class="error_tips" style="position: fixed;">
+			<p class="p_img"><br/><img src="images/error_tipico2.png"/></p>
+			<p class="p_info">请先阅读产品须知</p>
+			<p class="p_btn">确定</p>
+		</div>
+		<!--引导页-->
+		<div class="guide_page" style="display: none;"> 
+			<div class="guide_intro"><img src="images/guide_intro.png"/></div>
+		</div>
+		<script type="text/javascript">
+         $(window).on("load",function(){
+	        var winHeight = $(window).height(); 
+			function is_weixin() {
+			    var ua = navigator.userAgent.toLowerCase();
+			    if (ua.match(/MicroMessenger/i) == "micromessenger") {
+			        return true;
+			    } else {
+			        return false;
+			    }
+			}
+			var isWeixin = is_weixin();
+			if(isWeixin){
+				$(".guide_page").css("height",winHeight);
+	            $(".guide_page").show();
+	            $(window).scrollTop(0);
+			}
+       });
+	 </script>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset="UTF-8">
+<title>洗衣页</title> 
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no"> 
+<meta id="WV.Meta.Nav.HideMoreItem" value="true">
+<meta id="WV.Meta.DisableRefresh" value="true">
+<link rel="stylesheet" href="style/reset.css" />
+<link rel="stylesheet/less" href="style/test.less" />
+<script src="js/less.min.js"></script>  
+<script type="text/javascript" src="js/flexible.debug.js" ></script> 
+<script src="js/jquery.min.js"></script> 
+</head>  
+<body>
+<!--头部-->
+<div class="wash_top">
+洗衣
+</div>
+<!--banner图片切换-->
+<div class="slider">
+	<ul>
+		<li>
+			<a href="#"><img src="images/rummery.jpg" /></li>
+		<li>
+			<a href="#"><img src="images/rummery.jpg" /></li>
+		<li>
+			<a href="#"><img src="images/rummery.jpg" /></li>
+	</ul> 
+</div> 
+<!--列表-->
+<div class="list">
+<ul>
+	<a href="list.html">
+		<li>
+			<img src="images/wash_ico1.png" />
+			<p>洗衣服</p>
+		</li>
+	</a>
+	<a href="list.html">
+		<li>
+			<img src="images/wash_ico2.png" />
+			<p>洗鞋子</p>
+		</li>
+	</a>
+	<a href="list.html">
+		<li>
+			<img src="images/wash_ico3.png" />
+			<p>洗居家用品</p>
+		</li>
+		<a href="list.html">
+			<li>
+				<img src="images/wash_ico4.png" />
+				<p>皮草皮具</p>
+			</li>
+		</a>
+		<a href="list.html">
+			<li>
+				<img src="images/wash_ico5.png" />
+				<p>奢侈品养护</p>
+			</li>
+		</a>
+		<a href="list.html">
+			<li>
+				<img src="images/wash_ico6.png" />
+				<p>联系我们</p>
+			</li>
+		</a>
+</ul>
+</div>
+<!--vip-->
+<div class="vip_cardbox">
+<div class="vip_card">
+	<div class="vip_cardinfo">
+		<img src="images/wash_vip.png" alt="" />
+		<div class="info">会员充值1000元，返260元；冲500返100！</div>
+	</div>
+</div>
+</div>
+<!--新店开业-->
+<div class="vip_cardbox">
+<div class="vip_card shopaddress">
+	<div class="shopaddress_info">
+	<img src="images/wash_card.jpg" alt="" />
+	<p>新店开业，优惠八折
+		<br><span>店址：上海市松江区车墩镇北松公路</span></p>
+   </div>
+</div>
+</div>
+</body>
+<script type="text/javascript" src="js/yxMobileSlider.js"></script>
+<script>
+	$(".slider").yxMobileSlider({ 
+		height:256 
+	})
+</script> 
+</html>

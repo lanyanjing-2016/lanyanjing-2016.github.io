@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ch">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>我的会员卡</title>
+		<link rel="stylesheet" href="css/pintuer.css">
+		<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<script src="js/jquery.js"></script>
+		<script src="js/pintuer.js"></script>
+		<script src="js/respond.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/laydate-v1.1/laydate/laydate.js"></script>
+		<script src="js/layer/layer.js"></script>
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="layout">
+			<!-- 头部开始 -->
+			<div class="head">
+				<img src="images/logo.png" class="logo">
+				<div class="headPersonal">
+					<img src="images/person.png" class="personalImg">
+					<div class="personal">
+						<ul class="nav nav-inline nav-menu" style="display:inline-block;">
+							<li class="active"><a href="#">猫屎咖啡 <span class="arrow"></span></a>
+								<ul class="drop-menu">
+									<li><a href="#"><i class="fa fa-user"></i> 我的账户</a> </li>
+									<li><a href="#"><i class="fa fa-file-text-o"></i> 企业资料</a> </li>
+									<li><a href="#"><i class="fa fa-key"></i> 修改密码</a> </li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<a href="#"><i class="fa fa-power-off signOut"></i></a>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<!-- 头部结束 -->
+			<!-- 左侧导航开始 -->
+			<div class="left">
+				<div class="nav">
+					<a href="index.html" class="navContentA active1">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-home navContentIcon"></i>
+							<p>首页</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="card_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-money navContentIcon"></i>
+							<p>会员卡</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="member_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-user navContentIcon"></i>
+							<p>会员</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="ticket_home.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-line-chart navContentIcon"></i>
+							<p>优惠券</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="event_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-university navContentIcon"></i>
+							<p>营销</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="report_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-file-text-o navContentIcon"></i>
+							<p>设置</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="microsite.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-wrench navContentIcon"></i>
+							<p>微站</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- 左侧导航结束 -->
+			<div class="main">
+				<div class="breadNav">
+					<ul class="bread">
+						<li><a href="index.html" class="icon-home"> 首页</a> </li>
+						<li><a href="card_list.html">会员卡管理</a></li>
+						<li><a href="#">我的会员卡</a></li>
+					</ul>
+				</div>
+				<div class="main">
+					<div class="h2Title">
+						<div class="media media-x clearfix">
+							<a class="float-left" href="#"> <img src="images/list.png" class="radius" alt="..."> </a>
+							<div class="media-body cardMainTitleFont">我的会员卡</div>
+						</div>
+					</div>
+					<div class="container-layout cardMainContentTwo">
+						<div class="addCardImg">
+							<img src="images/img/yfb.png" alt="" />
+							<div class="CardImgName">
+								<h1></h1>
+								<h1>会员卡</h1>
+							</div>
+							<div class="CardImgNo">
+								<h3 class="text-right">NO.00001</h3>
+							</div>
+						</div>
+						<div class=" addCardImgLeftT">
+							<lable class="text-big"><strong>会员卡名称：</strong></lable>
+							<lable class="text-big text-dot"><strong>黄金会员卡</strong></lable>
+							<div class="h15"></div>
+							<lable>会员卡发卡数量：</lable>
+							<lable>250</lable>
+							<lable>张</lable>
+							<div class="h15"></div>
+							<lable>会员卡领取数量：</lable>
+							<lable>222</lable>
+							<lable>张</lable>
+							<div class="h15"></div>
+							<lable>会员卡类型：</lable>
+							<lable>积分型</lable>
+							<div class="h15"></div>
+							<a href="modify_card.html" id="editCard">
+								<button class="button bg-yellow" >编辑</button>
+							</a>
+							<a href="#" id="deleteCard" class="dialogs" data-toggle="click" data-target="#downLine" data-mask="1" data-width="30%">
+								<button class="button bg-yellow" >下线</button>
+							</a>
+							<a href="card_detail.html" id="detailCard">
+								<button class="button bg-yellow" >详情</button>
+							</a>
+							<div class="h20"></div>
+							<lable><a href="#" class="text-dot dialogs" data-toggle="click" data-target="#mydialog" data-mask="1" data-width="30%">添加推广链接&emsp;&emsp;</a></lable>
+							<lable><a href="#" class="text-dot">编辑积分礼品</a></lable>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="mydialog">
+			<div class="dialog">
+				<div class="dialog-head"> <span class="close rotate-hover"></span><strong>添加推广链接</strong> </div>
+				<div class="dialog-body"> 
+					<p class="text-dot">*确定生成二维码</p>
+					<lable>适用门店：</lable>
+					<select class="input dialogMenus">
+		               	<option>爱刷（北京）科技有限公司</option> 
+		            </select> 
+		            <div class="h20"></div>
+		            <lable>渠道名称：</lable>
+		            <lable><input type="text" class="input dialogMenus" name="" id="" value="" /></lable>
+		            <div class="h20"></div>
+		            
+				</div>
+				<div class="dialog-foot">
+					<button class="button dialog-close"> 取消</button>
+					<a href="card_spread.html">
+						<button class="button bg-green dialog-close"> 确认</button>
+					</a>
+					
+				</div>
+			</div>
+		</div>
+		<div id="success">
+			<div class="dialog">
+				<div class="dialog-head"> <span class="close rotate-hover"></span><strong>添加推广链接</strong> </div>
+				<div class="dialog-body"> 
+					<p class="text-dot">*确定生成二维码</p>
+					<lable>适用门店：</lable>
+					<select class="input dialogMenus">
+		               	<option>爱刷（北京）科技有限公司</option> 
+		            </select> 
+		            <div class="h20"></div>
+		            <lable>渠道名称：</lable>
+		            <lable><input type="text" class="input dialogMenus" name="" id="" value="" /></lable>
+		            <div class="h20"></div>
+		            
+				</div>
+				<div class="dialog-foot">
+					<button class="button dialog-close"> 取消</button>
+					<button class="button bg-green dialog-close"> 确认</button>
+				</div>
+			</div>
+		</div>
+		<div id="downLine">
+			<div class="dialog">
+				<div class="dialog-head"><strong>提示</strong> </div>
+				<div class="dialog-body">
+					<div class="cardSuccess">
+						<h3>会员卡下线成功</h3>
+					</div>
+					<!--<a href="my_card.html" class="cardSuccessGo">
+						<button class="button bg-green">进入我的会员卡</button>
+					</a>-->
+				</div>
+				<div class="dialog-foot">
+					<button class="button dialog-close"> 取消</button>
+					<a href="add_card.html"><button class="button bg-green dialog-close"> 确认</button></a>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

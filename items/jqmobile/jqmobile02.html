@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>jQuery Mobile列表</title>
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+		<style>
+			p {
+				margin: 30px 0 20px;
+				height: auto;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div data-role="page" id="pagetwo">
+			<div data-role="header">
+				<h1>jQuery Mobile列表</h1>
+			</div>
+			<div data-role="content">
+				<h3>1.列表视图</h3>
+				<P>1.1无序列表默认有个右箭头</P>
+				<ul data-role="listview">
+					<li><a href="#">列表项</a></li>
+					<li><a href="#">列表项</a></li>
+					<li><a href="#">列表项</a></li>
+				</ul>
+				<P>1.2不带链接的列表</P>
+				<ul data-role="listview">
+					<li>列表无链接</li>
+					<li>列表无链接</li>
+					<li>列表无链接</li>
+				</ul>
+				<p>1.3有序列表 </p>
+				<ol data-role="listview">
+					<li><a href="#">列表项</a></li>
+					<li><a href="#">列表项</a></li>
+					<li><a href="#">列表项</a></li>
+				</ol>
+				<p>1.4列表分隔符</p>
+				<ul data-role="listview">
+					<li data-role="list-divider">欧洲</li>
+					<li><a href="#">德国</a></li>
+					<li><a href="#">英国</a></li>
+					<li data-role="list-divider">亚洲</li>
+					<li><a href="#">中国</a></li>
+					<li><a href="#">印度</a></li>
+					<li data-role="list-divider">非洲</li>
+					<li><a href="#">埃及</a></li>
+					<li><a href="#">南非</a></li>
+				</ul>
+				<p>1.5 data-autodividers="true" 属性通过对列表项文本的首字母进行大写来创建分隔符。data-filter="true"实现客户端搜索功能，筛选列表的选项</p>
+				<ul data-role="listview" data-autodividers="true" data-inset="true"  data-filter="true">
+					<li><a href="#">Adele</a></li>
+					<li><a href="#">Agnes</a></li>
+					<li><a href="#">Albert</a></li>
+					<li><a href="#">Billy</a></li>
+					<li><a href="#">Bob</a></li>
+					<li><a href="#">Calvin</a></li>
+					<li><a href="#">Cameron</a></li>
+				</ul>
+				<h3>2.列表内容</h3>
+                <P>2.1包含缩略图的列表</P>
+                <ul data-role="listview">
+                	<li>
+                	<a href="#">
+                		<img src="img/01.png" class="ui-li-icon">
+                		<p>列表项</p>
+                	</a>
+                	</li>
+                	<li>
+                	<a href="#">
+                		<img src="img/01.png" class="ui-li-icon">
+                		<p>列表项</p>
+                	</a>
+                	</li>
+                </ul>
+                <p>2.2分割按钮只需再添加一个a标签</p>
+                <ul data-role="listview">
+                	<li>
+                	<a href="#">
+                		<img src="img/01.png" class="ui-li-icon">
+                		<p>列表项</p>
+                	</a>
+                	<a href="#"></a>
+                	</li>
+                	<li>
+                	<a href="#">
+                		<img src="img/01.png" class="ui-li-icon">
+                		<p>列表项</p>
+                	</a>
+                	<a href="#"></a>
+                	</li>
+                </ul>
+                <p>2.3气泡数字只需加一个span添加样式ui-li-count</p>
+                <ul data-role="listview">
+				  <li><a href="#">收件箱<span class="ui-li-count">25</span></a></li>
+				  <li><a href="#">发件箱<span class="ui-li-count">432</span></a></li>
+				  <li><a href="#">垃圾箱<span class="ui-li-count">7</span></a></li>
+				</ul>
+				<p>2.4改变默认的链接图标</p>
+				<ul data-role="listview">
+					<li data-icon="delete"><a href="#">Adele</a></li>
+					<li><a href="#">Agnes</a></li> 
+					<li data-icon="false"><a href="#">Billy</a></li>
+				</ul>
+				<p>2.5可折叠的列表</p>
+				<div data-role="collapsible">
+				    <h4>A</h4>
+				    <ul data-role="listview">
+				      <li><a href="#">Adam</a></li>
+				      <li><a href="#">Angela</a></li>
+				    </ul>
+			  </div>
+			  <a href="jqmobile03.html">下一节jQuery Mobile 表单</a>
+			</div>
+			<div data-role="footer">
+				<h1>底部文本</h1>
+			</div>
+		</div>
+
+	</body>
+
+</html>

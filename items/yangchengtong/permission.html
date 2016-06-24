@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="renderer" content="webkit">
+    <title>角色权限管理</title>
+    <meta name="url" content="system">
+    <link rel="stylesheet" href="css/pintuer.css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="tree/css/demo.css" type="text/css">
+    <link rel="stylesheet" href="tree/css/zTreeStyle/zTreeStyle.css" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/pintuer.js"></script>
+    <script src="js/admin.js"></script>
+    <script type="text/javascript" src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+    <script type="text/javascript" src="js/hichart.js"></script>
+    <script type="text/javascript" src="tree/js/jquery.ztree.core-3.5.js"></script>
+    <script type="text/javascript" src="tree/js/jquery.ztree.excheck-3.5.js"></script>
+    <script type="text/javascript" src="tree/js/jquery.ztree.exedit-3.5.js"></script>
+</head>
+<body>
+<div class="lefter">
+    <div class="logo"><a href="#" target="_blank"><img src="images/logo.png" alt="后台管理系统" /></a></div>
+</div>
+<div class="righter nav-navicon" id="admin-nav">
+    <div class="mainer">
+        <div class="admin-navbar">
+            <span class="float-right">
+            	<a class="button button-little bg-main" href="#" target="_blank">前台首页</a>
+                <a class="button button-little bg-yellow" href="login.html">注销登录</a>
+            </span>
+            <ul class="nav nav-inline admin-nav">
+            	<!-- 二级导航的开始 -->
+                <li class="active">
+                	<a href="index.html" class="icon-home"> 首页</a>
+                    <ul>
+                        <!-- 签约解约管理 -->
+                        <li class="active"><a href="javascript:;" class="icon-chevron-circle-down">&nbsp;<strong>签约解约管理</strong></a></li>
+                        <li><a href="sign_management.html" class="icon-caret-right">&nbsp;签约管理</a></li>
+                        <li><a href="termination_ management.html" class="icon-caret-right">&nbsp;解约管理</a></li>
+                        <!-- 签约解约查询 -->
+                        <li class="active"><a href="javascript:;" class="icon-chevron-circle-down">&nbsp;<strong>签约解约查询</strong></a></li>
+                        <li><a href="sign_ inquire.html" class="icon-caret-right">&nbsp;签约解约查询</a></li>
+                        <!-- 充值查询 -->
+                        <li class="active"><a href="javascript:;" class="icon-chevron-circle-down">&nbsp;<strong>充值查询</strong></a></li>
+                        <li><a href="recharge_ inquire.html" class="icon-caret-right">&nbsp;充值查询</a></li>
+                        <!--日志管理-->
+                        <li class="active"><a href="javascript:;" class="icon-chevron-circle-down">&nbsp;<strong>日志管理</strong></a></li>
+                        <li><a href="login_log.html" class="icon-caret-right">&nbsp;登录日志</a></li>
+                        <!-- 系统对账 -->
+                        <li class="active"><a href="javascript:;" class="icon-chevron-circle-down">&nbsp;<strong>系统对账</strong></a></li>
+                        <li><a href="signing_bill.html" class="icon-caret-right">&nbsp;签约对账</a></li>
+                        <li><a href="recharge_bill.html" class="icon-caret-right">&nbsp;充值对账</a></li>
+                        <!-- 账户管理 -->
+                        <li class="active"><a href="javascript:;" class="icon-chevron-circle-down">&nbsp;<strong>账户管理</strong></a></li>
+                        <li><a href="permission.html" class="icon-caret-right">&nbsp;角色权限管理</a></li>
+                        <li><a href="account_list.html" class="icon-caret-right">&nbsp;用户管理</a></li>
+                    </ul>
+                </li>
+                <!-- 二级导航的开始 -->
+            </ul>
+        </div>
+        <div class="admin-bread">
+            <span>您好，admin，欢迎您的光临。</span>
+            <ul class="bread">
+                <li><a href="index.html" class="icon-home"> 首页</a></li>
+                <li><a href="permission.html"> 角色权限管理</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<style>
+.admin:before{/* content: "分隔符"; display: block; height: 0; clear: both; visibility: hidden; min-width:1024px; */} 
+</style>
+<div class="admin">
+    <div class="container-layout" style="min-width:784px;">
+      <div class="line-big">
+          <div class="x9">
+            <div class="toolBar">
+              <button class="button bg-main button-small cardmiddleBtn"> <i class="fa fa-plus"></i>  添加角色</button>
+              <button class="button bg-main button-small cardmiddleBtn"><i class="fa fa-pencil"></i> 修改角色</button>
+              <button class="button bg-main button-small cardmiddleBtn"><i class="fa fa-trash"></i> 删除角色</button>
+            </div>
+            <div class="h15"></div>
+            <div class="table-responsive-y">
+              <table class="table table-bordered table-hover table-striped"> 
+                <tr> 
+                  <th><input type="checkbox"></th>
+                  <th>角色名称</th>
+                  <th>创建时间</th>
+                  <th>拥有成员</th>
+                </tr> 
+                <tr> 
+                  <td> <input type="checkbox"></td>
+                  <td>分店店长</td>
+                  <td>2015-9-8</td>
+                  <td>11</td>
+                </tr>
+                <tr> 
+                  <td> <input type="checkbox"></td>
+                  <td>财务专员</td>
+                  <td>2015-6-12</td>
+                  <td>12</td>
+                </tr>
+                <tr> 
+                  <td> <input type="checkbox"></td>
+                  <td>分店员工</td>
+                  <td>2015-8-21</td>
+                  <td>11</td>
+                </tr>
+                <tr> 
+                  <td> <input type="checkbox"></td>
+                  <td>配置管理员</td>
+                  <td>2015-3-8</td>
+                  <td>12</td>
+                </tr> 
+              </table>
+            </div>
+            <div class="nextPag">
+              <ul class="pagination pagination-group"> 
+                <li class="disabled"><a href="#">«</a> </li> 
+                <li class="active"><a href="#">1</a> </li> 
+                <li><a href="#">2</a> </li> 
+                <li><a href="#">3</a> </li> 
+                <li><a href="#">4</a> </li> 
+                <li><a href="#">5</a> </li> 
+                <li><a href="#">»</a> </li> 
+              </ul>
+            </div>
+          </div>
+          <div class="x3">
+            <div class="panel"> 
+              <div class="panel-head"> 权限列表：</div> 
+              <div class="panel-body treePanel">
+                <div class="treeMiddle">
+                  <table class="table">
+                    <tr>
+                      <td width="50%" class="treeTd"><button class="button border-main button-small treeMiddleBtn">清空</button></td>
+                      <td width="50%" class="treeTd"><button class="button border-yellow button-small treeMiddleBtn">保存</button></td>
+                    </tr>
+                  </table>
+                  <!-- <button class="button border-main button-little treeBtnOne">清空</button>
+                  <button class="button border-yellow button-little treeBtnTwo">保存</button> -->
+                </div>
+                <ul id="treeDemo" class="ztree">
+                </ul>
+              </div> 
+            </div>
+          </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+      var setting = {
+          check: {
+              enable: true
+          },
+          data: {
+              simpleData: {
+                  enable: true
+              }
+          }
+      };
+
+      var zNodes =[
+          { id:2, pId:0, name:"All", checked:true, open:true},
+
+          { id:21, pId:2, name:"产品管理", open:true},
+          { id:211, pId:21, name:"产品列表", checked:true},
+          { id:212, pId:21, name:"添加会员卡"},
+          { id:213, pId:21, name:"添加优惠券"},
+
+          { id:22, pId:2, name:"会员管理", open:true},
+          { id:221, pId:22, name:"会员卡列表", checked:true},
+          { id:222, pId:22, name:"会员卡挂失"},
+
+          { id:23, pId:2, name:"系统设置",checked:true, open:true},
+
+          { id:231, pId:23, name:"组织构架管理", checked:true,open:true},
+          { id:2311, pId:231, name:"添加组织", checked:true},
+          { id:2312, pId:231, name:"修改组织", checked:true},
+          { id:2313, pId:231, name:"删除组织"},
+          { id:2314, pId:231, name:"添加人员"},
+
+          { id:232, pId:23, name:"角色权限管理", checked:true},
+          { id:2321, pId:232, name:"会员列表", checked:true},
+          { id:2322, pId:232, name:"会员列表", checked:true},
+          { id:2323, pId:232, name:"会员卡挂失"},
+
+          { id:233, pId:23, name:"角色管理", checked:true},
+          { id:2331, pId:233, name:"会员列表", checked:true},
+          { id:2332, pId:233, name:"会员列表", checked:true},
+          { id:2333, pId:233, name:"会员卡挂失"},
+
+
+      ];
+      
+      var code;
+      
+      function setCheck() {
+          var zTree = $.fn.zTree.getZTreeObj("treeDemo"),
+          py = $("#py").attr("checked")? "p":"",
+          sy = $("#sy").attr("checked")? "s":"",
+          pn = $("#pn").attr("checked")? "p":"",
+          sn = $("#sn").attr("checked")? "s":"",
+          type = { "Y":py + sy, "N":pn + sn};
+          zTree.setting.check.chkboxType = type;
+          showCode('setting.check.chkboxType = { "Y" : "' + type.Y + '", "N" : "' + type.N + '" };');
+      }
+      function showCode(str) {
+          if (!code) code = $("#code");
+          code.empty();
+          code.append("<li>"+str+"</li>");
+      }
+      
+      $(document).ready(function(){
+          $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+          setCheck();
+          $("#py").bind("change", setCheck);
+          $("#sy").bind("change", setCheck);
+          $("#pn").bind("change", setCheck);
+          $("#sn").bind("change", setCheck);
+      });
+      //-->
+  </script>	
+</div>
+</body>
+</html>

@@ -1,0 +1,163 @@
+//定义函数区域
+.px2rem(@name, @px){
+    @{name}: @px / 75 * 1rem;
+     [data-dpr="1"] & {
+       @{name}: @px / 158 * 1rem;
+    }
+}
+.px2px(@name, @px){
+    @{name}: @px * 1px;
+    [data-dpr="2"] & {
+        @{name}: @px * 2px;
+    }
+    [data-dpr="2.5"] & {
+        @{name}: @px * 2.5px;
+    }
+    [data-dpr="2.75"] & {
+        @{name}: @px * 2.75px;
+    }
+    [data-dpr="3"] & {
+        @{name}: @px * 3px;
+    }
+    [data-dpr="4"] & {
+        @{name}: @px * 4px;
+    }
+}
+/*********/
+body{margin:0;padding:0; background:#fff;}
+*{box-sizing: border-box;}
+.travel_top{
+    .px2rem(width, 750); 
+    .px2rem(height, 98);
+    .px2rem(line-height, 98);
+    .px2px(font-size, 20);  
+    background-color: #33a6ff;
+    color: white;
+    text-align: center;
+    margin:0 auto;
+  }
+.travel_top  .header_left{position: absolute; .px2rem(top,30);.px2rem(left,25); .px2rem(width,25);}
+/*图片轮换*/
+.slider{.px2rem(width, 750);.px2rem(height, 490);position: relative;display:none overflow: hidden; }
+.slider ul{position: absolute;}
+.slider li{float:left;display: inline-block; .px2rem(width, 750);.px2rem(height, 490);}
+.focus{position: absolute; bottom: 0px; .px2rem(width, 750);.px2rem(height, 73); z-index: 2;}
+.focus span{width:10px;height:10px;margin-right:10px;border-radius:50%;background:#666;font-size:0}
+.focus span.current{background:#fff} 
+/*图片轮换结束*/ 
+/*列表*/
+.list{
+    .px2rem(width, 750);
+    .px2rem(height, 400);
+    .px2rem(padding-left,55);
+    .px2rem(padding-right,55);
+    .px2rem(padding-top,7);
+    margin:0 auto;
+}
+.list li{
+    list-style: none;
+    float:left; 
+    text-align: center; 
+    .px2rem(width,160);
+    .px2rem(margin-top,40);
+}
+ 
+.list li img{
+    .px2rem(width,92); 
+    .px2rem(height,92);
+}
+.list li p{
+    .px2px(font-size,15);
+    .px2rem(line-height,70);
+    color: #6c6c6c; 
+}
+/*图片介绍列表*/
+.pic_list{
+     .px2rem(margin-top,60);
+     .px2rem(padding-left,30);
+     .px2rem(width,750);
+     margin-left: auto;
+     margin-right: auto;  
+}
+.pic_list li{
+    list-style: none;
+    float:left;
+    position: relative;
+    .px2rem(margin-right,25);
+}
+.pic_list li img{
+    .px2rem(width,214);
+    .px2rem(height,269);
+}
+.pic_list li p{
+    position: absolute;
+    background: #0fb4e1;
+    text-align: center;
+    color: #fff;
+    .px2rem(width,214);
+    .px2rem(height,49);
+    .px2rem(line-height,49);
+    .px2px(font-size,12);
+    .px2rem(left,0);
+    .px2rem(bottom,0);
+    opacity: 0.8;
+}
+/*列表页*/
+.list_body{background-color: #f1f1f1;} 
+.content_list{
+    background: #fff;
+    .px2rem(width,730);
+    .px2rem(height,145);
+    .px2rem(margin-left,10);
+    .px2rem(margin-top,15);
+    .px2rem(padding-left,10);
+    .px2rem(padding-top,15);
+    .px2rem(padding-right,10);
+    .px2rem(padding-bottom,15);
+}
+.content_list img{
+    float: left;
+    .px2rem(margin-right,10);
+    .px2rem(width,230);
+    .px2rem(height,115);
+}
+.content_list a{text-decoration: none;}
+.content_list .mainContent{
+    float: left;
+    .px2rem(width,470);
+}
+.content_list .mainContent h3{.px2px(font-size,13);.px2rem(line-height,30);.px2rem(margin-bottom,15);color: #45454f;.px2rem(width,470);.px2rem(height,30); overflow:hidden;}
+.content_list .mainContent p{.px2px(font-size,11);color: #45454f;}
+.content_list .mainContent span{color: #45454f;.px2px(font-size,18);float: right;}
+/*内容页*/
+.content_body{background: #fff;}
+.con{    
+    color:#5b5b5b;
+}
+.con img{width: 100%;}
+.con .title{
+    .px2rem(padding-left,55);
+    .px2px(font-size,18);
+    color:#000;
+    .px2rem(margin-top,65);
+     .px2rem(line-height,18);
+    }
+   
+.con .datetime{ 
+    .px2rem(padding-left,55);
+    .px2px(font-size,12);
+    line-height: 0;
+}
+   .con .img_show{
+    .px2rem(margin-top,30);
+    .px2rem(padding-left,35);
+    .px2rem(padding-right,35);
+    }
+.con .content_info{
+    .px2rem(margin-top,23);
+    .px2rem(padding-left,55);
+    .px2rem(padding-right,55);
+    .px2px(font-size,14);
+    .px2rem(line-height,45);
+}
+ 

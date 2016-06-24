@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>旅游页</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<link rel="stylesheet" href="style/reset.css" />
+<link rel="stylesheet/less" href="style/test.less" />
+<script src="js/less.min.js"></script> 
+<script src="js/layout.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.min.js"></script>  
+</head>
+<script type="text/javascript">
+window.onload=function(){
+	initLayOut();
+}
+</script>
+<body>
+  <!--头部-->
+  <div class="travel_top">
+ 	旅游
+  </div>
+  <!--banner图片切换-->
+  <div class="slider">
+	<ul>
+		<li>
+			<a href="#"><img src="images/travel_banner1.jpg" /></li>
+		<li>
+			<a href="#"><img src="images/travel_banner2.jpg" /></li>
+		<li>
+			<a href="#"><img src="images/travel_banner3.jpg" /></li>
+	</ul> 
+  </div>  
+  <!--列表-->
+  <div class="list">
+  	<ul>
+  		<a href="list.html">
+  		<li>
+  			<img src="images/travel_ico1.png" />
+  			<p>景区信息</p>
+  		</li>
+  		</a>
+  		<a href="list.html">
+  		<li>
+  			<img src="images/travel_ico2.png" />
+  			<p>旅游线路</p>
+  		</li>
+  		</a>
+  		<a href="list.html">
+  		<li>
+  			<img src="images/travel_ico3.png" />
+  			<p>看游记</p>
+  		</li>
+  		</a>
+  		<a href="list.html">
+  		<li>
+  			<img src="images/travel_ico4.png" />
+  			<p>驴友推荐</p>
+  		</li>
+  		</a>
+  		<a href="list.html">
+  		<li>
+  			<img src="images/travel_ico5.png" />
+  			<p>美食</p>
+  		</li>
+  		</a>
+  		<a href="list.html">
+  		<li>
+  			<img src="images/travel_ico6.png" />
+  			<p>交通</p>
+  		</li>
+  		</a>
+  		<a href="list.html">
+  		<li>
+  			<img src="images/travel_ico7.png" />
+  			<p>酒店</p>
+  		</li>
+  		</a>
+  		<a href="list.html">
+  		<li>
+  			<img src="images/travel_ico8.png" />
+  			<p>联系我们</p>
+  		</li>
+  		</a>
+  	</ul>
+  </div>
+ <!--图片介绍-->
+ <div class="pic_list">
+ 	<ul>
+ 		<a href="content.html">
+ 		<li>
+ 			<img src="images/travel_listpic1.jpg" />
+ 			<p>日本樱花行</p>
+ 		</li>
+ 		</a>
+ 		<a href="content.html">
+ 		<li>
+ 			<img src="images/travel_listpic2.jpg" />
+ 			<p>长滩岛</p>
+ 		</li>
+ 		</a>
+ 		<a href="content.html">
+ 		<li>
+ 			<img src="images/travel_listpic3.jpg" />
+ 			<p>以色列特拉维夫</p>
+ 		</li>
+ 		</a>
+ 	</ul>
+ </div>
+</body>
+<script type="text/javascript" src="js/yxMobileSlider.js"></script>
+<script>
+	$(".slider").yxMobileSlider({ 
+		height:350 
+	})
+</script>
+</html>

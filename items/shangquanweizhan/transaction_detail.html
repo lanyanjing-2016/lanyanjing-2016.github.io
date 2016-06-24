@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ch">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>会员积分详情</title>
+		<link rel="stylesheet" href="css/pintuer.css">
+		<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<script src="js/jquery.js"></script>
+		<script src="js/pintuer.js"></script>
+		<script src="js/respond.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/laydate-v1.1/laydate/laydate.js"></script>
+		<script src="js/layer/layer.js"></script>
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="layout">
+			<!-- 头部开始 -->
+			<div class="head">
+				<img src="images/logo.png" class="logo">
+				<div class="headPersonal">
+					<img src="images/person.png" class="personalImg">
+					<div class="personal">
+						<ul class="nav nav-inline nav-menu" style="display:inline-block;">
+							<li class="active"><a href="#">猫屎咖啡 <span class="arrow"></span></a>
+								<ul class="drop-menu">
+									<li><a href="#"><i class="fa fa-user"></i> 我的账户</a> </li>
+									<li><a href="#"><i class="fa fa-file-text-o"></i> 企业资料</a> </li>
+									<li><a href="#"><i class="fa fa-key"></i> 修改密码</a> </li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<a href="#"><i class="fa fa-power-off signOut"></i></a>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<!-- 头部结束 -->
+			<!-- 左侧导航开始 -->
+			<div class="left">
+				<div class="nav">
+					<a href="index.html" class="navContentA active1">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-home navContentIcon"></i>
+							<p>首页</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="card_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-money navContentIcon"></i>
+							<p>会员卡</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="member_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-user navContentIcon"></i>
+							<p>会员</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="ticket_home.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-line-chart navContentIcon"></i>
+							<p>优惠券</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="event_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-university navContentIcon"></i>
+							<p>营销</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="report_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-file-text-o navContentIcon"></i>
+							<p>设置</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="microsite.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-wrench navContentIcon"></i>
+							<p>微站</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- 左侧导航结束 -->
+			<div class="main">
+				<div class="breadNav">
+					<ul class="bread">
+						<li><a href="index.php" class="icon-home"> 首页</a> </li>
+						<li><a href="member_list.html">会员列表</a> </li>
+						<li><a href="account_detail.html">会员详情</a> </li>
+						<li><a href="transaction_detail.html">会员积分详情</a></li>
+					</ul>
+				</div>
+				<div class="h2Title">
+					<div class="media media-x clearfix">
+						<a class="float-left" href="#"> <img src="images/list.png" class="radius" alt="..."> </a>
+						<div class="media-body cardMainTitleFont">积分详情</div>
+					</div>
+				</div>
+				<div class="container-layout cardMainContent">
+					<div class="panel">
+						<div class="panel-head">
+							<h2>卡号：36555&nbsp;&nbsp;&nbsp;姓名：秦小双</h2>
+						</div>
+						<div class="panel-body bgWhite">
+							<div class=" searchBarX">
+								<form method="post" class="form-inline">
+									<div class="form-group">
+										<div class="label">
+											<label for="username"> 交易日期：</label>
+										</div>
+										<div class="field">
+											<input type="text" class="input laydate-icon" id="startTime" name="" size="20" placeholder="请选择开始日期" />
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="label">
+											<label for="password"> 至&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+										</div>
+										<div class="field">
+											<input type="text" class="input laydate-icon" id="finishTime" name="" size="20" placeholder="请选择结束日期" />
+										</div>
+									</div>
+									<div class="form-button">
+										<button class="button bg-green cardContentBtn"> <i class="fa fa-search"></i> 查询</button>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="panel-foot">
+							<span class="DetailData">总发放数：23笔</span>
+							<span class="DetailData">总积分：2300分</span>
+							<span class="DetailData">已使用数：5笔</span>
+							<span class="DetailData">已使用积分：2000分</span>
+							<span class="DetailData">剩余积分：300分</span>
+						</div>
+					</div>
+					<div class="h15"></div>
+					<div class="table-responsive-y">
+						<table class="table table-bordered table-hover table-striped">
+							<tr>
+								<th>序号</th>
+								<th>交易地点（门店）</th>
+								<th>交易时间</th>
+								<th>交易流水号</th>
+								<th>发放额（分）</th>
+								<th>使用额（分）</th>
+								<th>交易类型</th>
+							</tr>
+							<tr>
+								<td> 1</td>
+								<td>西直门店</td>
+								<td>2015-9-9&nbsp;&nbsp;15:32:21</td>
+								<td>16998256</td>
+								<td>1500</td>
+								<td>800</td>
+								<td>消费赠送</td>
+							</tr>
+							<tr>
+								<td> 2</td>
+								<td>西直门店</td>
+								<td>2015-10-1&nbsp;&nbsp;9:58:01</td>
+								<td>52658962</td>
+								<td>1300</td>
+								<td>400</td>
+								<td>消费赠送</td>
+							</tr>
+							<tr>
+								<td> 3</td>
+								<td>西直门店</td>
+								<td>2015-10-24&nbsp;&nbsp;12:27:00</td>
+								<td>69872652</td>
+								<td>800</td>
+								<td>100</td>
+								<td>消费赠送</td>
+							</tr>
+							<tr>
+								<td> 4</td>
+								<td>西直门店</td>
+								<td>2015-11-3&nbsp;&nbsp;13:06:57</td>
+								<td>52648932</td>
+								<td>2200</td>
+								<td>1000</td>
+								<td>消费赠送</td>
+							</tr>
+						</table>
+					</div>
+					<div class="nextPag">
+						<ul class="pagination pagination-group">
+							<li class="disabled"><a href="#">«</a> </li>
+							<li class="active"><a href="#">1</a> </li>
+							<li><a href="#">2</a> </li>
+							<li><a href="#">3</a> </li>
+							<li><a href="#">4</a> </li>
+							<li><a href="#">5</a> </li>
+							<li><a href="#">»</a> </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		/*开始时间结束时间控制*/ !(function() {
+			var start = {
+				elem: '#startTime',
+				format: 'YYYY.MM.DD',
+				istime: true,
+				istoday: false,
+				choose: function(datas) {
+					end.min = datas; //开始日选好后，重置结束日的最小日期
+					end.start = datas //将结束日的初始值设定为开始日
+				}
+			};
+			var end = {
+				elem: '#finishTime',
+				format: 'YYYY.MM.DD',
+				istime: true,
+				istoday: false,
+				choose: function(datas) {
+					start.max = datas; //结束日选好后，重置开始日的最大日期
+				}
+			};
+			laydate(start);
+			laydate(end);
+		})();
+	</script>
+
+</html>

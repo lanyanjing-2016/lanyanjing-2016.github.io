@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>优惠券详情</title>
+		<link rel="stylesheet" href="css/pintuer.css">
+		<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<script src="js/jquery.js"></script>
+		<script src="js/pintuer.js"></script>
+		<script src="js/respond.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/laydate-v1.1/laydate/laydate.js"></script>
+		<script src="js/layer/layer.js"></script>
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="layout">
+			<!-- 头部开始 -->
+			<div class="head">
+				<img src="images/logo.png" class="logo">
+				<div class="headPersonal">
+					<img src="images/person.png" class="personalImg">
+					<div class="personal">
+						<ul class="nav nav-inline nav-menu" style="display:inline-block;">
+							<li class="active"><a href="#">猫屎咖啡 <span class="arrow"></span></a>
+								<ul class="drop-menu">
+									<li><a href="#"><i class="fa fa-user"></i> 我的账户</a> </li>
+									<li><a href="#"><i class="fa fa-file-text-o"></i> 企业资料</a> </li>
+									<li><a href="#"><i class="fa fa-key"></i> 修改密码</a> </li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<a href="#"><i class="fa fa-power-off signOut"></i></a>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<!-- 头部结束 -->
+			<!-- 左侧导航开始 -->
+			<div class="left">
+				<div class="nav">
+					<a href="index.html" class="navContentA active1">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-home navContentIcon"></i>
+							<p>首页</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="card_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-money navContentIcon"></i>
+							<p>会员卡</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="member_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-user navContentIcon"></i>
+							<p>会员</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="ticket_home.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-line-chart navContentIcon"></i>
+							<p>优惠券</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="event_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-university navContentIcon"></i>
+							<p>营销</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="report_list.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-file-text-o navContentIcon"></i>
+							<p>设置</p>
+						</div>
+					</a>
+				</div>
+				<div class="nav">
+					<a href="microsite.html" class="navContentA">
+						<div class="navContent">
+							<!-- <i class="fa fa-caret-left navContentIconTwo"></i> -->
+							<i class="fa fa-wrench navContentIcon"></i>
+							<p>微站</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- 左侧导航结束 -->
+        <div class="main">
+        <div class="breadNav">
+      	 <ul class="bread"> 
+          <li><a href="index.html" class="icon-home"> 首页</a> </li> 
+          <li><a href="ticket_home.html">优惠券管理</a> </li>
+           <li><a href="ticket_list.html">优惠券列表</a> </li> 
+          <li><a href="#">优惠券详情</a></li> 
+        </ul> 
+      </div>
+        <!--标题创建优惠券-->
+        <div class="h2Title" style="position: relative;">
+           <div class="media media-x clearfix"> 
+           <a class="float-left" href="#"> <img src="images/add.png" class="radius" alt="..."> </a> 
+           <div class="media-body cardMainTitleFont">优惠券详情</div> 
+          </div>
+        </div>
+        <div class="container-layout">
+          <article class="boxRightCon" >
+        	<section class="iphone5" id="iphone5" style="position: fixed; top:190px;">
+				<div class="yulan_box">
+					<!--预览内容 start-->
+					<section class="phone-cont">
+					  	<section class="details_con pb_40">
+							<div class="banner" id="CoupicPicYes"><img src="images/banner.jpg" alt=""></div>
+							<div class="mstoretit clearfix">
+								<div class="org" id="CounameYes">爱刷（北京）科技有限公司优惠券</div>
+								<div class="gray_date" id="coutype_show"></div>
+								<div class="gray_date">有效期：
+									<label id="StimeYes"></label>至<label id="EtimeYes"></label></div>
+							</div>
+							<div class="gray_date mstorehead">商家信息<span class="green ty">1店适用</span></div>
+							<article class="mform minformation">
+						    	<ul>
+						        	<li><span class="phone-icon name_icon"></span><div class="con"><p>爱刷（北京）科技有限公司</p></div></li>
+						        	<li><span class="phone-icon tel_icon"></span><div class="con"><p></p></div></li>
+						        	<li><span class="phone-icon address_icon"></span><div class="con"><p>北京市西城区宣武门外大街6号庄胜广场北办公楼西翼1501</p></div></li>
+						        </ul>
+						    </article>
+						    <div class="gray_date mstorehead">使用说明</div>
+							<article class="user_vote">
+								<ul>
+									<li id="ylexplian1">最低消费无限制</li> 
+									<li id="ylexplian2">使用时间无限制</li>
+									<li id="ylexplian3">使用数量无限制</li>
+									<li id="ylexplian4">可与其他优惠券共用</li> 
+								</ul>
+							</article>
+							<div class="gray_date mstorehead center">提示：领取后，消费时即可享优惠</div>
+					  	</section>
+					</section>
+            		<div class="vote f1">注：此效果图仅供参考</div>
+					<!--预览内容 end-->
+				</div>
+            </section>
+            <section class="VipCont clearfix">
+            	<!--基础设置-->
+            	<div class="f1">基础设置</div>
+				 <div class="ticketinfo">
+	                	<ul> 
+	                		<li><span>券类型：</span>代金券</li>
+	                		<li><span>券名称：</span>妇女节100元代金券</li>
+	                		<li><span>代金券：</span>100.00元</li>
+	                		<li><span>券有效期：</span>2016-03-08 ~ 2016-05-01</li>
+	                		<li><span>发券总量：</span>无限制</li>
+	                		<li><span>最低消费：</span>500.00元</li>
+	                		<li><span>可用门店终端：</span>无限制</li>
+	                		<li><span>说明：</span></li>
+	                	</ul> 
+	                </div>
+	                <hr/>
+	                <div class="f1">高级设置</div>
+	                <div class="ticketinfo">
+	                	<ul>
+	                		<li><span>用户领取限制：</span>无限制</li>
+	                		<li><span>使用时间限制：</span>无限制</li>
+	                		<li><span>使用数量限制：</span>无限制</li>
+	                		<li><span>门店终端使用限制：</span>无限制</li>
+	                		<li><span>是否可与优惠共享：</span>是</li> 
+	                		<li><span>温馨提示：</span>发券后请商家秉承诚实守信的原则，用户消费时应兑现相应的优惠承诺，因此引发的任何纠纷，由商家自行承担。</li>
+	                	</ul>
+	                </div>
+	                <a href="ticket_list.html" class="btntickinfo">
+	                <button class="button bg-yellow addticket_btn">返&nbsp;&nbsp;&nbsp;&nbsp;回</button>
+                    </a>
+            </section>
+          </article>
+       </div> 
+       </div> 
+  </div>
+  <!--保存会员卡弹框-->
+		<div id="saveCard">
+			<div class="dialog">
+				<div class="dialog-head"><strong>提示</strong> </div>
+				<div class="dialog-body">
+					<div class="cardSuccess">
+						<h3>优惠券保存成功</h3>
+					</div>
+					<a href="ticket_list.html" class="cardSuccessGo">
+						<button class="button bg-green">进入优惠券列表</button>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--发布会员卡弹框-->
+		<div id="pushCard">
+			<div class="dialog">
+				<div class="dialog-head"><strong>提示</strong> </div>
+				<div class="dialog-body"> 
+					<div class="cardSuccess">
+						<h3>优惠券发布成功</h3>
+					</div>
+					<a href="ticket_list.html" class="cardSuccessGo">
+						<button class="button bg-green">进入优惠券列表</button>
+					</a>
+				</div>
+			</div>
+		</div>
+  <!-- 弹出框 --> 
+  <div id="replay">
+  <div class="dialog">
+    <div class="dialog-head">
+      <span class="close rotate-hover"></span><strong>选择门店终端</strong>
+    </div>
+    <div class="dialog-body">
+       
+    </div>
+    <div class="dialog-foot">
+      <button class="button dialog-close">取消</button>
+      <button class="button bg-green" id="btn_ok">确认</button>
+    </div>
+  </div>
+</div>  
+<script src="font-awesome/laydate-master/laydate.js"></script>
+<script src="js/laydatetime.js"></script>
+<script src="js/ticketset.js"></script>
+</body>
+</html>

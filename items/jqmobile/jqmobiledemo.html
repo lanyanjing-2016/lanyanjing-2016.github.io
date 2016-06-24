@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>jQuery Mobile主题</title>
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+		<style>
+			.ui-header .ui-btn-left {
+				font-size: 14px;
+				display: block;
+				padding-top: 10px;
+				padding-left: 10px;
+			}
+			
+			.ui-bar-f {
+				background-color: #dc4c56;
+				color: #fff;
+				height: 47px;
+				border-bottom: 1px solid #c5c5c5;
+			}
+			
+			.ui-header .ui-title {
+				padding: 1em 0;
+			}
+			
+			.ui-bar-f a {
+				border: none;
+				box-shadow: none;
+			}
+			
+			.ui-content {
+				padding: 0;
+			}
+			
+			.ui-content .banner {
+				width: 100%;
+			}
+			
+			.ul_listico .ui-btn {
+				padding: 0;
+			}
+			
+			.ul_listico img {
+				width: 60px;
+				height: 60px;
+			}
+			
+			.ul_listico a {
+				border: none
+			} 
+			.ul_listico a h2 {
+				font-size: 14px;
+				color: #50545f;
+				line-height: 10px;
+			}
+			
+			.ul_navlist {
+				background: #e5e5e5;
+				margin-top: 0;
+			} 
+			.navbar-two{margin-top: -5px;}
+			.ul_navlist a img{width:40px; height: 40px;}
+			.ui-footer{background: #787878;border:None;} 
+			.ui-footer a img{width:30px; height:30px;}
+	        .ui-footer .a_hover{background: #ed5b65;   } 
+			.ui-footer .ui-btn{color: #fff;  margin: 0; padding:0.8em 0;  border: none;border-right: 1px solid #acacac; display: block;}
+			.ui-footer .ui-btn h2{font-size: 14px; line-height: 3px;} 
+		</style>
+	</head> 
+	<body>
+		<div data-role="page" id="pagetwo" data-theme="f">
+			<!--头部-->
+			<div data-role="header" data-theme="f">
+				<span class="ui-btn-left">未登录</span>
+				<h1>管家</h1>
+				<a href="#" class="ui-btn-right"><img src="img/home_icon.png" width="27" height="22" /></a>
+			</div>
+			<!--中间-->
+			<div data-role="content">
+				<img src="img/banner_pic.png" class="banner" />
+				<div data-role="navbar">
+					<div class="ui-grid-c ul_listico">
+						<div class="ui-block-a">
+							<a href="#">
+								<img src="img/jqm_ico1.png" />
+								<h2>美发</h2>
+							</a>
+						</div>
+						<div class="ui-block-b">
+							<a href="#">
+								<img src="img/jqm_ico2.png" />
+								<h2>美发</h2>
+							</a>
+						</div>
+						<div class="ui-block-c">
+							<a href="#">
+								<img src="img/jqm_ico3.png" />
+								<h2>美发</h2>
+							</a>
+						</div>
+						<div class="ui-block-d">
+							<a href="#">
+								<img src="img/jqm_ico4.png" />
+								<h2>美发</h2>
+							</a>
+						</div>
+						<div class="ui-block-a">
+							<a href="#">
+								<img src="img/jqm_ico5.png" />
+								<h2>美发</h2>
+							</a>
+						</div>
+						<div class="ui-block-b">
+							<a href="#">
+								<img src="img/jqm_ico6.png" />
+								<h2>美发</h2>
+							</a>
+						</div>
+						<div class="ui-block-c">
+							<a href="#">
+								<img src="img/jqm_ico7.png" />
+								<h2>美发</h2>
+							</a>
+						</div>
+						<div class="ui-block-d">
+							<a href="#">
+								<img src="img/jqm_ico8.png" />
+								<h2>美发</h2>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="navlist">
+					<img src="img/jqm_bg2.png" />
+					<div data-role="navbar" class="navbar-two">
+						<div class="ui-grid-c ul_listico ul_navlist">
+							<div class="ui-block-a">
+								<a href="#">
+									<img src="img/jqm_ico9.png" />
+									<h2>工作推荐</h2>
+								</a>
+							</div>
+							<div class="ui-block-b">
+								<a href="#">
+									<img src="img/jqm_ico10.png" />
+									<h2>工作推荐</h2>
+								</a>
+							</div>
+							<div class="ui-block-c">
+								<a href="#">
+									<img src="img/jqm_ico11.png" />
+									<h2>工作推荐</h2>
+								</a>
+							</div>
+							<div class="ui-block-d">
+								<a href="#">
+									<img src="img/jqm_ico12.png" />
+									<h2>工作推荐</h2>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--底部-->
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<div class="ui-grid-c  ">
+						<div class="ui-block-a">
+							<a href="#" class="a_hover">
+								<img src="img/jqm_ico13.png" />
+								<h2>邻居</h2>
+							</a>
+						</div>
+						<div class="ui-block-b">
+							<a href="#">
+								<img src="img/jqm_ico14.png" />
+								<h2>管家</h2>
+							</a>
+						</div>
+						<div class="ui-block-c">
+							<a href="#">
+								<img src="img/jqm_ico15.png" />
+								<h2>商业</h2>
+							</a>
+						</div>
+						<div class="ui-block-d">
+							<a href="#">
+								<img src="img/jqm_ico16.png" />
+								<h2>活动</h2>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body> 
+</html>

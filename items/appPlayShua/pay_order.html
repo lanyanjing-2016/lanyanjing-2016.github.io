@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="screen-orientation" content="portrait">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" /> 
+		<script src="js/layout.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/myjs.js"></script> 
+		<title>支付订单确认</title>
+	</head>
+	<script type="text/javascript">
+	    initLayOut();
+	</script>
+	<body> 
+		<div class="top"><span><a href="phone_verify.html"><img src="images/goback_ico.png"></a></span>支付订单确认</div>
+		<div class="security pay_order">
+			<p class="p_title">放心刷支付订单确认</p>
+			<p class="p_border"><span class="sp_leftborder"></span><span class="sp_rightborder"></span></p>
+		    <p class="p_orderinfo">
+		    	<span class="sp_left">订单号:</span>
+		    	<span class="sp_right"><span id="oreder_number">1235462</span></span>
+		    </p>
+		    <p class="p_orderinfo">
+		    	<span class="sp_left">购买商品:</span>
+		    	<span class="sp_right">Apple Pay支付安全产品</span>
+		    </p>
+		    <p class="p_orderinfo">
+		    	<span class="sp_left">服务有效期:</span>
+		    	<span class="sp_right"><span id="payorder_month">3</span>个月</span>
+		    </p> 
+		    <p class="p_orderinfo">
+		    	<span class="sp_left">交易金额:</span>
+		    	<span class="sp_right">￥<span id="payorder_money">10</span>.00</span>
+		    </p> 
+		    <p class="p_orderinfo">
+		    	<span class="sp_left">购买人手机号:</span>
+		    	<span class="sp_right"><span id="payorder_tel">15827150602</span></span>
+		    </p>
+		    <div class="get_coupbtn">
+		        	<a href="perfect_info.html" class="payorderbtn">确认支付</a>
+		    </div> 
+		</div>
+		 
+	</body>
+
+</html>

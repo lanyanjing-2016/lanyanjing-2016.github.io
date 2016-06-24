@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>三级下拉选择</title>
+		<script type="text/javascript" src="../javascripts/jquery.min.js" ></script>
+		<script>
+			$(function(){
+				var arrData={
+					"厂商1":{"品牌1-1":["型号1-1-1","型号1-1-2"],"品牌1-2":["型号1-2-1","型号1-2-2"]},
+					"厂商2":{"品牌2-1":["型号2-1-1","型号2-1-2"],"品牌2-2":["型号2-2-1","型号2-2-2"]},
+					"厂商3":{"品牌3-1":["型号3-1-1","型号3-1-2"],"品牌3-2":["型号3-2-1","型号3-2-2"]}
+				};
+				//初始化下拉框
+				function ObjeInit(obj){
+					return $(obj).html("<option>请选择</option>");
+				}
+				//加载厂商
+				$.each(arrData, function(indexs,values) {
+					$(".select_cs").append("<option>"+indexs+"</option>")
+				});
+				//厂商改变的时候
+				$(".select_cs").change(function(){
+					ObjeInit(".select_pp");
+					ObjeInit(".select_xh");
+					$.each(arrData, function(indexs,values) {
+					    if($(".select_cs option:selected").text()==indexs){ 
+					    	  //加载品牌
+					    	  $.each(values,function(Pt,Pc){
+					    		 $(".select_pp").append("<option>"+Pt+"</option>")
+					    	  });
+					    	  //加载型号
+					    	  $(".select_pp").change(function(){
+					    	  	 $.each(values, function(Pt,Pc) {
+					    	  	 	if($(".select_pp option:selected").text()==Pt){
+					    	  	 		$.each(Pc, function(arrayindex,arrayvalue) {
+					    	  	 			$(".select_xh").append("<option>"+arrayvalue+"</option>")
+					    	  	 		});
+					    	  	 	}
+					    	  	 });
+					    	  })
+					     }
+				    });  
+				});
+				$(".btn_select").click(function(){
+					var cs=$(".select_cs option:selected").text();
+					var pp=$(".select_pp option:selected").text();
+					var xh=$(".select_xh option:selected").text();
+					var html="您选择的厂商是："+cs+"<br/>您选择的品牌是："+pp+"<br/>您选择的型号是："+xh;
+					$(".showinfo").html(html);
+				}); 
+			})
+		</script>
+	</head>
+	<body>
+		厂商：<select class="select_cs"><option>请选择</option></select><br>
+		品牌：<select class="select_pp"><option>请选择</option></select><br>
+		型号：<select class="select_xh"><option>请选择</option></select>
+		<button class="btn_select">查询</button>
+		<div class="showinfo"></div>
+	</body>
+</html>

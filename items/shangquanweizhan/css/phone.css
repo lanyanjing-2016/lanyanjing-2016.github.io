@@ -1,0 +1,168 @@
+/*编辑删除*/
+.mask{display:none;width:100%; height:100%; background: #000; position: absolute;top:0;left: 0;opacity: 0.6;}
+.mask .edit{color: #fff;cursor: pointer; height: 20px;  position: absolute;left:20%;top: 25%;z-index: 3; background: url(../images/edit_bg.gif) no-repeat left; padding-left:20px;}
+.mask .delete{color: #fff;cursor: pointer;position: absolute;left:20%;top: 55%;z-index: 3; background: url(../images/del_bg.gif) no-repeat left; padding-left: 20px;}
+/*广告轮换图片编辑*/ 
+.carouselBox .mask .arrow_edit{color: #fff;cursor: pointer; height: 20px;  position: absolute;left:30%;top:35%;z-index: 3; background: url(../images/edit_bg.gif) no-repeat left; padding-left:20px;}
+.carouselBox .mask .arrow_delete{color: #fff;cursor: pointer;position: absolute;left:50%;top: 35%;z-index: 3; background: url(../images/del_bg.gif) no-repeat left; padding-left: 20px;}
+/*餐饮*/
+.cy_container{background:url(../images/cybgpic.jpg) no-repeat;min-height: 460px; background-size:cover;width:320px}
+.cy_top{width:320px;height:58px;line-height:58px;font-size:20px;background-color:#514648;color:#fff;text-align:center}
+.cy_list{width:260px;margin-left:20px;min-height: 400px; margin-top:30px;padding-bottom:20px;height:auto;overflow:hidden}
+.cy_list li{position: relative; float:left;margin-right:22px;margin-top:22px;width:100px;height:100px;border-radius:50px;text-align:center;list-style:none;opacity:.8;background:#81a55d;color:#fff}
+.cy_list li img{width:50px;height:50px;margin-top:15px;margin-bottom:5px}
+.cy_list li:nth-child(1){background:#cfa54f}
+.cy_list li:nth-child(2){background:#6aa0b9}
+.cy_list li:nth-child(3){background:#81a55d}
+.cy_list li:nth-child(4){background:#c95a2c}
+.cy_list li:nth-child(5){background:#6d6ca8}
+.cy_list li:nth-child(6){background:#c27cb6}
+.cy_list .mask{border-radius: 50px; }
+/*图片切换*/
+.banner{.px2rem(width,750);.px2rem(height,411);}
+.banner img{width: 100%;max-width: 100%;}
+.carouselBox{ position:relative;height: 176px;}
+.carouselBox .carouselPics li{ float:left; text-align:center;list-style: none;}
+.carouselBox .carouselPics li img{ width:100%; vertical-align:middle;}
+.carouselBox .carouselBtns{position: absolute; width:100%; left:0; bottom:5.1%; display:table; z-index:2; text-align:center;}
+.carouselBox .carouselBtns li{ display:inline-block; width:0.2rem; height:0.2rem; margin-left:0.2rem; border-radius:0.2rem; background:rgba(235,235,235,0.7);}
+.carouselBox .carouselBtns li.current{ background:rgba(235,235,235,1);}
+.carouselBox .carouselBtns li:first-child{ margin-left:0;}
+/*旅游*/
+.travel_top{width:320px;height:58px;line-height:58px;font-size:20px;background-color:#33a6ff;color:#fff;text-align:center}
+.travel_banner img{width:320px; height:160px;}
+.travel_list{padding:7px 0; width:320px;height: auto; overflow: hidden;}
+.travel_list li{position: relative; padding:5px 0; float: left; width:80px; text-align: center; list-style: none;margin:5px 0;}
+.travel_list li img{width:50px; height: 50px;}
+.traverpic_list{width:320px; margin-top:10px; height: auto; overflow: hidden;}
+.traverpic_list li{ float:left; text-align: center; position: relative; list-style: none; width:106px; margin-top:30px;}
+.traverpic_list li img{width:90px; height: 130px;}
+.traverpic_list li p{background: #0fb4e1;opacity: 0.8;text-align: center;color: #fff; height:30px; line-height:30px; width:90px;position:absolute;left:8px; bottom:0;}
+ 
+ /*洗衣*/
+.washbody{background: #e5e9ec;}
+.wash_top{width:320px;height:58px;line-height:58px;font-size:20px;background-color:#0e6576;color:#fff;text-align:center}
+.wash_banner img{width:320px; height:176px;}
+.wash_list{background: #fff; height: auto; overflow: hidden; width: 320px;}
+.wash_list li{position: relative;  float: left; list-style: none; border-right:2px solid #e5e5e5;border-bottom:2px solid #e5e5e5;  text-align: center; color: #5b5b5b; width:106px; }
+.wash_list li img{width:50px; height: 50px; margin-top: 15px;}
+.wash_list li p{margin-bottom: 15px;}
+.wash_list li:nth-child(3),.wash_list li:nth-child(6){border-right:none;}
+.wash_list li:nth-child(4),.wash_list li:nth-child(5),.wash_list li:nth-child(6){border-bottom:none;}
+.washvip_card{position: relative; margin:10px;width:300px; height: auto;  overflow:hidden;background: #fff; padding:0 30px;}
+.washvip_card img{width:60px; height:40px; float: left; margin-top:20px;}
+.washvip_card p{float:left; width:150px; margin-left: 10px;color: #5b5b5b; margin-bottom:20px;}
+.washvip_card .mask .edit,.wash_shopaddress .mask .edit{left:20%;top: 35%;}
+.washvip_card .mask .delete,.wash_shopaddress .mask .delete{left:50%;top: 35%;}
+.wash_shopaddress{ position:relative;margin:10px; background: #fff; width:300px; height: auto; overflow: hidden; padding:0 10px}
+.wash_shopaddress img{width:100px; height: 60px; float: left; margin-top:10px;}
+.wash_shopaddress p{margin-left:10px; width:170px;  float:left;color: #5b5b5b; margin-bottom: 10px;}
+.wash_shopaddress p span{display:block;padding-top:0px; line-height: 18px;}
+ 
+/*新增模块*/ 
+.add_module{border: 1px solid #333;background: #313443;text-align: center; width: 320px; height: 36px; line-height: 36px;}
+.add_module a{color: #fff;text-decoration: none; background: url(../images/wap_jia.gif) no-repeat left; padding-left: 30px; font-size:16px;}
+/*教育培训*/
+.education{width: 320px;margin: 0 auto; margin-bottom: 50px;}
+.edu_head{height: 50px;width: 100%;background: #039BE4;}
+.edu_head p{font-size: 20px;color: #fff;text-align: center;line-height: 50px;}
+.education .edu_img img{width: 320px;}
+.education .edu_main{overflow: hidden;}
+.education .edu_main .edu_li{float: left;width: 93px;height: 93px;border-radius: 50%;background: #0DB3E3;opacity: 0.7;margin:15px 10px 0 3px;}
+.education .edu_main li{position: relative;}
+.education .edu_main .edu_li a img{display: block;margin: 15px auto 0 ;width: 45px;}
+.education .edu_main .edu_li a p{color: #fff;font-size: 14px;text-align: center;}
+.edu_mask{width:100%; height:100%; background: #000; position: absolute;top:0;left: 0;opacity: 0.6;display: none;}
+.edu_mask .edu_edit{color: #fff;cursor: pointer;position: absolute;left: 35%;top: 50%;z-index: 3;margin-top: -15px;}
+.edu_mask .edu_delete{color: #fff;cursor: pointer;position: absolute;right: 35%;top: 50%;z-index: 3;margin-top: -15px;}
+.edu_mask1{width:100%; height:100%; background: #000; position: absolute;top:0;left: 0;opacity: 0.6;border-radius: 50%;display: none;}
+.edu_mask1 .edu_edit1{color: #fff;cursor: pointer;position: absolute;left: 10%;top: 50%;z-index: 3;margin-top: -15px;}
+.edu_mask1 .edu_delete1{color: #fff;cursor: pointer;position: absolute;right: 10%;top: 50%;z-index: 3;margin-top: -15px;}
+/*家电维修css开始*/ 
+li{list-style:none}
+.clearfix:after{content:".";display:block;height:0;visibility:hidden;clear:both}
+.decorate-head{background:#33a6ff;text-align:center;color:#fff;font-weight:600;width:320px;height:42px;line-height:42px;font-size:17px}
+.decorate-maincontent{color:#fff;width:320px;margin-top:5px}
+.decorate-con1{float:left;position:relative;border-radius:5px;width:156px;height:265px;background:#31c175;text-align:center}
+.decorate-con1 img{width:50px;height:51px;margin-top:36px}
+.decorate-con1 .decorate-con1-txt{width:88px;margin:10px auto 0;text-align:center}
+.decorate-con1-txt span{font-size:21px;border-bottom:1px solid #fff;padding-bottom:2px}
+.decorate-con1-txt .electrical-list{margin-top:7px}
+.decorate-con1-txt .electrical-list li{text-align:left;font-size:12px;line-height:14px;color:#0a8970}
+.decorate-con2{float:left;position:relative;border-radius:5px;margin-left:7px;width:156px;height:105px;background:#eec935}
+.decorate-con2 img{float:left;width:37px;height:35px;margin-top:34px;margin-left:9px}
+.decorate-con2 .con2-right{float:right;text-align:right;margin-right:17px;margin-top:16px;font-size:12px;color:#a58814}
+.decorate-con2 .con2-right .p1{border-bottom:1px solid #fff;padding-bottom:2px;font-size:20px;color:#fff}
+.decorate-con2 .con2-right .p2{margin-top:5px}
+.decorate-con3{float:left;position:relative;border-radius:5px;margin-left:7px;margin-top:13px;width:156px;height:147px;background:#32cdae}
+.decorate-con3 img{float:left;width:38px;height:39px;margin-top:54px;margin-left:15px}
+.decorate-con3 .con3-right{float:right;text-align:right;margin-right:12px;margin-top:29px;font-size:12px;color:#0a8970}
+.decorate-con3 .con3-right .p4{border-bottom:1px solid #fff;padding-bottom:2px;font-size:20px;color:#fff}
+.decorate-con3 .con3-right .p5{margin-top:5px}
+.decorate_mask{display:none;width:100%; height:100%; background: #000; position: absolute;top:0;left: 0;opacity: 0.6;}
+.decorate_mask .edit{color: #fff;cursor: pointer; height: 20px;  position: absolute;left:35%;top: 40%;z-index: 3; background: url(../images/edit_bg.gif) no-repeat left; padding-left:20px;}
+.decorate_mask .delete{color: #fff;cursor: pointer;position: absolute;left:20%;top: 55%;z-index: 3; background: url(../images/del_bg.gif) no-repeat left; padding-left: 20px;}
+/*家电维修结束*/
+
+/*酒店开始*/
+.rummery-head{background:#325474;text-align:center;color:#fff;font-weight:600;width:320px;height:44px;line-height:44px;font-size:17px}
+.rummery-con-nav{width:320px}
+.rummery-con-nav .rummery-con-nav-list{width:294px;margin:0 auto;margin-top:19px}
+.rummery-con-nav .rummery-con-nav-list li{width:73px;height:81px;position:relative;list-style:none;color:#494949;float:left;text-align:center}
+.rummery-con-nav .rummery-con-nav-list li img{width:42px;height:42px}
+.rummery-con-nav .rummery-con-nav-list li p{text-align:center;line-height:38px;font-size:12px}
+.rummery-list{background:#e6e6e6;width:320px;padding:0 7px 10px 7px}
+.rummery-list li{width:94px;height:112px;position:relative;border-radius:5px;margin:10px 4px 0;background:#fff;list-style:none;float:left}
+.rummery-list li img{width:94px;height:84px}
+.rummery-list li p{text-align:center;line-height:28px;font-size:12px;color:#494949;font-weight:600}
+/*酒店结束*/  
+/*西点烘培开始*/  
+.baked-head{width:320px;height:44px;line-height:44px;background:#ec9f76;text-align:center;color:#fff}
+.baked-maincontent{background:url(../images/baked.png) center center no-repeat;width:320px;min-height:490px;color:#fff;font-weight:600;padding-top:13px}
+.baked-maincontent .baked-ul{margin:0 auto;width:306px;padding-bottom:10px}
+.baked-maincontent .baked-ul li{float:left;width:94px;height:114px;position:relative;list-style:none;text-align:center;background:#FFF;color:#000;border-radius:5px;margin:9px 4px 0}
+.baked-maincontent .baked-ul li img{width:94px;height:77px}
+.baked-maincontent .baked-ul li p{font-weight:600;text-align:center;height:36px;line-height:36px;font-size:13px}
+/*西点烘培结束*/ 
+/*美容美发*/
+.beauty_top{background: #381711;}
+.beauty_list{margin: 10px 0 0 10px;}
+.beauty_list ul{overflow: hidden;}
+.beauty_list li{float: left;position: relative;text-align: center;margin-bottom: 10px;}
+.be_liOne{position:relative;}
+.be_liOne img{width: 93px;height: 120px;margin-right: 10px;}
+.be_two{position: relative; width: 93px;height: 120px;background: #CAB3AD;margin-right: 10px;}
+.be_two a p{color: #fff;font-size: 16px;line-height: 120px;text-align: center;}
+.be_three{position: relative; width: 93px;margin-right: 10px;height: 40px;background: #CB976F;}
+.be_three a p{font-size: 16px;line-height: 40px;color: #fff;text-align: center;}
+.be_four{position: relative; width: 197px;height: 40px;background: #F54B6F;padding-right: 20px;}
+.be_four a p{color: #fff;font-size: 16px;line-height: 40px;float: right;}
+.be_five{position: relative; width: 93px;height: 95px;background: #F5D0BD;margin-right: 10px;}
+.be_five a p{text-align: center;font-size: 16px; color: #c94700;line-height: 95px;}
+.be_six{position: relative; width: 93px; height: 95px;margin-right: 10px;}
+.be_six img,.be_seven img{width: 93px; height: 95px;}
+.be_seven{position: relative; width: 93px; height: 95px;margin-right: 10px;}
+/*汽车*/
+.car_list{margin: 15px 0 0 15px;}
+.car_list li{float: left;}
+.car_lione{width: 86px;height: 86px;margin: 0 15px 15px 0;position: relative;}
+.car_lione img{width: 86px;height: 86px;}
+.car_litwo{width: 188px;height: 188px;margin: 0 15px 15px 0;position: relative;}
+.car_litwo img{width: 188px;height: 188px;}
+/*沐浴*/
+.bath_top{background: #E9B756;}
+.bath_list{margin-top: 10px;}
+.bath_li{float: left;position: relative;width: 106px;height: 106px;}
+.bath_li img{width: 106px;height: 106px;}     
+ 
+
+
+
+
+
+
+
+
+
+
+
