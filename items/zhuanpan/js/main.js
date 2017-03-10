@@ -24,7 +24,7 @@ $(function() {
 			}; 
 			$rotaryArrow.click(function(){
 				var data = [0,1,2,3,4,5]; 
-				data=raffle(0.1,0.2,0.2);
+				data=raffle(0.1,0.2,0.1);
 				switch(data){
 					case 1: 
 						rotateFunc(1,60,'一等奖');
