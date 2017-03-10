@@ -1,0 +1,13 @@
+body{margin:0;padding:0;background:url(../images/bg_img.jpg) #ca2942 no-repeat center top;background-size:cover;width:10rem;height:8.40625rem}
+*{box-sizing:border-box}
+h2,h3,p{max-height:99999px}
+.us{position:relative;background:url(../images/acti_us.png) no-repeat;background-size:cover;width:9.046875rem;height:2.859375rem;top:7.65625rem;margin-left:.46875rem;margin-right:.46875rem;line-height:2.859375rem}
+.us a{background:url(../images/buy_btn.png) no-repeat;background-size:cover;width:2.015625rem;height:.578125rem;position:absolute;left:3.75rem;top:1.640625rem}
+.japan{position:relative;background:url(../images/acti_japan.png) no-repeat;background-size:cover;width:4.5rem;height:3.40625rem;top:7.8125rem;margin-left:.46875rem;line-height:3.40625rem;float:left}
+.japan a{background:url(../images/buy_btn.png) no-repeat;background-size:cover;width:2.015625rem;height:.578125rem;position:absolute;left:.21875rem;top:2.03125rem}
+.korea{position:relative;background:url(../images/acti_korea.png) no-repeat;background-size:cover;width:4.46875rem;height:3.40625rem;top:7.8125rem;margin-right:.46875rem;line-height:3.40625rem;float:right}
+.korea a{background:url(../images/buy_btn.png) no-repeat;background-size:cover;width:2.015625rem;height:.578125rem;position:absolute;left:.28125rem;top:2.03125rem}
+.shops{position:relative;clear:both;background:url(../images/acti_shops.png) no-repeat;background-size:cover;width:9.046875rem;height:3.171875rem;top:7.96875rem;margin-left:.46875rem;margin-right:.46875rem; margin-bottom:0.2rem;line-height:3.171875rem}
+.shops a{background:url(../images/buy_btn.png) no-repeat;background-size:cover;width:2.015625rem;height:.578125rem;position:absolute;left:.703125rem;top:1.640625rem}
+p{position:relative;top:7.5rem;}
+

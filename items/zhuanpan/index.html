@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+	<meta charset="utf-8">
+	<title>抽奖</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">		
+	<meta id="WV.Meta.Nav.HideMoreItem" value="true">
+	<meta id="WV.Meta.DisableRefresh" value="true">
+	<meta name="format-detection" content="telephone=no" /> 
+	<link rel="stylesheet" href="css/reset.css" /> 
+	<link rel="stylesheet/less" href="css/test.less" />
+	<script src="js/less.min.js"></script>
+	<!--<link rel="stylesheet" href="style/style.css" />-->
+	<script src="js/flexible.js" type="text/javascript"></script>
+	</head> 
+	<body class="indexbody"> 
+		<div class="rule">
+			<a href="rule.html"><img src="images/rule_btn.png"/></a>
+		</div>
+		<div class="rotary"> 
+			<div class="rotaryArrow" id="rotaryArrow"></div> 
+		</div>  
+		<div class="prize_bg">
+			<p>一等奖：iphone7<span>１个</span></p>
+			<p>二等奖：20元话费<span>30个</span></p>
+			<p>三等奖：10元流量卡<span>300个</span></p>			
+		</div>
+		<div class="prize_result">
+			<p>
+				您当前所剩余积分为：<span class="score">25</span>分（可参与<span class="numbers">2</span>次抽奖）
+			</p>
+		</div>
+		<!--第一次抽奖结果-->
+		<div class="divLayer" id="result">
+			<div class="layerbg"></div>
+			<div class="result">
+				<p class="resultTxt" id="resultTxt">没有中奖哦</p>
+				<p class="p_secor">使用积分抽奖</p>
+				<a href="#"><img class="sharebtn" src="images/share_btn.png"/></a>
+				<a href="#"><img class="sharebtn drawBtn" src="images/draw_btn.png"/></a>
+	        </div>
+	        <div class="submit_win secore_win">
+	        	<p>没有抽奖机会了，攒够积分再来吧！</p>
+	        	<a href="rule.html">确定	</a>
+	        </div>
+		</div>
+		<!--领取奖品，提交用户信息页面-->
+		<div class="userinfo">
+			<div class="userBg"></div>
+			<P class="p_title">恭喜您抽中："<span>三等奖</span>"<br/><br/>填写以下联系方式领取奖品</P>
+			<div class="div_form">
+			  <form>
+				<input type="text" name="" class="username"  placeholder="姓名"/>
+				<input type="text" name="" class="userphone"  placeholder="联系电话"/>
+				<input type="text" name="" class="useraddress"  placeholder="邮寄地址"/>
+				<input type="button" value="提交" class="submit_btn"/>
+			  </form>
+			  <p class="errorInfo"></p>  
+			</div>
+			<div class="submit_win">
+				<p>恭喜您抽中："<span>三等奖</span>"，稍后工作人员会与您联系发放奖品</p>
+				<a href="rule.html">确定	</a>
+			</div>
+		</div>
+    </body>	
+    <script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery.rotate.min.js"></script>
+	<script src="js/main.js"></script> 
+</html>
