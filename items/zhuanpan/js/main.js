@@ -66,7 +66,18 @@ $(function() {
 					}
 				});
 			};
-			
+			//点击分享
+			$("#shareBtn").on("click",function(){
+				$(".result").css("z-index",0);
+				$(".share_line").show();
+				$(".layerbg").css("opacity",0.8);
+			});
+			//点击知道了
+			$(".imgnode").on("click",function(){
+				$(".share_line").hide();
+				$(".result").css("z-index",2);
+				$(".layerbg").css("opacity",0.6);
+			})
 			//提交用户信息，领取奖品
 			$(".submit_btn").on("click",function(){
 				var username=$(".username").val();
