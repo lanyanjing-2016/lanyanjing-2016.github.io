@@ -1,0 +1,99 @@
+/*********/
+* {
+  box-sizing: border-box;
+}
+p,
+h2,
+h3 {
+  max-height: 99999px;
+}
+.sign {
+  margin: 0;
+  padding: 0;
+  background: url(../images/sign_bg.jpg) #fd3736 no-repeat center top;
+  background-size: cover;
+  width: 10rem;
+  height: 15.625rem;
+  font-size: 0.5rem;
+}
+.sign_header {
+  width: 5.875rem;
+  height: 1.546875rem;
+  margin-top: 0.9375rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sign_data {
+  width: 7.015625rem;
+  height: 7.859375rem;
+  margin-top: 0.15625rem;
+  margin-left: 1.296875rem;
+}
+.sign img {
+  width: 100%;
+  height: 100%;
+}
+.sign_codeInfo {
+  width: 4.53125rem;
+  margin-top: 0.9375rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  font-size: 13px;
+}
+.sign_codeInfo p {
+  line-height: 0.625rem;
+}
+.sign_codeInfo p span {
+  font-weight: bolder;
+  font-size: 14px;
+  text-shadow: 1px 1px 1px #999;
+}
+.sign_btnbg {
+  width: 4.109375rem;
+  height: 1.859375rem;
+  margin-top: 0.9375rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sign_sucess {
+  background: url(../images/sign_sucess.png) no-repeat center top;
+  background-size: cover;
+  width: 8.171875rem;
+  height: 6.5625rem;
+  top: 5rem;
+  left: 0.90625rem;
+  position: absolute;
+  z-index: 2;
+}
+.sign_sucess h3 {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 2.5625rem;
+}
+.sign_sucess p {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 0.78125rem;
+  font-weight: bolder;
+}
+.divLayer,
+.userinfo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10rem;
+  height: 100%;
+  display: none;
+}
+.divLayer .layerbg {
+  background: #000;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
