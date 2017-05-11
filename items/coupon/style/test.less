@@ -1,9 +1,7 @@
 //定义函数区域
 .px2rem(@name, @px){
     @{name}: @px / 72 * 1rem;
- [data-dpr="1"] & {
-       @{name}: @px / 160 * 1rem;
-    }
+
 } 
 .px2px(@name, @px){
     @{name}: @px * 1px;

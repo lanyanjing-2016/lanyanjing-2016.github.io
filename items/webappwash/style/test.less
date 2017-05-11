@@ -26,8 +26,8 @@ body{margin:0;padding:0; background:#e5e9ec;
         font-size: .5rem; 
 }
 *{box-sizing: border-box;} 
-.wash_top{ 
-     width: 100%;     
+.wash_top{
+    .px2rem(width,750);
     .px2rem(line-height, 98);
     .px2px(font-size, 20);  
     background-color: #0e6576; 
@@ -55,8 +55,7 @@ clear: both;
 .focus span.current{background:#fff} 
 /*列表*/
 .list{
-    //.px2rem(width, 750);
-    width:100%;
+    .px2rem(width, 750);
     .px2rem(height, 460);
     background:#fff; 
     overflow: hidden;
@@ -74,7 +73,8 @@ clear: both;
     .px2rem(border-width,4);
     .px2rem(padding-top,30);
 }
-.list li:nth-child(3),.list li:nth-child(6){border:none;}
+
+.list li:nth-child(3),.list li:nth-child(6){border-right:none;}
 .list li:nth-child(4),.list li:nth-child(5),.list li:nth-child(6){border-bottom:1px solid #fff;}
 .list li img{
     .px2rem(width,124); 
@@ -87,16 +87,15 @@ clear: both;
     color: #5b5b5b; 
 }
 /*vipcard*/
-.vip_cardbox{ 
-    width: 100%;
+.vip_cardbox{
+    .px2rem(width, 750);
     margin:0 auto; 
 }
 .vip_card{
     background: #fff;
     height: auto;
     overflow: hidden;
-    .px2rem(margin-left,20);
-    .px2rem(margin-right,20); 
+
     .px2rem(margin-top,24); 
     .px2rem(padding-top,20);
     .px2rem(padding-bottom,20);

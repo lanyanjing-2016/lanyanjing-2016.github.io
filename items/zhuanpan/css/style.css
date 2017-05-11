@@ -1,10 +1,9 @@
 /*********/
 .indexbody {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   background: url(../images/mainbg.jpg) #7cd8e3 no-repeat center top;
   background-size: cover;
-  width: 10rem;
   height: 15rem;
   font-size: 0.5rem;
 }
@@ -86,6 +85,9 @@ h3 {
   font-size: 14px;
   position: fixed;
   bottom: 1.09375rem;
+  left:0;
+  right:0;
+  margin:0 auto;
   padding-top: 0.3125rem;
 }
 .divLayer,
@@ -247,7 +249,7 @@ h3 {
   font-size: 14px;
 }
 .rulebody {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   background: #0e8998;
   width: 10rem;
@@ -264,6 +266,12 @@ h3 {
   position: fixed;
   bottom: 0;
   left: 0;
+  right:0;
+  margin:0 auto;
+}
+.rule_headbg{
+  width:10rem;
+  margin:0 auto;
 }
 .rule_head {
   width: 10rem;
@@ -273,17 +281,21 @@ h3 {
   font-weight: bolder;
   text-align: center;
   padding-top: 0.3125rem;
+  margin:0 auto;
 }
 .rulebody h3 {
-  margin-left: 0.59375rem;
+  padding-left: 0.59375rem;
   font-size: 14px;
-  margin-top: 0.15625rem;
+  margin:0.15625rem auto 0;
+  width:10rem;
 }
 .rulebody p {
-  margin-left: 0.59375rem;
-  margin-right: 0.59375rem;
+  padding-left: 0.59375rem;
+  padding-right: 0.59375rem;
   font-size: 12px;
   line-height: 0.703125rem;
+  width:10rem;
+  margin:0 auto;
 }
 .rulebody .p1 {
   margin-top: 0.234375rem;

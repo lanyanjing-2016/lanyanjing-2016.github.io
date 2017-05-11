@@ -1,9 +1,6 @@
 //定义函数区域
 .px2rem(@name, @px){
     @{name}: @px / 75 * 1rem;
-     [data-dpr="1"] & {
-       @{name}: @px / 158 * 1rem;
-    }
 }
 .px2px(@name, @px){
     @{name}: @px * 1px;
@@ -33,6 +30,7 @@ body{margin:0;padding:0; background:#fff;}
     .px2px(font-size, 20);  
     background-color: #33a6ff;
     color: white;
+    position:relative;
     text-align: center;
     margin:0 auto;
   }
@@ -114,6 +112,8 @@ body{margin:0;padding:0; background:#fff;}
     .px2rem(padding-top,15);
     .px2rem(padding-right,10);
     .px2rem(padding-bottom,15);
+    margin-left:auto;
+    margin-right:auto;
 }
 .content_list img{
     float: left;
@@ -133,6 +133,8 @@ body{margin:0;padding:0; background:#fff;}
 .content_body{background: #fff;}
 .con{    
     color:#5b5b5b;
+    .px2rem(width,750);
+    margin:0 auto;
 }
 .con img{width: 100%;}
 .con .title{
