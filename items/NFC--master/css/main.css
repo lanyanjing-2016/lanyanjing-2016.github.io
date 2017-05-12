@@ -1,0 +1,155 @@
+/*body{zoom: 0.75!important;}*/
+.clear{clear: both;}
+.h10{height: 10px;width: 100%;display: block;clear: both;}
+.h30{height: 30px;width: 100%;display: block;clear: both;}
+.h40{height: 40px;width: 100%;display: block;clear: both;}
+.h60{height: 60px;width: 100%;display: block;clear: both;}
+.h70{height: 70px;width: 100%;display: block;clear: both;}
+.h170{height: 170px;width: 100%;display: block;clear: both;}
+.g-headbg{position: absolute;z-index: -1;top: 0;}
+.g-head{width: 100%;height: 154px;background: #2F5282;opacity: 0.6;position: absolute;top: 0;left: 0;right: 0;}
+.g-banner{background: url("../images/gbanner.png") no-repeat;background-size: cover;}
+.g-headlogo a img{float: left;padding-top: 77px;margin-top: -28px;width: 170px;margin-bottom: 51.719px;}
+.g-headlogo a span{float: left;color: #fff;font-size: 22px;margin:59px 0 0 20px ;}
+.g-headlogin a{float: right;color: #fff;font-size: 22px;line-height: 154px;text-decoration: none;}
+.g-headlogin span{color: #fff;font-size: 22px;float: right;margin: 59px 10px 0;}
+.g-bannerContBtn{margin-top: 30%;color: #fff;border: none;text-decoration: none;box-shadow: inset 0 0 0 3px #fff;background: transparent;width: 100%;min-width: 243px;font-size: 25px;border-radius: 20px;}
+.jum{background: transparent;color: #fff;text-align: center;margin-top: 9px; }
+.jum h1{font-size: 45px;}
+.g-bannerLastBg{width: 100%;height: 92px;background: #2F5282;opacity: 0.3;position: absolute;margin-top: 10%}
+.g-bannerLast{margin-top: 10%;}
+.g-lastBtn{text-align: center;font-size: 22px;line-height: 92px;color: #fff;cursor:pointer;}
+.g-lastBtn:hover{ background: #D6E3F1;color: #0C1926;}
+.g-active{background: #D6E3F1;color: #0C1926;}
+.g-imgActive{display: none;}
+.g-toolOneMain{padding:0 100px 0;}
+.g-toolOneList{margin-top: 80px;}
+.g-toolOneList img{width: 100%;min-width: 165px;}
+.g-toolOneList p{font-size: 22px;line-height: 44px;}
+.g-toolOneList span{font-size: 18px;}
+.g-content{margin-bottom: 80px;}
+.g-toolOneFooter{height: 96px;width: 100%;background: #4c4c4c;padding:0 15px;}
+.g-toolOneFooter p{text-align: center;font-size: 14px;color: #fff;line-height: 28px;margin-bottom: 0;padding-top: 34px;}
+.g-second{margin-top: 80px;display: none;}
+.g-second h3{font-size: 22px;margin-bottom: 37px;}
+.g-second p{display: block;background: url("../images/g-sprit.png");background-repeat: no-repeat;padding-left: 20px;font-size: 18px;background-position-y: 6px;}
+.g-third{margin-top: 40px;display: none;}
+.g-thirdList{width: 18%;background: #dadada;padding-top: 30px;float: left;margin:0 1%;min-width: 169px;margin-top: 40px;}
+.g-thirdList img{margin: 0 auto;display: block;}
+.g-thirdList h3{font-size: 19px;text-align: center;min-height: 56px;}
+.g-thirdList .g-thirdPostionImg{position: relative;bottom: -30px;}
+ /*index_toolone.css*/
+
+/*sign_step.css*/
+.g-headsign{background: #3475B7;}
+.g-stepMain{padding-top: 70px;min-height: 100vh;}
+.g-fristStep h3{color: #3475b7;font-size: 22px;text-align: center;}
+.g-stepLine{margin: 50px 0;}
+.g-fristPoint{width: 15px;height: 15px;border-radius: 50%;background: #cccccc;position: absolute;left: 0;}
+.g-secondLine{width: 50%;height: 5px;background: #cccccc;float: left;margin-top: 5px;}
+.g-secondPoint{width: 15px;height: 15px;border-radius: 50%;background: #cccccc;position: absolute;left: 50%;margin-left: -8px;}
+.g-thirdPoint{width: 15px;height: 15px;border-radius: 50%;background: #cccccc;position: absolute;left: 100%;margin-left: -15px;}
+.g-pointActive{background:#3475b7; }
+.g-fristStepPact h4{font-size: 18px;float: left}
+.g-fristStepPact a{display: block;text-decoration: none;font-size: 18px;color: #3475b7;float: right;margin-top: 10px;}
+.g-fristStepIcon{margin: 70px 0;}
+.g-fristStep img{display: block;margin: 70px auto}
+.g-fristStep .checkbox label{font-size: 12px;}
+.g-fristStep a{text-decoration: none;}
+.g-fristStep .g-fristStepBtn{background: #3475b7;font-size: 18px;color: #fff;width: 100%;line-height: 48px;margin: 60px auto 165px;display: block;}
+
+.g-secondStep h4{font-size: 13px;line-height: 26px;}
+.g-secondStep .g-secondStepForm{margin-top: 50px;}
+.g-secondStep .g-secondStepForm h4{color: #999;font-size: 18px;line-height: 48px;}
+.g-secondStepForm .form-horizontal .form-group label{font-size: 18px;}
+.g-secondStepForm .form-horizontal .form-group input{font-size: 18px;height: 44px;}
+.g-secondStepForm .form-horizontal{margin-bottom: 50px;}
+.g-secondStep h3{font-size: 18px;line-height: 48px;}
+.g-secondStep .radio-inline{font-size: 18px;padding-left: 30px;}
+.g-secondStep .radio-inline input{width: 23px;height: 23px;margin-left: -30px;}
+.g-secondStep textarea{font-size: 18px;width: 100%;}
+.g-secondStep .checkbox label{font-size: 12px;padding-left: 22px;}
+.g-secondStep .checkbox input{width: 15px;height: 15px;margin-left: -22px;}
+.stepTwoBtn a{text-decoration: none;}
+.stepTwoBtn .btnOne{float: left;background: #c58222;font-size: 18px;line-height: 48px;display: block;width: 48%;color: #fff;}
+.stepTwoBtn .btnTwo{float: right;font-size: 18px;line-height: 48px;display: block;width: 48%;background: #3475b7;color: #fff;}
+
+.g-thirdStep .g-stepThreeTip{width: 240px;margin: 0 auto;}
+.g-thirdStep .g-stepThreeTip h3{text-align: center; font-size: 18px;line-height: 48px;float: left;display: block;margin-left: 30px;}
+.g-thirdStep .g-stepThreeTip img{float: left;margin-top: 25px;display: block;}
+.g-thirdStep img{display: block;margin: 0 auto;}
+.g-thirdStep a{text-decoration: none;}
+.g-thirdStep .g-stepThreeBtn{width: 100%;background: #3475b7;font-size: 18px;line-height: 48px;color: #fff;margin-bottom: 160px;}
+
+.g-sign{display: none}
+.g-signChoose{cursor: pointer;text-align: center;color: #3475b7;font-size: 24px;line-height: 64px;border-bottom: 5px solid #ccc;}
+.g-signChooseActive{border-bottom: 5px solid #3475b7;}
+.g-signIndexForm label{font-size: 18px;line-height: 48px;}
+.g-signIndexForm input{height: 44px;font-size: 24px;}
+.g-signIndexHead a{text-decoration: none;color: #3475b7;font-size: 12px;line-height: 32px;}
+.g-submitBtn button{background: #3475b7;font-size: 24px;color: #fff;width: 100%;line-height: 48px;border-radius: 4px;border: none;}
+.g-stepCheckbox label{font-size: 12px;}
+.g-stepCheckbox input{width: 15px;height: 15px;}
+.g-signIndexHead h5{font-size: 12px;line-height: 32px;text-align: center;}
+.g-signIndexHead h5 a{text-decoration: none;color: #3475b7;}
+.g-signIndexForm .g-signArea{width: 18%;float: left;height: 44px;font-size: 18px;}
+.g-signIndexForm .g-signNumber{width: 78%;float: right;}
+.g-signIndexForm .g-signCodes{float: left;width: 62%;}
+.g-signIndexForm .g-signCodesBtn{float: right;width: 34%;background: #eeeeee;}
+.g-signIndexForm h4{font-size: 13px;color: #666;}
+.g-stepMain h2{text-align: center;color: #3475b7;font-size: 24px;}
+.g-submitBtn .modal-content{padding: 50px 30px;}
+.resectModalOk{width: 135px;margin: 0 auto;}
+.resectModalOk img{width: 20px;margin-right: 10px;margin-top: -5px;}
+.resectModalOk span{font-size: 12px;line-height: 32px;}
+.resectModalCont{margin-top: 80%;opacity: 0.8;}
+.resectModalCont a{text-decoration: none;display: block;text-align: center;font-size: 12px;color: #3475b7;}
+
+/*
+手机显示样式代码*/
+@media screen and (max-width: 770px) {
+    .resectModalCont{margin-top: 45%;}
+}
+@media screen and (max-width: 620px) {
+    .g-signChoose{font-size: 18px;}
+    .g-signIndexForm input{font-size: 18px;}
+    .g-signIndexForm .g-signArea{min-width: 32%;}
+    .g-signIndexForm .g-signNumber{width: 67%;}
+    .g-toolOneFooter p{padding-top: 22px;}
+    .g-fristStepHead h3{font-size: 18px;}
+    .g-fristStepPact h4{font-size: 15px;}
+    .g-fristStepPact a{font-size: 15px;}
+    .g-thirdStep .g-stepThreeTip img{margin-top: 30px;}
+    /*首页*/
+    .g-toolOneMain{padding: 0 15px;}
+    .g-toolOneList p{font-size: 18px;line-height: 20px;}
+    .g-toolOneList span{font-size: 14px;}
+    .g-index-btn{margin-left: 20%;}
+}
+@media screen and (max-width: 500px) {
+    .g-signChoose{font-size: 12px;}
+    .g-signIndexForm label{font-size: 12px;}
+    .g-signIndexForm input{font-size: 12px;}
+    .g-secondStepForm .form-horizontal .form-group label{font-size: 12px;}
+    .g-secondStepForm .form-horizontal .form-group input{font-size: 12px;}
+    .g-secondStep .radio-inline{font-size: 12px;}
+    .g-secondStep .radio-inline input{width: 17px;margin: 0px 0 0 -20px;}
+    .g-secondStep textarea{font-size: 12px;}
+    /*首页样式*/
+    .g-lastBtn{font-size: 14px;line-height: 0;}
+    .g-bannerLastBg{height: 0;}
+    .g-headlogo a img{margin-left: 15px;}
+    .g-headlogin a{margin-right: 5px;}
+    .jum h1{font-size: 24px;}
+    .jumbotron p{font-size: 14px;}
+    .g-index-btn{margin-left: 10%;}
+}
+@media screen and (max-width: 430px) {
+    .g-index-btn{margin-left: 0;}
+    .g-toolOneList img{min-width: 140px;}
+    .g-toolOneList{margin-top: 35px;}
+    .g-second{margin-top: 35px;}
+    .g-second h3{font-size: 18px;margin-bottom: 20px;}
+    .g-second p{font-size: 14px;margin-left: 50px;}
+    .g-thirdList{min-width: 48%;}
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NFC+开发者平台</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="js/validator/jquery.validator.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/validator/jquery.validator.min.js"></script>
+<script type="text/javascript" src="js/validator/local/zh-CN.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="g-banner">
+    <div class="g-head"></div>
+    <div class="container ">
+        <div class="row">
+            <div class="col-xs-6 col-sm-8 col-md-8 col-lg-8 g-headlogo">
+                <a href="index_toolone.html">
+                    <img src="images/NFC_logo.png" alt="">
+                    <span class="hidden-xs">开发者平台</span>
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 g-headlogin">
+                <a href="sign_step.html">注册</a>
+                <span>|</span>
+                <a href="sign_index.html">登录</a>
+            </div>
+        </div>
+        <div class="jumbotron jum">
+            <h1>NFC+云平台</h1>
+            <p>第三方平台接入，为合作商户提供会员卡发放、会员卡管理功能，服务千万商户！</p>
+            <div class=" col-sm-4 col-xs-4 col-sm-offset-4 col-xs-offset-4 g-index-btn">
+                 <a class="btn btn-primary btn-lg g-bannerContBtn" href="#" role="button">立即申请 </a>
+            </div>
+        </div>
+    </div>
+    <div class="g-bannerLastBg">
+    </div>
+    <div class="container g-bannerLast" id="g-bannerLast">
+        <div class="row">
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4 g-lastBtn g-lastBtnOne g-active"><span><img class="g-imgActiveT"  src="images/icon001.png" alt="" style="display: none"><img class="g-imgActive" src="images/icon01.png" alt="" style="display: inline-block"></span> 提供功能</div>
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4 g-lastBtn g-lastBtnTwo"><span><img class="g-imgActiveT" src="images/icon02.png" alt=""><img class="g-imgActive" src="images/icon002.png" alt=""></span> 提供方式</div>
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4 g-lastBtn g-lastBtnThree"><span><img class="g-imgActiveT" src="images/icon03.png" alt=""><img class="g-imgActive" src="images/icon003.png" alt=""></span> 申请流程</div>
+        </div>
+    </div>
+</div>
+<div class="g-content" id="g-content">
+    <div class="container g-toolOneMain g-frist g-contentMain">
+        <div class="row">
+            <div class="g-toolOneList">
+                <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
+                    <img src="images/toolList01.png" alt="">
+                </div>
+                <div class="col-md-7 col-lg-7 col-sm-7 col-xs-7 col-md-offset-1 col-lg-offset-1 col-sm-offset-1 col-xs-offset-1">
+                    <p>空中发卡，在线领取电子凭证</p>
+                    <span>提供电子凭证发行管理和安全模块管理、实现行业合作、支持”一卡多应用”建立的一套完整的”空中发卡“和应用管理体系。</span>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="g-toolOneList">
+                <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
+                    <img src="images/toolList02.png" alt="">
+                </div>
+                <div class="col-md-7 col-lg-7 col-sm-7 col-xs-7 col-md-offset-1 col-lg-offset-1 col-sm-offset-1 col-xs-offset-1">
+                    <p>手机刷卡，NFC快速通过</p>
+                    <span>提供手机近场读取、支付等功能，用户只需通过客户端操作即可完成卡模拟设置并使用手机完成电子凭证的验证。</span>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="g-toolOneList">
+                <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
+                    <img src="images/toolList03.png" alt="">
+                </div>
+                <div class="col-md-7 col-lg-7 col-sm-7 col-xs-7 col-md-offset-1 col-lg-offset-1 col-sm-offset-1 col-xs-offset-1">
+                    <p>手机读卡，移植读取电子凭证</p>
+                    <span>提供NFC读卡功能，获取包括NFC名片，NFC标签、电子卡券等，并完成在线验证。</span>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container g-second g-contentMain">
+        <div class="row">
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+                <h3>卡包本地客户端</h3>
+                <p>支持Android和Ios应用</p>
+                <p>用户需要下载/安装”卡包”应用</p>
+                <p>支持离线识别会员卡</p>
+                <p>支持二维码和手动输入卡号</p>
+                <p>一秒内完成认证和识别</p>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+                <h3>卡包本地SDK：</h3>
+                <p>支持Android和Ios应用</p>
+                <p>用户无需安装“卡包”应用</p>
+                <p>会员认证需要连接网络</p>
+                <p>一秒完成认证和识别</p>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+                <h3>云平台API：</h3>
+                <p>支持移动端各类平台应用</p>
+                <p>用户无需安装“卡包”应用</p>
+                <p>会员认证需要连接网络</p>
+                <p>2-3秒完成认证和识别</p>
+            </div>
+        </div>
+    </div>
+    <div class="container g-third g-contentMain">
+        <div class="g-thirdList">
+            <img src="images/tollstepicon01.png" alt="">
+            <h3>注册</h3>
+            <img class="g-thirdPostionImg" src="images/tollstep01.png" alt="">
+        </div>
+        <div class="g-thirdList">
+            <img src="images/tollstepicon02.png" alt="">
+            <h3>签署《开发者协议》</h3>
+            <img class="g-thirdPostionImg" src="images/tollstep02.png" alt="">
+        </div>
+        <div class="g-thirdList">
+            <img src="images/tollstepicon03.png" alt="">
+            <h3>填写详细信息</h3>
+            <img class="g-thirdPostionImg" src="images/tollstep03.png" alt="">
+        </div>
+        <div class="g-thirdList">
+            <img src="images/tollstepicon04.png" alt="">
+            <h3>申请API</h3>
+            <img class="g-thirdPostionImg" src="images/tollstep04.png" alt="">
+        </div>
+        <div class="g-thirdList">
+            <img src="images/tollstepicon05.png" alt="">
+            <h3>授权</h3>
+            <img class="g-thirdPostionImg" src="images/tollstep05.png" alt="">
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="g-toolOneFooter">
+    <p>012-2016 爱刷（北京）科技有限公司（aishuapay.com）版权所有 京ICP备14052897号-2</p>
+</div>
+</body>
+</html>
+   
