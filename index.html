@@ -1,93 +1,214 @@
-
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css"/>
+    <link rel="stylesheet" href="stylesheets/main.css"/>
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>首页</title>
+    <script>
+        $(function () {
 
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-		<link rel="stylesheet" href="stylesheets/bootstrap.min.css" />
-		<link rel="stylesheet" href="stylesheets/main.css" />
-		<script src="javascripts/jquery.min.js"></script>
-		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-		<title></title>
-		<script>
-			$(function() {
-				$(".nav_list").click(function() {
-					var indexs = $(this).index();
-					$(".nav_list a").css("color", "#fff")
-					$(this).find("a").css("color", "#00625A")
-					$(".demo_listcount").hide();
-					$(".demo_listcount").eq("" + indexs + "").show();
-					$(".triangle").hide();
-					$(".triangle").eq("" + indexs + "").addClass("triangle_show").show();
-				});
-				$(".demo_listcount ul li").mouseover(function(){
-					 $(".demo_listcount ul li p").hide();
-					 $(this).find("p").show();
-				}).mouseout(function(){
-					$(this).find("p").hide();
-				});
-			})
-		</script>
-	</head> 
-	<body>
-		<!--头部导航条-->
-		<div class="navbar">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-3 col-xs-3 nav_list">
-						<div class="list"><a href="#" style="color:#00625A "><i class="fa fa-angle-down"></i>css</a></div>
-						<div class="triangle triangle_show" style="display: block;"></div>
-					</div>
-					<div class="col-sm-3 col-xs-3 nav_list">
-						<div class="list"><a href="#"><i class="fa fa-angle-down"></i>js小刀初试</a></div>
-						<div class="triangle"></div>
-					</div>
-					<div class="col-sm-3 col-xs-3 nav_list">
-						<div class="list"><a href="#"><i class="fa fa-angle-down"></i>手机端项目</a></div>
-						<div class="triangle"></div>
-					</div>
-					<div class="col-sm-3 col-xs-3 nav_list">
-						<div class="list"><a href="#"><i class="fa fa-angle-down"></i>PC端项目</a></div>
-						<div class="triangle"></div>
-					</div>
-				</div>
-				<!--内容列表-->
-				<div class="demo_list">
-					<div class="demo_listcount" style="display: block;">
-						<ul> 
-							<li><a href="jqdome/map_demo.html" target="_blank"><img src="images/list1.jpg"/><p>地图热点效果<br><span>点击查看</span></p></a></li>
-							<li><a href="jqdome/three_select.html" target="_blank"><img src="images/list2.jpg"/><p>三级下拉联动选择<br><span>点击查看</span></p></a></li>
-							<li><a href="jqdome/operatetable.html" target="_blank"><img src="images/list4.jpg"/><p>表格中的行全选反选<br><span>点击查看</span></p></a></li>
-							<li><a href="cssdemo/list_styleimg.html" target="_blank"><img src="images/list3.jpg"/><p>li列表图片数字样式<br><span>点击查看</span></p></a></li>
-						</ul>
-					</div>
-					<div class="demo_listcount">
-                        <ul>
-                            <li><a href="items/smint/demo1/index.html" target="_blank"><img src="images/item7.jpg"/><p>单页浮动导航效果<br><span>点击查看</span></p></a></li>
-                        </ul>
+        })
+    </script>
+</head>
+<body>
+<!--头部-->
+<nav class="navbar navbar-fixed-top" role="navigation" id="navbar">
+    <div class="navbar-inner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar white-icon-bar"></span>
+                    <span class="icon-bar white-icon-bar"></span>
+                    <span class="icon-bar white-icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="resume.html">
+                    蓝眼睛的简历
+                </a>
+            </div>
+            <div class="blur"></div>
+            <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false"
+                 style="height: 1px;">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#demo" class="tab">小Demo</a>
+                    </li>
+                    <li>
+                        <a href="#pc" class="tab">PC端</a>
+                    </li>
+                    <li>
+                        <a href="#phone" class="tab">手机端</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<section>
+    <div class="h30"></div>
+    <div class="row">
+        <img src="images/banner.jpg" class="img_banner img-responsive"/>
+        <p class="text-center">
+            代码整合、项目展示、小demo
+        </p>
+    </div>
+</section>
+<section name="demo" id="demo">
+    <div class="install-prompt text-left">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3 class="prompt-header text-left"><i class="fa fa-tag"></i>小Demo</h3>
+                </div>
+                <div class="col-lg-4 text-left">
+                    <ul class="text-left works-list">
+                        <li>01<i class="fa fa-angle-double-right" aria-hidden="true"></i><a
+                                href="jqdome/map_demo.html" target="_blank">地图热点效果</a></li>
+                        <li>04<i class="fa fa-angle-double-right" aria-hidden="true"></i><a
+                                href="jqdome/three_select.html" target="_blank">三级下拉联动选择</a></li>
+                        <li>07<i class="fa fa-angle-double-right" aria-hidden="true"></i><a
+                                href="jqdome/operatetable.html" target="_blank">表格中的行全选反选</a></li>
+                        <li>10<i class="fa fa-angle-double-right" aria-hidden="true"></i><a
+                                href="cssdemo/list_styleimg.html" target="_blank">li列表图片数字样式</a></li>
+                        <li>13<i class="fa fa-angle-double-right" aria-hidden="true"></i><a
+                                href="items/smint/demo1/index.html" target="_blank">单页浮动导航效果</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4  text-left">
+                    <ul class="text-left works-list">
+                        <li>02<i class="fa fa-angle-double-right" aria-hidden="true"></i><a
+                                href="jqdome/map_demo.html" target="_blank">地图热点效果</a></li>
+                        <li>05<i class="fa fa-angle-double-right" aria-hidden="true"></i><a
+                                href="jqdome/three_select.html" target="_blank">三级下拉联动选择</a></li>
+                        <li>08<i class="fa fa-angle-double-right" aria-hidden="true"></i><a
+                                href="jqdome/operatetable.html" target="_blank">表格中的行全选反选</a></li>
+                        <li>11<i class="fa fa-angle-double-right" aria-hidden="true"></i><a
+                                href="cssdemo/list_styleimg.html" target="_blank">li列表图片数字样式</a></li>
+                        <li>14<i class="fa fa-angle-double-right" aria-hidden="true"></i><a
+                                href="items/smint/demo1/index.html" target="_blank">单页浮动导航效果</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4  text-left">
+                    <ul class="text-left works-list">
+                        <li>03<i class="fa fa-angle-double-right" aria-hidden="true"></i><a
+                                href="jqdome/map_demo.html" target="_blank">地图热点效果</a></li>
+                        <li>06<i class="fa fa-angle-double-right" aria-hidden="true"></i><a
+                                href="jqdome/three_select.html" target="_blank">三级下拉联动选择</a></li>
+                        <li>09<i class="fa fa-angle-double-right" aria-hidden="true"></i><a
+                                href="jqdome/operatetable.html" target="_blank">表格中的行全选反选</a></li>
+                        <li>12<i class="fa fa-angle-double-right" aria-hidden="true"></i><a
+                                href="cssdemo/list_styleimg.html" target="_blank">li列表图片数字样式</a></li>
+                        <li>15<i class="fa fa-angle-double-right" aria-hidden="true"></i><a
+                                href="items/smint/demo1/index.html" target="_blank">单页浮动导航效果</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section name="pc" id="pc">
+    <div class="install-prompt white">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3 class="prompt-header text-left"><i class="fa fa-tag"></i>手机端</h3>
+                </div>
+                <div class="col-lg-4 text-left">
+                    <ul class="text-left works-list">
+                        <li>03<i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="items/appPlayShua/index.html" target="_blank">放心刷</a></li>
+                        <li>03<i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="items/coupon/index.html" target="_blank">优惠券</a></li>
+                        <li>03<i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="items/jqmobile/jqmobiledemo.html" target="_blank">jQueryMobil实例</a></li>
+                        <li>03<i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="items/webapptravel/index.html" target="_blank">旅游手机页</a></li>
+                        <li>03<i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="items/webappwash/index.html" target="_blank">洗衣行业手机页</a></li>
+                        <li>03<i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="items/zhuanpan/index.html" target="_blank">转盘抽奖</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 text-left">
+                    <ul class="text-left works-list">
+                        <li>03<i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="items/appPlayShua/index.html" target="_blank">放心刷</a></li>
+                        <li>03<i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="items/coupon/index.html" target="_blank">优惠券</a></li>
+                        <li>03<i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="items/jqmobile/jqmobiledemo.html" target="_blank">jQueryMobil实例</a></li>
+                        <li>03<i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="items/webapptravel/index.html" target="_blank">旅游手机页</a></li>
+                        <li>03<i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="items/webappwash/index.html" target="_blank">洗衣行业手机页</a></li>
+                        <li>03<i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="items/zhuanpan/index.html" target="_blank">转盘抽奖</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 text-left">
+                    <ul class="text-left works-list">
+                        <li>03<i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="items/appPlayShua/index.html" target="_blank">放心刷</a></li>
+                        <li>03<i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="items/coupon/index.html" target="_blank">优惠券</a></li>
+                        <li>03<i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="items/jqmobile/jqmobiledemo.html" target="_blank">jQueryMobil实例</a></li>
+                        <li>03<i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="items/webapptravel/index.html" target="_blank">旅游手机页</a></li>
+                        <li>03<i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="items/webappwash/index.html" target="_blank">洗衣行业手机页</a></li>
+                        <li>03<i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="items/zhuanpan/index.html" target="_blank">转盘抽奖</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section name="phone" id="phone">
+    <div class="install-prompt">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3 class="prompt-header text-left"><i class="fa fa-tag"></i>PC端</h3>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-left">
+                    <ul class="text-left works-list">
+                        <li>03<i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="items/shangquanweizhan/index.html" target="_blank">商圈微站系统</a></li>
+                        <li>03<i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="items/NFCmaster/shops_index.html" target="_blank">NFC后台</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--底部-->
+<footer>
+    <div class="container">
+        <div class="row h10">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a target="_blank" href="https://cnblogs.com/hfxm">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/lanyanjing-2016">
+                             <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="mailto:971540084@qq.com">
+                             <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-center">
+                    Copyright © 蓝眼睛的博客 2017
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
 
-                    </div>
-					<div class="demo_listcount">
-						<ul> 
-							<li><a href="items/appPlayShua/index.html" target="_blank"><img src="images/item1.jpg"/><p>放心刷<br>（手机模式查看）<br><span>点击查看</span></p></a></li>
-						    <li><a href="items/coupon/index.html" target="_blank"><img src="images/item2.jpg"/><p>优惠券<br>（手机模式查看）<br><span>点击查看</span></p></a></li>
-						    <li><a href="items/jqmobile/jqmobiledemo.html" target="_blank"><img src="images/item3.jpg"/><p>jQueryMobil实例<br>（手机模式查看）<br><span>点击查看</span></p></a></li>
-
-						    <li><a href="items/webapptravel/index.html" target="_blank"><img src="images/item5.jpg"/><p>旅游手机页<br>（手机模式查看）<br><span>点击查看</span></p></a></li>
-						    <li><a href="items/webappwash/index.html" target="_blank"><img src="images/item6.jpg"/><p>洗衣行业手机页<br>（手机模式查看）<br><span>点击查看</span></p></a></li>
-							<li><a href="items/zhuanpan/index.html" target="_blank"><img src="images/chouj.png"/><p>转盘抽奖<br>（手机模式查看）<br><span>点击查看</span></p></a></li>
-                        </ul>
-					</div>
-					<div class="demo_listcount">
-						<ul>
-							<li><a href="items/shangquanweizhan/index.html" target="_blank"><img src="images/item4.jpg"/><p>商圈微站系统<br><span>点击查看</span></p></a></li>
-							<li><a href="items/NFC--master/shops_index.html" target="_blank"><img src="images/item8.jpg"/><p>NFC后台<br><span>点击查看</span></p></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<script src="javascripts/jquery.min.js"></script>
-	</body> 
+</body>
 </html>
