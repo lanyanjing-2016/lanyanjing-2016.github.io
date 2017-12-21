@@ -15,16 +15,14 @@ footer{height:75pt;background:#979797}
 .nav-resume{border:none;background:#42474b}
 .nav-resume a{color:#fff}
 .nav-resume .nav>li>a:focus,.nav-resume .nav>li>a:hover{color:#337ab7}
-.link{display:block;margin-top:99px;width:81px;height:81px;-webkit-transition:.4s linear;transition:.4s ease-in}
+.link{display:block;margin-top:99px; -webkit-transition:.4s linear;transition:.4s ease-in}
 .link:hover{-webkit-transform:rotate(360deg);transform:rotate(360deg)}
 .page_one{border:none;background:#00b16a}
+.page_one a{display:inline-block}
 .page_one img{display:inline-block}
 .page_four ul,.page_one ul,.page_three ul,.page_two ul{margin:0;padding:0;list-style:none}
 .workiphone{display:none}
-@media (max-width:768px){.link{margin-top:0}
-    .workpc{display:none}
-    .workiphone{display:block}
-}
+
 .intro-text{color:#fff;font-size:1pc}
 .intro-text li{font-weight:bolder;line-height:30px}
 .intro-text span{display:inline-block;width:70px;text-align:right}
@@ -45,3 +43,8 @@ footer{height:75pt;background:#979797}
 .page_four p{margin-top:20px;text-align:left;line-height:25px}
 .page_five{padding:200px 0;border:none;background:#5bc0be}
 .page_five a{color:#fff}
+@media (max-width:768px){.link{margin-top:0}
+    .workpc{display:none}
+    .workiphone{display:block}
+    .intro-text span{display:inline-block;text-align:left;width:auto;}
+}
