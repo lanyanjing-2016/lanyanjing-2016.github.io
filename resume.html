@@ -5,14 +5,238 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
     <link rel="stylesheet" href="stylesheets/bootstrap.min.css"/>
     <link rel="stylesheet" href="stylesheets/main.css"/>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <script src="javascripts/jquery.min.js"></script>
     <script src="javascripts/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
     <title>简历</title>
 </head>
 <body>
-简历
-
-
+<!--头部-->
+<nav class="navbar navbar-fixed-top nav-resume" role="navigation" id="navbar">
+    <div class="navbar-inner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar white-icon-bar"></span>
+                    <span class="icon-bar white-icon-bar"></span>
+                    <span class="icon-bar white-icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="resume.html">
+                    岳新明
+                </a>
+            </div>
+            <div class="blur"></div>
+            <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false"
+                 style="height: 1px;">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#block-intro" class="tab">个人简介</a>
+                    </li>
+                    <li>
+                        <a href="#block-skill" class="tab">专业技能</a>
+                    </li>
+                    <li>
+                        <a href="#block-workEXP" class="tab">工作经历</a>
+                    </li>
+                    <li>
+                        <a href="#block-prjEXP" class="tab">项目经历</a>
+                    </li>
+                    <li>
+                        <a href="#block-wantMore" class="tab">联系邮箱</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--个人简介-->
+<section id="block-intro">
+    <div class="install-prompt page_one">
+    <div class="container">
+        <div class="h30"></div>
+       <div class="row">
+           <div class="col-lg-2 col-lg-offset-2 col-xs-4 text-center" >
+               <a href="https://cnblogs.com/hfxm" target="_blank" class="link">
+                <img src="images/github.png" class="img-responsive"/>
+               </a>
+           </div>
+           <div class="col-lg-4 col-xs-4 text-center">
+               <img src="images/myphone.png" class="img-responsive" width="270" height="270"/>
+           </div>
+           <div class="col-lg-2 col-lg-offset-1  col-xs-4  text-center">
+               <a href="https://github.com/lanyanjing-2016" target="_blank"  class="link">
+                <img src="images/blog.png" class="img-responsive"/>
+               </a>
+           </div>
+       </div>
+        <div class="row">
+            <div class="h30"></div>
+            <div class="col-lg-5 text-left">
+                <ul class="intro-text text-right">
+                    <li><span>姓名</span> | 岳新明 </li>
+                    <li><span>手机</span> | 15827150602</li>
+                    <li><span>邮箱</span> | <a href="mailto:yejunxing@gmail.com" hidefocus="true">971540084@qq.com</a>
+                    </li><li><span>所在地</span> | 湖北 - 武汉</li>
+                    <li><span>GitHub</span> | <a href="http://github.com/lanyanjing-2016" hidefocus="true">点击进入</a> </li>
+                    <li><span>Blog</span> | <a href="http://cnblogs.com/hfxm" hidefocus="true">点击进入</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-6 col-lg-offset-1 text-left color_fff dv_love">
+                <p>我是一个性格沉稳、做事认真的人。<br>我喜欢研究所碰到的各种技术，也在不断提升自己。<br>我有时间概念，能在约定时间内保证完成任务。</p>
+                <p>前端开发技能，熟悉 HTML、CSS、Javascript，能熟练开发符合 W3C 标准的页面，熟练使用 jQuery 框架，以及多种 jQuery 插件。<br>
+                    有良好的编码习惯。<br>
+                    能够配合程序员和设计师完成相关工作。<br>
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!--专业技能-->
+<section id="block-skill">
+    <div class="install-prompt page_two">
+        <div class="container">
+            <div class="h30"></div>
+            <h2 class="color_fff">专业技能</h2>
+            <div class="h30"></div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <ul class="skill-lang">
+                        <li>语言</li>
+                        <li>HTML(5)</li>
+                        <li>CSS(3)</li>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <ul class="skill-lang">
+                        <li>思想</li>
+                        <li>W3C标准</li>
+                        <li>语义化</li>
+                        <li>表现与结构分离</li>
+                        <li>响应式设计</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <ul class="skill-lang">
+                        <li>框架</li>
+                        <li>jQuery</li>
+                        <li>Bootstrap</li>
+                        <li>WeUI</li>
+                        <li>拼图框架</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <ul class="skill-lang">
+                        <li>技术</li>
+                        <li>Git</li>
+                        <li>SVN</li>
+                        <li>Ajax</li>
+                        <li>WebPack</li>
+                        <li>Photoshop</li>
+                        <li>AdobeIllustrato</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="h30"></div>
+        </div>
+    </div>
+</section>
+<!--工作经历-->
+<section id="block-workEXP">
+    <div class="install-prompt page_three">
+        <div class="container workpc">
+            <div class="h30"></div>
+            <h2 class="color_fff">工作经历</h2>
+            <div class="h30"></div>
+            <div class="row color_fff  text-left">
+                <div class="col-lg-3 col-lg-offset-3 col-xs-6">
+                     <h4>2011年——2014年</h4>
+                </div>
+                <div class="col-lg-3 pa_left col-xs-6">
+                    <h4>2015年——Now</h4>
+                </div>
+            </div>
+            <div class="img_line text-center"><img src="images/timeline.png" class="img-responsive"/> </div>
+            <div class="row color_fff text-left">
+                <div class="col-lg-3 col-lg-offset-3 col-xs-6">
+                    <h4>广州玄武无线科技有限公司</h4>
+                    <h4>WEB前端开发工程师<br>兼顾(网页设计师)</h4>
+                    <p>使用Dreamweaver、Photoshop及熟练的运用
+                        Div+css布局，JavaScript、JQuery库完成前端
+                        页面设计与制作,及公司其他项目的重构和优化。</p>
+                </div>
+                <div class="col-lg-3 pa_left col-xs-6">
+                    <h4>北京爱刷股份科技有限公司</h4>
+                    <h4>WEB前端工程师</h4>
+                    <P>主要负责公司项目交互设计,PC端、移动端、微信公众号、客户端内嵌页的开发及优化。与产品经理、UI设计师交涉讨论及分析需求流程。配合后台开发工程师完成衔接工作。
+                    </P>
+                </div>
+            </div>
+            <div class="h30"></div>
+        </div>
+        <div class="container workiphone">
+            <div class="h30"></div>
+            <h2 class="color_fff">工作经历</h2>
+            <div class="h30"></div>
+            <div class="row color_fff  text-left">
+                <div class="col-xs-12">
+                    <h4>2011年——2014年</h4>
+                    <h4>广州玄武无线科技有限公司</h4>
+                    <h4>WEB前端开发工程师兼顾(网页设计师)</h4>
+                    <p>使用Dreamweaver、Photoshop及熟练的运用
+                        Div+css布局，JavaScript、JQuery库完成前端
+                        页面设计与制作,及公司其他项目的重构和优化。</p>
+                </div>
+                <div class="col-xs-12">
+                    <div class="h30"></div>
+                    <h4>2015年——Now</h4>
+                    <h4>北京爱刷股份科技有限公司</h4>
+                    <h4>WEB前端工程师</h4>
+                    <P>主要负责公司项目交互设计,PC端、移动端、微信公众号、客户端内嵌页的开发及优化。与产品经理、UI设计师交涉讨论及分析需求流程。配合后台开发工程师完成衔接工作。
+                    </P>
+                </div>
+            </div>
+            <div class="h30"></div>
+        </div>
+    </div>
+</section>
+<!--项目经验-->
+<section id="block-prjEXP">
+    <div class="install-prompt page_four">
+        <div class="container">
+            <div class="h30"></div>
+            <h2 class="color_fff">项目经历</h2>
+            <div class="h30"></div>
+            <div class="row color_fff text-center">
+                <div class="col-lg-3 col-lg-offset-1">
+                    <div class="circle_title">e卡惠</div>
+                    <P>后台基于拼图框架的一套系统，包含卡片的增删改查操作，移动端商户创建会员卡，积分卡，促销卡等，来实现商家营销活动</P>
+                </div>
+                <div class="col-lg-3 col-lg-offset-1">
+                    <div class="circle_title bg2">放心刷</div>
+                    <P>一款手机支付安全保障产品，手机端使用，项目为独立前端开发项目。</P>
+                </div>
+                <div class="col-lg-3 col-lg-offset-1">
+                    <div class="circle_title bg3">NFC+</div>
+                    <P>NFC卡券的管理系统，查看卡券发放量和使用量统计，运营日志管理，参数配置等。以及配合商家做卡券营销H5活动</P>
+                </div>
+            </div>
+            <div class="h30"></div>
+        </div>
+    </div>
+</section>
+<!--联系邮箱-->
+<section id="block-wantMore">
+    <div class="install-prompt page_five color_fff">
+        <div class="container">
+            <h3>快把我收到碗里吧</h3>
+            <h3><a href="mailto:971540084@qq.com">971540084@qq.com</a> </h3>
+        </div>
+    </div>
+</section>
 </body>
 </html>

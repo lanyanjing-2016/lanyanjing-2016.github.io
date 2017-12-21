@@ -1,38 +1,47 @@
-.navbar{width:100%; border:none; height: 60px; background: white;border-bottom: 1px solid #e0e0e0; height:auto;
-    overflow: hidden;padding:0 15px;}
-.navbar-toggle > .white-icon-bar {background-color: #ccc;}
-.h10{margin-top:10px;}
-.h30{margin-top:60px;}
-.row{margin-left:0; margin-right:0}
-.img_banner{margin: 0 auto; display:block;}
-.install-prompt {
-    background-color: #f5f5f5;
-    border-bottom-color: #e0e0e0;
-    border-left-style: none;
-    border-style: solid;
-    border-top-color: #e0e0e0;
-    border-width: thin;
-    border-right: 0px;
-    padding: 24px 0 42px 0;
-    text-align: center;}
-.white{background: white;}
-footer{background: #979797; height:100px;}
-.works-list li{line-height:30px;font-size:16px;}
+.navbar{overflow:hidden;padding:0 15px;width:100%;height:60px;height:auto;border:none;border-bottom:1px solid #e0e0e0;background:#fff}
+.navbar-toggle>.white-icon-bar{background-color:#ccc}
+.h10{margin-top:10px}
+.h30{margin-top:60px}
+.color_fff{color:#fff}
+.row{margin-right:0;margin-left:0}
+.img_banner{display:block;margin:0 auto}
+.install-prompt{padding:24px 0 42px;border-style:solid;border-width:thin;border-right:0;background-color:#f5f5f5;text-align:center;border-bottom-color:#e0e0e0;border-left-style:none;border-top-color:#e0e0e0}
+.white{background:#fff}
+footer{height:75pt;background:#979797}
+.works-list li{font-size:1pc;line-height:30px}
 .works-list li a{color:#0085a1}
-.works-list li i{margin-right:8px;margin-left:8px;}
-.container{margin: 0 auto; padding:0; }
-.navbar .list{background: #43c8c7; height: 60px; line-height: 60px; text-align: center;padding: 0 10px; position: relative;}
-.navbar .list a{color: #fff; font-size: 20px; text-decoration: none;}
-.navbar .list a:hover{text-decoration: none; color: #00625A;}
-.navbar .list i{margin-right: 5px;color: #6ee4e3;}
-.triangle{display: none;}
-.triangle_show{width:0;z-index: 10; height: 0; border: 20px solid transparent; border-top-color: #43c8c7;position: absolute;top:60px; left:47%}
-/*内容列表*/
-.demo_list{background:#f0f0f0; margin-top:0px; min-height:600px;  }
-.demo_listcount{display: none;   width: 100%;padding-top: 20px;}
-.demo_listcount ul li{float: left; margin: 10px; border: 1px solid #ccc; width: 152px;height: 152px; list-style: none; position: relative;}
-.demo_listcount ul li img{width: 140px; height: 140px; margin: 5px;}
-.demo_listcount ul li p{display: none; position: absolute;text-align: center;  top:0 ;background: #000000;opacity: 0.6; padding:20px 5px; width: 150px;  height: 150px;}
-.demo_listcount ul li p span{margin-top: 15px; display: block; font-weight: bolder;}
-.demo_listcount ul li a{color: #fff;}
-
+.works-list li i{margin-right:8px;margin-left:8px}
+/*resume*/
+.nav-resume{border:none;background:#42474b}
+.nav-resume a{color:#fff}
+.nav-resume .nav>li>a:focus,.nav-resume .nav>li>a:hover{color:#337ab7}
+.link{display:block;margin-top:99px;width:81px;height:81px;-webkit-transition:.4s linear;transition:.4s ease-in}
+.link:hover{-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+.page_one{border:none;background:#00b16a}
+.page_one img{display:inline-block}
+.page_four ul,.page_one ul,.page_three ul,.page_two ul{margin:0;padding:0;list-style:none}
+.workiphone{display:none}
+@media (max-width:768px){.link{margin-top:0}
+    .workpc{display:none}
+    .workiphone{display:block}
+}
+.intro-text{color:#fff;font-size:1pc}
+.intro-text li{font-weight:bolder;line-height:30px}
+.intro-text span{display:inline-block;width:70px;text-align:right}
+.intro-text li a{color:#fff}
+.dv_love p{line-height:30px}
+.page_two{border:none;background:#19b5fe}
+.page_two .skill-lang{margin-top:10px;border:3px solid #fff;color:#fff;font-weight:bolder;font-size:1pc}
+.skill-lang li{height:40px;line-height:40px}
+.skill-lang li:first-child{background:#fff;color:#000}
+.page_three{border:none;background:#cf483b}
+.img_line img{display:inline-block}
+.pa_left{padding-left:50px}
+.page_three p{line-height:25px}
+.page_four{border:none;background:#9c58b6}
+.circle_title{margin:0 auto;width:200px;height:200px;border:4px solid #fff;border-radius:75pt;background:#ed6461;text-align:center;font-size:30px;line-height:200px}
+.page_four .bg2{background:#19b5fe}
+.page_four .bg3{background:#16cc70}
+.page_four p{margin-top:20px;text-align:left;line-height:25px}
+.page_five{padding:200px 0;border:none;background:#5bc0be}
+.page_five a{color:#fff}

@@ -1,193 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4473dc6-c3b5-4851-9694-a41cc988dee7" name="Default" comment="修改列表">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/HELP-US-OUT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/less/screen-reader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/scss/_screen-reader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/appPlayShua/js/flexible.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/appPlayShua/js/less.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resume.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/laydate-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/laydate-master/laydate.dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/laydate-master/laydate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/laydate-master/need/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/laydate-master/skins/dahong/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/laydate-master/skins/dahong/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/laydate-master/skins/danlan/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/laydate-master/skins/danlan/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/laydate-master/skins/default/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/laydate-master/skins/default/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/laydate-master/skins/molv/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/laydate-master/skins/molv/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/laydate-master/skins/qianhuang/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/laydate-master/skins/qianhuang/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/laydate-master/skins/yahui/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/laydate-master/skins/yahui/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/laydate-master/skins/yalan/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/laydate-master/skins/yalan/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/laydate-master/test/demo1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/laydate-master/test/demo2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/laydate-master/test/demo2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font-awesome/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/bootstrap.min.css" afterPath="" />
+    <list default="true" id="b4473dc6-c3b5-4851-9694-a41cc988dee7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/email.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/github.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/myphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/timeline.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/chouj.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/item1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/item2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/item3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/item4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/item5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/item6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/item7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/item8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/list1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/list2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/list3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/list4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/map_tip.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/mapbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/tb01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/tb02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/tb03.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/bootstrap.min.css" afterPath="$PROJECT_DIR$/stylesheets/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascripts/main.js" afterPath="$PROJECT_DIR$/javascripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resume.html" afterPath="$PROJECT_DIR$/resume.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/main.css" afterPath="$PROJECT_DIR$/stylesheets/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/css/font-awesome.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/less/bordered-pulled.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/less/core.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/less/fixed-width.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/less/font-awesome.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/less/icons.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/less/larger.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/less/list.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/less/path.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/less/rotated-flipped.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/spinning.less" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/less/animated.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/less/stacked.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/less/variables.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/scss/_core.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/scss/_fixed-width.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/scss/_icons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/scss/_larger.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/scss/_list.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/scss/_path.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_spinning.scss" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/scss/_animated.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/scss/_stacked.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/scss/_variables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/font-awesome-4.7.0/scss/font-awesome.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/.idea/.name" afterPath="$PROJECT_DIR$/items/NFCmaster/.idea/.name" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/.idea/NFC-.iml" afterPath="$PROJECT_DIR$/items/NFCmaster/.idea/NFC-.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/.idea/encodings.xml" afterPath="$PROJECT_DIR$/items/NFCmaster/.idea/encodings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/.idea/misc.xml" afterPath="$PROJECT_DIR$/items/NFCmaster/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/.idea/modules.xml" afterPath="$PROJECT_DIR$/items/NFCmaster/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/items/NFCmaster/.idea/scopes/scope_settings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/.idea/vcs.xml" afterPath="$PROJECT_DIR$/items/NFCmaster/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/css/bootstrap-datetimepicker.min.css" afterPath="$PROJECT_DIR$/items/NFCmaster/css/bootstrap-datetimepicker.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/items/NFCmaster/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/css/colpick.css" afterPath="$PROJECT_DIR$/items/NFCmaster/css/colpick.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/css/main.css" afterPath="$PROJECT_DIR$/items/NFCmaster/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/css/style.css" afterPath="$PROJECT_DIR$/items/NFCmaster/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/doc/API.files/colorschememapping.xml" afterPath="$PROJECT_DIR$/items/NFCmaster/doc/API.files/colorschememapping.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/doc/API.files/filelist.xml" afterPath="$PROJECT_DIR$/items/NFCmaster/doc/API.files/filelist.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/doc/API.files/header.html" afterPath="$PROJECT_DIR$/items/NFCmaster/doc/API.files/header.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/doc/API.files/image001.jpg" afterPath="$PROJECT_DIR$/items/NFCmaster/doc/API.files/image001.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/doc/API.files/image001.png" afterPath="$PROJECT_DIR$/items/NFCmaster/doc/API.files/image001.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/doc/API.files/image002.jpg" afterPath="$PROJECT_DIR$/items/NFCmaster/doc/API.files/image002.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/doc/API.files/item0001.xml" afterPath="$PROJECT_DIR$/items/NFCmaster/doc/API.files/item0001.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/doc/API.files/props0002.xml" afterPath="$PROJECT_DIR$/items/NFCmaster/doc/API.files/props0002.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/doc/API.files/themedata.thmx" afterPath="$PROJECT_DIR$/items/NFCmaster/doc/API.files/themedata.thmx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/doc/API.html" afterPath="$PROJECT_DIR$/items/NFCmaster/doc/API.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/items/NFCmaster/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/items/NFCmaster/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/items/NFCmaster/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/items/NFCmaster/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/items/NFCmaster/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/NFC_bluelogo.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/NFC_bluelogo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/NFC_logo.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/NFC_logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/approve_ico1.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/approve_ico1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/approve_ico2.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/approve_ico2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/approve_ico3.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/approve_ico3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/chart_pic.jpg" afterPath="$PROJECT_DIR$/items/NFCmaster/images/chart_pic.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/color_btn.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/color_btn.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/error404.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/error404.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/error_dico.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/error_dico.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/error_word.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/error_word.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/file_ico.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/file_ico.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/g-sprit.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/g-sprit.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/gbanner.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/gbanner.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/icon001.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/icon001.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/icon002.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/icon002.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/icon003.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/icon003.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/icon01.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/icon01.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/icon02.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/icon02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/icon03.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/icon03.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/message_ico.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/message_ico.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/phone_pic.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/phone_pic.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/smile_ico.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/smile_ico.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/stepAclock.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/stepAclock.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/stepThreeImg.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/stepThreeImg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/stepThreeOk.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/stepThreeOk.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/tollstep01.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/tollstep01.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/tollstep02.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/tollstep02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/tollstep03.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/tollstep03.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/tollstep04.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/tollstep04.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/tollstep05.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/tollstep05.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/tollstepicon01.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/tollstepicon01.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/tollstepicon02.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/tollstepicon02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/tollstepicon03.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/tollstepicon03.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/tollstepicon04.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/tollstepicon04.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/tollstepicon05.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/tollstepicon05.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/toolList01.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/toolList01.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/toolList02.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/toolList02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/toolList03.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/toolList03.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/top_bannerbg.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/top_bannerbg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/images/user_header.png" afterPath="$PROJECT_DIR$/items/NFCmaster/images/user_header.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/index_toolone.html" afterPath="$PROJECT_DIR$/items/NFCmaster/index_toolone.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/js/bootstrap-datetimepicker.min.js" afterPath="$PROJECT_DIR$/items/NFCmaster/js/bootstrap-datetimepicker.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/items/NFCmaster/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/js/colpick.js" afterPath="$PROJECT_DIR$/items/NFCmaster/js/colpick.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/js/hichart.js" afterPath="$PROJECT_DIR$/items/NFCmaster/js/hichart.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/js/highcharts.js" afterPath="$PROJECT_DIR$/items/NFCmaster/js/highcharts.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/js/jquery.min.js" afterPath="$PROJECT_DIR$/items/NFCmaster/js/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/js/main.js" afterPath="$PROJECT_DIR$/items/NFCmaster/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/js/respond.min.js" afterPath="$PROJECT_DIR$/items/NFCmaster/js/respond.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/js/shopsjs.js" afterPath="$PROJECT_DIR$/items/NFCmaster/js/shopsjs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/js/validator/images/loading.gif" afterPath="$PROJECT_DIR$/items/NFCmaster/js/validator/images/loading.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/js/validator/images/validator_default.png" afterPath="$PROJECT_DIR$/items/NFCmaster/js/validator/images/validator_default.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/js/validator/images/validator_simple.png" afterPath="$PROJECT_DIR$/items/NFCmaster/js/validator/images/validator_simple.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/js/validator/jquery.validator.css" afterPath="$PROJECT_DIR$/items/NFCmaster/js/validator/jquery.validator.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/js/validator/jquery.validator.js" afterPath="$PROJECT_DIR$/items/NFCmaster/js/validator/jquery.validator.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/js/validator/jquery.validator.min.js" afterPath="$PROJECT_DIR$/items/NFCmaster/js/validator/jquery.validator.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/js/validator/local/en.js" afterPath="$PROJECT_DIR$/items/NFCmaster/js/validator/local/en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/js/validator/local/ja.js" afterPath="$PROJECT_DIR$/items/NFCmaster/js/validator/local/ja.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/js/validator/local/zh-CN.js" afterPath="$PROJECT_DIR$/items/NFCmaster/js/validator/local/zh-CN.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/js/validator/local/zh-TW.js" afterPath="$PROJECT_DIR$/items/NFCmaster/js/validator/local/zh-TW.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/resectPassword_index.html" afterPath="$PROJECT_DIR$/items/NFCmaster/resectPassword_index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/resectPassword_set.html" afterPath="$PROJECT_DIR$/items/NFCmaster/resectPassword_set.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/shops_api.html" afterPath="$PROJECT_DIR$/items/NFCmaster/shops_api.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/shops_apitest.html" afterPath="$PROJECT_DIR$/items/NFCmaster/shops_apitest.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/shops_approve.html" afterPath="$PROJECT_DIR$/items/NFCmaster/shops_approve.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/shops_cardcount.html" afterPath="$PROJECT_DIR$/items/NFCmaster/shops_cardcount.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/shops_cardlist.html" afterPath="$PROJECT_DIR$/items/NFCmaster/shops_cardlist.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/shops_cardprofile.html" afterPath="$PROJECT_DIR$/items/NFCmaster/shops_cardprofile.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/shops_cardprofileadd.html" afterPath="$PROJECT_DIR$/items/NFCmaster/shops_cardprofileadd.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/shops_cardprofiledetail.html" afterPath="$PROJECT_DIR$/items/NFCmaster/shops_cardprofiledetail.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/shops_index.html" afterPath="$PROJECT_DIR$/items/NFCmaster/shops_index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/shops_message.html" afterPath="$PROJECT_DIR$/items/NFCmaster/shops_message.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/shops_operlog.html" afterPath="$PROJECT_DIR$/items/NFCmaster/shops_operlog.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/shops_operlogdetail.html" afterPath="$PROJECT_DIR$/items/NFCmaster/shops_operlogdetail.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/shops_password.html" afterPath="$PROJECT_DIR$/items/NFCmaster/shops_password.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/shops_setting.html" afterPath="$PROJECT_DIR$/items/NFCmaster/shops_setting.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/shops_settingerror.html" afterPath="$PROJECT_DIR$/items/NFCmaster/shops_settingerror.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/shops_settingupdata.html" afterPath="$PROJECT_DIR$/items/NFCmaster/shops_settingupdata.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/sign_index.html" afterPath="$PROJECT_DIR$/items/NFCmaster/sign_index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/sign_indexpass.html" afterPath="$PROJECT_DIR$/items/NFCmaster/sign_indexpass.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/sign_step.html" afterPath="$PROJECT_DIR$/items/NFCmaster/sign_step.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/sign_stepThree.html" afterPath="$PROJECT_DIR$/items/NFCmaster/sign_stepThree.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/NFC--master/sign_stepTwo.html" afterPath="$PROJECT_DIR$/items/NFCmaster/sign_stepTwo.html" />
     </list>
     <ignored path="lanyanjing-2016.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -210,8 +52,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="62" column="29" lean-forward="false" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+            <state relative-caret-position="391">
+              <caret line="196" column="72" lean-forward="false" selection-start-line="196" selection-start-column="49" selection-end-line="196" selection-end-column="72" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -219,21 +61,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resume.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="resume.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resume.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="446">
+              <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="509">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -267,9 +112,10 @@
         <option value="$PROJECT_DIR$/javascripts/bootstrap.min.js" />
         <option value="$PROJECT_DIR$/items/zhuanpan/sign-css/signed.html" />
         <option value="$PROJECT_DIR$/stylesheets/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/javascripts/main.js" />
         <option value="$PROJECT_DIR$/resume.html" />
+        <option value="$PROJECT_DIR$/stylesheets/main.css" />
       </list>
     </option>
   </component>
@@ -299,6 +145,48 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="lanyanjing-2016.github.io">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="lanyanjing-2016.github.io">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="stylesheets">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="lanyanjing-2016.github.io">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="javascripts">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -314,20 +202,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="lanyanjing-2016.github.io">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,14 +214,15 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\mywork\lanyanjing-2016.github.io" />
-      <recent name="D:\mywork\lanyanjing-2016.github.io\images" />
-      <recent name="D:\mywork\lanyanjing-2016.github.io\items\zhuanpan" />
-      <recent name="D:\mywork\lanyanjing-2016.github.io\items\zhuanpan\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\yue\lanyanjing-2016.github.io\items" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mywork\lanyanjing-2016.github.io\javascripts" />
+      <recent name="D:\mywork\lanyanjing-2016.github.io\images" />
+      <recent name="D:\mywork\lanyanjing-2016.github.io" />
+      <recent name="D:\mywork\lanyanjing-2016.github.io\items\zhuanpan" />
+      <recent name="D:\mywork\lanyanjing-2016.github.io\items\zhuanpan\images" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -448,7 +323,8 @@
       <workItem from="1510797315791" duration="2010000" />
       <workItem from="1513664035146" duration="3557000" />
       <workItem from="1513670995423" duration="4961000" />
-      <workItem from="1513734723945" duration="8735000" />
+      <workItem from="1513734723945" duration="19514000" />
+      <workItem from="1513819061519" duration="13077000" />
     </task>
     <task id="LOCAL-00001" summary="tijiao">
       <created>1489112706497</created>
@@ -562,11 +438,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494555927511</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="修改内容12.20">
+      <created>1513752505599</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1513752505599</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31264000" />
+    <option name="totallyTimeSpent" value="55120000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -581,9 +464,10 @@
     <frame x="-8" y="0" width="1924" height="1038" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17518637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17518637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10538373" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -597,7 +481,6 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -625,34 +508,14 @@
     <MESSAGE value="修改列表" />
     <MESSAGE value="添加nfc" />
     <MESSAGE value="添加图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加图片" />
+    <MESSAGE value="修改内容12.20" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改内容12.20" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/items/zhuanpan/sign-css/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/items/zhuanpan/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/items/zhuanpan/rule.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/items/zhuanpan/sign-css/signed.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
@@ -914,66 +777,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="117140" lean-forward="false" selection-start-line="4" selection-start-column="117140" selection-end-line="4" selection-end-column="117140" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Font-Awesome-3.2.1/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7176">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Font-Awesome-3.2.1/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="160" lean-forward="false" selection-start-line="0" selection-start-column="97" selection-end-line="0" selection-end-column="160" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Font-Awesome-3.2.1/css/font-awesome.css" />
+    <entry file="file://$PROJECT_DIR$/Font-Awesome-3.2.1/css/font-awesome.min.css" />
+    <entry file="file://$PROJECT_DIR$/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css" />
+    <entry file="file://$PROJECT_DIR$/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css" />
     <entry file="file://$PROJECT_DIR$/font-awesome-4.7.0/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="4" column="24042" lean-forward="false" selection-start-line="4" selection-start-column="24017" selection-end-line="4" selection-end-column="24042" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
+    <entry file="file://$PROJECT_DIR$/javascripts/navFixed-1.0.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/github.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="62" column="29" lean-forward="false" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+        <state relative-caret-position="391">
+          <caret line="196" column="72" lean-forward="false" selection-start-line="196" selection-start-column="49" selection-end-line="196" selection-end-column="72" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -982,8 +829,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resume.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="446">
+          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding />
         </state>
       </provider>
