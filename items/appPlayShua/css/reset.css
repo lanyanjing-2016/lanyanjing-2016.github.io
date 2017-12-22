@@ -55,10 +55,10 @@ nav,
 section {
 	margin: 0;
 	padding: 0;
-	border: 0; 
-	vertical-align: baseline; 
+	border: 0;
 	font-size: 14px;
-	font: inherit; 
+	font: inherit;
+	vertical-align: baseline;
 }
 
 article,

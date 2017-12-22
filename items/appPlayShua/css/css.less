@@ -1,34 +1,21 @@
 //定义函数区域
-.px2rem(@name, @px){
-    @{name}: @px / 75 * 1rem;
-
+//定义函数区域
+.px2rem(@name, @px) {
+    @{name}: @px /75* 1rem;
 }
-.px2px(@name, @px){
+.px2px(@name, @px) {
     @{name}: @px * 1px;
-    [data-dpr="1"] & {
-        @{name}: @px * 2px;
-    }
-    [data-dpr="2"] & {
-        @{name}: @px * 2px;
-    }
-    [data-dpr="2.5"] & {
-        @{name}: @px * 2.5px;
-    }
-    [data-dpr="2.75"] & {
-        @{name}: @px * 2.75px;
-    }
-    [data-dpr="3"] & {
-        @{name}: @px * 3px;
-    }
-    [data-dpr="4"] & {
-        @{name}: @px * 4px;
-    }
 }
 /*********/
-body{margin:0; padding: 0; background: #f6f1eb;}
-*{box-sizing: border-box;}
+/*********/
+body {
+    margin: 0;
+    padding: 0;
+    background: #f6f7f9; 
+}
+*{box-sizing: border-box; margin: 0;padding:0;}
+p,h2,h3,dd,dt{max-height: 99999px;} 
 a{text-decoration: none;}
-p{max-height: 9999px;}
 .top{
     .px2rem(width, 750); 
     .px2rem(height, 98);
@@ -55,7 +42,7 @@ p{max-height: 9999px;}
   }
  .title_inform{
      .px2rem(width, 750);
-     .px2rem(height,280); 
+     .px2rem(height,280);
      .px2rem(padding-left, 30);
      .px2rem(padding-right, 30);
      .px2rem(padding-top, 30);
@@ -95,12 +82,8 @@ p{max-height: 9999px;}
  }
  .div_selectaccount .p_title{
        .px2rem(padding-left, 25);
-       .px2px(font-size,16); 
+       .px2px(font-size,16);
   }
-  .div_selectaccount .p_title span{
-       .px2px(font-size,12);
-       color: #9b9b9b; 
-   }
  .div_selectaccount .select_meal{
      border-top:2px solid #cccccc;
      border-bottom: 2px solid #ccc;
@@ -120,6 +103,11 @@ p{max-height: 9999px;}
      .px2px(font-size,14);
      .px2rem(margin-top,11);
  }
+  .div_selectaccount .select_meal .p_info{
+      color: #1f1e1e;
+     .px2px(font-size,14);
+     .px2rem(margin-top,10);
+ }
 .div_selectaccount .select_meal .selected{
       float: left;
      .px2rem(width, 520);
@@ -127,10 +115,10 @@ p{max-height: 9999px;}
      color: #666;
  }
  .div_selectaccount .selected  .div_option{
-     border: 2px solid #439df9; 
+     border: 2px solid #ef6330; 
      .px2rem(height,58);
-     .px2rem(line-height,58);
      .px2rem(border-width, 2);
+     .px2rem(padding-top, 13); 
      .px2rem(padding-left, 20); 
      .px2rem(padding-right, 20); 
  }
@@ -140,7 +128,7 @@ p{max-height: 9999px;}
       position:absolute;
       z-index: 100;
       background: #fff; 
-      border: 2px solid #439df9;
+      border: 2px solid #ef6330;
       .px2rem(border-width, 2);
       border-top:none; 
      .px2rem(padding-bottom, 10);
@@ -153,42 +141,40 @@ p{max-height: 9999px;}
      .px2rem(padding-left, 20); 
      .px2rem(padding-right, 20); 
   }
-.div_selectaccount .selected ul li.hover{
-       background:#d9ebff;
-   }  
- .div_selectaccount .selected .sp_data{
+  .div_selectaccount .selected ul li:hover{
+     background: #fde1d7; 
+     cursor: pointer; 
+  }
+ .selected .sp_data{
      display: inline-block;
      .px2rem(width,200); 
     }
-  .div_selectaccount .selected .sp_money{
+ .selected .sp_money{
      display: inline-block;
-     .px2rem(width,230);
+     .px2rem(width,200);
      text-align: right; 
     }
- .div_selectaccount .selected .sp_downico{
+.selected .sp_downico{
     display:inline-block;
    .px2rem(margin-left,20); 
-   .px2rem(height,11); 
-   .px2rem(width,16);
+   .px2rem(height,17); 
+   .px2rem(width,18);
    vertical-align: middle;
-   background: url(../images/select_icodown.png);
-   background-size: cover;
+   background: url(../images/select_icodown.png) no-repeat;
    }
-.div_selectaccount .selected ul li .sp_downico{background: none;}
+.selected ul li .sp_downico{background: none;}
 .div_selectaccount .p_info{
-    .px2px(font-size,14);
-    .px2rem(margin-left, 25);
-    .px2rem(margin-right,25);
+    font-size:0.35rem;
+    .px2rem(margin-left, 30);
+    .px2rem(margin-right,30);
     .px2rem(padding-top, 20);
     .px2rem(padding-bottom, 20);
-     color: #999; 
-    .px2rem(line-height,40);
-    text-align:justify; 
-    text-justify:distribute-all-lines;  
+    color: #999; 
+    .px2rem(line-height,40);  
   }
 .div_selectaccount .p_info a{
        color: #279afa;
-}
+  }
   .select_meal .p_info{.px2px(font-size,14);.px2rem(line-height, 40);color: #9b9b9b;}
 /*保障功能*/
 .security{
@@ -217,7 +203,7 @@ p{max-height: 9999px;}
     width: 40%;
     .px2rem(height,4);
     display:block;
-    background: #439df9;
+    background: #ef6330;
     float: left;
 }
 .security .p_border .sp_rightborder{
@@ -248,8 +234,8 @@ p{max-height: 9999px;}
 }
 .security ul li:last-child{border: none;}
 .security ul li img{
-   .px2rem(width, 66);
-   .px2rem(height,71);  
+   .px2rem(width, 63);
+   .px2rem(height,68);  
 }
 .security ul li p{
    .px2rem(line-height, 40); 
@@ -259,7 +245,6 @@ p{max-height: 9999px;}
 .secur_notice .p_title{
     .px2rem(padding-top, 0);
 }
-.security a{color: #007aff;}
 .secur_notice .sp_ico{
     background: url(../images/down_ico.png) no-repeat;
     background-size: cover;
@@ -275,56 +260,22 @@ p{max-height: 9999px;}
     .px2rem(padding-right,30);
     .px2rem(padding-bottom,30);
     .px2rem(padding-top,30);
-    .px2rem(width,750);
-    height: auto;
-    overflow: hidden;
     display: none;
-    text-align: justify;
-    text-justify: distribute-all-lines;
-    word-break: break-all;
 }
-.security .secur_noticeinfo .p_list{
+.security .secur_noticeinfo p{
     .px2rem(line-height,45);
-    .px2px(font-size,14);
+    font-size:0.35rem;
     color: #676767;
-    float: left;
-    text-align: justify;
-    text-justify: distribute-all-lines;
 }
-.security .dl_faq {
-  .px2px(font-size,14); 
+.security  .dl_faq {
+  font-size:0.35rem;  
 }
-.security .dl_faq dt{
-  .px2rem(padding-left,15);  
-  .px2rem(margin-top,10);
-  .px2rem(line-height,45);
-  .px2rem(max-height,999);
+.security  .dl_faq dt{ 
+  .px2rem(margin-top,10); 
 }
-.security .dl_faq dt .sp1{
-    display: inline-block;
-    float: left;
-    .px2rem(width,20);
-    .px2rem(height,20);
-    .px2rem(border-radius,10); 
-    .px2rem(margin-top,10);
-   background:#999;
-}
-.security .dl_faq dt .sp_2{
-    float: left;
-    display: inline-block;
-    .px2rem(width,640);
-    .px2rem(margin-left,9);
-} 
-.security .dl_faq dd{
-   .px2rem(padding-left,40);
-   .px2rem(max-height,999);
-   .px2rem(line-height,45);
+.security  .dl_faq dd{ 
     color: #999;
-    display: block;
-    height: auto;
-    overflow: hidden;
-    text-align:justify; 
-    text-justify:distribute-all-lines; 
+    .px2rem(line-height,45);  
 }
 //如何获得赔偿
 .security .secur_noticeinfo .p_paytitle{
@@ -333,7 +284,7 @@ p{max-height: 9999px;}
     .px2rem(height,54);
     .px2rem(line-height,54);
     .px2rem(padding-left,30);
-    .px2px(font-size,14); 
+     
 }
 .security .secur_noticeinfo .p_paytitletwo{
     background:#fff183;
@@ -341,40 +292,27 @@ p{max-height: 9999px;}
     .px2rem(height,54);
     .px2rem(line-height,54);
     .px2rem(padding-left,30);
-    .px2rem(margin-top,50);
-    .px2px(font-size,14);  
+    .px2rem(margin-top,50); 
 }
 
 .security .secur_noticeinfo .pay_flow{
     .px2rem(margin-top,60);
-    .px2rem(width,750);
     height: auto;
     overflow: hidden; 
 }
 .security .secur_noticeinfo .p_img{
     float: left;
-    width:24%; 
-}
-.security .secur_noticeinfo .p_img img{
-    .px2rem(width,180);
-    .px2rem(height,180);
 }
 .security .secur_noticeinfo .p_count{
-      float: left; 
-      width:63%; 
+    float: right;
+     .px2rem(width,490); 
      .px2rem(margin-top,20);
-     .px2px(font-size,14);
-     .px2rem(margin-left,30);
-     color: #676767;
-     .px2rem(line-height,45);
 }
 .security .secur_noticeinfo .p_small{
-    .px2px(font-size,12); 
-    width: 63%;
-    color: #676767;
-    .px2rem(line-height,40); 
-    float: left;
-    .px2rem(margin-left,30); 
+    .px2px(font-size,11); 
+    .px2rem(width,490); 
+    .px2rem(line-height,35); 
+    float: right;  
 }
 //售卖地区
 .seal_square{
@@ -387,49 +325,25 @@ p{max-height: 9999px;}
      .px2rem(padding-right,30);
      .px2rem(padding-top,30);
      .px2rem(padding-bottom,30);
+    font-size:0.35rem;
      .px2rem(margin-bottom,133);
      color: #909090;
      .px2px(font-size,12);
      margin-left: auto;
      margin-right: auto;
 }
-.seal_square .checkbox{ 
+.seal_square .checkbox{
+    text-align: center;
     .px2rem(margin-top,20);
-    .px2rem(height,28);
-    .px2rem(line-height,28);
-    .px2rem(width,300);
-    margin-left: auto;
-    margin-right: auto;
-    color: #666; 
-} 
-.checkboxFour {
-   .px2rem(width,32);
-   .px2rem(height,32);
-   float:left;
-  .px2rem(margin-right,10);
-} 
-.checkboxFour label {
-    display: block;
-   .px2rem(width,32);
-   .px2rem(height,32);
-   background: url(../images/check_icogray.png);
-   background-size:cover;
-  .px2rem(margin-top,-26);
-} 
-.checkboxFour input[type=checkbox]:checked +label {
-    background: url(../images/check_icogreen.png);
-    .px2rem(width,32);
-    .px2rem(height,32);
-    .px2rem(margin-top,-26);
-    background-size:cover;
+    color: #666;
 }
-.seal_square .sp_info{
-    float: left;
-    display:block;
-    .px2rem(height,32);
-    .px2rem(line-height,32);
-    .px2rem(margin-top,0);
+.seal_square input{
+   .px2rem(width,30); 
+   .px2rem(height,30);
+   .px2rem(margin-right,10);
+   vertical-align: middle; 
 }
+
 //底部
 .foot{
    .px2rem(width,750);
@@ -445,57 +359,51 @@ p{max-height: 9999px;}
 } 
 .foot .p_left{
     float: left;
-    .px2px(font-size,14);
-    color: #439df9;
+   font-size:0.35rem;
+    color: #ef6330;
     .px2rem(padding-top,36);
     .px2rem(padding-left,50);
 }
-.foot .p_right a{
+.foot .p_right{
     float: right;
-    background: #439df9;
+    background: #ef6330;
     color: #fff;
-    .px2px(font-size,14);
+  font-size:0.35rem;
     .px2rem(width,280);
     .px2rem(padding-top,36);
     text-align: center;
     .px2rem(height,113);
+}
+.foot .p_right a{
     color: #fff;
-}
-.foot .p_right a:link{
-    background:#439df9;
-}
-.foot .p_right a:visited{
-    background:#439df9;
-}
-//.foot .p_right a:hover{
-//  background: #ccc;
-//}
- .foot .p_right a:active{
-    background: #439df9;
-}
-
+} 
 //遮罩层
 .mask_box{position: fixed; width:100%; height:100%;background:rgba(0,0,0,0.5); z-index:110;display:none;} 
 .bx_clause{ 
-    .px2rem(width,650); 
+    .px2rem(width,700); 
     .px2rem(height,800);
-    overflow-y: auto; 
+    overflow-y: auto;
+    //.px2rem(margin-top,-150);
     .px2rem(margin-left,-20);
-    .px2rem(margin-top,-40); 
+    .px2rem(margin-top,-40);
+    //background-size:cover; 
+   // background-position:center 0;
     .px2rem(border-radius,5);
     .px2rem(padding-top,20);
     .px2rem(padding-bottom,20);
     .px2rem(padding-left,20);
-    .px2rem(padding-right,20); 
+    .px2rem(padding-right,20);
+    //background-position: 50% 50%; 
     background:#fff; 
     position:fixed; 
+    //top:50%;
+    //left:50%; 
     z-index:111; 
     display:none;
     .px2px(font-size,12);
     scrollbar-face-color:#fff;
 } 
-.bx_clause h3,.bx_clause h2{text-align: center; .px2px(font-size,12); font-weight: bolder;}
-.bx_clause h2{.px2px(font-size,14);.px2rem(line-height,70);}
+.bx_clause h3{text-align: center; .px2px(font-size,12); font-weight: bolder;}
 .bx_clause .p_center{text-align: center;}
 .bx_clause p{.px2rem(text-indent,40); .px2rem(line-height,50); }
 .bx_clause p .sp_font{font-weight: bolder;}
@@ -508,7 +416,7 @@ p{max-height: 9999px;}
    .px2rem(border-radius,5);  
    .px2rem(padding-left,10); 
    .px2rem(padding-right,10);
-   .px2rem(width,680);
+   .px2rem(width,700);
    .px2rem(height,88);
    .px2rem(line-height,88);   
    .px2rem(margin-top,30);  
@@ -517,7 +425,7 @@ p{max-height: 9999px;}
 }
 .getmform .con input{
   .px2rem(height,40); 
-  .px2rem(line-height,40);
+   .px2rem(line-height,40);
   .px2px(font-size,13);
   .px2rem(padding-top,20);
   .px2rem(padding-bottom,20);
@@ -532,8 +440,8 @@ p{max-height: 9999px;}
    .px2rem(margin-right,10);
 }
 .getmform .con .sms_send{
-    border: 2px solid #439df9;
-    color: #439df9;
+    border: 2px solid #ef6330;
+    color: #ef6330;
     text-align: center;
    .px2rem(width,150);
    .px2rem(height,48);
@@ -548,12 +456,12 @@ p{max-height: 9999px;}
     color: #ccc;
     text-align: center;
     border: 2px solid #ccc;
-   .px2rem(width,150);
-   .px2rem(height,50);
+   .px2rem(width,160);
+   .px2rem(height,48);
    .px2rem(line-height,50); 
    display: inline-block;
    .px2rem(border-radius,10);
-   .px2px(font-size,10);
+   .px2px(font-size,12);
     float: right;
    .px2rem(margin-top,18); 
 }
@@ -563,37 +471,32 @@ p{max-height: 9999px;}
 .getmform .con .sms_send a{
    color: #ef6330;  
 }
-.getmform .get_coupbtn ,.pay_order .get_coupbtn,.security_ok{
-    background: #439df9;
+.getmform .get_coupbtn ,.pay_order .get_coupbtn{
+    background: #ef6330;
     color: #fff;
-   .px2rem(width,680);
+   .px2rem(width,700);
    .px2rem(height,88);
    .px2rem(line-height,88);   
    .px2rem(margin-top,30);  
     margin-left: auto;
     margin-right: auto;
-   .px2rem(border-radius,10);
+   .px2rem(border-radius,5);
    .px2px(font-size,13); 
    text-align: center;
 }
-//.getmform .get_coupbtn a:link{
-//  background: #439df9;
-//}
-//.getmform .get_coupbtn a:hover{
-//  background: #ccc;
-//}
-.getmform .get_coupbtn a ,.pay_order .get_coupbtn a,.security_ok a{
+.getmform .get_coupbtn a ,.pay_order .get_coupbtn a{
     text-decoration: none;
     display: block;
-    .px2rem(width,680);
+    .px2rem(width,700);
    .px2rem(height,88);
    .px2rem(line-height,88);  
     color: #fff;
 }
 //错误信息提示框
 .error_tips{
-    .px2rem(width,500); 
-    .px2rem(height,400); 
+  .px2rem(width,500); 
+  .px2rem(height,400);
+   overflow-y: auto;
     .px2rem(margin-left,-20);
     .px2rem(margin-top,-40);
     .px2rem(border-radius,5);
@@ -602,7 +505,7 @@ p{max-height: 9999px;}
     .px2rem(padding-left,20);
     .px2rem(padding-right,20);
     background:#f2f2f2; 
-    position:absolute; 
+    position:fixed; 
     z-index:111; 
     display:none;
    .px2px(font-size,12); 
@@ -616,27 +519,27 @@ p{max-height: 9999px;}
   .px2rem(margin-top,40);  
 }
 .error_tips .p_btn{
-    background: #439df9;
+    background: #ef6330;
     color: #fff;
    .px2rem(width,400);
    .px2rem(height,70);
    .px2rem(line-height,70);   
-   .px2rem(margin-top,50);  
+   .px2rem(margin-top,30);  
     margin-left: auto;
     margin-right: auto;
-   .px2rem(border-radius,10);
+   .px2rem(border-radius,5);
    .px2px(font-size,12); 
    text-align: center; 
 }
 //支付订单确认
-.pay_order{
-  .px2rem(padding-bottom,50);   
-} 
+.pay_orderbody{background: #fff;}
+.pay_order .p_title{
+}
 .pay_order .p_orderinfo{
-  .px2px(font-size,14);
+  font-size:0.35rem;
   .px2rem(height,40); 
   .px2rem(line-height,40);
-  .px2rem(width,680);
+  .px2rem(width,700);
   .px2rem(margin-top,50);
   margin-left: auto;
   margin-right: auto;  
@@ -652,51 +555,6 @@ p{max-height: 9999px;}
 .pay_order .get_coupbtn{
     .px2rem(margin-top,90);
 }
-//保障确认
-.security_info {
-  .px2rem(padding-bottom,40);  
-}
-.security_info .p_orderinfo{
-    .px2rem(margin-top,30);  
-}
-.security_info .p_orderinfo .sp_left{
-    float:left;
-    .px2rem(width,180);
-    .px2rem(margin-left,35);  
-}
-.security_info .p_orderinfo .sp_right{
-    float:left;
-    .px2rem(margin-left,20);
-}
-.security_info table{
-    .px2rem(margin-top,40);
-    .px2rem(width,640);
-    .px2px(font-size,14); 
-    border-top: 1px solid #439df9;
-    border-right: 1px solid #439df9;
-    margin-left: auto;
-    margin-right: auto;
-    color: #404040;
-}
-.security_info table .tr_first{
-    background: #d9ebff;
-    .px2rem(height,63);
-}
-.security_info table .tr_second{ 
-    .px2rem(height,102);
-}
-.security_info table td{
-   border-bottom: 1px solid #439df9;
-   border-left: 1px solid #439df9;
-   text-align: center;
-   vertical-align: middle;
-}
-.security_info table td span{
-    color: #439df9;
-}
-.security_ok{
-    .px2rem(margin-bottom,30); 
-}
 //完善信息
 .perfect_tips{
     .px2rem(width,750);
@@ -705,21 +563,21 @@ p{max-height: 9999px;}
     margin-right: auto;
     height: auto;
     overflow: hidden;
-    .px2px(font-size,14);
+   font-size:0.35rem;
     .px2rem(padding-bottom,34);
     .px2rem(margin-top,20);
 }
 .perfect_tips img{
+     .px2rem(width,90);
+     .px2rem(height,90);
     float: left;
     .px2rem(margin-left,124);
     .px2rem(margin-top,46);
-    .px2rem(width,91);
-    .px2rem(width,91);
 }
 .perfect_tips p{
     float: left;
     .px2rem(margin-top,34);
-    .px2rem(width,395);
+    .px2rem(width,390);
     .px2rem(margin-left,57);
     .px2rem(line-height,40);
     color: #666;
@@ -729,6 +587,7 @@ p{max-height: 9999px;}
     display: block;
     .px2rem(margin-bottom,10);
 }
+
 
 
 

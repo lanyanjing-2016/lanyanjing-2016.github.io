@@ -25,35 +25,25 @@
 		});
 		$(document).on("click", function() {
 			$(".selected ul").hide();
-		}); 
-		//hover效果
-		$(".selected ul li").attr('ontouchstart', 'hover(this)');
-		//秒除hover
-		$(".selected ul li").attr('ontouchend', 'mouseout(this)'); 
-		
+		});
 		//套餐改变时 li点击事件
 		$(".selected ul li").on("click", function() {
 			var livalue = $(this).html();
 			$(".div_option").html("").append(livalue);
+			//获取购买套餐的月数，本地存储
+			var lipmonth = $(this).find("span").eq(0).text().match(/\d+/g);
+			window.sessionStorage["paymonth"] = lipmonth;
+			//获取套餐价格，本地存储
 			var liprice = $(this).find("span").eq(1).text().match(/\d+/g);
+			window.sessionStorage["price"] = liprice;
 			//底部产品功能费响应的改变
 			$(".foot .p_left span").text(liprice);
 			$(".selected ul").hide();
 		});
-		//立即购买，判断有没有阅读保障声明
-		$("#go_buy").on("click",function(){
-			if($("#checkboxFourInput").prop("checked")){
-				$(this).attr("href","phone_verify.html");
-			}else{
-				$(".error_tips .p_info").html("");
-				errtips(".error_tips");
-				$(".error_tips .p_info").html("请先阅读产品须知!");
-			}
-		})
 		//保险条款弹出层
 		$(".sp_clause").click(function() {
-			var height=$(document).scrollTop() + ($(window).height() - $(".bx_clause").height()) / 2;
-			var width = $(document).scrollLeft() + ($(window).width() - $(".bx_clause").width()) / 2;
+			var height = $(window).scrollTop() + ($(window).height() - $(".bx_clause").height()) / 2;
+			var width = $(window).scrollLeft() + ($(window).width() - $(".bx_clause").width()) / 2;
 			$(".bx_clause").css({
 				"top": "20%",
 				"left": width
@@ -68,13 +58,14 @@
 		});
 		//错误信息提示框
 		function errtips(err_tips) {
-			var width=$(document).scrollLeft() + ($(window).width() - $(err_tips).width()) / 2;
+			var height = $(window).scrollTop() + ($(window).height() - $(err_tips).height()) / 2;
+			var width = $(window).scrollLeft() + ($(window).width() - $(err_tips).width()) / 2;
 			$(err_tips).css({
-				"top": "33%",
+				"top": height,
 				"left": width
-			}).show(); 
+			}).show();
 			$(".mask_box").show();
-		} 
+		}
 		/*获取验证码*/
 		$("#sms_send").on("click", function() {
 			$(".error_tips .p_info").html("");
@@ -105,48 +96,33 @@
 				errtips(".error_tips");
 				$(".error_tips .p_info").html("验证码不能为空!");
 			} else {
+				//获取手机号本地存储
+				var userphone = $("#mobile").val();
+				window.sessionStorage["userphones"] = userphone;
 				$(".purch_btn").attr("href", "pay_order.html");
 			}
 		});
-		//登录并查询
-		$(".login_btn").on("click", function() {
-			$(".error_tips .p_info").html("");
-			var patt = /^1[0-9]{10}$/;
-			if ($("#mobile").val() == "") {
-				errtips(".error_tips");
-				$(".error_tips .p_info").html("手机号码不能为空!");
-			} else if (!patt.exec($.trim($("#mobile").val()))) {
-				errtips(".error_tips");
-				$(".error_tips .p_info").html("请输入正确的手机号码!");
-			} else if ($("#smscode").val() == "") {
-				errtips(".error_tips");
-				$(".error_tips .p_info").html("验证码不能为空!");
-			}else if ($("#ordernumber").val() == "") {
-				errtips(".error_tips");
-				$(".error_tips .p_info").html("订单号不能为空!");
-			} else {
-				$(".login_btn").attr("href", "order_info.html");
-			}
-		});
-		 
-		//完善信息页面//
+		//支付订单确认页面响应改变
+		$("#payorder_month").text(sessionStorage.getItem("paymonth"));
+		$("#payorder_money").text(sessionStorage.getItem("price"));
+		$("#payorder_tel").text(sessionStorage.getItem("userphones"));
+
+		//完善信息
 		$(".cardID_btn").on("click", function() {
 			$(".error_tips .p_info").html("");
 			if ($("#cardIdname").val() == "") {
 				errtips(".error_tips");
 				$(".error_tips .p_info").html("姓名不能为空!");
-			} else if ($("#cardIdnumber").val() == "") {
-				errtips(".error_tips");
-				$(".error_tips .p_info").html("身份证不能为空!");
 			} else if (isIdCardNo($("#cardIdnumber").val())) {
 				if (isAge($("#cardIdnumber").val())) {
-					$(".cardID_btn").attr("href", "security_info.html");
+					$(".cardID_btn").attr("href", "index.html");
 				}
 			} else {
 				errtips(".error_tips");
 				$(".error_tips .p_info").html("请输入正确的身份证号!");
 			}
 		});
+
 		//验证年龄大于18小于60
 		function isAge(num) {
 			var biryear = num.substring(6, 10);
@@ -160,7 +136,7 @@
 			var spanYear = spanTime.getYear() - 70;
 			var spanMonth = spanTime.getMonth();
 			var spanDay = spanTime.getDay();
-			if (spanYear >= 18 && spanYear < 60) {
+			if (spanYear >= 18 && spanYear <= 60) {
 				return true;
 			} else {
 				errtips(".error_tips");
@@ -234,7 +210,7 @@
 		}
 	});
 })(window, document)
-/*获取验证码倒计时*/
+/*倒计时*/
 function remaintime(second) {
 	if (second == 1) {
 		clearTimeout(setTimeout("remaintime(" + second + ")", 1000));
@@ -246,28 +222,3 @@ function remaintime(second) {
 		setTimeout("remaintime(" + second + ")", 1000);
 	}
 };
-//移动端实现hover效果
-function mouseout(obj) {
-	var className = "hover";
-	var _ecname = obj.className;
-	if (_ecname.length == 0) return;
-	if (_ecname == className) {
-		obj.className = "";
-		return;
-	}
-	if (_ecname.match(new RegExp("(^|\s)" + className + "(\s|$)")))
-		obj.className = _ecname.replace((new RegExp("(^|\s)" + className + "(\s|$)")), "");
-}
-//移动端移出hover效果
-function hover(obj) {
-	if (!obj) return;
-	var className = "hover"
-	var _ecname = obj.className;
-	if (_ecname.length == 0) {
-		obj.className = className;
-		return;
-	}
-	if (_ecname == className || _ecname.match(new RegExp("(^|\s)" + className + "(\s|$)")))
-		return;
-	obj.className = _ecname + "" + className;
-}

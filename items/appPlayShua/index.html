@@ -1,80 +1,68 @@
 <!DOCTYPE html>
 <html> 
 	<head>
-		<meta charset="UTF-8">
-		<meta name="screen-orientation" content="portrait">
+		<meta charset="UTF-8"> 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<meta name="format-detection" content="telephone=no" />
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="yes" name="apple-touch-fullscreen">
+		<meta content="email=no" name="format-detection">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<meta http-equiv="expires" content="0"> 
 		<link rel="stylesheet" type="text/css" href="css/reset.css" />
-		<link rel="stylesheet" type="text/less" href="css/css.less" />
-		<script src="js/flexible.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.min.js"></script>
+		<link rel="stylesheet/less" href="css/css.less" />
 		<script src="js/less.min.js"></script>
-		<script src="js/myjs.js"></script> 
+		<script src="js/jquery.min.js"></script>
+		<script src="js/flexible.js"></script> 
+		<script src="js/myjs.js"></script>
 		<title>放心刷</title>
-	</head>
-
-	<script type="text/javascript">
-       //获取浏览器页面可见高度和宽度
-        var _PageHeight = document.documentElement.clientHeight,
-            _PageWidth = document.documentElement.clientWidth;
-        //计算loading框距离顶部和左部的距离（loading图片的宽度为100px，高度为100px）
-        var _LoadingTop = _PageHeight > 100 ? (_PageHeight - 100) / 2 : 0,
-            _LoadingLeft = _PageWidth > 100 ? (_PageWidth - 100) / 2 : 0;
-        //在页面未加载完毕之前显示的loading Html自定义内容
-        var _LoadingHtml = '<div id="loadingDiv" style="position:fixed;left:0;width:100%;height:' + _PageHeight + 'px;top:0;background:#fff;z-index:10000;"><div style="position: absolute; cursor1: wait; left:'+_LoadingLeft+'px; top:'+_LoadingTop+'px; width:100px; height:100px;  background: url(images/loading.gif) no-repeat; background-size:cover"></div></div>';
-        //呈现loading效果
-        document.write(_LoadingHtml); 
-        //监听加载状态改变
-        document.onreadystatechange = completeLoading; 
-        //加载状态为complete时移除loading效果
-        function completeLoading() {
-            if(document.readyState == "complete"){
-                var loadingMask = document.getElementById('loadingDiv');
-                loadingMask.parentNode.removeChild(loadingMask);
-            }
-        } 
-    </script>
+	</head> 
 	<body>
 		<!--遮罩层-->
 		<div class="mask_box"></div>
 		<!--//遮罩层-->
-		<div class="top">苹果支付安全产品</div>
+		<div class="top">苹果支付安全保障</div>
 		<!--信息展示-->
 		<div class="title_inform">
-			<p>放心刷&nbsp;—&nbsp;爱刷科技</p>
-			<!--<div class="top_limit"> 
-				<p class="p_left">适用年龄</p>
-				<p class="p_right">18-60周岁</p>
-			</div> -->
+			<p>放心刷—手机支付保障类产品&nbsp;&nbsp;爱刷科技</p>
+			<div class="top_limit">
+				<p class="p_left">最长保障期限<span>1年</span></p>
+				<p class="p_right">适用年龄<span>18-60周岁</span></p>
+			</div>
 		</div>
 		<!--资金损失-->
 		<div class="div_selectaccount">
-			<P class="p_title">Apple Pay支付安全产品</P>
+			<P class="p_title">苹果支付账户资金损失</P>
 			<div class="select_meal">
 				<p class="p_tc">选择套餐：</p>
 				<div class="selected">
 					<div class="div_option">
-						<span class="sp_data">1个月</span><span class="sp_money">2元</span><span class="sp_give">&nbsp;</span><span class="sp_downico"></span>
+						<span class="sp_data">1个月</span><span class="sp_money">3元</span><span class="sp_downico"></span>
 					</div>
 					<ul>
-						<li><span class="sp_data">1个月</span><span class="sp_money">2元</span><span class="sp_give"></span><span class="sp_downico"></span></li>
-						<li><span class="sp_data">3个月</span><span class="sp_money">6元</span><span class="sp_give">(买3送1)</span><span class="sp_downico"></span></li>
-						<li><span class="sp_data">6个月</span><span class="sp_money">12元</span><span class="sp_give">(买6送3)</span><span class="sp_downico"></span></li>
-						<li><span class="sp_data">12个月</span><span class="sp_money">24元</span><span class="sp_give">(买12送8)</span><span class="sp_downico"></span></li>
+						<li><span class="sp_data">1个月</span><span class="sp_money">3元</span><span class="sp_downico"></span></li>
+						<li><span class="sp_data">3个月</span><span class="sp_money">9元</span><span class="sp_downico"></span></li>
+						<li><span class="sp_data">6个月</span><span class="sp_money">15元</span><span class="sp_downico"></span>
+						</li>
+						<li><span class="sp_data">12个月</span><span class="sp_money">20元</span><span class="sp_downico"></span></li>
 					</ul>
 				</div>
-			</div> 
-		</div> 
-		<!--产品功能-->
+			</div>
+			<P class="p_info">
+				本产品无免赔，更多详情请查看<a href="javascript:void(0);" class="sp_clause">《保险条款》</a>,并请特别留意条款中的“不能获得赔偿的情形”部分。
+			</P>
+		</div>
+		<!--保障功能-->
 		<div class="security">
-			<p class="p_title">产品功能</p>
+			<p class="p_title">保障功能</p>
 			<p class="p_border"><span class="sp_leftborder"></span><span class="sp_rightborder"></span></p>
 			<ul>
 				<li>
 					<img src="images/ico1.png" />
-					<p>防止病毒
-						<br>木马入侵</p>
+					<p>病毒木马
+						<br>窃取资金</p>
 				</li>
 				<li>
 					<img src="images/ico2.png" />
@@ -85,92 +73,85 @@
 					<img src="images/ico3.png" />
 					<p>手机丢失
 						<br>防止盗刷</p>
-				</li> 
+				</li>
 			</ul>
-
 		</div>
-		<!--产品须知-->
+		<!--保障须知-->
 		<div class="security secur_notice">
-			<p class="p_title">产品须知<span class="sp_ico"></span></p>
+			<p class="p_title">保障须知<span class="sp_ico"></span></p>
 			<p class="p_border"><span class="sp_leftborder"></span><span class="sp_rightborder"></span></p>
 			<div class="secur_noticeinfo">
-				<P class="p_list">1."放心刷"是一款针对Apple Pay的安全产品，避免因病毒攻击等导致用户绑定Apple Pay的银行卡资金账户损失。为保证用户资金万无一失，用户购买此安全产品后，如产生安全问题导致绑定Apple Pay的银行卡资金账户损失，可获得最高10万元（人民币）的赔偿。</P>
-				<P class="p_list">2.本产品购买人年龄须在18-60周岁。</P>
-				<P class="p_list">3.您对所填信息应保证其真实性，若您故意或者因重大过失未履行如实告知义务，造成的后果我司不承担任何责任。</P>
-				<P class="p_list">4.本产品自购买支付成功后立即生效，另有约定除外。</P> 
-				<P class="p_list">5.对购买"放心刷"产品前发生的安全事故，我司不承担任何责任。</P>
-				<P class="p_list">6.产品保障的资金账户仅限于用户的Apple Pay 绑定的本人名下的银行卡资金账户。</P>				 
-				<P class="p_list">如果您还有任何疑问，请拨打用户服务热线<span><a href="tel:4001528028">4001-528-028</a></span>进行咨询。</P>
+				<P>1.本保险仅限网络账户所有者本人投保，且被保险人年龄在18-60周岁，保险合同方为有效。</P>
+				<p>2.投保人对所填信息应保证其真实性，若投保人故意或者因重大过失未履行如实告知义务，足以影响保险人决定是否同意承保或者提高保险费率的，保险人有权解除合同。</p>
+				<P>3.本保险自保单支付成功后次日零时起生效，另有约定除外。</P>
+				<P>4.对保费交清前发生的保险事故，保险人不承担保险责任。</P>
+				<P>5.本产品采用电子保单形式承保，法律效力等同于纸质保单。如果您需要纸质保单，请拨打客服电话。若需寄送，邮费将由您自行承担。</P>
+				<P>6.保险人仅承保在以下第三方支付平台上开设的网络账户资金安全：支付宝、财付通（包括微信钱包、QQ钱包、其他财付通业务）、卡拉卡、银联在线支付、京东支付、易付宝、翼支付、联动优势、快钱支付、百度钱包。</P>
+				<p>如果您还有任何疑问，详情细阅读保险条款活拨打安心保险客户服务热线<span><a href="">400-88-45678</a></span>进行咨询。</p>
 			</div>
 		</div>
-		<!--客服流程-->
+		<!--如何获得赔偿-->
 		<div class="security secur_notice">
-			<p class="p_title">客服流程<span class="sp_ico"></span></p>
+			<p class="p_title">如何获得赔偿<span class="sp_ico"></span></p>
 			<p class="p_border"><span class="sp_leftborder"></span><span class="sp_rightborder"></span></p>
 			<div class="secur_noticeinfo">
-				 <p class="p_paytitle">微信平台客户服务处理流程</p>
-			     <div class="pay_flow">
-			     	<p class="p_img"><img src="images/pay_ico1.png"/></p>
-			        <p class="p_count">
-			        	如用户绑定Apple Pay的银行卡出现资金账户安全事故,可关注"NFC云"公众号,点击"放心刷-用户服务",进入人工客服，在微信平台对值班客服进行服务申请，在客服人员指导下录入相关信息。
-			        </p>
-			     </div>
-			     <div class="pay_flow">
-			     	<p class="p_img"><img src="images/pay_ico2.png"/></p>
-			        <p class="p_count">
-			                                     用户通过微信平台上传以下资料照片
-			             <p class="p_small">
-			             1.持卡人或附属卡持卡人的身份证明<br/>
-			             2.用户银行卡的挂失/冻结证明、挂失/冻结记录<br/>
-			             3.银行卡盖章的流水记录单<br/>
-			             4.公安机关出具的报案/立案证明(5000元以下提供公安机关的报案回执、5000元以上提供公安机关的立案证明)</p>
-			        </p>
-			     </div>
-			     <div class="pay_flow">
-			     	<p class="p_img"><img src="images/pay_ico3.png"/></p>
-			        <p class="p_count">
-			        	客服人员将用户发送的资料转接给相应的业务处理人员进行审核。
-			        </p>
-			     </div>
-			      <div class="pay_flow">
-			     	<p class="p_img"><img src="images/pay_ico4.png"/></p>
-			        <p class="p_count">
-			        	业务人员审核通过后三个工作日内将赔款支付到用户指定账户。如审核不通过，客服人员将于7个工作日内给予反馈，请用户进行资料补充。
-			        </p>
-			     </div>
-			     <p class="p_paytitletwo">电话申请客户服务流程</p>
-			     <div class="pay_flow">
-			     	<p class="p_img"><img src="images/pay_ico5.png"/></p>
-			        <p class="p_count">
-			        	如用户绑定Apple Pay的银行卡出现资金账户安全事故，可以拨打
-			        	4001-528-028电话申请客户服务，对保单信息、保障事故进行简要说明，
-			        	客服人员会请您搜集相关资料发送至"放心刷"的公共邮箱地址：
-			        	<span><a href="javascript:void(0);">fangxinshua@bjaishua.com </a></span>
-			        </p>
-			     </div>
-			     <div class="pay_flow">
-			     	<p class="p_img"><img src="images/pay_ico6.png"/></p>
-			        <p class="p_count">
-			        	用户按客服人员要求收集下列资料，并以照片形式发送至公司客服邮箱
-			        	 <p class="p_small">
-			        	 1.持卡人或附属卡持卡人的身份证明<br/>
-			             2.用户银行卡的挂失/冻结证明、挂失/冻结记录<br/>
-			             3.银行卡盖章的流水记录单<br/>
-			             4.公安机关出具的报案/立案证明(5000元以下提供公安机关的报案回执、5000元以上提供公安机关的立案证明)</p>
-			        </p>
-			     </div>
-			     <div class="pay_flow">
-			     	<p class="p_img"><img src="images/pay_ico7.png"/></p>
-			        <p class="p_count">
-			        	业务处理人员直接进入公共邮箱，提取邮箱资料进行审核，
-			        </p>
-			     </div>
-			     <div class="pay_flow">
-			     	<p class="p_img"><img src="images/pay_ico8.png"/></p>
-			        <p class="p_count">
-			        	上传理赔系统的资料审核通过后三个工作日内将赔款支付到用户指定账户。如审核不通过，客服人员将于7个工作日内给予反馈，请用户进行资料补充。
-			        </p>
-			     </div>
+				<p class="p_paytitle">微信平台报案理赔单证收集流程</p>
+				<div class="pay_flow">
+					<p class="p_img"><img src="images/pay_ico1.png" /></p>
+					<p class="p_count">
+						客户进入安心保险公众号，点击右下角安心生活，进入人工客服，在微信平台对值班客服进行出险报案，客服人员录入报案信息。
+					</p>
+				</div>
+				<div class="pay_flow">
+					<p class="p_img"><img src="images/pay_ico2.png" /></p>
+					<p class="p_count">
+						客户通过微信平台上传以下理赔资料照片
+						<p class="p_small">1.持卡人或附属卡持卡人的身份证明
+							<br/> 2.倍保险人银行卡的挂失/冻结证明、挂失/冻结记录
+							<br/> 3.银行卡盖章的流水记录单
+							<br/> 4.公安机关出具的报案/立案证明（5000元以下提供公安机关的报案回执、5000元以上提供公安机关的立案证明）
+						</p>
+					</p>
+				</div>
+				<div class="pay_flow">
+					<p class="p_img"><img src="images/pay_ico3.png" /></p>
+					<p class="p_count">
+						客服人员将客户发送的资料转接给调度指定的本案查勘人员，查勘人员进行审核。
+					</p>
+				</div>
+				<div class="pay_flow">
+					<p class="p_img"><img src="images/pay_ico4.png" /></p>
+					<p class="p_count">
+						上传理赔系统的资料审核通过后三个工作日内将赔款支付到客户指定账户。
+					</p>
+				</div>
+				<p class="p_paytitletwo">电话传统报案理赔单证收集流程</p>
+				<div class="pay_flow">
+					<p class="p_img"><img src="images/pay_ico5.png" /></p>
+					<p class="p_count">
+						客户出险后，拨打400-88-45678理赔电话进行报案，对保单信息、保险事故进行简要说明，客服人员会将安心保险的公共邮箱地址：<span>service@answern.com</span>以短信的形式发送至客户手机
+					</p>
+				</div>
+				<div class="pay_flow">
+					<p class="p_img"><img src="images/pay_ico6.png" /></p>
+					<p class="p_count">
+						客户按客服人员要求收集下列资料，并以照片形式发送至公司客服邮箱
+						<p class="p_small">1.持卡人或附属卡持卡人的身份证明 2.倍保险人银行卡的挂失/冻结证明、挂失/冻结记录 3.银行卡盖章的流水记录单 4.公安机关出具的报案/立案证明（5000元以下提供公安机关的报案回执、5000元以上提供公安机关的立案证明）
+						</p>
+					</p>
+				</div>
+				<div class="pay_flow">
+					<p class="p_img"><img src="images/pay_ico7.png" /></p>
+					<p class="p_count">
+						查勘人员直接进入公共邮箱，提取邮箱资料进行审核
+					</p>
+				</div>
+				<div class="pay_flow">
+					<p class="p_img"><img src="images/pay_ico8.png" /></p>
+					<p class="p_count">
+						上传理赔系统的资料审核通过后三个工作日内将赔款支付到客户指定账户。
+					</p>
+				</div>
 			</div>
 		</div>
 		<!--常见问题-->
@@ -179,68 +160,85 @@
 			<p class="p_border"><span class="sp_leftborder"></span><span class="sp_rightborder"></span></p>
 			<div class="secur_noticeinfo">
 				<dl class="dl_faq">
-					<dt><span class="sp1"></span><span class="sp_2">我的手机丢了，被他人拾到后使用盗刷等造成的损失能赔偿吗？</span></dt>
-					<dd>只要不是您真实的意愿并且未经您本人的许可使用手机所造成的资金损失，我们均可以进行赔付。</dd>
-					<dt><span class="sp1"></span><span class="sp_2">我的手机坏了，在修理期间被盗刷的资金能赔付吗？</span></dt>
-					<dd>亲，因手机损坏本身原因造成的账户资金损失我们可以进行赔付，但在手机损坏之后因用户将手机交予他人，期间造成的资金损失我们不进行赔付。</dd>
-					<dt><span class="sp1"></span><span class="sp_2">申请赔付时需要提供哪些资料、证明？</span></dt>
-					<dd>亲，您需要提供您的身份资料、报案回执、银行提供的账户流水记录、事故证明及其他能够证明事故性质及损失情况的材料。</dd> 
-					<dt><span class="sp1"></span><span class="sp_2">在产品有效期内我已经获赔一次了，还可以赔付几次？</span></dt>
-					<dd>亲，我们在最高金额范围内对赔付次数没有限制。即只要在产品服务期内，且累计已赔付金额未达到最高金额，均可进行赔付。</dd>
-					<dt><span class="sp1"></span><span class="sp_2">我申请后需要多久才能收到赔付款项？</span></dt>
-					<dd>亲，我们将在您提供齐全资料后的一个工作日内进行审核，对于符合赔付要求的，审核完毕后即刻赔付。</dd>
-					<dt><span class="sp1"></span><span class="sp_2">在产品服务期限内，我又新绑定了一张银行卡，该账户在保障范围内吗？</span></dt>
-					<dd>亲，在的哦。购买该产品的用户名下所有绑定Apple Pay的银行卡账户，只要是在产品服务期限内绑定的，都可以获得相应的保障服务。</dd>
-					<dt><span class="sp1"></span><span class="sp_2">舍友在我不知情的情况下，将我手机拿去刷了，对此造成的损失能赔偿么？</span></dt>
-					<dd>亲，不行哦。用户的账户资金被其家庭成员、家庭雇佣人员、暂居人员、同住人员所盗用的情形，我们不予理赔。</dd>
-					<dt><span class="sp1"></span><span class="sp_2">产品到期后如何继续使用产品？</span></dt>
-					<dd>放心刷产品有效期到期后，您需要再次续订，只需重新购买该产品即可，可以选择相应的套餐。</dd>
-				</dl> 
+					<dt><span>1.</span>我的手机丢了，被他人拾到后使用手机网银等造成的损失能赔偿吗？</dt>
+					<dd>只要不是您真实的意愿并且未经您本人的许可使用手机所造成的资金损失，我们均承担保险赔偿责任。</dd>
+					<dt><span>2.</span>理赔时需要提供哪些资料、证明？</dt>
+					<dd>亲，您需要提供被保险人的身份资料、报案回执、银行或第三方网络平台提供的流水记录、事故证明及其他能够证明事故性质及损失情况的材料。</dd>
+					<dt><span>3.</span>在保险期限内我已经获赔一次了，还可以赔付几次？</dt>
+					<dd>亲，我们在保险金额范围内对赔付次数没有限制。即只要在保险期内，且累计已赔付金额未达到保险金额，均可进行赔付。如，您购买了网络账户安全险，保额8万，如果保险期间内您名下支付宝账户被盗，发生了4万元的损失，我们将赔偿您4万元的损失，保额降为4万；如果微信账户又被盗，损失了6万元，我们只能赔偿您4万元，保险责任终止，如果您的网络账户再发生了损失我们将不再进行赔偿。</dd>
+					<dt><span>4.</span>我报案后需要多久才能收到赔款？</dt>
+					<dd>亲，我们将在您提供齐全索赔资料后的一个工作日内进行审核，对于属于保险责任的，审核完毕后即刻赔付。</dd>
+					<dt><span>5.</span>在保险期限内，我又新开通了一个第三方支付账户，该账户在保险范围内吗？</dt>
+					<dd>亲，在的哦。该保险保障被保险人名下本保险条款规定的第三方支付平台所开通的网络账户，不管是在投保前开通还是保险期内新开通的都在保障范围内。</dd>
+					<dt><span>6.</span>舍友在我不知情的情况下，将我支付宝中的钱转入他人账户，对此造成的损失能赔偿么？</dt>
+					<dd>亲，不行哦。被保险人的网络账户资金被其家庭成员、家庭雇佣人员、暂居人员、同住人员所盗用的情形，不属于保险责任范围，我们不予理赔。</dd>
+					<dt><span>7.</span>保险期限到期后如何续保？</dt>
+					<dd>该产品保险期限一年，如保险期限到期您需要续保，重新购买该产品即可。</dd>
+				</dl>
 			</div>
 		</div>
 		<!--产品售卖地区-->
 		<div class="seal_square">
 			产品售卖地区：全国
-			<div class="checkbox"> 
-				<div class="checkboxFour">
-					<input type="checkbox" value="1" checked="checked" id="checkboxFourInput" name="" style="visibility: hidden;" />
-					<label for="checkboxFourInput"></label>
-			    </div>
-				<span class="sp_info">本人已阅读产品须知</span>
-			</div>
+			<div class="checkbox">
+				<input type="checkbox" checked="checked">本人已阅读保障声明</div>
 		</div>
 		<!--底部-->
 		<div class="foot">
-			<p class="p_left">产品功能费:￥<span>2</span>.00</p>
-			<p class="p_right"><a href="javascript:void(0);" id="go_buy">立即购买</a></p>
+			<p class="p_left">产品功能费:￥<span>10</span>.00</p>
+			<p class="p_right"><a href="phone_verify.html">立即购买</a></p>
 		</div>
-		<!--提示框-->
-		<div class="error_tips" style="position: fixed;">
-			<p class="p_img"><br/><img src="images/error_tipico2.png"/></p>
-			<p class="p_info">请先阅读产品须知</p>
-			<p class="p_btn">确定</p>
+		<!--保险条款-->
+		<div class="bx_clause">
+			<h3>产品购买须知</h3>
+			<p>1、本产品保障期限为一年,购买成功后次日生效。</p>
+			<p>2、购买前请仔细阅读本产品的适用条款, 尤其是其中免除责任的条款。</p>
+			<p>3、您购买本产品,须授权“爱刷（北京）科技有限公司”查询您的信用信息,用于评估向您承诺的服务的交易条件,评估您是否享有快速理赔等权益。</p>
+			<p class="p_center">爱刷（北京）科技有限公司</p>
+			<p class="p_center">安心财产保险有限责任公司</p>
+			<p class="p_center">“放心刷”产品服务条款</p>
+			<h3>总则</h3>
+			<p><span class="sp_font">第一条</span>本产品服务用户完成购买流程，即视为用户认可并同意本服务条款。</p>
+			<p><span class="sp_font">第二条</span>依法持有绑定Apple Pay的自然人均可购买本产品。</p>
+			<p><span class="sp_font">第三条</span>依法持有绑定Apple Pay的银行卡的自然人可作为本产品的服务对象。</p>
+			<p><span class="sp_font">第四条</span>在使用期间内，因下列情形导致用户持有的绑定Apple Pay的银行卡内资金损失的，”爱刷科技”对用户在挂失或冻结银行卡前24小时内发生的资金损失，按照本服务条款的约。</p>
+			<h3>定负责赔偿：</h3>
+			<p>（一）用户的银行卡被他人盗刷、盗用、复制；</p>
+			<p>（二）用户在被歹徒胁迫的状态下，将银行卡转交他人，或向他人透露其银行卡信息、转账或支取现金给他人；</p>
+			<p>（三）用户的银行卡对应的个人网上银行账户或手机银行账户被他人恶意盗用。</p>
+			<p><span class="sp_font">第五条</span>由于下列原因造成的损失、费用和责任，”爱刷科技”不负责赔偿：</p>
+			<p>（一）用户或其家庭成员的操作错误、故意行为或违法犯罪行为；</p>
+			<p>（二）用户的银行卡或网银帐户被其雇佣人员、共同居住人员盗用；</p>
+			<p>（三）用户或其家庭成员自愿出租、转借银行卡给其他人；</p>
+			<p>（四）诈骗行为；</p>
+			<p>（五）其他未在保险责任中列明的损失或费用。</p>
+			<p><span class="sp_font">第六条</span>保障金额为赔偿的最高金额， 由投保人与”爱刷科技”协商确定，并在订单中载明。</p>
+			<p><span class="sp_font">第七条</span>免赔额（率）由“爱刷科技”与用户在订立保险合同时协商确定，并在保险单中载明。</p>
+			<p><span class="sp_font">第八条</span>用户应当妥善保管账户的相关信息，如发生银行卡遗失、被盗窃、被抢夺抢劫、复制，或发现账单账目或资金交易异常后，应迅速向银行或支付机构办理挂失或冻结手续。</p>
+			<p><span class="sp_font">第九条</span>用户请求赔偿时，请向”爱刷科技”提供下列单据和资料：</p>
+			<p>（一）持卡人或附属卡持卡人的身份证明复印件；</p>
+			<p>（二）绑定Apple Pay银行卡的挂失/冻结证明、挂失/冻结记录；</p>
+			<p>（三）公安机关出具的报案回执；</p>
+			<p>（四）有关损失资金的交易记录，比如涉及转账，需提供收款方姓名及账号等信息；</p>
+			<p>（五）用户所能提供的与确认保险事故的性质、原因、损失程度等有关的其他证明和资料。</p>
+			<p><span class="sp_font">第十条</span>赔偿额度：按照用户银行卡帐户的实际损失金额进行赔偿，最高不超过保障金额。</p>
+			<p><span class="sp_font">第十一条</span>约定了每次事故免赔的，在扣除每次事故免赔额或按保险合同约定免赔率计算的免赔额后进行赔偿。</p>
+			<p><span class="sp_font">第十二条</span>在保险期间内，可多次赔偿，累计最高不超过保障金额；</p>
+			<p><span class="sp_font">第十三条</span>若损失涉及外币，将按照用户损失交易当日的外汇兑换基准汇率使用人民币进行赔款支付。</p>
+			<p><span class="sp_font">第十四条</span>发生事故时，如果用户的损失在有相同保障的保险项下也能够获得赔偿，则本产品的赔偿限额与其他保险合同及本合同的赔偿限额总和的比例承担赔偿责任。其他保险应承担的赔偿金额，本产品不负责垫付。用户在请求赔偿时应当如实向”爱刷科技”说明与本保险合同保险责任有关的其他保险合同的情况。用户未如实告知导致”爱刷科技”多支付赔偿金的，”爱刷科技”有权向用户追回多支付的部分。</p>
+			<p><span class="sp_font">第十五条</span>“爱刷科技”在本条款第十条、第十一条项下进行赔偿后，保障金额相应减少。</p>
+			<p>第<span class="sp_font">十六条</span>发生保障责任范围内的损失，应由有关责任方负责赔偿的，”爱刷科技”自向用户赔偿保险金之日起，在赔偿金额范围内代位行使用户对有关责任方请求赔偿的权利，用户应当向”爱刷科技”提供必要的文件和所知道的有关情况。 用户已经从有关责任方取得赔偿的，”爱刷科技”赔偿时，可以相应扣减用户已从有关责任方取得的赔偿金额。 事故发生后，在未赔偿保险金之前，用户放弃对有关责任方请求赔偿权利的，”爱刷科技”不承担赔偿责任；”爱刷科技”向用户赔偿保障金后，用户未经”爱刷科技”同意放弃对有关责任方请求赔偿权利的，该行为无效；由于用户故意或者因重大过失致使”爱刷科技”不能行使代位请求赔偿的权利的，”爱刷科技”可以扣减或者要求返还相应的保障金。
+			</p>
+			<p><span class="sp_font">第十七条</span>用户请求赔偿的诉讼时效期间为二年，自其知道或者应当知道保险事故发生之日起计算。</p>
+			<p><span class="sp_font">第十八条</span>因履行本条款发生的争议，由当事人协商解决。协商不成的，提交本条款载明的仲裁机构仲裁；未载明仲裁机构且争议发生后未达成仲裁协议的，依法向有管辖权的中华人民共和国人民法院起诉。</p>
+			<p><span class="sp_font">第十九条</span>争议处理适用中华人民共和国法律（不包括港澳台地区法律）。</p>
+			<h3>其他事项</h3>
+			<p><span class="sp_font">第二十条</span>本产品订购后24小时内生效，订购成功后即进入用户审核流程，保障费用不予退还。 </p>
+			<h3>释义</h3>
+			<p>家庭成员：包括用户的近亲属和与其共同生活的其他亲属。没有亲属关系但在同一家庭长期共同生活的人也视为用户的家庭成员。</p>
+			<p>雇佣人员：指与用户存在事实雇佣关系、为用户提供家政服务工作的人。</p>
+			<p>共同居住人员：指与用户共同居住在同一套房屋内超过5天的人。</p>
 		</div>
-		<!--引导页-->
-		<div class="guide_page" style="display: none;"> 
-			<div class="guide_intro"><img src="images/guide_intro.png"/></div>
-		</div>
-		<script type="text/javascript">
-         $(window).on("load",function(){
-	        var winHeight = $(window).height(); 
-			function is_weixin() {
-			    var ua = navigator.userAgent.toLowerCase();
-			    if (ua.match(/MicroMessenger/i) == "micromessenger") {
-			        return true;
-			    } else {
-			        return false;
-			    }
-			}
-			var isWeixin = is_weixin();
-			if(isWeixin){
-				$(".guide_page").css("height",winHeight);
-	            $(".guide_page").show();
-	            $(window).scrollTop(0);
-			}
-       });
-	 </script>
+	</body>
+
 </html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<meta charset="UTF-8">
+		<title>申请成功</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta id="WV.Meta.Nav.HideMoreItem" value="true">
+		<meta id="WV.Meta.DisableRefresh" value="true">
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="stylesheet" href="style/reset.css" />
+		<link rel="stylesheet/less" href="style/test.less" />
+		<script src="js/less.min.js"></script>
+		<!--<link rel="stylesheet" href="style/style.css" />-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/flexible.js" type="text/javascript"></script>
+		<script src="js/myjs.js"></script>
+	</head>
+
+	<body>
+		<header>注册审核</header>
+		<!--申请提交成功-->
+		<div class="div_sucess" style="display:block">
+			<img src="images/sucess_ico.png" />
+			<p class="success_text">您的申请已提交成功！</p>
+		</div>
+		<!--审核中……-->
+		<div class="div_sucess div_review" style="display: none;">
+			<img src="images/review_ico.png" />
+			<p>您的申请正在审核中……</p>
+		</div>
+		<!--审核未通过-->
+		<div class="div_Nopass" style="display: none;">
+			<div class="div_sucess">
+				<p>审核未通过请重新提交注册信息</p>
+			</div>
+			<div class="ucaraduInfoBtn">
+				<a href="index.html" class="pass BtnOK">确定</a>
+			</div>
+		</div>
+		<!--审核通过-->
+		<div class="div_pass" style="display: none;">　
+			<div class="reg_top">
+				<img src="images/head_pho.jpg" />
+			</div>
+			<div class="reg_main">　
+				<div class="dv_ipline pass_ipline">
+					<span>姓名</span>
+					<label>蒋璐辉</label>
+				</div>
+				<div class="dv_ipline pass_ipline">
+					<span>电话</span>
+					<label>15827152625</label> 
+				</div> 
+				<div class="dv_ipline pass_ipline">
+					<span>单位</span>
+					<label class="lb_address">北京市建筑设计研究院</label>  
+				</div> 
+			</div>
+		</div>
+		<div class="CarApplicationBtn"> 
+			<a href="carSelect.html" class="applybtn">下一步</a>
+		</div>
+	</body>
+
+</html>

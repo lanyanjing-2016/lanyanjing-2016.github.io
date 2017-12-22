@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title>车型介绍详情</title>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">		
+	<meta id="WV.Meta.Nav.HideMoreItem" value="true">
+	<meta id="WV.Meta.DisableRefresh" value="true">
+	<meta name="format-detection" content="telephone=no" /> 
+	<link rel="stylesheet" href="style/reset.css" /> 
+	<link rel="stylesheet/less" href="style/test.less" />
+	<script src="js/less.min.js"></script>
+	<!--<link rel="stylesheet" href="style/style.css" />-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/flexible.js" type="text/javascript"></script>
+</head>
+<body> 
+	<header>车辆详情</header>
+	<div class="carpModel_Img">
+		<img src="images/car_model.jpg" />
+	</div>
+	<div class="carCompanyInfo">
+		<p class="p_cartitle">大众朗逸</p>
+		<ul>
+		<li><span>车辆类型：</span>全能轿跑车</li>
+		<li><span>车牌号：</span>京N.85A63</li>
+		<li><span>汽车型号：</span>奥迪A6</li>
+		<li><span>座位数：</span>5</li>
+		<li><span>变速箱类型：</span>AT</li>
+		<li><span>排量：</span>1490</li>
+		<li><span>燃油编号：</span>92-93汽油</li>
+		<li><span>驱动方式：</span>前驱</li>
+		<li><span>天窗：</span>单天窗</li>
+		<li><span>油箱容量：</span>52</li>
+		<li><span>倒车雷达：</span>无</li>
+		<li><span>GPS导航：</span>无</li>
+		</ul> 
+		<p class="p_cartitle p_order">订单说明：</p>
+		<P class="p_ordercount">
+			不限公里数，超时费按车辆租赁费及门店服务费均价/6收取实际超期小时费(部分0元活动订单，按照40元/小时进行收取<span class="sp1"><a href="#">退改规则</a></span>),
+			违章押金2000元(可退)。
+		</P>
+		<p class="p_oprdertips">温馨提示：<a href="#">点击阅读限行城市规则</a></p>
+	</div>
+	<div class="carCompanyInfo select_tips">
+		 <p>司机</p>
+    	 <p class="p2">
+    	 	<span class="active_span">有</span>
+    	 	<span>无</span>
+    	 </p>
+    	<p>数量</p>
+    	<div class="gw_num">
+			<span class="jian">-</span>
+			<input type="text" value="1" class="num"/>
+			<span class="add">+</span>
+		</div> 
+	</div>
+	<div class="CarApplicationBtn"> 
+	    <a href="carApplication.html" class="applybtn" >下一步</a>
+   </div> 
+</body>
+  <script>
+  	$(function(){ 
+  		//切换有无司机的样式
+  		$(".select_tips .p2 span").on("click",function(){ 
+  			$(this).addClass("active_span").siblings(".select_tips .p2 span").removeClass("active_span")
+  		})
+  		//加的效果
+		$(".add").click(function(){
+			var n=$(this).prev().val();
+			var num=parseInt(n)+1;
+			if(num==0){ return;}
+			$(this).prev().val(num);
+		});
+		//减的效果
+		$(".jian").click(function(){
+			var n=$(this).next().val();
+			var num=parseInt(n)-1;
+			if(num==0){ return}
+			$(this).next().val(num);
+		});
+  	})
+  </script>
+</html>

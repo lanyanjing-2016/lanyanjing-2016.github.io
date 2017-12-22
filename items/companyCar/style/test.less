@@ -1,0 +1,891 @@
+//定义函数区域
+.px2rem(@name, @px) {
+    @{name}: @px /75* 1rem;
+}
+.px2px(@name, @px) {
+    @{name}: @px * 1px;
+}
+/*********/
+body {
+    margin: 0;
+    padding: 0;
+    background: #e6e6e6; 
+}
+*{box-sizing: border-box; margin: 0;padding:0; -webkit-tap-highlight-color:rgba(0,0,0,0);}
+p,h2,h3 {max-height: 99999px;}
+/*功能介绍*/
+header {
+    .px2rem(width, 750);
+    .px2rem(height, 80);
+    .px2rem(line-height,80);
+    .px2px(font-size,16);
+    background: #3d9ff8;
+    color:#fff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.reg_top{
+    .px2rem(width, 750);
+    .px2rem(height, 247);
+    background: #d9ebff;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.reg_top img{
+    .px2rem(width, 122);
+    .px2rem(height, 122);
+    .px2rem(margin-top,60);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+}
+.reg_main{
+    background: #fff;
+    .px2rem(width, 750);
+    margin-left: auto;
+    margin-right: auto;
+}
+.dv_ipline{
+    border-bottom: 1px solid #eaeaea;
+    .px2rem(height,96);
+    .px2rem(line-height, 96);
+     .px2rem(padding-left,20);
+     .px2rem(padding-right,20);
+    .px2px(font-size,14);
+}
+.dv_ipline span{
+    color: #090708;  
+    .px2rem(margin-right,20);
+    .px2rem(width,180);
+    display: inline-block;
+    float:left;
+}
+.dv_ipline label{color: red; display: none;}
+.dv_ipline  input{ 
+    border:none;
+    color:#9a9a9a;
+    .px2rem(width,500);
+    .px2rem(line-height,60);
+    .px2rem(height,60);
+    .px2rem(margin-top,18);
+    .px2rem(margin-bottom,18);
+}
+
+.dv_ipline .sp_code{
+    display: inline-block;
+    border:1px solid #3d9ff8;
+    color: #3d9ff8;
+    font-size:12px; 
+    .px2rem(padding-left,10);
+    .px2rem(padding-right,10);
+    .px2rem(height,50);
+    .px2rem(line-height,50);
+     .px2rem(border-radius,10);
+     text-align: center;
+     .px2rem(margin-right,10);
+     .px2rem(margin-left,10);
+}
+.dv_ipline .graybtn{
+    border:1px solid #ccc; 
+    color: #ccc; 
+}
+.dv_ipline select{
+     .px2rem(width,500);
+      color:#9a9a9a;
+      border:none;
+      background: none; 
+      .px2rem(line-height,60);
+    .px2rem(height,60);
+    .px2rem(margin-top,18);
+    .px2rem(margin-bottom,18);
+} 
+.dv_txtarea{
+    .px2rem(height,176);
+     .px2rem(line-height,35);
+     overflow:hidden; 
+}
+.dv_txtarea span{
+     .px2rem(height,196);
+     .px2rem(margin-top,20); 
+     display: block;
+     float: left;
+}
+.dv_txtarea textarea{
+     overflow: hidden;
+     color:#9a9a9a;
+     border: 1px solid #eaeaea;
+      -webkit-appearance: none;
+     .px2rem(margin-top,20);  
+     .px2rem(width,500); 
+}
+ 
+
+.dv_ipline .right_btn{
+    .px2rem(width, 16);
+    .px2rem(height, 29);
+    .px2rem(margin-top,29);
+    .px2rem(margin-right,27);
+    float:right;
+}
+.reg_submit button{
+    .px2rem(width, 660);
+    .px2rem(height, 80);
+    .px2px(font-size,16);
+    .px2rem(margin-top,30);
+    .px2rem(margin-bottom,30);
+    background: #3d9ff8;
+    border: none;
+    display: block;
+    color:#fff; 
+    margin-left: auto;
+    margin-right: auto; 
+} 
+.tips{
+    background: #000000;
+    opacity: 0.6;
+    .px2rem(width, 500);
+    .px2rem(height, 100);
+    .px2rem(line-height, 100);
+    position:fixed;
+    .px2rem(top, 500); 
+    .px2rem(left, 125); 
+    display: none;
+    color:#fff;
+    text-align: center;
+    font-size:14px; 
+} 
+/*上传*/
+.input-file {
+    float: left;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    width: auto;
+    background-color:#2c7;
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    .px2rem(padding-top,5);
+    .px2rem(padding-bottom,5);
+    .px2rem(padding-left,10);
+    .px2rem(padding-right,10); 
+    font-size: 12px;
+    font-weight: normal; 
+    .px2rem(line-height,50);
+    .px2rem(margin-top,15); 
+    color: #fff;
+    text-decoration: none;
+}
+
+.input-file input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    background-color: #fff;
+    transform: translate(-300px, 0px) scale(4); 
+    .px2rem(height,40);
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.thumbnail {
+    float: left;
+    .px2rem(width,100);
+    .px2rem(height,60);
+    .px2rem(margin-left,5);
+    .px2rem(margin-top,15);  
+}
+.thumbnail img{ 
+    .px2rem(width,100);
+    .px2rem(height,60);
+}
+
+.div_sucess{
+    background: #fff;
+    .px2rem(width,750); 
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    .px2rem(padding-top,137);
+    margin:0 auto;
+}
+.div_sucess img{
+    .px2rem(width,64); 
+    .px2rem(height,64);  
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.div_sucess p{
+    font-size:14px;
+    .px2rem(margin-top,40);
+    .px2rem(margin-bottom,190);      
+}
+.div_pass{line-height: 0;}
+.pass_ipline {
+    height: auto;
+    overflow: hidden;
+} 
+.pass_ipline span{
+    margin-right: 0;
+    float:left; 
+}
+.pass_ipline label{
+    display: inline-block;
+    .px2rem(width,530);
+    .px2rem(margin-right,50); 
+    float:left; 
+}
+.pass_ipline label.lb_address{
+    .px2rem(line-height,60);
+    .px2rem(margin-top,15); 
+}
+/*注册审核信息*/ 
+.ucaraduInfo {
+  list-style: none;
+  background: #fff;
+  margin: 0 auto ;
+  width: 10rem;
+  height: auto;
+  overflow: hidden;
+}
+.ucaraduInfo li {
+  border-bottom: 1px solid #eaeaea;
+  width: 10rem;
+  height: auto;
+  overflow: hidden;
+  .px2rem(padding-left,20);
+  .px2rem(padding-right,20); 
+  .px2rem(padding-top,26);
+  .px2rem(padding-bottom,26);
+  font-size: 14px;
+  margin: 0 auto ;
+}
+.ucaraduInfo li a {
+  color: red;
+}
+.ucaraduInfo li span:nth-child(1) {
+  color: #868686;
+  .px2rem(width,180);
+  display: block;
+  float: left;
+}
+.ucaraduInfo li span:nth-child(2) {
+  color: #090708;
+ .px2rem(width,530);
+  display: block;
+  float: left;
+}
+.ucaraduInfoBtn {
+  .px2rem(margin-top,30);
+  .px2rem(margin-bottom,30); 
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  font-size: 14px;
+}
+.ucaraduInfoBtn a {
+   display: inline-block;
+   background: #b7b7b7;
+   color: #fff;
+   .px2rem(width,280);
+   .px2rem(height,86);
+   .px2rem(line-height,86); 
+   text-align: center;
+}
+.ucaraduInfoBtn .pass {
+  background: #3d9ff8;
+   .px2rem(margin-left,20);  
+}
+.ucaraduInfoBtn .BtnOK {
+  .px2rem(width,640); 
+  .px2rem(margin-top,30);  
+}
+/*用车审核*/
+.usecarlist{
+    .px2rem(width,750);
+    background: white;
+    height:auto;
+    .px2rem(padding-top,10);
+    .px2rem(padding-bottom,10);
+    .px2rem(padding-left,20);
+    .px2rem(padding-right,20);
+    .px2rem(margin-bottom,10);
+}
+.usecarlist p{
+    font-size:14px;
+    .px2rem(margin-top,15);
+}
+.usecarlist p .sp1{
+    float:left;
+    .px2rem(width,150);
+}
+.usecarlist p .sp2{
+    float:left;
+    height: auto;
+    overflow: hidden;
+    .px2rem(width,560);
+}
+.usecarlist .p_href{
+    text-align: right;
+    font-size:12px;
+} 
+
+/*车辆申请*/ 
+.applict_top{
+    background: #fff;
+     margin:0 auto ;
+    .px2rem(width,750);
+    .px2rem(padding-left,30);
+    .px2rem(padding-right,30); 
+    .px2rem(padding-top,30);
+    .px2rem(padding-bottom,30);
+    border-bottom:1px solid #eaeaea;
+    height: auto;
+    overflow: hidden;
+}
+.applict_top img{
+     .px2rem(width,180);
+     .px2rem(height,90);
+     float:left;
+}
+.applict_top .div_middle{
+  float:left;
+  .px2rem(margin-left,40); 
+}
+.applict_top .div_middle .p1{
+     font-size:16px; 
+}
+.applict_top .div_middle .p2{
+     font-size:13px; 
+     color: #a09fa4;
+     .px2rem(margin-top,15); 
+}
+.CarApplication{
+    list-style: none;
+    background: #fff;
+    margin:0 auto ;
+    .px2rem(width,750); 
+    height: auto;
+    overflow: hidden;
+} 
+.CarApplication li{
+     border-bottom: 1px solid #eaeaea;
+    .px2rem(width,750); 
+     height: auto;
+     overflow: hidden;
+    .px2rem(padding-left,20);
+    .px2rem(padding-right,20);
+    .px2rem(padding-top,26);
+    .px2rem(padding-bottom,26);    
+    .px2px(font-size,14);
+     margin:0 auto ; 
+}
+.CarApplication li a{
+    color:red;
+}
+ .CarApplication li input,.CarApplication li select{ 
+     border:none;
+     color:#9a9a9a;
+    .px2rem(width,450);
+    background:none;
+}
+.CarApplication li span:nth-child(1){
+     color: #090708;
+    .px2rem(width,210); 
+    display:block; 
+    float: left;
+}
+.CarApplication li span:nth-child(2){
+    color: #090708;
+    .px2rem(width,500); 
+    display:block;
+    float: left; 
+} 
+.CarApplication .li_reckon{
+     .px2rem(width,720); 
+     .px2rem(padding-left,0);
+     .px2rem(margin-left,30);
+     .px2rem(padding-right,50);
+}
+.CarApplication .li_reckon p:nth-child(1){
+    color: #56555b; 
+    display:block; 
+    float: left;
+}
+.CarApplication .li_reckon p:nth-child(2){
+    color: #090708; 
+    display:block;
+    float: right; 
+    color:#3c3b43
+}
+.CarApplication .li_reckon .label1{
+    color: #8c8b90;
+}
+.CarApplication .li_reckon .label2{
+    font-size:11px
+}
+.CarApplication .reckonlast{
+    border-bottom:none;
+}
+.CarApplication  .costlast{
+    border-top: 1px solid #eaeaea;
+}
+.CarApplication .li_cost{
+    background: #f3fbfe;
+    .px2rem(padding-top,36);
+    .px2rem(padding-bottom,36); 
+    .px2rem(width,750); 
+    .px2rem(padding-left,30);
+    .px2rem(margin-left,0);
+    color: #56555b;  
+} 
+ .CarApplication .li_cost  p:nth-child(2){
+     color: #ffaf25;
+ }
+.CarApplicationBtn{
+    .px2rem(margin-top,30);
+    .px2rem(margin-bottom,30);
+    height: auto;
+    overflow: hidden; 
+    text-align: center; 
+}
+.CarApplicationBtn a{
+    display: inline-block;
+    background: #3d9ff8;
+    color: #fff; 
+    .px2rem(height,86);
+    .px2rem(line-height,86);
+    text-align: center; 
+    .px2rem(width,640);  
+    font-size:14px;
+}
+/*车辆选择*/
+.car_select{
+    background: #fff; 
+    .px2rem(width,750);
+    margin: 0 auto;
+}
+.carselect_banner{
+   .px2rem(margin-bottom,20);
+    font-size:16px;
+    color:#51a6f9; 
+    .px2rem(height,96);
+    .px2rem(line-height,96);
+    .px2rem(padding-left,54);
+    position: relative;
+}
+.carselect_banner span{
+      position: absolute;
+      .px2rem(right,54);
+      .px2rem(top,40);
+       .px2rem(height,16);
+}
+.carselect_banner img{
+     .px2rem(width,29);
+     .px2rem(height,16);
+}
+.carselect_second{
+     display: none;
+    .px2rem(margin-bottom,20); 
+}
+.carselect_second li{
+     .px2rem(padding-top,30);
+     .px2rem(padding-bottom,30);
+     .px2rem(padding-left,20);
+     .px2rem(padding-right,30);
+     height: auto;
+     overflow: hidden;
+     border-top:1px solid #eaeaea; 
+}
+.carselect_second a li{
+    color: #323232;
+}
+.carselect_second li .img_car{
+     .px2rem(width,180);
+     .px2rem(height,90);
+     float: left;
+     .px2rem(margin-top,15);
+}
+.carselect_second li .div_middle{
+    float: left;
+     .px2rem(margin-left,20);
+}
+.carselect_second li .div_middle .p1{
+    font-size:16px; 
+}
+.carselect_second li .div_middle .p2{
+    font-size:11px; 
+    color: #626262;
+    .px2rem(margin-top,20);
+}
+.carselect_second li .div_middle .p2 span{
+    .px2rem(padding-right,10);
+    border-right: 1px solid #e2e2e2;
+}
+.carselect_second li .div_middle .p2 span:last-child{
+    border-right: none;
+}
+.carselect_second li .div_middle .p3{
+    font-size:11px; 
+    color: #626262;
+    .px2rem(margin-top,10);
+}
+.carselect_second li .p_right{
+    float: right;
+    font-size:11px;
+}
+.carselect_second li .p_right span{
+    font-size:22px; 
+}
+/*选择车辆详情*/
+.carpModel_Img{
+    .px2rem(width,750);
+    margin-left:auto;
+    margin-right: auto; 
+    background: #FFF;
+    .px2rem(padding-top,20); 
+    .px2rem(padding-bottom,20);
+    height: auto;
+    overflow: hidden;  
+}
+.carpModel_Img img{
+  .px2rem(width,469); 
+  .px2rem(height,276); 
+  margin-left: auto;
+  margin-right: auto;
+  display: block;  
+}
+.carCompanyInfo{
+     .px2rem(width,750); 
+     margin:0 auto;
+    background:#fff ;
+    .px2rem(margin-top,10);
+    height: auto;
+    overflow: hidden;
+}
+.carCompanyInfo .p_cartitle{
+    color: #409dfa;
+    font-size:14px;
+    .px2rem(padding-left,30);
+    .px2rem(padding-right,30);
+    .px2rem(padding-top,10);
+     .px2rem(padding-bottom,10);
+    border-bottom:1px solid #e2e2e2;
+    
+}
+.carCompanyInfo ul{
+    height: auto;
+    overflow:hidden;
+}
+.carCompanyInfo ul li{
+    .px2rem(padding-left,30);
+    .px2rem(padding-right,30);
+    .px2rem(padding-top,15);
+    .px2rem(padding-bottom,15);
+    border-bottom:1px solid #e2e2e2;
+    .px2rem(width,375); 
+    float: left;
+}
+ 
+.carCompanyInfo .p_order{
+     .px2rem(margin-top,60);
+     border-bottom:none; 
+}
+.carCompanyInfo .p_ordercount{
+    .px2rem(padding-left,30);
+    .px2rem(padding-right,30);
+    text-align:justify
+}
+.carCompanyInfo .p_ordercount a{
+    color: #409dfa;
+}
+.carCompanyInfo .p_oprdertips{
+    color: red;
+    .px2rem(padding-left,30);
+    .px2rem(padding-right,30);
+    .px2rem(margin-top,30);
+    .px2rem(padding-bottom,30);
+}
+.carCompanyInfo .p_oprdertips a{
+    color: red;
+}
+ 
+.select_tips{ 
+    .px2rem(width,750);
+     
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    
+    .px2rem(padding-left,30);
+    .px2rem(padding-right,30);
+    .px2rem(padding-top,30);
+    .px2rem(padding-bottom,0);
+}
+.select_tips .close{
+    position: absolute;
+    .px2rem(top,20);
+    .px2rem(right,20);
+    .px2rem(width,30);
+    .px2rem(height,30);
+}
+.select_tips .p2 span{
+    display: inline-block;
+    background:#f3f4f6;
+    .px2rem(padding-left,40);
+    .px2rem(padding-right,40);
+    .px2rem(padding-top,10);
+    .px2rem(padding-bottom,10);
+    .px2rem(margin-right,50);
+    .px2rem(margin-top,20);
+    .px2rem(margin-bottom,40);
+    .px2rem(border-radius,5);
+}
+.select_tips .p2 .active_span{
+    background: #d93603;
+    color: #fff;
+} 
+.select_tips .CarApplicationBtn{
+    margin-bottom:0; 
+} 
+.gw_num{
+     border: 1px solid #dbdbdb;
+    .px2rem(width,232);
+    .px2rem(height,66);
+    .px2rem(line-height,66);
+    overflow: hidden;
+    .px2rem(margin-left,460);
+    .px2rem(margin-bottom,80);
+}
+.gw_num span{
+   display: block; 
+   .px2rem(width,66);
+   .px2rem(height,64);
+   .px2rem(line-height,64);
+   float: left;
+   color: #7A7979;
+   border-right: 1px solid #dbdbdb;
+   text-align: center;
+   cursor: pointer;
+    background:#f3f4f6;
+    font-size: 16px; 
+    font-weight: bolder; 
+} 
+.gw_num .num{
+    display: block;
+    float: left;
+    text-align: center; 
+    .px2rem(width,94);
+    font-style: normal;
+    font-size: 14px;
+     .px2rem(line-height,66);
+    border: none; 
+ }
+.gw_num span.add{
+    float: right;
+    border-right: 0;
+    border-left: 1px solid #dbdbdb;
+} 
+ 
+/*车型详情*/
+.carModel_Img{
+    .px2rem(width,750);
+    margin-left:auto;
+    margin-right: auto; 
+    background: #FFF;
+    .px2rem(padding-top,40); 
+    .px2rem(padding-bottom,40);
+    height: auto;
+    overflow: hidden;  
+}
+.carModel_Img img{
+  .px2rem(width,569); 
+  .px2rem(height,276); 
+  margin-left: auto;
+  margin-right: auto;
+  display: block;  
+}
+.carModelInfo{
+    list-style: none;
+    background: #fff;
+    margin:0 auto ;
+    .px2rem(width,750); 
+    .px2rem(margin-top,22); 
+    height: auto;
+    overflow: hidden;
+}
+.carModelInfo li{
+     border-bottom: 1px solid #eaeaea;
+    .px2rem(width,750); 
+    .px2rem(height,96);
+    .px2rem(padding-left,50); 
+    .px2rem(padding-right,50);
+    .px2rem(line-height, 96);
+    .px2px(font-size,14);
+     margin:0 auto ; 
+     color: #333333;
+}
+.carModelInfo li span{
+    .px2rem(width,160);
+    display: inline-block; 
+}
+//我的申请
+.myapplication{
+    background:#fff;
+    .px2rem(width,750);
+    .px2rem(padding-top,50);
+    .px2rem(padding-bottom,50); 
+    .px2rem(margin-bottom,22);  
+    color: #333; 
+    position:relative;
+    margin-left: auto;
+    margin-right:auto;
+    font-size:14px;
+    height: auto;
+    overflow: hidden;
+}
+.myapplication a{
+     color: #333; 
+}
+.myapplication .p1{
+     .px2rem(margin-left,48); 
+     .px2rem(line-height,60); 
+}
+.myapplication .p1 .sp1{ 
+    color: #409dfa; 
+}
+.myapplication .p1 .sp2{ 
+     .px2rem(margin-left,30);
+     display: inline-block; 
+}
+.myapplication .p_state{
+    position: absolute;
+    .px2rem(right,20);
+    .px2rem(top,100);
+} 
+.myapplication a .p_state{
+    color:#409dfa; 
+}
+.myapplication a .ff89{
+    color: #ff8900;
+}
+.myapplication a .fd30{
+    color: #fd3001;
+}
+.applicat_sucess .p1{
+    text-align: center;
+    font-size:15px;
+    .px2rem(margin-top,30);
+    color: #333;
+}
+.applicat_sucess .p1 span{
+   color:#409dfa; 
+}
+.applicat_sucess .p2{
+    text-align: center;
+    font-size:12px;
+    color: #adadad;
+    .px2rem(margin-top,30);
+    height: auto;
+    overflow: hidden;
+}
+.alicat_audit li{
+    height: auto;
+    overflow:hidden; 
+}
+.alicat_audit label{
+    display: inline-block;
+    vertical-align: middle;
+    .px2rem(line-height,60);  
+     width:72%;
+}
+.ucaraduInfoBtn .orange_btn{
+    background:#ed7449;
+}
+.driver{
+  color: #333;
+  font-size:16px;
+  font-weight: bolder; 
+  .px2rem(margin-top,60); 
+  .px2rem(padding-bottom,30);
+  height: auto;
+  overflow: hidden; 
+}
+.driver p{
+    float:left;
+    width:50%;
+    text-align: center;
+}
+.driver p a{
+    color:#333;
+}
+.driver img{
+     .px2rem(width,56); 
+     .px2rem(height,56);
+     display: inline-block;
+     vertical-align: middle;
+}
+.driver p span{
+    display: inline-block;
+}
+.applicat_address{
+     .px2rem(width,750);
+     margin-left: auto;
+     margin-right: auto;
+      .px2rem(margin-top,22);
+      background: #fff;
+      height: auto;
+      overflow: hidden;
+      font-size:14px;
+}
+.applicat_address p{
+    .px2rem(padding-left,50);
+    .px2rem(padding-right,50);
+    .px2rem(padding-top,30); 
+    .px2rem(padding-bottom,30); 
+} 
+.applicat_address p .sp1{
+    .px2rem(width,155);
+    display: inline-block;
+    .px2rem(margin-left,10); 
+    .px2rem(line-height,45);
+    vertical-align: middle;
+}
+.applicat_address p .sp2{ 
+    display: inline-block; 
+    width:65%;
+    .px2rem(line-height,45);
+    vertical-align: middle;
+}
+.applicat_address .p_ress1{
+   border-bottom: 1px solid #eaeaea; 
+}
+.applicat_address .p_ress1 img{
+    .px2rem(width,27);
+    .px2rem(height,27);
+    display: inline-block;
+    vertical-align: middle; 
+}
+.applicat_address .p_ress2 img{
+    .px2rem(width,27);
+    .px2rem(height,34);
+    display: inline-block;
+    vertical-align: middle;
+} 
+@media screen and (max-width: 375px) {
+    .dv_ipline{font-size:12px;}
+    .audright a{
+        .px2rem(width,94); 
+        .px2rem(height,94);
+        .px2rem(line-height,94);
+        font-size:10px;
+    }
+    .audright a.pass_btn{ 
+        .px2rem(margin-left,20); 
+    }
+} 

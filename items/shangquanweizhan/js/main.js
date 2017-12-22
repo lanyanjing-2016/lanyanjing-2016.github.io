@@ -18,7 +18,8 @@
 		});
     }); 
 })();
-/*全选/取消全选*/ !(function() {
+/*全选/取消全选*/
+!(function() {
 	$(document).on("click", "#allCheck", function() {
 		if (this.checked == true) {
 			$(".checkbox").each(function() {
@@ -156,9 +157,30 @@
 	})
 	$(document).on("click","#integralBoonChecked",function(){
 		$(".integralBoon").toggle();
+	});
+})();
+/*左侧导航点击后选中状态*/
+!(function(){
+	$(function(){
+        function navClick(){
+            var urlstr = location.href;
+            var urlstatus = false;
+            $(".left a").each(function() {
+                if((urlstr + '/').indexOf($(this).attr('href')) > -1 && $(this).attr('href')!="") {
+                    $(this).addClass('active1');
+                    urlstatus = true;
+                }
+                else {
+                    $(this).removeClass('active1');
+                }
+            });
+            if (!urlstatus) {
+                $(".left a").eq(0).addClass('active1');
+            }
+        };
+        navClick();
 	})
 })();
-
 /**
  * @author yue xin ming
  * @deprecated 优惠券设置js

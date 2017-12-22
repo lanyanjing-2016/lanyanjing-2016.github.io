@@ -1,0 +1,154 @@
+//定义函数区域
+.px2rem(@name, @px) {
+    @{name}: @px /75* 1rem;
+}
+.px2px(@name, @px) {
+    @{name}: @px * 1px;
+}
+/*********/
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff; 
+}
+*{box-sizing: border-box; margin: 0;padding:0;}
+p,h2,h3 {max-height: 99999px;}
+/*功能介绍*/
+.img_banner{ 
+    .px2rem(width,750); 
+    .px2rem(height,302);
+    background:red;
+    margin:0 auto; 
+}
+.img_arrow{
+    position: relative;
+    right: -92%;
+    top: 80%;
+    .px2rem(width,47); 
+    .px2rem(height,47);
+} 
+.banner1{
+    background: url(../images/banner1.png) no-repeat;
+     background-size: 100% 100%;  
+}
+
+.banner2{
+    background: url(../images/banner2.png) no-repeat; 
+     background-size: 100% 100%;
+}
+
+.banner3{
+    background: url(../images/banner3.png) no-repeat; 
+     background-size: 100% 100%;
+}  
+.banner4{
+    background: url(../images/banner4.png) no-repeat; 
+    background-size: 100% 100%;
+}
+.img_text {
+     .px2rem(width,750);
+    height: auto;
+    overflow: hidden; 
+    margin:0 auto;
+   display: none;
+    overflow:hidden;
+} 
+.calca {
+    .px2rem(width,750);
+    height: auto;
+    overflow: hidden; 
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem; 
+}
+.img_content { 
+    line-height: 1rem;
+    color: #FFFFFF;
+    .px2rem(width,272); 
+    .px2rem(height,157);
+    float:left; 
+}
+.img_contentleft{
+    background: url(../images/0001.jpg) no-repeat; 
+    background-size: cover; 
+    .px2rem(margin-left,82); 
+}
+.img_contentright{
+    background: url(../images/0002.jpg) no-repeat; 
+    background-size: cover;
+    .px2rem(margin-right,82);
+     .px2rem(margin-left,41);  
+}
+.img_content_p { 
+    text-indent: 0rem;
+    text-align: center;
+    font-size:0.45rem;
+    .px2rem(margin-top,30);
+}
+
+.img_content_left {
+    display: inline-block;
+    font-size:0.35rem;
+    display: block;
+    float: left;
+    .px2rem(margin-left,40);
+    .px2rem(margin-top,-10);
+}
+
+.img_content_right {
+     display: block;
+      float: right;
+      font-size:0.45rem;
+    .px2rem(margin-right,40); 
+    .px2rem(margin-top,-10);
+}
+hr {
+    border: 0;
+    height: 0.2rem;
+    background-color: rgb(250, 250, 250);
+}
+.img_describe { 
+    font-size: 0.35rem; 
+    .px2rem(padding-left,81);
+    .px2rem(line-height,40);
+    .px2rem(margin-top,25);
+    .px2rem(margin-bottom,25);
+} 
+.img_describe span { 
+     color: rgb(195, 134, 71);  
+}
+.img_prompt{
+      font-size: 0.35rem; 
+    .px2rem(padding-left,81);
+    .px2rem(padding-right,65);
+    .px2rem(line-height,44);
+    .px2rem(margin-top,20);
+    .px2rem(margin-bottom,20);
+}
+.img_prompt p{text-indent: -0.45rem;} 
+ .img_prompt_col{
+     color: rgb(195, 134, 71);  
+ }
+ .content_d_msg{
+      background-image: url('../images/btn.PNG');
+    background-repeat:no-repeat;
+    background-size:cover;
+     .px2rem(width,118);
+     .px2rem(height,36);
+     border-radius:0.1rem;
+     color:#fff;
+     .px2rem(padding-top,5);
+    .px2rem(padding-bottom,5);
+ }
+ .expect{ 
+     .px2rem(width,750);
+     margin:1.2rem auto;
+    text-align: center;
+    color: rgb(254,88,40);
+    font-size:0.4rem;
+}
+.expect img{
+     .px2rem(width,200);
+     .px2rem(height,172);
+}
+
+  
