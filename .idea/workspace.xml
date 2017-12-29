@@ -2,88 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4473dc6-c3b5-4851-9694-a41cc988dee7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/images/address_blueico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/images/address_ico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/images/bottom_ico.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/images/car01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/images/car02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/images/car03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/images/car04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/images/car_ico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/images/car_model.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/images/close_ico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/images/head_pho.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/images/review_ico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/images/right_ico.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/images/sucess_ico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/images/tel_blueico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/images/time_blueico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/images/time_ico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/images/top_ico.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/images/user_ico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/images/user_redico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/images/usergray_ico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jifen/images/0001.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jifen/images/0002.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jifen/images/arrow1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jifen/images/arrow2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jifen/images/banner1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jifen/images/banner2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jifen/images/banner3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jifen/images/banner4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jifen/images/btn.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jifen/images/icon.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/ApplicationSucess.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/carApplication.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/carModelInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/carSelect.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/js/LArea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/js/LAreaData1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/js/LAreaData2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/js/flexible.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/js/less.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/js/mobiscroll.custom-2.17.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/js/myjs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/myApplication.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/style/LArea.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/style/mobiscroll.custom-2.17.0.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/style/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/style/test.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/companyCar/sucess.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jifen/css/jifen.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jifen/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jifen/jifen.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jifen/js/flexible.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jifen/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jifen/js/less.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jifen/js/zepto.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/items/appPlayShua/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/items/appPlayShua/images/error_tipico2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/items/appPlayShua/images/guide_intro.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/items/appPlayShua/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/items/appPlayShua/images/order_ico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/items/appPlayShua/js/layout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/items/appPlayShua/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/items/appPlayShua/order_info.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/items/appPlayShua/security_info.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items/appPlayShua/images/down_ico.png" afterPath="$PROJECT_DIR$/items/appPlayShua/images/down_ico.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items/appPlayShua/images/ico1.png" afterPath="$PROJECT_DIR$/items/appPlayShua/images/ico1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items/appPlayShua/images/ico2.png" afterPath="$PROJECT_DIR$/items/appPlayShua/images/ico2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items/appPlayShua/images/ico3.png" afterPath="$PROJECT_DIR$/items/appPlayShua/images/ico3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items/appPlayShua/images/select_icodown.png" afterPath="$PROJECT_DIR$/items/appPlayShua/images/select_icodown.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items/appPlayShua/images/up_ico.png" afterPath="$PROJECT_DIR$/items/appPlayShua/images/up_ico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jQueryAnswer/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jQueryAnswer/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jQueryAnswer/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jQueryAnswer/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jQueryAnswer/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jQueryAnswer/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jQueryAnswer/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jQueryAnswer/js/test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items/appPlayShua/css/css.less" afterPath="$PROJECT_DIR$/items/appPlayShua/css/css.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items/appPlayShua/css/reset.css" afterPath="$PROJECT_DIR$/items/appPlayShua/css/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items/appPlayShua/index.html" afterPath="$PROJECT_DIR$/items/appPlayShua/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items/appPlayShua/js/myjs.js" afterPath="$PROJECT_DIR$/items/appPlayShua/js/myjs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items/appPlayShua/pay_order.html" afterPath="$PROJECT_DIR$/items/appPlayShua/pay_order.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items/appPlayShua/perfect_info.html" afterPath="$PROJECT_DIR$/items/appPlayShua/perfect_info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items/appPlayShua/phone_verify.html" afterPath="$PROJECT_DIR$/items/appPlayShua/phone_verify.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items/shangquanweizhan/js/main.js" afterPath="$PROJECT_DIR$/items/shangquanweizhan/js/main.js" />
     </list>
     <ignored path="lanyanjing-2016.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -106,8 +34,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="131" column="22" lean-forward="true" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
+            <state relative-caret-position="345">
+              <caret line="93" column="10" lean-forward="false" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/items/jQueryAnswer/js/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -186,9 +124,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1924" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
@@ -205,6 +144,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lanyanjing-2016.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lanyanjing-2016.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -231,41 +185,8 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="lanyanjing-2016.github.io">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="items">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jifen">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lanyanjing-2016.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lanyanjing-2016.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,15 +199,15 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\yue\lanyanjing-2016.github.io\items" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\mywork\lanyanjing-2016.github.io\items" />
       <recent name="D:\mywork\lanyanjing-2016.github.io\images" />
       <recent name="D:\mywork\lanyanjing-2016.github.io\javascripts" />
       <recent name="D:\mywork\lanyanjing-2016.github.io" />
       <recent name="D:\mywork\lanyanjing-2016.github.io\items\zhuanpan" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\yue\lanyanjing-2016.github.io\items" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -389,7 +310,9 @@
       <workItem from="1513670995423" duration="4961000" />
       <workItem from="1513734723945" duration="19514000" />
       <workItem from="1513819061519" duration="17482000" />
-      <workItem from="1513907808623" duration="5364000" />
+      <workItem from="1513907808623" duration="8123000" />
+      <workItem from="1514164318962" duration="1286000" />
+      <workItem from="1514512659582" duration="1421000" />
     </task>
     <task id="LOCAL-00001" summary="tijiao">
       <created>1489112706497</created>
@@ -538,11 +461,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513849527378</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="12.22">
+      <created>1513931484851</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1513931484851</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64889000" />
+    <option name="totallyTimeSpent" value="70355000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -554,27 +484,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1924" height="1038" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20979765" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20930232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10538373" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,23 +533,14 @@
     <MESSAGE value="添加图片" />
     <MESSAGE value="修改内容12.20" />
     <MESSAGE value="修改内容12.21" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改内容12.21" />
+    <MESSAGE value="12.22" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.22" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/items/zhuanpan/sign-css/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -823,7 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -831,7 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="86" column="16" lean-forward="false" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,10 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="120" column="18" lean-forward="false" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -850,7 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="51" lean-forward="false" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -858,7 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,27 +779,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="60" column="30" lean-forward="true" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#a#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/items/appPlayShua/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/items/appPlayShua/login.html" />
     <entry file="file://$PROJECT_DIR$/items/shangquanweizhan/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="48" column="55" lean-forward="false" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -894,23 +794,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="762">
           <caret line="180" column="19" lean-forward="false" selection-start-line="180" selection-start-column="19" selection-end-line="180" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#77#456#0" expanded="false" />
-            <element signature="e#491#731#0" expanded="false" />
-            <element signature="e#771#1837#0" expanded="false" />
-            <element signature="e#1867#2595#0" expanded="false" />
-            <element signature="e#2624#4996#0" expanded="false" />
-            <element signature="e#5738#12167#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/items/appPlayShua/js/myjs.js">
+    <entry file="file://$PROJECT_DIR$/items/jifen/js/flexible.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,7 +820,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/items/jifen/js/flexible.js">
+    <entry file="file://$PROJECT_DIR$/items/appPlayShua/js/myjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/items/jQueryAnswer/js/test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -940,8 +838,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="131" column="22" lean-forward="true" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
+        <state relative-caret-position="345">
+          <caret line="93" column="10" lean-forward="false" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
           <folding />
         </state>
       </provider>
