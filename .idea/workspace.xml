@@ -2,22 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4473dc6-c3b5-4851-9694-a41cc988dee7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b1-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b1-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b1-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b1-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b21-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b21-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b22-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b23-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b23-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b25-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b25-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/step1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/step11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/zhinan.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b1-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b1-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b1-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b1-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b21-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b21-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b22-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b23-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b23-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b25-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/b25-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/step1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/hebao/image/step11.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jqdome/hebao/image/b1-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jqdome/hebao/image/b1-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jqdome/hebao/image/b1-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jqdome/hebao/image/b1-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jqdome/hebao/image/b21-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jqdome/hebao/image/b21-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jqdome/hebao/image/b22-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jqdome/hebao/image/b23-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jqdome/hebao/image/b23-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jqdome/hebao/image/b25-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jqdome/hebao/image/b25-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jqdome/hebao/image/step1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jqdome/hebao/image/step11.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jqdome/hebao/zhinan.html" afterPath="$PROJECT_DIR$/jqdome/hebao/zhinan.html" />
     </list>
     <ignored path="lanyanjing-2016.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +49,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="81" column="25" lean-forward="true" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+            <state relative-caret-position="552">
+              <caret line="83" column="49" lean-forward="true" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zhinan.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jqdome/hebao/zhinan.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="57" column="43" lean-forward="true" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -96,6 +118,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.png</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -120,6 +147,7 @@
         <option value="$PROJECT_DIR$/resume.html" />
         <option value="$PROJECT_DIR$/items/shangquanweizhan/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/jqdome/hebao/zhinan.html" />
       </list>
     </option>
   </component>
@@ -224,11 +252,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mywork\lanyanjing-2016.github.io\jqdome\hebao\image" />
+      <recent name="D:\mywork\lanyanjing-2016.github.io\jqdome\hebao" />
       <recent name="D:\mywork\lanyanjing-2016.github.io\jqdome" />
       <recent name="D:\mywork\lanyanjing-2016.github.io\items" />
       <recent name="D:\mywork\lanyanjing-2016.github.io\images" />
-      <recent name="D:\mywork\lanyanjing-2016.github.io\javascripts" />
-      <recent name="D:\mywork\lanyanjing-2016.github.io" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\yue\lanyanjing-2016.github.io\items" />
@@ -337,7 +365,7 @@
       <workItem from="1513907808623" duration="8123000" />
       <workItem from="1514164318962" duration="1286000" />
       <workItem from="1514512659582" duration="2573000" />
-      <workItem from="1515397560083" duration="233000" />
+      <workItem from="1515397560083" duration="1079000" />
     </task>
     <task id="LOCAL-00001" summary="tijiao">
       <created>1489112706497</created>
@@ -500,11 +528,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514528880534</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="12.22">
+      <created>1515397817483</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1515397817483</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71740000" />
+    <option name="totallyTimeSpent" value="72586000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -573,13 +608,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/items/zhuanpan/rule.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/items/zhuanpan/sign-css/signed.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -862,18 +890,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jqdome/hebao/zhinan.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        <state relative-caret-position="552">
+          <caret line="83" column="49" lean-forward="true" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/jqdome/hebao/image/b25-2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jqdome/hebao/zhinan.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="81" column="25" lean-forward="true" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+        <state relative-caret-position="441">
+          <caret line="57" column="43" lean-forward="true" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
           <folding />
         </state>
       </provider>
