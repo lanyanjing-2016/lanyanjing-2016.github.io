@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<title>订蛋糕</title>
+		<link rel="stylesheet" href="css/weui.min.css" />
+		<link rel="stylesheet" href="css/jquery-weui.min.css" /> 
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+		<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+		<script type="text/javascript" src="js/jquery-weui.min.js"></script> 
+	</head>
+
+<body> 
+<!--幻灯片---> 
+  <div class="swiper-container" id="banner">
+    <div class="swiper-wrapper">
+     <div class="swiper-slide"><a href="second.html"><img src="images/swip1.jpg" alt=""></a></div>
+     <div class="swiper-slide"><a href="second.html"><img src="images/swip2.jpg" alt=""></a></div>
+     <div class="swiper-slide"><a href="second.html"><img src="images/swip3.jpg" alt=""></a></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+<div class="three_pageinfo">
+	<P class="p1">爱心<span>专人配送</span></P>
+	<P class="p2">爱心</p>
+	<p class="p3">￥148<span>￥168</span></p>
+	<P class="p4">全场9折，欢迎订购~</P>
+</div>
+<div class="div_gray"></div>
+<div class="weui-cells three_guige">
+  <a class="weui-cell weui-cell_access" href="javascript:;">
+    <div class="weui-cell__bd">
+      <p>规格<span>已选择8寸</span></p>
+    </div>
+    <div class="weui-cell__ft">
+    </div>
+  </a> 
+</div>
+<div class="div_gray"></div>
+<div class="weui-panel weui-panel_access"> 
+  <div class="weui-panel__bd">
+    <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+      <div class="weui-media-box__hd">
+        <img class="weui-media-box__thumb" src="images/onecake.jpg">
+      </div>
+      <div class="weui-media-box__bd">
+        <h4 class="weui-media-box__title">onecake</h4>
+        <p class="weui-media-box__desc">你需要一款蛋糕，因为你要送给最爱的人。</p>
+      </div>
+    </a> 
+  </div>
+  <div class="weui-panel__ft evaluate">
+    <a href="javascript:void(0);" class="weui-cell weui-cell_access weui-cell_link">
+      <div class="weui-cell__bd">评价<span>综合评分&nbsp;<label>0</label></span></div>
+      <span class="weui-cell__ft">查看全部<span>0</span>条评价</span>
+    </a>    
+  </div>
+</div>
+<div class="three_imglist">
+	<p>图文详情</p>
+	<img src="images/swip1.jpg" />
+	<img src="images/swip2.jpg" />
+	<img src="images/swip3.jpg" />
+</div>
+<!--footer--> 
+<div class="weui-tabbar">
+	<div class="placeholder"> 
+	    <a href="javascript:;" class="weui-tabbar__item active"> 
+	      <div class="weui-tabbar__icon">
+	         <i class="fa fa-star"></i>
+	      </div>
+	      <p class="weui-tabbar__label red">收藏</p>
+	    </a>
+    </div> 
+    <div class="placeholder"> 
+	     <a href="type.html" class="weui-tabbar__item"> 
+	      <div class="weui-tabbar__icon">
+	         <i class="fa fa-laptop"></i>
+	      </div>
+	      <p class="weui-tabbar__label">咨询</p>
+	    </a> 
+    </div> 
+    <div class="weui-flex__item buy_button">
+    	<div class="placeholder"> 
+	      <div class="demos-content-padded">
+		      <a href="javascript:;" class="weui-tabbar__item" id="show-actions" class="weui-btn weui-btn_primary">
+		      	<p class="weui-tabbar__label ">立即订购</p>
+		      </a> 
+		  </div> 
+       </div>
+    </div>
+  </div>
+</div>
+ 
+</body>
+   <script>
+     var swiper1 = new Swiper('#banner', {
+	      pagination: {
+	        el: '.swiper-pagination',
+	      },
+     });
+    var swiper2 = new Swiper('#barnd', {
+	      slidesPerView:4,
+	      spaceBetween: 30,
+	      freeMode: true,
+	      pagination: {
+	        el: '.swiper-pagination',
+	        clickable: true,
+	      },
+     });
+     
+    </script>
+    <script>
+    	$(function(){
+    		
+    		//立即购买
+    		$(document).on("click", "#show-actions", function() {
+    			var str='<div class="buy_wintop">'
+				   +'<img src="images/onecake.jpg">'
+				   +'<div class="div_right">'
+				   +' <p class="p1">爱心</p>'
+				    +'<p class="p2">￥14.2</p>'
+				   +' <p class="p3">已选择8寸</p>'
+				+'</div>'
+				+'<div class="buy_winmiddle">'
+					+'<P>尺寸</P>'
+				   +' <span class="active">8寸</span>'
+				   +' <span>10寸</span>'
+				    +'<span>12寸</span>'
+				+'</div>'
+				+'<div class="buy_winmiddle buy_bottom">'
+					+'<P>购买数量</P>'
+				    +'<div class="gw_num">'
+						+'<em class="jian">-</em>'
+						+'<input type="text" value="1" class="num"/>'
+						+'<em class="add">+</em>'
+					+'</div>'
+				+'</div>'
+		        $.actions({
+		          title:str,
+		          onClose: function() {
+		            console.log("close");
+		          },
+		          actions: [{
+				    text: "立即订购",
+				    className:'bg-danger',
+				    onClick: function() {
+				      //do something
+				    }
+				  }]
+		        });
+	      });
+	      $(".btn_libao").click(function(){
+    			$.toast("领取成功");
+    		});
+    		//加的效果
+			$(".add").click(function(){
+			var n=$(this).prev().val();
+			var num=parseInt(n)+1;
+			if(num==0){ return;}
+			  $(this).prev().val(num);
+			});
+			//减的效果
+			$(".jian").click(function(){
+			var n=$(this).next().val();
+			var num=parseInt(n)-1;
+			if(num==0){ return}
+			  $(this).next().val(num);
+			});
+ 
+    	})
+    </script>
+</html>

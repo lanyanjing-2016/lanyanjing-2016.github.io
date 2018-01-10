@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<title>订蛋糕</title>
+		<link rel="stylesheet" href="css/weui.min.css" />
+		<link rel="stylesheet" href="css/jquery-weui.min.css" />
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+		<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+		<script type="text/javascript" src="js/jquery-weui.min.js"></script>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+	</head>
+
+<body>
+  <header>
+    <h2 class="head_title">订蛋糕</h2>
+ </header>
+ <!--搜索-->
+ <div class="weui-search-bar" id="searchBar">
+    <form class="weui-search-bar__form" action="#">
+      <div class="weui-search-bar__box">
+        <i class="weui-icon-search"></i>
+        <input type="search" class="weui-search-bar__input" id="searchInput" placeholder="搜索" required="">
+        <a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+      </div>
+      <label class="weui-search-bar__label" id="searchText" style="transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);">
+        <i class="weui-icon-search"></i>
+        <span>搜索</span>
+      </label>
+    </form>
+    <a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
+</div>
+<!--幻灯片---> 
+  <div class="swiper-container" id="banner">
+    <div class="swiper-wrapper">
+     <div class="swiper-slide"><a href="second.html"><img src="images/swip1.jpg" alt=""></a></div>
+     <div class="swiper-slide"><a href="second.html"><img src="images/swip2.jpg" alt=""></a></div>
+     <div class="swiper-slide"><a href="second.html"><img src="images/swip3.jpg" alt=""></a></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+<!--立即领取-->
+<div class="btn_libao">
+	<img src="images/btn_libao.jpg" />
+</div>
+<div class="weui-grids bar_square"> 
+     <a href="" class="weui-grid js_grid">
+	    <div class="weui-grid__icon">
+	      <img src="images/ico_01.jpg" alt="">
+	    </div>
+	    <p class="weui-grid__label">
+	      当日达
+	    </p>
+	 </a>
+	 <a href="" class="weui-grid js_grid">
+	    <div class="weui-grid__icon">
+	      <img src="images/ico_02.jpg" alt="">
+	    </div>
+	    <p class="weui-grid__label">
+	      热卖
+	    </p>
+	 </a>
+	 <a href="" class="weui-grid js_grid">
+	    <div class="weui-grid__icon">
+	      <img src="images/ico_03.jpg" alt="">
+	    </div>
+	    <p class="weui-grid__label">
+	      全部
+	    </p>
+	 </a>
+</div>
+<!--送朋友，送长辈--> 
+<div class="weui-flex">
+  <div class="weui-flex__item song_left">
+  	<a href="#"><img src="images/s_ico1.jpg" /></a>
+  </div>
+  <div class="weui-flex__item song_right">
+  	 <a href="#"><img src="images/s_ico2.jpg" /></a>
+  	 <a href="#"><img src="images/s_ico3.jpg" /></a>
+  </div>
+</div>
+<!--品牌馆-->
+<div class="demos-header">
+	<a href="#">
+      <h1 class="demos-title">品牌馆</h1>
+      <p class="demos-sub-title">Brand Library</p>
+      <div class="demos_right_ico"></div>
+    </a>
+</div>
+<div class="swiper-container" id="barnd">
+	<div class="swiper-wrapper">
+	  <div class="swiper-slide"><img src="images/brand_pic1.jpg"></div>
+	  <div class="swiper-slide"><img src="images/brand_pic2.jpg"></div>
+	  <div class="swiper-slide"><img src="images/brand_pic3.jpg"></div>
+	  <div class="swiper-slide"><img src="images/brand_pic4.jpg"></div>
+	  <div class="swiper-slide"><img src="images/brand_pic5.jpg"></div>
+	  <div class="swiper-slide"><img src="images/brand_pic6.jpg"></div>
+	  <div class="swiper-slide"><img src="images/brand_pic7.jpg"></div>
+	</div> 
+</div>
+<!--口味推荐-->
+<div class="demos-header">
+	<a href="#">
+      <h1 class="demos-title">口味推荐</h1>
+      <p class="demos-sub-title">Flavor Recommended</p> 
+    </a>
+</div>
+<div class="weui-grids flavor">
+  <a href="" class="weui-grid js_grid">
+    <div class="weui-grid__icon">
+      <img src="images/flavor_pic1.jpg" alt="">
+    </div> 
+  </a>
+  <a href="" class="weui-grid js_grid">
+    <div class="weui-grid__icon">
+      <img src="images/flavor_pic2.jpg" alt="">
+    </div> 
+  </a>
+    <a href="" class="weui-grid js_grid">
+    <div class="weui-grid__icon">
+      <img src="images/flavor_pic3.jpg" alt="">
+    </div> 
+  </a>
+    <a href="" class="weui-grid js_grid">
+    <div class="weui-grid__icon">
+      <img src="images/flavor_pic4.jpg" alt="">
+    </div> 
+  </a>
+    <a href="" class="weui-grid js_grid">
+    <div class="weui-grid__icon">
+      <img src="images/flavor_pic5.jpg" alt="">
+    </div> 
+  </a>
+    <a href="" class="weui-grid js_grid">
+    <div class="weui-grid__icon">
+      <img src="images/flavor_pic6.jpg" alt="">
+    </div> 
+  </a>
+    <a href="" class="weui-grid js_grid">
+    <div class="weui-grid__icon">
+      <img src="images/flavor_pic7.jpg" alt="">
+    </div> 
+  </a>
+    <a href="" class="weui-grid js_grid">
+    <div class="weui-grid__icon">
+      <img src="images/flavor_pic8.jpg" alt="">
+    </div> 
+  </a>
+    <a href="" class="weui-grid js_grid">
+    <div class="weui-grid__icon">
+      <img src="images/flavor_pic9.jpg" alt="">
+    </div> 
+  </a>
+</div>
+<!--热卖精选-->
+<div class="demos-header">
+	<a href="#">
+      <h1 class="demos-title">-热卖精选-</h1> 
+    </a>
+</div>
+<div class="hot_buy">
+    <ul>
+    	<li>
+    		<a href="#">
+    			<img src="images/hot_pic1.jpg"/>
+    			<p class="p1">[全国配送]黑森林</p>
+    			<p class="p2">wink cake</p>
+    			<p class="p3">￥148</p>
+    		</a>
+    	</li>
+    	<li>
+    		<a href="#">
+    			<img src="images/hot_pic2.jpg"/>
+    			<p class="p1">[全国配送]黑森林</p>
+    			<p class="p2">wink cake</p>
+    			<p class="p3">￥148</p>
+    		</a>
+    	</li>
+    	<li>
+    		<a href="#">
+    			<img src="images/hot_pic1.jpg"/>
+    			<p class="p1">[全国配送]黑森林</p>
+    			<p class="p2">wink cake</p>
+    			<p class="p3">￥148</p>
+    		</a>
+    	</li>
+    	<li>
+    		<a href="#">
+    			<img src="images/hot_pic2.jpg"/>
+    			<p class="p1">[全国配送]黑森林</p>
+    			<p class="p2">wink cake</p>
+    			<p class="p3">￥148</p>
+    		</a>
+    	</li>
+    	<li>
+    		<a href="#">
+    			<img src="images/hot_pic1.jpg"/>
+    			<p class="p1">[全国配送]黑森林</p>
+    			<p class="p2">wink cake</p>
+    			<p class="p3">￥148</p>
+    		</a>
+    	</li>
+    	<li>
+    		<a href="#">
+    			<img src="images/hot_pic2.jpg"/>
+    			<p class="p1">[全国配送]黑森林</p>
+    			<p class="p2">wink cake</p>
+    			<p class="p3">￥148</p>
+    		</a>
+    	</li>
+    	<li>
+    		<a href="#">
+    			<img src="images/hot_pic1.jpg"/>
+    			<p class="p1">[全国配送]黑森林</p>
+    			<p class="p2">wink cake</p>
+    			<p class="p3">￥148</p>
+    		</a>
+    	</li>
+    	<li>
+    		<a href="#">
+    			<img src="images/hot_pic2.jpg"/>
+    			<p class="p1">[全国配送]黑森林</p>
+    			<p class="p2">wink cake</p>
+    			<p class="p3">￥148</p>
+    		</a>
+    	</li>
+    </ul>
+</div>
+<!--footer-->
+<div class="weui-tabbar">
+    <a href="javascript:;" class="weui-tabbar__item active"> 
+      <div class="weui-tabbar__icon">
+         <i class="fa fa-home"></i>
+      </div>
+      <p class="weui-tabbar__label red">首页</p>
+    </a>
+     <a href="type.html" class="weui-tabbar__item"> 
+      <div class="weui-tabbar__icon">
+         <i class="fa fa-th"></i>
+      </div>
+      <p class="weui-tabbar__label">分类</p>
+    </a>
+     <a href="userinfo.html" class="weui-tabbar__item"> 
+      <div class="weui-tabbar__icon">
+         <i class="fa fa-user-o"></i>
+      </div>
+      <p class="weui-tabbar__label">我的</p>
+    </a>
+  </div>
+</div>
+</body>
+   <script>
+     var swiper1 = new Swiper('#banner', {
+	      pagination: {
+	        el: '.swiper-pagination',
+	      },
+     });
+    var swiper2 = new Swiper('#barnd', {
+	      slidesPerView:4,
+	      spaceBetween: 30,
+	      freeMode: true,
+	      pagination: {
+	        el: '.swiper-pagination',
+	        clickable: true,
+	      },
+     });
+    </script>
+    <script>
+    	$(function(){
+    		$(".btn_libao").click(function(){
+    			$.toast("领取成功");
+    		});
+ 
+    	})
+    </script>
+</html>

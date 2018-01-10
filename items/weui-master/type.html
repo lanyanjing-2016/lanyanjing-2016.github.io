@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<title>分类</title>
+		<link rel="stylesheet" href="css/weui.min.css" />
+		<link rel="stylesheet" href="css/jquery-weui.min.css" />
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+		<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+		<script type="text/javascript" src="js/jquery-weui.min.js"></script>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+	</head>
+
+<body>
+  <!--搜索-->
+ <div class="weui-search-bar" id="searchBar">
+    <form class="weui-search-bar__form" action="#">
+      <div class="weui-search-bar__box">
+        <i class="weui-icon-search"></i>
+        <input type="search" class="weui-search-bar__input" id="searchInput" placeholder="搜索" required="">
+        <a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+      </div>
+      <label class="weui-search-bar__label" id="searchText" style="transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);">
+        <i class="weui-icon-search"></i>
+        <span>搜索</span>
+      </label>
+    </form>
+    <a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
+</div>
+ <!-- 容器 -->
+<div class="weui-tab type-tab">
+  <div class="weui-navbar type_left">
+    <a class="weui-navbar__item weui-bar__item--on" href="#tab1">
+         人气推荐
+    </a> 
+    <a class="weui-navbar__item" href="#tab2">
+        按品牌
+    </a>
+    <a class="weui-navbar__item" href="#tab3">
+          按口味
+    </a>
+    <a class="weui-navbar__item" href="#tab4">
+         按人群
+    </a>
+  </div>
+  <div class="weui-tab__bd type_right">
+    <div id="tab1" class="weui-tab__bd-item weui-tab__bd-item--active">
+       <div class="hot_buy rqtj_list">
+       	<p class="p_biaoti"><span>——</span> &nbsp;人气推荐 &nbsp;<span>——</span></p>
+	    <ul>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_rq1.jpg"/>
+	    			<p class="p_title">水果之恋蛋糕</p>
+	    			<p class="p_price">￥158</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_rq2.jpg"/>
+	    			<p class="p_title">萌熊鲜奶蛋糕</p>
+	    			<p class="p_price">￥158</p> 
+	    		</a>
+	    	</li> 
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_rq3.jpg"/>
+	    			<p class="p_title">水果之恋蛋糕</p>
+	    			<p class="p_price">￥158</p> 
+	    		</a>
+	    	</li> 
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_rq4.jpg"/>
+	    			<p class="p_title">水果之恋蛋糕</p>
+	    			<p class="p_price">￥158</p> 
+	    		</a>
+	    	</li> 
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_rq1.jpg"/>
+	    			<p class="p_title">水果之恋蛋糕</p>
+	    			<p class="p_price">￥158</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_rq2.jpg"/>
+	    			<p class="p_title">萌熊鲜奶蛋糕</p>
+	    			<p class="p_price">￥158</p> 
+	    		</a>
+	    	</li> 
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_rq3.jpg"/>
+	    			<p class="p_title">水果之恋蛋糕</p>
+	    			<p class="p_price">￥158</p> 
+	    		</a>
+	    	</li> 
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_rq4.jpg"/>
+	    			<p class="p_title">水果之恋蛋糕</p>
+	    			<p class="p_price">￥158</p> 
+	    		</a>
+	    	</li> 
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_rq1.jpg"/>
+	    			<p class="p_title">水果之恋蛋糕</p>
+	    			<p class="p_price">￥158</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_rq2.jpg"/>
+	    			<p class="p_title">萌熊鲜奶蛋糕</p>
+	    			<p class="p_price">￥158</p> 
+	    		</a>
+	    	</li> 
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_rq3.jpg"/>
+	    			<p class="p_title">水果之恋蛋糕</p>
+	    			<p class="p_price">￥158</p> 
+	    		</a>
+	    	</li> 
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_rq4.jpg"/>
+	    			<p class="p_title">水果之恋蛋糕</p>
+	    			<p class="p_price">￥158</p> 
+	    		</a>
+	    	</li> 
+	    </ul>
+	</div>
+    </div>
+    <div id="tab2" class="weui-tab__bd-item">
+      <div class="hot_buy pinpai_list">
+	   <p class="p_biaoti"><span>——</span> &nbsp;按品牌 &nbsp;<span>——</span></p>
+	   <ul>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_pin1.jpg"/>
+	    			<p class="p_title">元祖食品</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_pin2.jpg"/>
+	    			<p class="p_title">wink cake</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_pin3.jpg"/>
+	    			<p class="p_title">皇冠蛋糕</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_pin4.jpg"/>
+	    			<p class="p_title">七彩蛋糕</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_pin5.jpg"/>
+	    			<p class="p_title">积慕 cake</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_pin6.jpg"/>
+	    			<p class="p_title">哈根达斯</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_pin7.jpg"/>
+	    			<p class="p_title">味之初</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_pin8.jpg"/>
+	    			<p class="p_title">香巴拉</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_pin9.jpg"/>
+	    			<p class="p_title">蜜时 cake</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_pin10.jpg"/>
+	    			<p class="p_title">多啦西梦</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_pin11.jpg"/>
+	    			<p class="p_title">one cake</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_pin12.jpg"/>
+	    			<p class="p_title">痴货</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_pin13.jpg"/>
+	    			<p class="p_title">虞美人</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_pin14.jpg"/>
+	    			<p class="p_title">亚美水果塔</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_pin15.jpg"/>
+	    			<p class="p_title">甘美cake</p> 
+	    		</a>
+	    	</li>
+	    </ul>
+	  </div>
+    </div>
+    <div id="tab3" class="weui-tab__bd-item">
+      <div class="hot_buy pinpai_list">
+	    <p class="p_biaoti"><span>——</span> &nbsp;按口味 &nbsp;<span>——</span></p>
+	    <ul>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_kou1.jpg"/>
+	    			<p class="p_title">乳脂</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_kou2.jpg"/>
+	    			<p class="p_title">慕斯</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_kou3.jpg"/>
+	    			<p class="p_title">水果</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_kou4.jpg"/>
+	    			<p class="p_title">巧克力</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_kou5.jpg"/>
+	    			<p class="p_title">拼它口味</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_kou6.jpg"/>
+	    			<p class="p_title">芝士</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_kou7.jpg"/>
+	    			<p class="p_title">冰激凌</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_kou8.jpg"/>
+	    			<p class="p_title">拿破仑</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_kou9.jpg"/>
+	    			<p class="p_title">干果</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_kou10.jpg"/>
+	    			<p class="p_title">芒果</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_kou11.jpg"/>
+	    			<p class="p_title">草莓</p> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_kou12.jpg"/>
+	    			<p class="p_title">蓝莓</p> 
+	    		</a>
+	    	</li>
+	    </ul>
+	 </div>
+    </div>
+    <div id="tab4" class="weui-tab__bd-item">
+        <div class="type_renqun">
+        <p class="p_biaoti"><span>——</span> &nbsp;按人群 &nbsp;<span>——</span></p>
+	    <ul>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_renqun1.jpg"/> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_renqun2.jpg"/> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_renqun3.jpg"/> 
+	    		</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">
+	    			<img src="images/type_renqun4.jpg"/> 
+	    		</a>
+	    	</li>
+	    </ul>
+	    </div>
+    </div>
+  </div>
+</div>
+<!--footer-->
+<div class="weui-tabbar">
+    <a href="index.html" class="weui-tabbar__item "> 
+      <div class="weui-tabbar__icon">
+         <i class="fa fa-home"></i>
+      </div>
+      <p class="weui-tabbar__label">首页</p>
+    </a>
+     <a href="type.html" class="weui-tabbar__item active"> 
+      <div class="weui-tabbar__icon">
+         <i class="fa fa-th"></i>
+      </div>
+      <p class="weui-tabbar__label red">分类</p>
+    </a>
+     <a href="userinfo.html" class="weui-tabbar__item"> 
+      <div class="weui-tabbar__icon">
+         <i class="fa fa-user-o"></i>
+      </div>
+      <p class="weui-tabbar__label">我的</p>
+    </a>
+  </div>
+</div>
+</body>
+   <script>
+     var swiper1 = new Swiper('#banner', {
+	      pagination: {
+	        el: '.swiper-pagination',
+	      },
+     });
+    var swiper2 = new Swiper('#barnd', {
+	      slidesPerView:4,
+	      spaceBetween: 30,
+	      freeMode: true,
+	      pagination: {
+	        el: '.swiper-pagination',
+	        clickable: true,
+	      },
+     });
+    </script>
+    <script>
+    	$(function(){
+    		$(".btn_libao").click(function(){
+    			$.toast("领取成功");
+    		});
+ 
+    	})
+    </script>
+</html>
