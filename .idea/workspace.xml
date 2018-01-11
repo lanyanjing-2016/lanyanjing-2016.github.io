@@ -2,125 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4473dc6-c3b5-4851-9694-a41cc988dee7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/brand_pic1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/brand_pic2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/brand_pic3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/brand_pic4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/brand_pic5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/brand_pic6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/brand_pic7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/btn_libao.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/flavor_pic1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/flavor_pic2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/flavor_pic3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/flavor_pic4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/flavor_pic5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/flavor_pic6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/flavor_pic7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/flavor_pic8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/flavor_pic9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/hot_pic1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/hot_pic2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/ico_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/ico_02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/ico_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/onecake.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/s_ico1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/s_ico2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/s_ico3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/swip1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/swip2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/swip3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/swip4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_kou1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_kou10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_kou11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_kou12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_kou2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_kou3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_kou4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_kou5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_kou6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_kou7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_kou8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_kou9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_pin1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_pin10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_pin11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_pin12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_pin13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_pin14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_pin15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_pin2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_pin3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_pin4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_pin5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_pin6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_pin7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_pin8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_pin9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_renqun1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_renqun2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_renqun3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_renqun4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_rq1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_rq2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_rq3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/images/type_rq4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/css/jquery-weui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/css/jquery-weui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/css/swiper.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/HELP-US-OUT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/less/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/less/screen-reader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/scss/_screen-reader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/font-awesome-4.7.0/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/js/city-picker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/js/jquery-2.1.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/js/jquery-weui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/js/swiper.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/second.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/three.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/type.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/userinfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqdome/lhj.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/css/weui.min.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/items/weui-master/css/jquery-weui.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="lanyanjing-2016.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -140,11 +24,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
+            <state relative-caret-position="23">
               <caret line="139" column="129" lean-forward="false" selection-start-line="139" selection-start-column="129" selection-end-line="139" selection-end-column="129" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weui.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/items/weui-master/css/weui.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-weui.min.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/items/weui-master/css/jquery-weui.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -153,8 +57,8 @@
       <file leaf-file-name="zhinan.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jqdome/hebao/zhinan.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="1449">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -290,21 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lanyanjing-2016.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lanyanjing-2016.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -331,8 +220,63 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="lanyanjing-2016.github.io">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="items">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="weui-master">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="lanyanjing-2016.github.io">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="items">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="weui-master">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="css">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lanyanjing-2016.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lanyanjing-2016.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,15 +289,15 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\yue\lanyanjing-2016.github.io\items" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mywork\lanyanjing-2016.github.io\items\weui-master\css" />
       <recent name="D:\mywork\lanyanjing-2016.github.io\items" />
       <recent name="D:\mywork\lanyanjing-2016.github.io\jqdome" />
       <recent name="D:\mywork\lanyanjing-2016.github.io\jqdome\hebao\image" />
       <recent name="D:\mywork\lanyanjing-2016.github.io\jqdome\hebao" />
-      <recent name="D:\mywork\lanyanjing-2016.github.io\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\yue\lanyanjing-2016.github.io\items" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -460,7 +404,8 @@
       <workItem from="1514164318962" duration="1286000" />
       <workItem from="1514512659582" duration="2573000" />
       <workItem from="1515397560083" duration="2939000" />
-      <workItem from="1515576142292" duration="330000" />
+      <workItem from="1515576142292" duration="999000" />
+      <workItem from="1515634823629" duration="256000" />
     </task>
     <task id="LOCAL-00001" summary="tijiao">
       <created>1489112706497</created>
@@ -644,11 +589,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515402623305</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="12.22">
+      <created>1515576557690</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1515576557690</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74776000" />
+    <option name="totallyTimeSpent" value="75701000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -717,8 +669,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/items/zhuanpan/sign/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/items/zhuanpan/sign/signed.html" />
     <entry file="file://$PROJECT_DIR$/items/zhuanpan/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1081">
@@ -978,8 +928,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jqdome/hebao/zhinan.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="1449">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1004,14 +954,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
+        <state relative-caret-position="23">
           <caret line="139" column="129" lean-forward="false" selection-start-line="139" selection-start-column="129" selection-end-line="139" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/items/weui-master/css/weui.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/items/weui-master/css/jquery-weui.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
