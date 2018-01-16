@@ -1,0 +1,162 @@
+//定义函数区域
+.px2rem(@name, @px) {
+    @{name}: @px /75* 1rem;
+}
+.px2px(@name, @px) {
+    @{name}: @px * 1px;
+}
+/*********/
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff; 
+}
+*{box-sizing: border-box; margin: 0;padding:0;}
+p,h2,h3 {max-height: 99999px;}
+.loading{width: 100%; height: 100%;position: fixed;left: 0; top:0; z-index: 100; background: #fff;}
+.loading .pic{.px2rem(width, 64);.px2rem(height, 64); margin:auto;position: absolute; top:0;bottom: 0;left: 0; right: 0;  background-image: url(../images/loading.gif); background-size: cover;}
+.top,.head{
+    .px2rem(width, 750);
+    .px2rem(height, 80);
+    margin-left:auto;
+    margin-right:auto;
+    .px2rem(line-height, 80);
+    font-size:18px; 
+    text-align: center;
+    color: #fff;
+    background: #039BE4;
+    position: relative;
+}
+.head .left{
+    position: absolute;
+    .px2rem(width, 21);
+    .px2rem(height,36);
+    .px2rem(top,24);
+    .px2rem(left,36);
+} 
+.swiper-container , .content{
+    .px2rem(width, 750);
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    overflow: hidden;
+}
+.clearfix{
+    .px2rem(margin-left, 12);
+    .px2rem(margin-right, 12);
+} 
+.clearfix li{
+    float: left;
+     .px2rem(margin-left, 12);
+    .px2rem(margin-right, 12);
+    .px2rem(margin-top, 40);
+     .px2rem(width, 218);
+    .px2rem(height, 218);
+    border-radius: 50%;
+    background: #0DB3E3;
+    color: #fff;
+    text-align: center;
+}
+.clearfix li img{
+     .px2rem(width, 80);
+    .px2rem(height, 64);
+    .px2rem(margin-top, 35); 
+}
+.content ul li.odd{opacity: 0.6;}
+.clearfix li a p{color: #fff;.px2rem(line-height, 60); font-size:0.45rem;}
+.detail_banner{
+     .px2rem(width, 750);
+     margin: 0 auto;
+}
+.detail_banner img{width:100%;height: 100%;}
+.detail_list{
+   .px2rem(width, 750);
+   height: auto;
+   overflow: hidden;
+   margin: 0 auto; 
+}
+.dl_detail{
+    .px2rem(width, 750); 
+    .px2rem(margin-top,36);
+    .px2rem(margin-bottom,36);
+    height: auto;
+   overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dl_detail dt{float:left;}
+.dl_detail dt img{
+    .px2rem(width, 92);
+    .px2rem(margin-left,35);
+    .px2rem(height, 92); 
+    border-radius: 50%;
+}
+.dl_detail dd{
+    float: left;
+    .px2rem(width, 599);
+    .px2rem(min-height, 96);
+    height: auto;
+    overflow: hidden;
+    .px2rem(padding-right,35);
+    .px2rem(padding-left,10);
+    .px2rem(padding-top,5);
+    .px2rem(padding-bottom,42);
+    .px2rem(margin-left, 24);
+    position:relative; 
+}
+.dl_detail dd:after{
+    content: '';  
+    position: absolute;
+    left: 0;
+    bottom:0;
+    width:100%;
+    background: #ccc;
+    height: 1px;
+    transform: scaleY(0.5);
+    transform-origin: 0 0;
+}
+.detail_list a .sp_bigtitle{
+    color: #ef6a6b;
+    display: block;
+    font-size:0.45rem;
+     
+    .px2rem(line-height, 30);
+    
+}
+.detail_list a .sp_smalltitle{
+    color: #666;
+    display: block;
+    font-size:14px; 
+    .px2rem(line-height, 30);
+    .px2rem(margin-top, 5);
+}
+.con{
+    .px2rem(width, 750); 
+    .px2rem(margin-top,20);
+     .px2rem(padding-left, 50);
+     .px2rem(padding-right, 50);
+    height: auto;
+    color: #939393;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+.con dt{
+    color: #000;
+    font-size:18px; 
+    .px2rem(margin-top, 20);  
+}
+.con .dddate{ 
+    font-size:12px; 
+     .px2rem(margin-top, 5);  
+}
+.con .ddimg{
+    width:100%;
+}
+.con .ddcon {
+    margin-top: 0.44rem;
+    margin-bottom: 0.44rem; 
+    font-size: 12px;
+    text-align: justify;
+    line-height: 0.53333333rem;
+} 

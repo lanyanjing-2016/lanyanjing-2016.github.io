@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>jq-Tab插件</title>
+	<link rel="stylesheet" href="style/main.css" />
+	<script src="js/jquery.js"></script>
+	<script src="js/tab2.js"></script>
+</head>
+
+<body>
+	 <div class="js-tab1 tab">
+	 	<P>1.没有配置任何参数</P>
+	 	<div class="tab_nav">
+	 		<ul>
+	 			<li class="active"><a href="javascript:void(0);">新闻</a></li>
+	 			<li><a href="javascript:void(0);">娱乐</a></li>
+	 			<li><a href="javascript:void(0);">电影</a></li>
+	 			<li><a href="javascript:void(0);">科技</a></li>
+	 		</ul>
+	 	</div>
+	 	<div class="content-wrap">
+	 		<div class="content-item current">
+	 			<img src="images/jiudian01.jpg"/>
+	 		</div>
+	 		<div class="content-item">
+	 			<img src="images/jiudian02.jpg"/>
+	 		</div>
+	 		<div class="content-item">
+	 			<img src="images/jiudian03.jpg"/>
+	 		</div>
+	 		<div class="content-item">
+	 			<img src="images/news1.jpg"/>
+	 		</div>
+	 	</div>
+	 </div>
+	 
+	 <div class="js-tab2 tab" >
+	    <P>2.触发事件click,效果为淡入淡出，3秒自动切换</P>
+	 	<div class="tab_nav">
+	 		<ul>
+	 			<li class="active"><a href="javascript:void(0);">新闻</a></li>
+	 			<li><a href="javascript:void(0);">娱乐</a></li>
+	 			<li><a href="javascript:void(0);">电影</a></li>
+	 			<li><a href="javascript:void(0);">科技</a></li>
+	 		</ul>
+	 	</div>
+	 	<div class="content-wrap">
+	 		<div class="content-item current">
+	 			<img src="images/jiudian01.jpg"/>
+	 		</div>
+	 		<div class="content-item">
+	 			<img src="images/jiudian02.jpg"/>
+	 		</div>
+	 		<div class="content-item">
+	 			<img src="images/jiudian03.jpg"/>
+	 		</div>
+	 		<div class="content-item">
+	 			<img src="images/news1.jpg"/>
+	 		</div>
+	 	</div>
+	 </div>
+	 
+	 <div class="js-tab3 tab">
+	 <P>3.默认选中哪个tab</P>
+	 	<div class="tab_nav">
+	 		<ul>
+	 			<li class="active"><a href="javascript:void(0);">新闻</a></li>
+	 			<li><a href="javascript:void(0);">娱乐</a></li>
+	 			<li><a href="javascript:void(0);">电影</a></li>
+	 			<li><a href="javascript:void(0);">科技</a></li>
+	 		</ul>
+	 	</div>
+	 	<div class="content-wrap">
+	 		<div class="content-item current">
+	 			<img src="images/jiudian01.jpg"/>
+	 		</div>
+	 		<div class="content-item">
+	 			<img src="images/jiudian02.jpg"/>
+	 		</div>
+	 		<div class="content-item">
+	 			<img src="images/jiudian03.jpg"/>
+	 		</div>
+	 		<div class="content-item">
+	 			<img src="images/news1.jpg"/>
+	 		</div>
+	 	</div>
+	 </div>
+<script>
+	$(function(){
+	  $(".js-tab1").tab(); 
+	  $(".js-tab2").tab({
+		"triggerType":"click",
+		"effect":"fade", 
+		"auto":3000
+	  });   
+	  $(".js-tab3").tab({
+		"triggerType":"mouseover", 
+		"invoke":2 
+	  });  
+	})
+	
+</script>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title>智能连接信息服务</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">		
+	<meta id="WV.Meta.Nav.HideMoreItem" value="true">
+	<meta id="WV.Meta.DisableRefresh" value="true">
+	<meta name="format-detection" content="telephone=no" /> 
+	<link rel="stylesheet" href="style/reset.css" />
+	<link rel="stylesheet" href="style/swiper.min.css" />
+	<link rel="stylesheet" href="style/css.css" />
+	<script src="js/jquery.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/flexible.js"></script>  
+</head>
+<body>  
+<div class="loading"><div class="pic"></div></div> 
+	<div class="top">智能连接信息服务</div>
+	<!--切换图-->
+	<div class="swiper-container" id="banner">
+	    <div class="swiper-wrapper">
+	     <div class="swiper-slide"><a href="second.html"><img src="images/4f0d75f533eb4bd487d53ef60a2527aa.jpg" alt=""></a></div>
+	     <div class="swiper-slide"><a href="second.html"><img src="images/3e646fd088d1412e9760ec53757754bd.jpg" alt=""></a></div>
+	     <div class="swiper-slide"><a href="second.html"><img src="images/83dc486ec7d443759cc7aea89e4aa764.jpg" alt=""></a></div> 
+	    </div>
+	    <!-- Add Pagination -->
+	    <div class="swiper-pagination swiper-circle"></div>
+	 </div>
+	 <!--//end切换图-->
+	<div class="content">
+		<ul class="clearfix"> 
+			<li>
+				<a href="second.html">
+					<img src="images/icon01.png" alt="">
+					<p>
+					公司介绍
+					</p>
+				</a>
+			</li> 
+			<li class="odd">
+				<a href="tel:4008217179">
+					<img src="images/icon02.png" alt="">
+					<p>
+						一键拨号
+					</p>
+				</a>
+			</li> 
+			<li>
+				<a href="second.html">
+					<img src="images/icon03.png" alt="">
+					<p>
+					产品介绍
+					</p>
+				</a>
+			</li> 
+			<li class="odd">
+				<a href="second.html">
+					<img src="images/d1018b70e8a346258b293b26df8986a7.png" alt="">
+					<p>
+					天翼安全
+					</p>
+				</a>
+			</li> 
+			<li>
+				<a href="second.html">
+					<img src="images/icon05.png" alt="">
+					<p>
+					联系我们
+					</p>
+				</a>
+			</li> 
+			<li class="odd">
+				<a href="second.html">
+					<img src="images/962e506bb0d24f11a85d5070bded95b6.png" alt="">
+					<p>
+						一键导航
+					</p>
+				</a>
+			</li> 
+		</ul>
+</div> 
+ <script>
+    //加载，等待
+	 document.onreadystatechange=function(){
+	   if(document.readyState == "complete"){
+	   	  $(".loading").fadeOut();
+	   }
+	 };
+	 //轮播图
+     var swiper1 = new Swiper('#banner', {
+     	  autoplay:true,
+	      pagination: {
+	        el: '.swiper-circle',
+	      },
+     });
+</script>
+ 
+</body>
+ 
+</html>

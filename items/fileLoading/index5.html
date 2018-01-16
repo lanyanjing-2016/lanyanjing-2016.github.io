@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>实时获取加载数据的进度条</title>
+		<script src="js/jquery.js"></script>
+	    <style>
+	        *{margin: 0;padding: 0;  height: auto; }
+	        img{width:100%;height: 100%;}
+	    	.loading{width: 100%; height: 100%;position: fixed;left: 0; top:0; z-index: 100; background: #fff; opacity: 0.8;}
+	        .loading .pic{width:100px;height:100px;line-height:100px;font-size:30px;text-align:center; position: absolute; top:0;left: 0;right: 0; bottom:0;margin:auto;}
+	        .loading .pic span{display: block; width: 80px;height: 80px;animation: rotate 1s infinite linear; position: absolute;top: 10px;left: 10px;   border-radius: 50%;box-shadow: 0 3px 0 #066}
+	          
+	          @Keyframes rotate{
+	          	0%{transform: rotate(0deg);}
+	          	100%{transform: rotate(360deg);}
+	          }
+	    </style>
+        <script>
+        	$(function(){
+        		 var img=$("img");
+        		 var num=0;
+        		 img.each(function(i){
+        		 	var oimg=new Image(); 
+        		 	oimg.onload=function(){
+        		 		oimg.onload=null;
+        		 		num++;
+        		 		$(".loading b").html(parseInt(num/$("img").length*100)+'%');
+        		 		if(num>=i){
+        		 			$(".loading").fadeOut();
+        		 		}
+        		 	}; 
+        		 	oimg.src=img[i].src;
+        		 })
+        	})
+        </script>
+	</head>
+	<body>
+		<div class="loading">
+			<div class="pic">
+				<span></span>
+				<b>0%</b>
+			</div>
+		</div>
+		<img src="http://e.hiphotos.baidu.com/image/pic/item/500fd9f9d72a6059099ccd5a2334349b023bbae5.jpg" alt=""/>
+	    <img src="http://d.hiphotos.baidu.com/image/pic/item/a044ad345982b2b713b5ad7d3aadcbef76099b65.jpg" alt="" />
+	    <img src="http://f.hiphotos.baidu.com/image/pic/item/7e3e6709c93d70cfe6a54843f3dcd100baa12b25.jpg" alt="" />
+	    <img src="http://e.hiphotos.baidu.com/image/pic/item/500fd9f9d72a6059099ccd5a2334349b023bbae5.jpg" alt=""/>
+	    <img src="http://d.hiphotos.baidu.com/image/pic/item/a044ad345982b2b713b5ad7d3aadcbef76099b65.jpg" alt="" />
+	    <img src="http://f.hiphotos.baidu.com/image/pic/item/7e3e6709c93d70cfe6a54843f3dcd100baa12b25.jpg" alt="" />
+	</body>
+</html>

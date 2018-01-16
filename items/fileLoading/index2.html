@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>进度条</title>
+		<script src="js/jquery.js"></script>
+	    <style>
+	        *{margin: 0;padding: 0;  height: auto; }
+	        img{width:100%;height: 100%;}
+	    	.loading{width: 100%; height: 100%;position: fixed;left: 0; top:0; z-index: 100; background: #fff; opacity: 0.8;}
+	        .loading .pic{width: 64px;height: 64px; margin:auto;position: absolute; top:0;bottom: 0;left: 0; right: 0;  background: url(images/loading.gif);}
+	    </style>
+	    <!--
+        	作者：yxm
+        	时间：2018-01-15
+        	描述：
+        	通过加载状态事件制作进度条
+        	document.onreadystatechange 页面加载状态改变时的事件
+        	document.readyState  返回当前文档的状态
+        	   1.uninitialized 还未开始载入
+        	   2.loading 载入中
+        	   3.interactive 已加载，文档与用户可以开始交互
+        	   4.complete 载入完成
+        -->
+	    <script>
+	    	 document.onreadystatechange=function(){
+	    	   if(document.readyState == "complete"){
+	    	   	  $(".loading").fadeOut();
+	    	   }
+	    	 }
+	    </script>
+	</head>
+	<body>
+		<div class="loading"><div class="pic"></div></div>
+		<img src="http://e.hiphotos.baidu.com/image/pic/item/500fd9f9d72a6059099ccd5a2334349b023bbae5.jpg" alt=""/>
+	    <img src="http://d.hiphotos.baidu.com/image/pic/item/a044ad345982b2b713b5ad7d3aadcbef76099b65.jpg" alt="" />
+	    <img src="http://f.hiphotos.baidu.com/image/pic/item/7e3e6709c93d70cfe6a54843f3dcd100baa12b25.jpg" alt="" />
+	    <img src="http://e.hiphotos.baidu.com/image/pic/item/500fd9f9d72a6059099ccd5a2334349b023bbae5.jpg" alt=""/>
+	    <img src="http://d.hiphotos.baidu.com/image/pic/item/a044ad345982b2b713b5ad7d3aadcbef76099b65.jpg" alt="" />
+	    <img src="http://f.hiphotos.baidu.com/image/pic/item/7e3e6709c93d70cfe6a54843f3dcd100baa12b25.jpg" alt="" />
+	</body>
+</html>

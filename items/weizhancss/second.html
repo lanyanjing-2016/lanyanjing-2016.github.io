@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>智能连接信息服务</title>
+		 <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">		
+		<meta id="WV.Meta.Nav.HideMoreItem" value="true">
+		<meta id="WV.Meta.DisableRefresh" value="true">
+		<meta name="format-detection" content="telephone=no" /> 
+		<link rel="stylesheet" href="style/reset.css" />  
+		<link rel="stylesheet" href="style/css.css" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/flexible.js"></script>  
+	</head>
+	<body>
+		<div class="head">
+			<a href="javascript:history.go(-1)" class="goback">
+				<img src="http://ws.bjaishua.com/ishuaAdmin/resources/newhaobai/images/back.png" class="left">
+			</a>
+			<p>产品介绍</p>
+		</div>
+		<div class="detail_banner">
+			<img src="images/banner2.jpg" alt="">
+		</div>
+		<div class="detail_list"> 
+				<a href="three.html">
+					<dl class="dl_detail"> 
+						<dt><img src="images/solut_ico1.png" alt=""></dt> 
+						<dd>
+							<span class="sp_bigtitle">来电名片</span>
+							<span class="sp_smalltitle">来电名片来电名片来电名片来电名片来电名片来电名片来电名片来电名片来电名片来电名片</span>
+						</dd>
+					</dl>
+				</a>
+			
+				<a href="three.html">
+					<dl class="dl_detail"> 
+							<dt><img src="images/solut_ico2.png" alt=""></dt> 
+						<dd>
+							<span class="sp_bigtitle">114认证</span>
+							<span class="sp_smalltitle">114认证114认证</span>
+						</dd>
+					</dl>
+				</a>
+			
+				<a href="three.html">
+					<dl class="dl_detail"> 
+							<dt><img src="images/solut_ico3.png" alt=""></dt> 
+						<dd>
+							<span class="sp_bigtitle">商家名片</span>
+							<span class="sp_smalltitle"></span>
+						</dd>
+					</dl>
+				</a>
+			
+				<a href="three.html">
+					<dl class="dl_detail"> 
+							<dt><img src="images/solut_ico4.png" alt=""></dt> 
+						<dd>
+							<span class="sp_bigtitle">智能名片</span>
+							<span class="sp_smalltitle"></span>
+						</dd>
+					</dl>
+				</a> 
+				<a href="three.html">
+					<dl class="dl_detail"> 
+							<dt><img src="images/solut_ico1.png" alt=""></dt> 
+						<dd>
+							<span class="sp_bigtitle">互联网发布</span>
+							<span class="sp_smalltitle"></span>
+						</dd>
+					</dl>
+				</a> 
+				<a href="three.html">
+					<dl class="dl_detail"> 
+							<dt><img src="images/solut_ico2.png" alt=""></dt> 
+						<dd>
+							<span class="sp_bigtitle">微站</span>
+							<span class="sp_smalltitle"></span>
+						</dd>
+					</dl>
+				</a> 
+				<a href="three.html">
+					<dl class="dl_detail"> 
+							<dt><img src="images/solut_ico3.png" alt=""></dt> 
+						<dd>
+							<span class="sp_bigtitle">企业助理</span>
+							<span class="sp_smalltitle"></span>
+						</dd>
+					</dl>
+				</a> 
+		</div>  
+</body>
+<script>
+	$(function(){
+		$(".sp_smalltitle").each(function(i){
+			console.log($(this).html());
+			if($(this).html()==""){
+			   $(this).parent().find(".sp_bigtitle").css("margin-top","15px");
+		    }else{
+		    	$(this).parent().find(".sp_bigtitle").css("margin-top","0px");
+		    }
+		}) 
+	})
+</script>
+</html>

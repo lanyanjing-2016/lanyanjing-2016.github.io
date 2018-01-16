@@ -2,9 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4473dc6-c3b5-4851-9694-a41cc988dee7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weui-master/css/weui.min.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/items/weui-master/css/jquery-weui.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/fileLoading/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jQTabchajian/images/jiudian01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jQTabchajian/images/jiudian02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jQTabchajian/images/jiudian03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jQTabchajian/images/news1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/images/3e646fd088d1412e9760ec53757754bd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/images/4f0d75f533eb4bd487d53ef60a2527aa.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/images/83dc486ec7d443759cc7aea89e4aa764.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/images/962e506bb0d24f11a85d5070bded95b6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/images/a2abfe69ca244be39e8123867f24158e.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/images/back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/images/banner2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/images/d1018b70e8a346258b293b26df8986a7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/images/icon01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/images/icon02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/images/icon03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/images/icon05.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/images/solut_ico1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/images/solut_ico2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/images/solut_ico3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/images/solut_ico4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/fileLoading/css/css.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/fileLoading/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/fileLoading/index2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/fileLoading/index3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/fileLoading/index4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/fileLoading/index5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/fileLoading/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jQTabchajian/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jQTabchajian/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jQTabchajian/js/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jQTabchajian/js/tab2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jQTabchajian/new_file2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/jQTabchajian/style/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/js/flexible.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/js/less.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/js/swiper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/second.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/style/css.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/style/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/style/swiper.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/style/test.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/items/weizhancss/three.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="lanyanjing-2016.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,18 +69,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="139" column="129" lean-forward="false" selection-start-line="139" selection-start-column="129" selection-end-line="139" selection-end-column="129" />
+            <state relative-caret-position="460">
+              <caret line="95" column="25" lean-forward="true" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weui.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/items/weui-master/css/weui.min.css">
+      <file leaf-file-name="tab.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/items/jQTabchajian/js/tab.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -44,8 +89,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-weui.min.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/items/weui-master/css/jquery-weui.min.css">
+      <file leaf-file-name="jquery.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/items/fileLoading/js/jquery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flexible.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/items/weizhancss/js/flexible.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -86,16 +141,6 @@
       </file>
       <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/items/jQueryAnswer/js/test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myjs.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/items/companyCar/js/myjs.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -233,7 +278,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="weui-master">
+            <PATH_ELEMENT USER_OBJECT="jQTabchajian">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -251,17 +296,14 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="weui-master">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="css">
+            <PATH_ELEMENT USER_OBJECT="fileLoading">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -276,7 +318,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,16 +330,126 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\yue\lanyanjing-2016.github.io\items" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\mywork\lanyanjing-2016.github.io\items\weui-master\css" />
       <recent name="D:\mywork\lanyanjing-2016.github.io\items" />
+      <recent name="D:\mywork\lanyanjing-2016.github.io\items\weui-master\css" />
       <recent name="D:\mywork\lanyanjing-2016.github.io\jqdome" />
       <recent name="D:\mywork\lanyanjing-2016.github.io\jqdome\hebao\image" />
       <recent name="D:\mywork\lanyanjing-2016.github.io\jqdome\hebao" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\yue\lanyanjing-2016.github.io\items" />
-    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/items/weui-master/index.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lanyanjing-2016.github.io/index.html">
@@ -405,7 +556,8 @@
       <workItem from="1514512659582" duration="2573000" />
       <workItem from="1515397560083" duration="2939000" />
       <workItem from="1515576142292" duration="999000" />
-      <workItem from="1515634823629" duration="256000" />
+      <workItem from="1515634823629" duration="874000" />
+      <workItem from="1516073339078" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="tijiao">
       <created>1489112706497</created>
@@ -596,11 +748,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515576557690</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="12.22">
+      <created>1515635094123</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1515635094123</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75701000" />
+    <option name="totallyTimeSpent" value="76920000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -618,7 +777,7 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20930232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10538373" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -669,27 +828,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/items/zhuanpan/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/items/zhuanpan/css/test.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3542">
-          <caret line="154" column="21" lean-forward="true" selection-start-line="154" selection-start-column="21" selection-end-line="154" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/items/zhuanpan/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/items/zhuanpan/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
@@ -957,11 +1095,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/items/weui-master/css/jquery-weui.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="139" column="129" lean-forward="false" selection-start-line="139" selection-start-column="129" selection-end-line="139" selection-end-column="129" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -969,14 +1106,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/items/weizhancss/js/flexible.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/items/weui-master/css/jquery-weui.min.css">
+    <entry file="file://$PROJECT_DIR$/items/fileLoading/js/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/items/jQTabchajian/js/tab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="95" column="25" lean-forward="true" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
           <folding />
         </state>
       </provider>
